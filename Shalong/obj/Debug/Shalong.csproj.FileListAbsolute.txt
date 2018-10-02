@@ -1,0 +1,1536 @@
+c:\users\pc\documents\visual studio 2012\Projects\Shalong\Shalong\bin\Debug\Shalong.exe
+c:\users\pc\documents\visual studio 2012\Projects\Shalong\Shalong\bin\Debug\Shalong.pdb
+c:\users\pc\documents\visual studio 2012\Projects\Shalong\Shalong\obj\Debug\Shalong.Principal.resources
+c:\users\pc\documents\visual studio 2012\Projects\Shalong\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+c:\users\pc\documents\visual studio 2012\Projects\Shalong\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+c:\users\pc\documents\visual studio 2012\Projects\Shalong\Shalong\obj\Debug\Shalong.exe
+c:\users\pc\documents\visual studio 2012\Projects\Shalong\Shalong\obj\Debug\Shalong.pdb
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\bin\Debug\Shalong.exe
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\bin\Debug\Shalong.pdb
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Contraseña.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Principal.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.exe
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.pdb
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.AbrirCaja.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.CerrarCaja.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Dolar.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\bin\Debug\Mono.Security.dll
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\bin\Debug\Npgsql.dll
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\bin\Debug\Npgsql.xml
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Marca.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Producto.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Categoria.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Familia.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Precio.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.TipoPrecio.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Unidad.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.TipoTrabajador.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Almacen.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.TipoAlmacen.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Almacen_Productos.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Cliente.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Compras.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Credito_Compra.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Credito_Venta.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Empresa.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.NombreCaja.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Orden_Comprar.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Producto_Precio.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Serial_Productos.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\bin\Debug\Shalong.exe.manifest
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\bin\Debug\Shalong.application
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.exe.manifest
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.application
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.TipoLineaCredito.resources
+C:\Users\usuario\Desktop\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Proveedor.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.exe
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.pdb
+G:\Plantila_menu\Plantila_menu\Shalong\bin\Debug\Shalong.exe.manifest
+G:\Plantila_menu\Plantila_menu\Shalong\bin\Debug\Shalong.application
+G:\Plantila_menu\Plantila_menu\Shalong\bin\Debug\Shalong.exe
+G:\Plantila_menu\Plantila_menu\Shalong\bin\Debug\Shalong.pdb
+G:\Plantila_menu\Plantila_menu\Shalong\bin\Debug\Mono.Security.dll
+G:\Plantila_menu\Plantila_menu\Shalong\bin\Debug\Npgsql.dll
+G:\Plantila_menu\Plantila_menu\Shalong\bin\Debug\Npgsql.pdb
+G:\Plantila_menu\Plantila_menu\Shalong\bin\Debug\Npgsql.xml
+G:\Plantila_menu\Plantila_menu\Shalong\bin\Debug\de\Npgsql.resources.dll
+G:\Plantila_menu\Plantila_menu\Shalong\bin\Debug\es\Npgsql.resources.dll
+G:\Plantila_menu\Plantila_menu\Shalong\bin\Debug\fi\Npgsql.resources.dll
+G:\Plantila_menu\Plantila_menu\Shalong\bin\Debug\fr\Npgsql.resources.dll
+G:\Plantila_menu\Plantila_menu\Shalong\bin\Debug\ja\Npgsql.resources.dll
+G:\Plantila_menu\Plantila_menu\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.AbrirCaja.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Almacen.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Almacen_Productos.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Categoria.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.CerrarCaja.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Cliente.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Compras.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Credito_Compra.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Credito_Venta.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Empresa.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Familia.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Marca.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.NombreCaja.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Orden_Comprar.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Precio.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Producto.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Producto_Precio.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Proveedor.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Contraseña.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Dolar.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Principal.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Serial_Productos.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.TipoAlmacen.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.TipoLineaCredito.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.TipoPrecio.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.TipoTrabajador.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.Unidad.resources
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.exe.manifest
+G:\Plantila_menu\Plantila_menu\Shalong\obj\Debug\Shalong.application
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.exe
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.pdb
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\Shalong.exe.manifest
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\Shalong.application
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\Shalong.exe
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\Shalong.pdb
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\Npgsql.xml
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.AbrirCaja.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Almacen.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Almacen_Productos.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Categoria.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.CerrarCaja.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Cliente.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Compras.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Credito_Compra.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Credito_Venta.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Empresa.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Familia.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Marca.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.NombreCaja.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Orden_Comprar.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Precio.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Producto.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Producto_Precio.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Proveedor.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Contraseña.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Dolar.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Principal.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Serial_Productos.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.TipoAlmacen.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.TipoLineaCredito.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.TipoPrecio.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.TipoTrabajador.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Unidad.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.exe.manifest
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.application
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.exe
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.pdb
+C:\Users\PC\Desktop\Plantila_menu\Shalong\bin\Debug\Shalong.exe.manifest
+C:\Users\PC\Desktop\Plantila_menu\Shalong\bin\Debug\Shalong.application
+C:\Users\PC\Desktop\Plantila_menu\Shalong\bin\Debug\Shalong.exe
+C:\Users\PC\Desktop\Plantila_menu\Shalong\bin\Debug\Shalong.pdb
+C:\Users\PC\Desktop\Plantila_menu\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\PC\Desktop\Plantila_menu\Shalong\bin\Debug\Npgsql.xml
+C:\Users\PC\Desktop\Plantila_menu\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\PC\Desktop\Plantila_menu\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\PC\Desktop\Plantila_menu\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\PC\Desktop\Plantila_menu\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\PC\Desktop\Plantila_menu\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\PC\Desktop\Plantila_menu\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.AbrirCaja.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Almacen.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Almacen_Productos.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Categoria.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.CerrarCaja.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Cliente.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Compras.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Credito_Compra.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Credito_Venta.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Empresa.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Familia.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Marca.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.NombreCaja.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Orden_Comprar.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Precio.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Producto.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Producto_Precio.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Proveedor.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Contraseña.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Dolar.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Principal.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Serial_Productos.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.TipoAlmacen.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.TipoLineaCredito.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.TipoPrecio.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.TipoTrabajador.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Unidad.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.exe.manifest
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.application
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.exe
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.pdb
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\bin\Debug\Shalong.exe.manifest
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\bin\Debug\Shalong.application
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\bin\Debug\Shalong.exe
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\bin\Debug\Shalong.pdb
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\bin\Debug\Npgsql.xml
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.exe.manifest
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.application
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.exe
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.pdb
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+I:\Plantila_menu\Shalong\bin\Debug\Shalong.exe.manifest
+I:\Plantila_menu\Shalong\bin\Debug\Shalong.application
+I:\Plantila_menu\Shalong\bin\Debug\Shalong.exe
+I:\Plantila_menu\Shalong\bin\Debug\Shalong.pdb
+I:\Plantila_menu\Shalong\bin\Debug\Mono.Security.dll
+I:\Plantila_menu\Shalong\bin\Debug\Npgsql.dll
+I:\Plantila_menu\Shalong\bin\Debug\Npgsql.pdb
+I:\Plantila_menu\Shalong\bin\Debug\Npgsql.xml
+I:\Plantila_menu\Shalong\bin\Debug\de\Npgsql.resources.dll
+I:\Plantila_menu\Shalong\bin\Debug\es\Npgsql.resources.dll
+I:\Plantila_menu\Shalong\bin\Debug\fi\Npgsql.resources.dll
+I:\Plantila_menu\Shalong\bin\Debug\fr\Npgsql.resources.dll
+I:\Plantila_menu\Shalong\bin\Debug\ja\Npgsql.resources.dll
+I:\Plantila_menu\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.exe.manifest
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.application
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\PC\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\Shalong.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\Shalong.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\Shalong.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\Shalong.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\Npgsql.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Orden_Comprar.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Proveedor.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Serial_Productos.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.exe.manifest
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.application
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.PagoCredito_Compra.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.PagoCredito_Venta.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.PagoCredito_Compra.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.PagoCredito_Venta.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Orden_Comprar.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Proveedor.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Serial_Productos.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+I:\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+C:\Users\usuario\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.exe
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.pdb
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Plantila_menu\Shalong\bin\Debug\Shalong.exe.manifest
+C:\Users\user\Desktop\Plantila_menu\Shalong\bin\Debug\Shalong.application
+C:\Users\user\Desktop\Plantila_menu\Shalong\bin\Debug\Shalong.exe
+C:\Users\user\Desktop\Plantila_menu\Shalong\bin\Debug\Shalong.pdb
+C:\Users\user\Desktop\Plantila_menu\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\user\Desktop\Plantila_menu\Shalong\bin\Debug\Npgsql.xml
+C:\Users\user\Desktop\Plantila_menu\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\user\Desktop\Plantila_menu\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\user\Desktop\Plantila_menu\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\user\Desktop\Plantila_menu\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\user\Desktop\Plantila_menu\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\user\Desktop\Plantila_menu\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.exe.manifest
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.application
+C:\Users\user\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.KardexEgreso.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.exe
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.pdb
+C:\Users\Master\Desktop\Plantila_menu\Shalong\bin\Debug\Shalong.exe.manifest
+C:\Users\Master\Desktop\Plantila_menu\Shalong\bin\Debug\Shalong.application
+C:\Users\Master\Desktop\Plantila_menu\Shalong\bin\Debug\Shalong.exe
+C:\Users\Master\Desktop\Plantila_menu\Shalong\bin\Debug\Shalong.pdb
+C:\Users\Master\Desktop\Plantila_menu\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\Master\Desktop\Plantila_menu\Shalong\bin\Debug\Npgsql.xml
+C:\Users\Master\Desktop\Plantila_menu\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\Master\Desktop\Plantila_menu\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\Master\Desktop\Plantila_menu\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\Master\Desktop\Plantila_menu\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\Master\Desktop\Plantila_menu\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\Master\Desktop\Plantila_menu\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.KardexEgreso.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.exe.manifest
+C:\Users\Master\Desktop\Plantila_menu\Shalong\obj\Debug\Shalong.application
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.exe
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.pdb
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\bin\Debug\Shalong.exe.manifest
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\bin\Debug\Shalong.application
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\bin\Debug\Shalong.exe
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\bin\Debug\Shalong.pdb
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\bin\Debug\Npgsql.xml
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.KardexEgreso.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.exe.manifest
+C:\Users\Fernando\Documents\Visual Studio 2012\Projects\Plantila_menu 04-10\Shalong\obj\Debug\Shalong.application
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.exe
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.pdb
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.KardexEgreso.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\bin\Debug\Shalong.exe.manifest
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\bin\Debug\Shalong.application
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\bin\Debug\Shalong.exe
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\bin\Debug\Shalong.pdb
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\bin\Debug\Npgsql.xml
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.exe.manifest
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.application
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.exe
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.pdb
+H:\Gestion Ventas\Shalong\bin\Debug\Shalong.exe.manifest
+H:\Gestion Ventas\Shalong\bin\Debug\Shalong.application
+H:\Gestion Ventas\Shalong\bin\Debug\Shalong.exe
+H:\Gestion Ventas\Shalong\bin\Debug\Shalong.pdb
+H:\Gestion Ventas\Shalong\bin\Debug\Npgsql.pdb
+H:\Gestion Ventas\Shalong\bin\Debug\Npgsql.xml
+H:\Gestion Ventas\Shalong\bin\Debug\de\Npgsql.resources.dll
+H:\Gestion Ventas\Shalong\bin\Debug\es\Npgsql.resources.dll
+H:\Gestion Ventas\Shalong\bin\Debug\fi\Npgsql.resources.dll
+H:\Gestion Ventas\Shalong\bin\Debug\fr\Npgsql.resources.dll
+H:\Gestion Ventas\Shalong\bin\Debug\ja\Npgsql.resources.dll
+H:\Gestion Ventas\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.KardexEgreso.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.exe.manifest
+H:\Gestion Ventas\Shalong\obj\Debug\Shalong.application
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.exe
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.pdb
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Trabajador.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.KardexEgreso.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\bin\Debug\Shalong.exe.manifest
+C:\Users\user\Desktop\Gestion Ventas\Shalong\bin\Debug\Shalong.application
+C:\Users\user\Desktop\Gestion Ventas\Shalong\bin\Debug\Shalong.exe
+C:\Users\user\Desktop\Gestion Ventas\Shalong\bin\Debug\Shalong.pdb
+C:\Users\user\Desktop\Gestion Ventas\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\user\Desktop\Gestion Ventas\Shalong\bin\Debug\Npgsql.xml
+C:\Users\user\Desktop\Gestion Ventas\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.exe.manifest
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.application
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.exe
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.pdb
+J:\Gestion Ventas\Shalong\bin\Debug\Shalong.exe.manifest
+J:\Gestion Ventas\Shalong\bin\Debug\Shalong.application
+J:\Gestion Ventas\Shalong\bin\Debug\Shalong.exe
+J:\Gestion Ventas\Shalong\bin\Debug\Shalong.pdb
+J:\Gestion Ventas\Shalong\bin\Debug\Mono.Security.dll
+J:\Gestion Ventas\Shalong\bin\Debug\Npgsql.dll
+J:\Gestion Ventas\Shalong\bin\Debug\Npgsql.pdb
+J:\Gestion Ventas\Shalong\bin\Debug\Npgsql.xml
+J:\Gestion Ventas\Shalong\bin\Debug\de\Npgsql.resources.dll
+J:\Gestion Ventas\Shalong\bin\Debug\es\Npgsql.resources.dll
+J:\Gestion Ventas\Shalong\bin\Debug\fi\Npgsql.resources.dll
+J:\Gestion Ventas\Shalong\bin\Debug\fr\Npgsql.resources.dll
+J:\Gestion Ventas\Shalong\bin\Debug\ja\Npgsql.resources.dll
+J:\Gestion Ventas\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Trabajador.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.KardexEgreso.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.exe.manifest
+J:\Gestion Ventas\Shalong\obj\Debug\Shalong.application
+I:\Gestion Ventas\Shalong\obj\Debug\Shalong.exe
+I:\Gestion Ventas\Shalong\obj\Debug\Shalong.pdb
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.exe
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.pdb
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\bin\Debug\Shalong.exe.manifest
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\bin\Debug\Shalong.application
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\bin\Debug\Shalong.exe
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\bin\Debug\Shalong.pdb
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\bin\Debug\Npgsql.xml
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Trabajador.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.KardexEgreso.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.exe.manifest
+C:\Users\usuario\Desktop\1231\Gestion Ventas\Shalong\obj\Debug\Shalong.application
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Trabajador.resources
+C:\Users\usuario\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCompra.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.exe
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.pdb
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Trabajador.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCompra.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.F_ReporteVentas.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.KardexEgreso.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\Master\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCompra.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.F_ReporteVentas.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+C:\Users\user\Desktop\Gestion Ventas\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+J:\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.exe
+J:\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.pdb
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.exe
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.pdb
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Credito_Trabajador.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCompra.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.F_ReporteVentas.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.KardexEgreso.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\bin\Debug\Shalong.exe.manifest
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\bin\Debug\Shalong.application
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\bin\Debug\Shalong.exe
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\bin\Debug\Shalong.pdb
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\bin\Debug\Npgsql.xml
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.exe.manifest
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.application
+C:\Users\usuario\Desktop\Gestion Ventas 14-10\Shalong\obj\Debug\Shalong.Formularios.Permisos.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.exe
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.pdb
+E:\Gestion Ventas 17-10\Shalong\bin\Debug\Shalong.exe.manifest
+E:\Gestion Ventas 17-10\Shalong\bin\Debug\Shalong.application
+E:\Gestion Ventas 17-10\Shalong\bin\Debug\Shalong.exe
+E:\Gestion Ventas 17-10\Shalong\bin\Debug\Shalong.pdb
+E:\Gestion Ventas 17-10\Shalong\bin\Debug\Mono.Security.dll
+E:\Gestion Ventas 17-10\Shalong\bin\Debug\Npgsql.dll
+E:\Gestion Ventas 17-10\Shalong\bin\Debug\Npgsql.pdb
+E:\Gestion Ventas 17-10\Shalong\bin\Debug\Npgsql.xml
+E:\Gestion Ventas 17-10\Shalong\bin\Debug\de\Npgsql.resources.dll
+E:\Gestion Ventas 17-10\Shalong\bin\Debug\es\Npgsql.resources.dll
+E:\Gestion Ventas 17-10\Shalong\bin\Debug\fi\Npgsql.resources.dll
+E:\Gestion Ventas 17-10\Shalong\bin\Debug\fr\Npgsql.resources.dll
+E:\Gestion Ventas 17-10\Shalong\bin\Debug\ja\Npgsql.resources.dll
+E:\Gestion Ventas 17-10\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Credito_Trabajador.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCompra.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.F_ReporteVentas.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.KardexEgreso.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Permisos.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.ReporteGarantia.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.exe.manifest
+E:\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.application
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.exe
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.pdb
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\bin\Debug\Shalong.exe.manifest
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\bin\Debug\Shalong.application
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\bin\Debug\Shalong.exe
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\bin\Debug\Shalong.pdb
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\bin\Debug\Npgsql.xml
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Credito_Trabajador.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCompra.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.F_ReporteVentas.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.KardexEgreso.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Permisos.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.ReporteGarantia.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.exe.manifest
+C:\Users\user\Desktop\Gestion Ventas 17-10\Shalong\obj\Debug\Shalong.application
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.exe
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.pdb
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\bin\Debug\Shalong.exe.manifest
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\bin\Debug\Shalong.application
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\bin\Debug\Shalong.exe
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\bin\Debug\Shalong.pdb
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\bin\Debug\Npgsql.xml
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Trabajador.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCompra.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteVentas.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.KardexEgreso.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Permisos.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.ReporteGarantia.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.exe.manifest
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.application
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoTrabajador.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoVenta.resources
+C:\Users\user\Desktop\Gestion Ventas 17-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoCompra.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.exe
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.pdb
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Shalong.exe.manifest
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Shalong.application
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Shalong.exe
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Shalong.pdb
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Npgsql.xml
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Configuracion_Impresion.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Trabajador.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCompra.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoCompra.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoTrabajador.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoVenta.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteVentas.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Permisos.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.ReporteGarantia.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.exe.manifest
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.application
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.exe
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.pdb
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Shalong.exe.manifest
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Shalong.application
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Shalong.exe
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Shalong.pdb
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Npgsql.xml
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Configuracion_Impresion.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Trabajador.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCompra.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoCompra.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoTrabajador.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoVenta.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteVentas.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.KardexEgreso.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Permisos.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.ReporteGarantia.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.exe.manifest
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.application
+C:\Users\Fernando\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Trabajador_Proveedor.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.exe
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.pdb
+E:\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Shalong.exe.manifest
+E:\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Shalong.application
+E:\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Shalong.exe
+E:\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Shalong.pdb
+E:\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Npgsql.pdb
+E:\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\Npgsql.xml
+E:\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\de\Npgsql.resources.dll
+E:\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\es\Npgsql.resources.dll
+E:\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\fi\Npgsql.resources.dll
+E:\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\fr\Npgsql.resources.dll
+E:\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\ja\Npgsql.resources.dll
+E:\Gestion Ventas 21-10 ultimo\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Configuracion_Impresion.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Trabajador.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCompra.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoCompra.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoTrabajador.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoVenta.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteVentas.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.KardexEgreso.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Permisos.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.ReporteGarantia.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Trabajador_Proveedor.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.exe.manifest
+E:\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.application
+C:\Users\user\Desktop\Gestion Ventas 21-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Trabajador_Proveedor.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\Npgsql.pdb
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\Npgsql.xml
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\de\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\es\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Configuracion_Impresion.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Trabajador.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCompra.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoCompra.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoTrabajador.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoVenta.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteVentas.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Permisos.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.ReporteGarantia.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Trabajador_Proveedor.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\Gestion Ventas.exe.manifest
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\Gestion Ventas.application
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\Gestion Ventas.exe
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\Gestion Ventas.pdb
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.exe.manifest
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.application
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.exe
+C:\Users\usuario\Desktop\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.pdb
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\Gestion Ventas.exe.manifest
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\Gestion Ventas.application
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\Gestion Ventas.exe
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\Gestion Ventas.pdb
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Configuracion_Impresion.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Trabajador.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCompra.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoCompra.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoTrabajador.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoVenta.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteVentas.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Permisos.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.ProductoBusqueda.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.ReporteGarantia.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Trabajador_Proveedor.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.exe.manifest
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.application
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.exe
+D:\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.pdb
+D:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.exe
+D:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.pdb
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\Gestion Ventas.exe.manifest
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\Gestion Ventas.application
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\Gestion Ventas.exe
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\bin\Debug\Gestion Ventas.pdb
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Configuracion_Impresion.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Trabajador.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCompra.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoCompra.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoTrabajador.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoVenta.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.F_ReporteVentas.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Permisos.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.ProductoBusqueda.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.ReporteGarantia.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Trabajador_Proveedor.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Shalong.csproj.GenerateResource.Cache
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.exe.manifest
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.application
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.exe
+E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.pdb

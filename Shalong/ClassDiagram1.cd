@@ -1,0 +1,690 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Shalong.Conexion.C_Almacen" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAASAAAAAgAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\C_Almacen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Conexion.C_Almacen_Producto" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAEAAAAAAAAAAAAAAEAIAAFAAAACAAAAAgAIAAE=</HashCode>
+      <FileName>Clases\C_Almacen_Producto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Conexion.C_Categoria" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\C_Categoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Conexion.C_Familia" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\C_Familia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Conexion.C_Marca" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\C_Marca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Conexion.C_Producto" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIQgAAAAQgAQCAQQAIgAAAAAAgAQBAAAAggAAAIAI=</HashCode>
+      <FileName>Clases\C_Producto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Conexion.C_ProductoPrecio" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAAAAAAAAAACAAQAAgAAQAAAAkAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\C_ProductoPrecio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Conexion.C_Proveedor" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBBAgAAAwAAIAKAASAAgAAAAADAAEAAYAAAAiAAAAI=</HashCode>
+      <FileName>Clases\C_Proveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Conexion.C_TipoAlmacen" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\C_TipoAlmacen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Conexion.C_TipoCambio" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAgAAAQAAAAEAAAAAAAAEAAAABAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Clases\C_TipoCambio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Conexion.C_TipoLineaCredito" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABgAEAAYAAAACAAEAAgABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\C_TipoLineaCredito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Conexion.C_TipoPrecio" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\C_TipoPrecio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Conexion.C_TipoTrabajador" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAQAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\C_TipoTrabajador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Conexion.C_Unidad" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABBAAAAAQAAAACAAAAAgAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Clases\C_Unidad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Conexion.Shalong_Service" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="8.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>tH6RnFKroRRa5pbo/UCxoVoVxgJA5WVmTYc89DayAKE=</HashCode>
+      <FileName>Conexion\Shalong_Service.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Shalong.Clases.C_Billetaje" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAEAAQAAAAAAAAAAAAAEAAAABAAAAAEAAAABAAA=</HashCode>
+      <FileName>Clases\C_Billetaje.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_BilletajeCaja" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCABAEAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAgAQ=</HashCode>
+      <FileName>Clases\C_BilletajeCaja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_Caja" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAADBxAAAQQABIAAQEAAAEBAAAAAAAIAAEBACABAgA8=</HashCode>
+      <FileName>Clases\C_Caja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_Cliente" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBEAABARAAAAKAAEACgABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\C_Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_CodigoSerial" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAABAAAAAAgABAABABAAAAAgAgAAAAMA=</HashCode>
+      <FileName>Clases\C_CodigoSerial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_Compra" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADBAEAARABABAQIAoQEAACQAAAACIAIAggEAAAQAQ=</HashCode>
+      <FileName>Clases\C_Compra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_CompraDetalle" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAABEEAAAYAAQCAAQAQgAABAAUAAQAAAAAQAIAAAAE=</HashCode>
+      <FileName>Clases\C_CompraDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_Contraseña" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAQAAAAAQAAAAAAAAAQAAAAEAAAAAAAAAAI=</HashCode>
+      <FileName>Clases\C_Contraseña.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_Credito" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QJBBAAAAAQBACIGAEJgQgABISABASAgAGAgQAAgAwAA=</HashCode>
+      <FileName>Clases\C_Credito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_CreditoTrabajador" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAgAAARBAAIAAAAgACAAAAQhAAAAAQAgAEAAAgAI=</HashCode>
+      <FileName>Clases\C_CreditoTrabajador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_Descuento" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAgAAEAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\C_Descuento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_Empresa" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAgAAAQAAIACAAKAAgACAAAAAAAAAAAAAAgAAAAI=</HashCode>
+      <FileName>Clases\C_Empresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_Kardex" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAIEAAAiAAAAAAAAAQAAAQEgAAEAAAAA=</HashCode>
+      <FileName>Clases\C_Kardex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_Menu" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAhAAAAIAAAACAAAAAgAAAEAAAABCEAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\C_Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_Moneda" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABBAAAAAQAAAACAAAAAgAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Clases\C_Moneda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_NombreCaja" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\C_NombreCaja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_OrdenCompra" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABBgAAAQAAAAGAAQgAgEABQAAAAAAAAAgAAAABQAI=</HashCode>
+      <FileName>Clases\C_OrdenCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_OrdenCompraDetalle" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAABEECAAQAAACAAQAAgAADAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\C_OrdenCompraDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_Pago" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAAQEAgABBCJSIAAAQCAAAAAFACDSJgAAwAIASkAE=</HashCode>
+      <FileName>Clases\C_Pago.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_Parametros" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAAAAgAEQAAAIAARAAAAEAIQQJAAAACQAARAAAIwQA=</HashCode>
+      <FileName>Clases\C_Parametros.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_SerialProducto" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAQAAAAAAAAQAQEAAAQBAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Clases\C_SerialProducto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_TipoDocumento" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\C_TipoDocumento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_TipoPago" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAEAAQAAAACAAAAAgAAAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>Clases\C_TipoPago.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_TrabajadorProveedor" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAAAAAAAABACAAAKAgAAAQAAAAAAIAAAACAgAQAA=</HashCode>
+      <FileName>Clases\C_TrabajadorProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_UnidadEquivalencias" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIABAADAAAAAQCAAAAAgBAIAAABAAAEAQAAABAAQAA=</HashCode>
+      <FileName>Clases\C_UnidadEquivalencias.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_Usuario" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIEAAAABACAAKACgAGACgABAAgAAAEAKAABAChCIAAI=</HashCode>
+      <FileName>Clases\C_Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_Venta" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIADIUBAARBAAIAYAAoAGAAAAABAAAAAAEoQEAAAkCE=</HashCode>
+      <FileName>Clases\C_Venta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Clases.C_VentaDetalle" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QZAAAAEAAAAAAAAAARAAACAQAABAkAIAAAACgCAAAIA=</HashCode>
+      <FileName>Clases\C_VentaDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.AbrirCaja" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cSgAUAHBASAACBAAAYCBBiEWAACIUAAAAIkAAkQQABI=</HashCode>
+      <FileName>Formularios\AbrirCaja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Almacen" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIGAEAAAQCAAQJAAAUiQBAEiAAEqABAIACAAAEBRhAA=</HashCode>
+      <FileName>Formularios\Almacen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Almacen_Productos" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACECkAQSAAABBkQQCAAEAiAAIACAAQAABABAAAgAA=</HashCode>
+      <FileName>Formularios\Almacen_Productos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Categoria" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYCAAAAAACAAQJAAAUiABAEqAAIqAAABACAAAEABBAA=</HashCode>
+      <FileName>Formularios\Categoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.CerrarCaja" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EiAAcgHAK6AAABgIgICABAAGAABAQAgACAFCOnQYFAI=</HashCode>
+      <FileName>Formularios\CerrarCaja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Cliente" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cICBAAAABKBBUJAAAQiADlACgAJoAAoAAjEYAE0BBCA=</HashCode>
+      <FileName>Formularios\Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Compras" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FQCARAP1CSwIw1pKg0+EpGJChIQdFBFLzWJgAgAhKCY=</HashCode>
+      <FileName>Formularios\Compras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Configuracion_Impresion" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Formularios\Configuracion_Impresion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Contraseña" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACAAABAAQACABCACAQIYAACAAGgAAAAAAEM=</HashCode>
+      <FileName>Formularios\Contraseña.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Credito" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAgCAAEBQAAUCABAACAAAAAAEBgAAIAEVAAEA=</HashCode>
+      <FileName>Formularios\Credito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Credito_Compra" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAGCRgASEgABEgAQCABCAjIRAAQAEEABAgAAQQAAg=</HashCode>
+      <FileName>Formularios\Credito_Compra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Credito_Trabajador" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAEChgASAgABFAAQCAFCADIAQARAMIBACECBAQAAQ=</HashCode>
+      <FileName>Formularios\Credito_Trabajador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Credito_Venta" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EADAEABwASAgABFAAQCABAICYAAAQACBIBAAAAAQAIA=</HashCode>
+      <FileName>Formularios\Credito_Venta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.CreditoTrabajador" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAJAQADAAABAAIQiABAICIAABAACAABAIEEAAAIA=</HashCode>
+      <FileName>Formularios\CreditoTrabajador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Dolar" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAiIEICAACAAABAAgACACCASBAQAAAAAACsADEARAAA=</HashCode>
+      <FileName>Formularios\Dolar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Empresa" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cIqAMAAgACDBQJAIKwqgDCBiAgBIAAAAAgARCAERBAE=</HashCode>
+      <FileName>Formularios\Empresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.F_Caja" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cgABEABQACAGRBAIARCAJAECggGAAAAAgEAAIgAQIGE=</HashCode>
+      <FileName>Formularios\F_Caja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.F_ReporteCompra" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAEARQASAAQBQAACCAJAADAAEABAEAgEAAAgAQAGA=</HashCode>
+      <FileName>Formularios\F_ReporteCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.F_ReporteCreditoCompra" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IyAEEAEQEKECBBCoASiABIACggEQAAEAwEIgAJAQAGE=</HashCode>
+      <FileName>Formularios\F_ReporteCreditoCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.F_ReporteCreditoTrabajador" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgUAEAFQgqAGBBSIAQCABAECAgEAAAAIgEAEAIAQoGE=</HashCode>
+      <FileName>Formularios\F_ReporteCreditoTrabajador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.F_ReporteCreditoVenta" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgREEAFQQiACQBSMAQGABIACggEAAAgIgGAEiAAQgGE=</HashCode>
+      <FileName>Formularios\F_ReporteCreditoVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.F_ReporteVentas" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IhSEEGBQQDACRBAQCQmABIgCokEAAAgAgFFAiAQQAWE=</HashCode>
+      <FileName>Formularios\F_ReporteVentas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Familia" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAEAAAACBAUJQAAUiABAEiAABqAAAAACAAAEARBgE=</HashCode>
+      <FileName>Formularios\Familia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.InsertarImagenMenu" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACgAABAAAACAAACCAAAYgAAAEGAAAAAAAAA=</HashCode>
+      <FileName>Formularios\InsertarImagenMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Kardex" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAkABAASAAAgEAAQiABJACAGgAEAAAAAAAAAAQAAQ=</HashCode>
+      <FileName>Formularios\Kardex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Login" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAACAAACAAAACABAACAYAAeAAgAABAEABAAAE=</HashCode>
+      <FileName>Formularios\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Marca" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIiAEAAAACBAQJAAAQmIBAEiEQFKAAQAAAAAAEARBAA=</HashCode>
+      <FileName>Formularios\Marca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.NombreCaja" Collapsed="true">
+    <Position X="16.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAiAkgAgACBCQBAABUCABEkiAABCAAAAAAAAAAiRhAA=</HashCode>
+      <FileName>Formularios\NombreCaja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.OrdenComprar" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EMGAMANRAXASQNACAUGAlAFCiCBIUAJC0GAwAkIRRSQ=</HashCode>
+      <FileName>Formularios\OrdenComprar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Permisos" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAIEkBAQzCIABCVACTAZEAiAAAIBIARwAEABAgQEIQ=</HashCode>
+      <FileName>Formularios\Permisos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Precio" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAEACAAAACAAgEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Formularios\Precio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Principal" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0wAKABCAACAAAFCAAAGATLAGAEQABBCAAEIAAEIhCAA=</HashCode>
+      <FileName>Formularios\Principal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Shalong.Formularios.Producto" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/8aAkKEAEaBAephQjQjQHmNSByNKQYBAiAgUkGI5KbQ=</HashCode>
+      <FileName>Formularios\Producto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Producto_Precio" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEgBAESAAIAAoAQCADAAyAEBEAABABAAAAEAQAAA=</HashCode>
+      <FileName>Formularios\Producto_Precio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.ProductoBusqueda" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAARQACMAARAAAQDAAAACAACwAAAAAAIAAAAgACA=</HashCode>
+      <FileName>Formularios\ProductoBusqueda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Productos_Almacen" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEGFAQSAAABBgQQCCBCASAAAAAAAAIAwAAAAQgCA=</HashCode>
+      <FileName>Formularios\Productos_Almacen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Proveedores" Collapsed="true">
+    <Position X="16.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wiQEIaCIzBJQ3ApiZiCiFmCgq1WAoAABQlQNQi5gro=</HashCode>
+      <FileName>Formularios\Proveedores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.ReporteGarantia" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAQACABQCCAQAiABABLAAAQAAAAgIIEgAAQAOA=</HashCode>
+      <FileName>Formularios\ReporteGarantia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Serial_Producto" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACACABAgAACABAACABAAAIQAAAAIBEEAAAA=</HashCode>
+      <FileName>Formularios\Serial_Producto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.TipoAlmacen" Collapsed="true">
+    <Position X="9.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAEAAABCBAQJAAAwiABAEiAABqAAAAADACIEARBAQ=</HashCode>
+      <FileName>Formularios\TipoAlmacen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.TipoDocumento" Collapsed="true">
+    <Position X="11" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAECAAECTAQLAQCQDABAQKAoBIAAECAAAAAAAQBQA=</HashCode>
+      <FileName>Formularios\TipoDocumento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.TipoLineaCredito" Collapsed="true">
+    <Position X="12.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAEAACACAAARAAAACEBEAiAABAAAAAAAAAAACRBAA=</HashCode>
+      <FileName>Formularios\TipoLineaCredito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.TipoPago" Collapsed="true">
+    <Position X="14.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAEAAABCBAQJAEAQiABAACAABoAAAAAiAICEERBAA=</HashCode>
+      <FileName>Formularios\TipoPago.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.TipoPrecio" Collapsed="true">
+    <Position X="16.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QYCAEAAAACBAQJAAAAiAACEiAEBqAAAAACAABEARBAA=</HashCode>
+      <FileName>Formularios\TipoPrecio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.TipoTrabajador" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIiAUAAABCBAQJAAAQCBBAEigABqAAAAACAAAFARBAA=</HashCode>
+      <FileName>Formularios\TipoTrabajador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Trabajador_Proveedor" Collapsed="true">
+    <Position X="2.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MICAEAgQACQgQNQAAQmQRBEGkAAIAAGBwmCiAgERDGQ=</HashCode>
+      <FileName>Formularios\Trabajador_Proveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Unidad" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJCIGAgAACBAQJQAAQiATAECAEFKAAAgQEAEAAARRAQ=</HashCode>
+      <FileName>Formularios\Unidad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Unidades" Collapsed="true">
+    <Position X="5.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQaBEABBASQAQJACGAiABAASEBARIBECEgEIFUERBAA=</HashCode>
+      <FileName>Formularios\Unidades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Usuario" Collapsed="true">
+    <Position X="11" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/4qIIUCRCCAIYhAKBSKCHAECKpAqgAUAgAIQAAApgDg=</HashCode>
+      <FileName>Formularios\Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Formularios.Venta" Collapsed="true">
+    <Position X="9.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ElAX+CVQgzZQAFABGUOglPkboAlXRdvhyHRimQRwJCA=</HashCode>
+      <FileName>Formularios\Venta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Program" Collapsed="true">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Properties.Resources" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shalong.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Shalong.Conexion.Interface_Shalong">
+    <Position X="2.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIABBIAAAQAIhIo3ACAIAgBBgIAZWEkCQEMQDAwAIE=</HashCode>
+      <FileName>Conexion\Interface_Shalong.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shalong.Clases.I_Parametros" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\I_Parametros.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
