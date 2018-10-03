@@ -166,7 +166,10 @@ namespace Shalong.Formularios
                         MessageBox.Show("Error al ingresar el billetaje intenlo de nuevo","Gestion Ventas",MessageBoxButtons.OK,MessageBoxIcon.Error);
                     }
                 }
-                MessageBox.Show("Cerro caja","Gestion Ventas",MessageBoxButtons.OK);
+                if (MessageBox.Show("Cerro caja", "Gestion Ventas", MessageBoxButtons.OK) == DialogResult.OK)
+                {
+                    this.Close();
+                }
                 _objetoParametros.CodigoCaja = 0;
                 _objetoParametros.CodigoAlmacen = 0;
                 _objetoParametros.NombreAlmacen = " ";

@@ -22,6 +22,7 @@ namespace Shalong.Formularios
          public Usuario(I_Parametros parametros)
         {
             InitializeComponent();
+            CargarComboBox();
 
         }
          public Usuario(I_Parametros parametros, C_Parametros objetoParametros)

@@ -159,7 +159,7 @@
             this.tableLayoutPanel3.ColumnCount = 3;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.75F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 74.25F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 221F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 222F));
             this.tableLayoutPanel3.Controls.Add(this.chk_VariosPagos, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.lbl_TipoPago, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel4, 2, 0);
@@ -205,12 +205,12 @@
             this.tableLayoutPanel4.Controls.Add(this.txt_SubTotal, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.txt_IGV, 1, 1);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(605, 3);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(604, 3);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 2;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(216, 69);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(217, 69);
             this.tableLayoutPanel4.TabIndex = 73;
             // 
             // chk_Igv
@@ -257,11 +257,11 @@
             this.tableLayoutPanel5.Controls.Add(this.label10, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.txt_Total, 1, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(605, 78);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(604, 78);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(216, 66);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(217, 66);
             this.tableLayoutPanel5.TabIndex = 74;
             // 
             // label10
@@ -294,7 +294,7 @@
             this.tableLayoutPanel6.RowCount = 2;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 41.07143F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 58.92857F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(441, 69);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(440, 69);
             this.tableLayoutPanel6.TabIndex = 75;
             // 
             // cmb_TipoPago
@@ -303,7 +303,7 @@
             this.cmb_TipoPago.FormattingEnabled = true;
             this.cmb_TipoPago.Location = new System.Drawing.Point(3, 3);
             this.cmb_TipoPago.Name = "cmb_TipoPago";
-            this.cmb_TipoPago.Size = new System.Drawing.Size(435, 28);
+            this.cmb_TipoPago.Size = new System.Drawing.Size(434, 28);
             this.cmb_TipoPago.TabIndex = 70;
             this.cmb_TipoPago.SelectedValueChanged += new System.EventHandler(this.cmb_TipoPago_SelectedValueChanged);
             // 
@@ -319,13 +319,13 @@
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(435, 35);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(434, 35);
             this.tableLayoutPanel7.TabIndex = 71;
             // 
             // txt_Cantidad
             // 
             this.txt_Cantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Cantidad.Location = new System.Drawing.Point(130, 3);
+            this.txt_Cantidad.Location = new System.Drawing.Point(129, 3);
             this.txt_Cantidad.Name = "txt_Cantidad";
             this.txt_Cantidad.Size = new System.Drawing.Size(240, 32);
             this.txt_Cantidad.TabIndex = 67;
@@ -337,7 +337,7 @@
             this.lbl_Cantidad.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lbl_Cantidad.AutoSize = true;
             this.lbl_Cantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Cantidad.Location = new System.Drawing.Point(13, 4);
+            this.lbl_Cantidad.Location = new System.Drawing.Point(12, 4);
             this.lbl_Cantidad.Name = "lbl_Cantidad";
             this.lbl_Cantidad.Size = new System.Drawing.Size(111, 26);
             this.lbl_Cantidad.TabIndex = 66;
@@ -355,7 +355,7 @@
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 1;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.72464F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(441, 66);
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(440, 66);
             this.tableLayoutPanel8.TabIndex = 76;
             // 
             // txt_Devolucion
@@ -363,7 +363,7 @@
             this.txt_Devolucion.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.txt_Devolucion.Enabled = false;
             this.txt_Devolucion.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Devolucion.Location = new System.Drawing.Point(131, 17);
+            this.txt_Devolucion.Location = new System.Drawing.Point(130, 17);
             this.txt_Devolucion.Name = "txt_Devolucion";
             this.txt_Devolucion.Size = new System.Drawing.Size(242, 32);
             this.txt_Devolucion.TabIndex = 65;
@@ -373,7 +373,7 @@
             this.lbl_TotalDevolucion.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lbl_TotalDevolucion.AutoSize = true;
             this.lbl_TotalDevolucion.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_TotalDevolucion.Location = new System.Drawing.Point(39, 20);
+            this.lbl_TotalDevolucion.Location = new System.Drawing.Point(38, 20);
             this.lbl_TotalDevolucion.Name = "lbl_TotalDevolucion";
             this.lbl_TotalDevolucion.Size = new System.Drawing.Size(86, 26);
             this.lbl_TotalDevolucion.TabIndex = 64;
@@ -384,7 +384,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label1.Location = new System.Drawing.Point(3, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 43);
+            this.label1.Size = new System.Drawing.Size(114, 43);
             this.label1.TabIndex = 72;
             this.label1.Text = "Tipo de \r\ndocumento";
             // 
@@ -392,7 +392,7 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(53, 72);
+            this.label3.Location = new System.Drawing.Point(52, 72);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 20);
             this.label3.TabIndex = 73;
@@ -400,16 +400,16 @@
             // 
             // txt_P_Nombre
             // 
-            this.txt_P_Nombre.Location = new System.Drawing.Point(124, 69);
+            this.txt_P_Nombre.Location = new System.Drawing.Point(123, 69);
             this.txt_P_Nombre.Name = "txt_P_Nombre";
-            this.txt_P_Nombre.Size = new System.Drawing.Size(179, 26);
+            this.txt_P_Nombre.Size = new System.Drawing.Size(178, 26);
             this.txt_P_Nombre.TabIndex = 75;
             // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(323, 29);
+            this.label2.Location = new System.Drawing.Point(320, 29);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 20);
             this.label2.TabIndex = 76;
@@ -421,7 +421,7 @@
             this.cmb_I_Cliente.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.cmb_I_Cliente.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cmb_I_Cliente.FormattingEnabled = true;
-            this.cmb_I_Cliente.Location = new System.Drawing.Point(387, 29);
+            this.cmb_I_Cliente.Location = new System.Drawing.Point(384, 25);
             this.cmb_I_Cliente.Name = "cmb_I_Cliente";
             this.cmb_I_Cliente.Size = new System.Drawing.Size(107, 28);
             this.cmb_I_Cliente.TabIndex = 78;
@@ -431,7 +431,7 @@
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(554, 29);
+            this.label7.Location = new System.Drawing.Point(551, 29);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(73, 20);
             this.label7.TabIndex = 81;
@@ -443,9 +443,9 @@
             this.cmb_I_Empresa.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.cmb_I_Empresa.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cmb_I_Empresa.FormattingEnabled = true;
-            this.cmb_I_Empresa.Location = new System.Drawing.Point(633, 29);
+            this.cmb_I_Empresa.Location = new System.Drawing.Point(630, 25);
             this.cmb_I_Empresa.Name = "cmb_I_Empresa";
-            this.cmb_I_Empresa.Size = new System.Drawing.Size(236, 28);
+            this.cmb_I_Empresa.Size = new System.Drawing.Size(235, 28);
             this.cmb_I_Empresa.TabIndex = 82;
             this.cmb_I_Empresa.SelectedIndexChanged += new System.EventHandler(this.cmb_I_Empresa_SelectedIndexChanged);
             // 
@@ -454,7 +454,7 @@
             this.cmb_I_TipoDocumento.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.cmb_I_TipoDocumento.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cmb_I_TipoDocumento.FormattingEnabled = true;
-            this.cmb_I_TipoDocumento.Location = new System.Drawing.Point(124, 16);
+            this.cmb_I_TipoDocumento.Location = new System.Drawing.Point(123, 16);
             this.cmb_I_TipoDocumento.Name = "cmb_I_TipoDocumento";
             this.cmb_I_TipoDocumento.Size = new System.Drawing.Size(172, 28);
             this.cmb_I_TipoDocumento.TabIndex = 74;
@@ -463,7 +463,7 @@
             // btn_I_Cliente
             // 
             this.btn_I_Cliente.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_I_Cliente.Location = new System.Drawing.Point(500, 26);
+            this.btn_I_Cliente.Location = new System.Drawing.Point(497, 26);
             this.btn_I_Cliente.Name = "btn_I_Cliente";
             this.btn_I_Cliente.Size = new System.Drawing.Size(37, 27);
             this.btn_I_Cliente.TabIndex = 80;
@@ -474,7 +474,7 @@
             // btn_I_Empresa
             // 
             this.btn_I_Empresa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_I_Empresa.Location = new System.Drawing.Point(875, 26);
+            this.btn_I_Empresa.Location = new System.Drawing.Point(871, 26);
             this.btn_I_Empresa.Name = "btn_I_Empresa";
             this.btn_I_Empresa.Size = new System.Drawing.Size(30, 27);
             this.btn_I_Empresa.TabIndex = 85;
@@ -486,7 +486,7 @@
             // 
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(912, 29);
+            this.label9.Location = new System.Drawing.Point(908, 29);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(112, 20);
             this.label9.TabIndex = 86;
@@ -495,16 +495,16 @@
             // txt_I_NDocumento
             // 
             this.txt_I_NDocumento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_I_NDocumento.Location = new System.Drawing.Point(1030, 26);
+            this.txt_I_NDocumento.Location = new System.Drawing.Point(1026, 26);
             this.txt_I_NDocumento.Name = "txt_I_NDocumento";
-            this.txt_I_NDocumento.Size = new System.Drawing.Size(200, 26);
+            this.txt_I_NDocumento.Size = new System.Drawing.Size(204, 26);
             this.txt_I_NDocumento.TabIndex = 87;
             // 
             // label6
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(937, 72);
+            this.label6.Location = new System.Drawing.Point(933, 72);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(87, 20);
             this.label6.TabIndex = 88;
@@ -534,7 +534,7 @@
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.68212F));
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 36F));
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 119F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 203F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 206F));
             this.tableLayoutPanel10.Controls.Add(this.label1, 0, 1);
             this.tableLayoutPanel10.Controls.Add(this.cmb_I_TipoDocumento, 1, 1);
             this.tableLayoutPanel10.Controls.Add(this.txt_P_Nombre, 1, 2);
@@ -566,7 +566,7 @@
             // cmb_TipoPrecio
             // 
             this.cmb_TipoPrecio.FormattingEnabled = true;
-            this.cmb_TipoPrecio.Location = new System.Drawing.Point(1030, 69);
+            this.cmb_TipoPrecio.Location = new System.Drawing.Point(1026, 69);
             this.cmb_TipoPrecio.Name = "cmb_TipoPrecio";
             this.cmb_TipoPrecio.Size = new System.Drawing.Size(116, 28);
             this.cmb_TipoPrecio.TabIndex = 89;
@@ -576,7 +576,7 @@
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(310, 72);
+            this.label5.Location = new System.Drawing.Point(307, 72);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(71, 20);
             this.label5.TabIndex = 83;
@@ -584,23 +584,23 @@
             // 
             // txt_P_Telefono
             // 
-            this.txt_P_Telefono.Location = new System.Drawing.Point(387, 69);
+            this.txt_P_Telefono.Location = new System.Drawing.Point(384, 69);
             this.txt_P_Telefono.Name = "txt_P_Telefono";
             this.txt_P_Telefono.Size = new System.Drawing.Size(107, 26);
             this.txt_P_Telefono.TabIndex = 84;
             // 
             // txt_P_Direccion
             // 
-            this.txt_P_Direccion.Location = new System.Drawing.Point(633, 69);
+            this.txt_P_Direccion.Location = new System.Drawing.Point(630, 69);
             this.txt_P_Direccion.Name = "txt_P_Direccion";
-            this.txt_P_Direccion.Size = new System.Drawing.Size(236, 26);
+            this.txt_P_Direccion.Size = new System.Drawing.Size(235, 26);
             this.txt_P_Direccion.TabIndex = 79;
             // 
             // label4
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(552, 72);
+            this.label4.Location = new System.Drawing.Point(549, 72);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(75, 20);
             this.label4.TabIndex = 77;
@@ -708,7 +708,7 @@
             // Precio
             // 
             this.Precio.FillWeight = 68.69861F;
-            this.Precio.HeaderText = "Precio";
+            this.Precio.HeaderText = "Valor";
             this.Precio.Name = "Precio";
             this.Precio.ReadOnly = true;
             // 
@@ -848,7 +848,5 @@
         private System.Windows.Forms.DataGridViewComboBoxColumn Descuento;
         private System.Windows.Forms.DataGridViewTextBoxColumn Garantia;
         private System.Windows.Forms.DataGridViewCheckBoxColumn GarantiaCheck;
-
-
     }
 }

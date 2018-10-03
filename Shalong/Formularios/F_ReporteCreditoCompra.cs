@@ -63,6 +63,8 @@ namespace Shalong.Formularios
         {
             dgv_Credito.AutoGenerateColumns = false;
             dgv_Credito.DataSource = _shalong.ReportePagoTodo();
+            this.dgv_Credito.Columns["MontoPagar"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.TopRight;
+            this.dgv_Credito.Columns["MontoPagar"].DefaultCellStyle.Format = "0.00##";
         }
 
         private void btn_Proveedor_Click(object sender, EventArgs e)

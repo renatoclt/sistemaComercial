@@ -196,7 +196,7 @@
             this.cmb_Proveedor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.cmb_Proveedor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cmb_Proveedor.FormattingEnabled = true;
-            this.cmb_Proveedor.Location = new System.Drawing.Point(291, 10);
+            this.cmb_Proveedor.Location = new System.Drawing.Point(291, 13);
             this.cmb_Proveedor.Name = "cmb_Proveedor";
             this.cmb_Proveedor.Size = new System.Drawing.Size(282, 28);
             this.cmb_Proveedor.TabIndex = 3;

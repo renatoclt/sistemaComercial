@@ -231,7 +231,7 @@
             this.cmb_Caja.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.cmb_Caja.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cmb_Caja.FormattingEnabled = true;
-            this.cmb_Caja.Location = new System.Drawing.Point(604, 17);
+            this.cmb_Caja.Location = new System.Drawing.Point(604, 14);
             this.cmb_Caja.Name = "cmb_Caja";
             this.cmb_Caja.Size = new System.Drawing.Size(185, 28);
             this.cmb_Caja.TabIndex = 2;
@@ -242,7 +242,7 @@
             this.cmb_Trabajador.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.cmb_Trabajador.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cmb_Trabajador.FormattingEnabled = true;
-            this.cmb_Trabajador.Location = new System.Drawing.Point(111, 14);
+            this.cmb_Trabajador.Location = new System.Drawing.Point(111, 17);
             this.cmb_Trabajador.Name = "cmb_Trabajador";
             this.cmb_Trabajador.Size = new System.Drawing.Size(287, 28);
             this.cmb_Trabajador.TabIndex = 3;

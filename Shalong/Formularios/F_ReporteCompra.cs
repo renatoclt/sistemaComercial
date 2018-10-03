@@ -51,6 +51,8 @@ namespace Shalong.Formularios
             dgv_Compra.AutoGenerateColumns = false;
             dgv_Compra.DataSource = null;
             dgv_Compra.DataSource = _shalong.ReporteCompraTodo();
+            this.dgv_Compra.Columns["MontoTotal"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.TopRight;
+            this.dgv_Compra.Columns["MontoTotal"].DefaultCellStyle.Format = "0.00##";
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -438,6 +438,8 @@ namespace Shalong.Formularios
             txt_I_NDocumento.Text = "";
             dtg_Factura.Rows.Clear();
             dgv_TipoPago.Rows.Clear();
+            txt_Cantidad.Text = "";
+            txt_Devolucion.Text = "";
         }
 
         // CARGAR

@@ -133,6 +133,7 @@ namespace Shalong.Formularios
         private void Btn_guardar_Click(object sender, EventArgs e)
         {
             GuardarDolar();
+            this.Close();
         }
         private void GuardarDolar()
         {

@@ -43,7 +43,8 @@ namespace Shalong.Formularios
         }
         public void CargarDataGridView()
         {
-
+            this.dgv_Ventas.Columns["TotalVenta"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.TopRight;
+            this.dgv_Ventas.Columns["TotalVenta"].DefaultCellStyle.Format = "0.00##";
         }
         private void cmb_TipoDeVenta_SelectedIndexChanged(object sender, EventArgs e)
         {

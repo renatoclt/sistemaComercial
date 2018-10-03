@@ -1,17 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shalong", "Shalong\Shalong.csproj", "{8CB5BB1F-8D0F-4070-8990-DE6671B0227E}"
-EndProject
-Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "SistemaDeGestionDeVentas", "SistemaDeGestionDeVentas\SistemaDeGestionDeVentas.isproj", "{C26A6EAA-68F0-4E65-A29A-E9CBC91671EC}"
-	ProjectSection(ProjectDependencies) = postProject
-		{8CB5BB1F-8D0F-4070-8990-DE6671B0227E} = {8CB5BB1F-8D0F-4070-8990-DE6671B0227E}
-	EndProjectSection
-EndProject
-Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "sgv2", "sgv2\sgv2.isproj", "{7B212CCD-8A11-44C1-BA25-47E6399B3C9F}"
-	ProjectSection(ProjectDependencies) = postProject
-		{8CB5BB1F-8D0F-4070-8990-DE6671B0227E} = {8CB5BB1F-8D0F-4070-8990-DE6671B0227E}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,28 +24,11 @@ Global
 		{8CB5BB1F-8D0F-4070-8990-DE6671B0227E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8CB5BB1F-8D0F-4070-8990-DE6671B0227E}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
 		{8CB5BB1F-8D0F-4070-8990-DE6671B0227E}.SingleImage|Any CPU.Build.0 = Release|Any CPU
-		{C26A6EAA-68F0-4E65-A29A-E9CBC91671EC}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
-		{C26A6EAA-68F0-4E65-A29A-E9CBC91671EC}.CD_ROM|Any CPU.Build.0 = CD_ROM
-		{C26A6EAA-68F0-4E65-A29A-E9CBC91671EC}.Debug|Any CPU.ActiveCfg = DVD-5
-		{C26A6EAA-68F0-4E65-A29A-E9CBC91671EC}.Debug|Any CPU.Build.0 = DVD-5
-		{C26A6EAA-68F0-4E65-A29A-E9CBC91671EC}.DVD-5|Any CPU.ActiveCfg = DVD-5
-		{C26A6EAA-68F0-4E65-A29A-E9CBC91671EC}.DVD-5|Any CPU.Build.0 = DVD-5
-		{C26A6EAA-68F0-4E65-A29A-E9CBC91671EC}.Release|Any CPU.ActiveCfg = SingleImage
-		{C26A6EAA-68F0-4E65-A29A-E9CBC91671EC}.Release|Any CPU.Build.0 = SingleImage
-		{C26A6EAA-68F0-4E65-A29A-E9CBC91671EC}.SingleImage|Any CPU.ActiveCfg = SingleImage
-		{C26A6EAA-68F0-4E65-A29A-E9CBC91671EC}.SingleImage|Any CPU.Build.0 = SingleImage
-		{7B212CCD-8A11-44C1-BA25-47E6399B3C9F}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
-		{7B212CCD-8A11-44C1-BA25-47E6399B3C9F}.CD_ROM|Any CPU.Build.0 = CD_ROM
-		{7B212CCD-8A11-44C1-BA25-47E6399B3C9F}.Debug|Any CPU.ActiveCfg = DVD-5
-		{7B212CCD-8A11-44C1-BA25-47E6399B3C9F}.Debug|Any CPU.Build.0 = DVD-5
-		{7B212CCD-8A11-44C1-BA25-47E6399B3C9F}.DVD-5|Any CPU.ActiveCfg = DVD-5
-		{7B212CCD-8A11-44C1-BA25-47E6399B3C9F}.DVD-5|Any CPU.Build.0 = DVD-5
-		{7B212CCD-8A11-44C1-BA25-47E6399B3C9F}.Release|Any CPU.ActiveCfg = SingleImage
-		{7B212CCD-8A11-44C1-BA25-47E6399B3C9F}.Release|Any CPU.Build.0 = SingleImage
-		{7B212CCD-8A11-44C1-BA25-47E6399B3C9F}.SingleImage|Any CPU.ActiveCfg = SingleImage
-		{7B212CCD-8A11-44C1-BA25-47E6399B3C9F}.SingleImage|Any CPU.Build.0 = SingleImage
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26651B8B-5CAE-457B-89DF-7E0753C56915}
 	EndGlobalSection
 EndGlobal

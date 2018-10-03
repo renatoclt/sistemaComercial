@@ -14,7 +14,7 @@ namespace Shalong.Conexion
 
         //string cadenaConexion = "Server=192.168.1.6; port = 5432 ;User Id=postgres;Password=root;Database=Gestion_Ventas";
         //string cadenaConexion = "Server= localhost; port = 5432 ;User Id=postgres;Password=root;Database=Gestion_ventas";
-        string cadenaConexion = "Server= localhost; port = 5432 ;User Id=postgres;Password=admin;Database=Gestion_ventas";
+        string cadenaConexion = "Server= localhost; port = 5432 ;User Id=postgres;Password=root;Database=Gestion_ventas";
         //string cadenaConexion = "Server=;User Id=postgres;Password=fazta;Database=Gestion_Ventas";
 
 

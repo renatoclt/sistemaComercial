@@ -65,6 +65,8 @@ namespace Shalong.Formularios
         {
             dgv_Pagos.AutoGenerateColumns = false;
             dgv_Pagos.DataSource = _shalong.ReporteVentaTodo();
+            this.dgv_Pagos.Columns["MontoPagado"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.TopRight;
+            this.dgv_Pagos.Columns["MontoPagado"].DefaultCellStyle.Format = "0.00##";
         }
         private void CargarTodoDataGridView()
         {

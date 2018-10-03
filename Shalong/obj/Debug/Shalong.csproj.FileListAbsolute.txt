@@ -1534,3 +1534,69 @@ E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalon
 E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.application
 E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.exe
 E:\SERVICORP\Proyectos\Sistema gestion ventas\Gestion Ventas 29-10 ultimo\Shalong\obj\Debug\Gestion Ventas.pdb
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.AbrirCaja.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Almacen.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Almacen_Productos.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Categoria.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.CerrarCaja.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Cliente.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Compras.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Configuracion_Impresion.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Credito.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.CreditoTrabajador.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Credito_Trabajador.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.F_Caja.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCompra.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoCompra.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoTrabajador.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.F_ReporteCreditoVenta.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.F_ReporteVentas.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Kardex.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Credito_Compra.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Credito_Venta.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Empresa.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Familia.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.InsertarImagenMenu.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Login.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Marca.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.NombreCaja.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.OrdenComprar.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Permisos.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Precio.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Producto.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.ProductoBusqueda.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Productos_Almacen.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Producto_Precio.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Contraseña.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Dolar.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Principal.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Proveedores.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.ReporteGarantia.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.TipoDocumento.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.TipoLineaCredito.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.TipoPago.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Trabajador_Proveedor.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Unidades.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Usuario.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Venta.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Properties.Resources.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Serial_Producto.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.TipoAlmacen.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.TipoPrecio.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.TipoTrabajador.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.Formularios.Unidad.resources
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.csproj.GenerateResource.cache
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Gestion Ventas.exe
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Gestion Ventas.pdb
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Gestion Ventas.exe.manifest
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Gestion Ventas.application
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Gestion Ventas.exe
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Gestion Ventas.pdb
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Gestion Ventas.exe.manifest
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Gestion Ventas.application
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalong.csproj.CopyComplete
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Formularios\AbrirCaja.resx
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Formularios\AbrirCaja.cs
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Formularios\AbrirCaja.Designer.cs

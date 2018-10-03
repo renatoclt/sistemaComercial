@@ -12,7 +12,7 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\server\Desktop\</PublishUrl>
+    <PublishUrl>C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Setup1\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -24,7 +24,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ProductName>Gestor de Administración</ProductName>
     <PublisherName>Servicorp</PublisherName>
-    <ApplicationRevision>12</ApplicationRevision>
+    <ApplicationRevision>13</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -59,7 +59,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>irtienda.ico</ApplicationIcon>
@@ -120,9 +120,11 @@
     <Compile Include="Clases\I_Parametros.cs" />
     <Compile Include="Formularios\AbrirCaja.cs">
       <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Formularios\AbrirCaja.Designer.cs">
       <DependentUpon>AbrirCaja.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Formularios\Almacen.cs">
       <SubType>Form</SubType>
@@ -438,6 +440,7 @@
     </Compile>
     <EmbeddedResource Include="Formularios\AbrirCaja.resx">
       <DependentUpon>AbrirCaja.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Almacen.resx">
       <DependentUpon>Almacen.cs</DependentUpon>
@@ -606,7 +609,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Shalong_ClaveTemporal.pfx" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">

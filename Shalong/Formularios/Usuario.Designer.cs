@@ -215,7 +215,6 @@
             this.cmb_I_TipoTrabajador.Name = "cmb_I_TipoTrabajador";
             this.cmb_I_TipoTrabajador.Size = new System.Drawing.Size(262, 28);
             this.cmb_I_TipoTrabajador.TabIndex = 2;
-            this.cmb_I_TipoTrabajador.SelectedIndexChanged += new System.EventHandler(this.cmb_I_TipoTrabajador_SelectedIndexChanged);
             // 
             // txt_I_LugarNacimiento
             // 
