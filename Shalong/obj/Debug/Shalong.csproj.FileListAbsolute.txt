@@ -1600,3 +1600,4 @@ C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Shalo
 C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Formularios\AbrirCaja.resx
 C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Formularios\AbrirCaja.cs
 C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Formularios\AbrirCaja.Designer.cs
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Gestion Ventas.TrustInfo.xml
