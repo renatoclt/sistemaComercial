@@ -91,21 +91,29 @@ namespace Shalong.Formularios
         private void CargarBilletaje()
         {
             int codigoCajaAnterior;
-            codigoCajaAnterior = _shalong.CajaUltima(Int32.Parse(cmb_NombreCaja.SelectedValue.ToString()));
-            List<C_Billetaje> objetoBilletaje = _shalong.BilletajeCajaMostrar(codigoCajaAnterior);
-            foreach (DataGridViewRow row in dtg_Billetaje.Rows)
+            if(cmb_NombreCaja.SelectedValue == null)
             {
-                row.Cells["Cantidad"].Value = "0";
-                foreach (C_Billetaje objeto in objetoBilletaje)
+
+                Total();
+            }
+            else
+            {
+                codigoCajaAnterior = _shalong.CajaUltima(Int32.Parse(cmb_NombreCaja.SelectedValue.ToString()));
+                List<C_Billetaje> objetoBilletaje = _shalong.BilletajeCajaMostrar(codigoCajaAnterior);
+                foreach (DataGridViewRow row in dtg_Billetaje.Rows)
                 {
-                    if (objeto.Codigo == Int32.Parse(row.Cells["Codigo"].Value.ToString()))
+                    row.Cells["Cantidad"].Value = "0";
+                    foreach (C_Billetaje objeto in objetoBilletaje)
                     {
-                        row.Cells["Cantidad"].Value = objeto.Cantidad;
-                        break;
+                        if (objeto.Codigo == Int32.Parse(row.Cells["Codigo"].Value.ToString()))
+                        {
+                            row.Cells["Cantidad"].Value = objeto.Cantidad;
+                            break;
+                        }
                     }
                 }
+                Total();
             }
-            Total();
         }
 
         //BOTONES
