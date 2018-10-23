@@ -1,0 +1,224 @@
+ALTER TABLE productos
+DROP CONSTRAINT productos_pkey CASCADE;
+
+ drop view vw_productoalmacen;
+ 
+ drop view vw_unidadproductos;
+ 
+ 
+DROP VIEW public.vw_almacenproductos;
+
+
+DROP VIEW public.vw_kardex;
+
+DROP VIEW public.vw_kardexegreso;
+
+DROP VIEW public.vw_compra_producto;
+
+DROP VIEW public.vw_producto_precio;
+
+ DROP VIEW public.vw_orden_de_compra_productos;
+ 
+ DROP VIEW public.vw_kardexingreso;
+
+
+ alter table productos 
+alter column codigo_barras type varchar(50) ;
+
+alter table productos add primary key (codigo_barras);
+
+alter table public.detalle_orden_compra
+alter column codigo_barras type varchar(50) ;
+
+ALTER TABLE almacen_productos  
+ADD CONSTRAINT almacen_productos_codigo_barras_fkey
+FOREIGN KEY (codigo_barras) 
+REFERENCES productos (codigo_barras) 
+ON DELETE CASCADE;
+
+
+alter table public.detalle_orden_compra
+alter column codigo_barras type varchar(50) ;
+
+ALTER TABLE detalle_orden_compra 
+ADD CONSTRAINT detalle_orden_compra_codigo_barras_fkey
+FOREIGN KEY (codigo_barras) 
+REFERENCES productos (codigo_barras) 
+ON DELETE CASCADE;
+
+alter table public.modificar_productos
+alter column codigo_barras type varchar(50) ;
+
+ALTER TABLE modificar_productos 
+ADD CONSTRAINT modificar_productos_codigo_barras_fkey
+FOREIGN KEY (codigo_barras) 
+REFERENCES productos (codigo_barras) 
+ON DELETE CASCADE;
+
+alter table public.producto_precio 
+alter column codigo_barras type varchar(50) ;
+
+ALTER TABLE producto_precio  
+ADD CONSTRAINT producto_precio_codigo_barras_fkey
+FOREIGN KEY (codigo_barras) 
+REFERENCES productos (codigo_barras) 
+ON DELETE CASCADE;
+
+alter table public.serial_producto 
+alter column codigo_barras type varchar(50) ;
+
+ALTER TABLE serial_producto   
+ADD CONSTRAINT serial_producto_codigo_barras_fkey
+FOREIGN KEY (codigo_barras) 
+REFERENCES productos (codigo_barras) 
+ON DELETE CASCADE;
+
+alter table public.venta_articulos  
+alter column codigo_barras type varchar(50) ;
+
+ALTER TABLE venta_articulos   
+ADD CONSTRAINT venta_articulos_codigo_barras_fkey
+FOREIGN KEY (codigo_barras) 
+REFERENCES productos (codigo_barras) 
+ON DELETE CASCADE;
+
+
+alter table public.compra_detalle   
+alter column codigo_producto type varchar(50) ;
+
+ALTER TABLE compra_detalle    
+ADD CONSTRAINT compra_detalle_codigo_producto_fkey
+FOREIGN KEY (codigo_producto) 
+REFERENCES productos (codigo_barras) 
+ON DELETE CASCADE;
+
+CREATE OR REPLACE VIEW public.vw_almacenproductos AS
+ SELECT ap.codigo_barras,
+    ap.stock,
+    p.nombre AS producto,
+    ap.codigo_almacen,
+    a.nombre AS almacen
+   FROM almacen_productos ap
+     JOIN productos p ON ap.codigo_barras = p.codigo_barras
+     JOIN almacen a ON a.codigo_almacen = ap.codigo_almacen;
+
+ALTER TABLE public.vw_almacenproductos
+    OWNER TO postgres;
+	
+	
+
+CREATE OR REPLACE VIEW public.vw_compra_producto AS
+ SELECT compra.codigo_credito,
+    productos.codigo_barras,
+    productos.nombre,
+    compra_detalle.cantidad,
+    compra_detalle.costo_unitario,
+    compra_detalle.costo_total,
+    compra_detalle.codigo_unidad,
+    productos.flag_disponible
+   FROM compra_detalle
+     LEFT JOIN productos ON productos.codigo_barras = compra_detalle.codigo_producto
+     LEFT JOIN compra ON compra.codigo_credito = compra_detalle.codigo_compra
+  WHERE productos.flag_disponible = 1;
+
+ALTER TABLE public.vw_compra_producto
+    OWNER TO postgres;
+	
+CREATE OR REPLACE VIEW public.vw_orden_de_compra_productos AS
+ SELECT detalle_orden_compra.codigo_orden_de_compra,
+    detalle_orden_compra.codigo_barras,
+    detalle_orden_compra.cantidad,
+    productos.nombre,
+    (u.nombre::text || '  '::text) || u.simbolo::text AS unidad,
+    u.codigo_unidad,
+    0.0 AS costo_unitario,
+    0.0 AS costo_total
+   FROM detalle_orden_compra
+     LEFT JOIN productos ON productos.codigo_barras = detalle_orden_compra.codigo_barras
+     LEFT JOIN unidad u ON u.codigo_unidad = productos.codigo_unidad;
+
+ALTER TABLE public.vw_orden_de_compra_productos
+    OWNER TO postgres;
+
+CREATE OR REPLACE VIEW public.vw_productoalmacen AS
+ SELECT ap.codigo_barras,
+    ap.stock,
+    p.nombre AS producto,
+    ap.codigo_almacen,
+    a.nombre AS almacen
+   FROM almacen_productos ap
+     JOIN productos p ON ap.codigo_barras = p.codigo_barras
+     JOIN almacen a ON a.codigo_almacen = ap.codigo_almacen;
+
+ALTER TABLE public.vw_productoalmacen
+    OWNER TO postgres;
+
+CREATE OR REPLACE VIEW public.vw_unidadproductos AS
+ SELECT p.codigo_barras,
+    u.nombre
+   FROM productos p
+     JOIN unidad u ON p.codigo_unidad = u.codigo_unidad;
+
+ALTER TABLE public.vw_unidadproductos
+    OWNER TO postgres;
+	
+	
+
+CREATE OR REPLACE VIEW public.vw_producto_precio AS
+ SELECT tp.codigo_tipo_precio,
+    tp.nombre,
+    pp.codigo_barras,
+    pp.precio
+   FROM tipo_precio tp
+     JOIN producto_precio pp ON tp.codigo_tipo_precio = pp.codigo_tipo_precio;
+
+ALTER TABLE public.vw_producto_precio
+    OWNER TO postgres;
+	
+	
+
+CREATE OR REPLACE VIEW public.vw_kardexegreso AS
+ SELECT v.numero_documento_venta,
+    v.fecha_venta,
+    va.codigo_barras,
+    va.cantidad
+   FROM ventas v
+     JOIN venta_articulos va ON va.codigo_venta = v.codigo_venta;
+
+ALTER TABLE public.vw_kardexegreso
+    OWNER TO postgres;
+
+
+
+
+CREATE OR REPLACE VIEW public.vw_kardexingreso AS
+ SELECT c.fecha_compra,
+    cd.codigo_producto,
+    cd.cantidad,
+    c.numero_documento
+   FROM compra c
+     JOIN compra_detalle cd ON cd.codigo_compra = c.codigo_credito;
+
+ALTER TABLE public.vw_kardexingreso
+    OWNER TO postgres;
+
+CREATE OR REPLACE VIEW public.vw_kardex AS
+ SELECT vw_kardexegreso.numero_documento_venta AS numero_documento,
+    vw_kardexegreso.fecha_venta AS fecha,
+    vw_kardexegreso.codigo_barras AS codigo,
+    0 AS cantidadventa,
+    vw_kardexegreso.cantidad AS cantidadcompra
+   FROM vw_kardexegreso
+UNION
+ SELECT vw_kardexingreso.numero_documento,
+    vw_kardexingreso.fecha_compra AS fecha,
+    vw_kardexingreso.codigo_producto AS codigo,
+    vw_kardexingreso.cantidad AS cantidadventa,
+    0 AS cantidadcompra
+   FROM vw_kardexingreso
+  ORDER BY 2;
+
+ALTER TABLE public.vw_kardex
+    OWNER TO postgres;
+
+
