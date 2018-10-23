@@ -1592,12 +1592,12 @@ C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Formu
 C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Formularios\AbrirCaja.cs
 C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Formularios\AbrirCaja.Designer.cs
 C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Servicorp.Properties.Resources.resources
-C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Gestion_Ventas.exe.manifest
-C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Gestion_Ventas.application
-C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Gestion_Ventas.exe
-C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Gestion_Ventas.pdb
-C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Gestion_Ventas.TrustInfo.xml
-C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Gestion_Ventas.exe.manifest
-C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Gestion_Ventas.application
-C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Gestion_Ventas.exe
-C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Gestion_Ventas.pdb
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Gestion Ventas.exe.manifest
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Gestion Ventas.application
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Gestion Ventas.exe
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\bin\Debug\Gestion Ventas.pdb
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Gestion Ventas.TrustInfo.xml
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Gestion Ventas.exe.manifest
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Gestion Ventas.application
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Gestion Ventas.exe
+C:\Users\HP\Documents\Sistema Comercial\sistemaComercial\Shalong\obj\Debug\Gestion Ventas.pdb
