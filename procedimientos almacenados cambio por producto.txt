@@ -1,0 +1,294 @@
+DROP FUNCTION public.spr_almacen_productos(integer, integer, integer, double precision);
+
+CREATE OR REPLACE FUNCTION public.spr_almacen_productos(
+	_accion integer,
+	_codigo_barras varchar,
+	_codigo_almacen integer,
+	_stock double precision)
+    RETURNS boolean
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+AS $BODY$
+
+DECLARE 
+	_EXISTE INT;
+BEGIN
+	IF (_ACCION = 1) THEN
+		SELECT INTO _EXISTE COUNT (CODIGO_BARRAS) FROM ALMACEN_PRODUCTOS WHERE CODIGO_BARRAS = _CODIGO_BARRAS AND CODIGO_ALMACEN = _CODIGO_ALMACEN ;
+		IF (_EXISTE = 0) THEN
+			INSERT INTO ALMACEN_PRODUCTOS (CODIGO_BARRAS,CODIGO_ALMACEN, STOCK) VALUES (_CODIGO_BARRAS,_CODIGO_ALMACEN, _STOCK);
+		ELSE
+			UPDATE ALMACEN_PRODUCTOS SET
+				STOCK = STOCK + _STOCK
+			WHERE CODIGO_BARRAS = _CODIGO_BARRAS AND CODIGO_ALMACEN = _CODIGO_ALMACEN;
+			RETURN TRUE;
+		END IF;
+		RETURN TRUE;
+	END IF;
+	IF(_ACCION = 2) THEN
+		UPDATE ALMACEN_PRODUCTOS SET
+			CODIGO_ALMACEN = _CODIGO_ALMACEN,
+			STOCK = _STOCK
+		WHERE CODIGO_BARRAS = _CODIGO_BARRAS AND CODIGO_ALMACEN = _CODIGO_ALMACEN;
+		RETURN TRUE;
+	END IF;
+	EXCEPTION WHEN OTHERS THEN
+		RETURN FALSE;
+END;
+
+$BODY$;
+
+
+DROP FUNCTION public.spr_detalle_orden_compra(integer, character varying, integer, integer);
+
+CREATE OR REPLACE FUNCTION public.spr_detalle_orden_compra(
+	_accion integer,
+	_cantidad character varying,
+	_codigo_orden_de_compra integer,
+	_codigo_barras character varying)
+    RETURNS boolean
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+AS $BODY$
+
+BEGIN
+	IF(_ACCION = 1) THEN
+		INSERT INTO DETALLE_ORDEN_COMPRA (CODIGO_ORDEN_DE_COMPRA,CODIGO_BARRAS,CANTIDAD) VALUES (_CODIGO_ORDEN_DE_COMPRA, _CODIGO_BARRAS,_CANTIDAD);
+		RETURN TRUE;
+	END IF;
+	EXCEPTION WHEN OTHERS THEN 
+		RETURN FALSE;
+END;
+
+$BODY$;
+
+DROP FUNCTION public.spr_detalle_venta(integer, integer, integer, double precision, integer, double precision, double precision, double precision, character varying, integer);
+
+CREATE OR REPLACE FUNCTION public.spr_detalle_venta(
+	_accion integer,
+	_codigo_venta integer,
+	_codigo_barras character varying,
+	_cantidad double precision,
+	_tipo_precio integer,
+	_precio double precision,
+	_precio_total double precision,
+	_descuento double precision,
+	_garantia character varying,
+	_codigo_venta_articulo integer DEFAULT NULL::integer)
+    RETURNS boolean
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+AS $BODY$
+
+BEGIN
+	IF(_ACCION = 1) THEN
+		INSERT INTO VENTA_ARTICULOS(CODIGO_VENTA, CODIGO_BARRAS, CANTIDAD, TIPO_PRECIO, PRECIO, PRECIO_TOTAL, DESCUENTO, GARANTIA) VALUES (_CODIGO_VENTA, _CODIGO_BARRAS, _CANTIDAD, _TIPO_PRECIO,_PRECIO,_PRECIO_TOTAL,_DESCUENTO,_GARANTIA );
+		RETURN TRUE;
+	END IF;
+	IF(_ACCION = 2) THEN
+		UPDATE VENTA_ARTICULOS SET
+			CODIGO_VENTA = _CODIGO_VENTA,
+			CODIGO_BARRAS = _CODIGO_BARRAS,
+			CANTIDAD = _CANTIDAD,
+			TIPO_PRECIO = _TIPO_PRECIO,
+			PRECIO = _PRECIO,
+			PRECIO_TOTAL = _PRECIO_TOTAL,
+			DESCUENTO = _DESCUENTO,
+			GARANTIA = _GARANTIA
+	WHERE CODIGO_VENTA_ARTICULO = _CODIGO_VENTA_ARTICULO;
+	END IF;
+		RETURN TRUE;
+	EXCEPTION WHEN OTHERS THEN
+		RETURN FALSE;
+END;
+
+$BODY$;
+
+
+DROP FUNCTION public.spr_producto_precio(integer, integer, integer, double precision);
+
+CREATE OR REPLACE FUNCTION public.spr_producto_precio(
+	_accion integer,
+	_codigo_tipo_precio integer,
+	_codigo_barras character varying,
+	_precio double precision)
+    RETURNS boolean
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+AS $BODY$
+
+BEGIN 
+	IF (_ACCION = 1) THEN
+		INSERT INTO PRODUCTO_PRECIO (CODIGO_TIPO_PRECIO, CODIGO_BARRAS,PRECIO) VALUES (_CODIGO_TIPO_PRECIO,_CODIGO_BARRAS, _PRECIO);
+		RETURN TRUE;
+	END IF;
+	IF(_ACCION = 3) THEN
+		DELETE FROM PRODUCTO_PRECIO WHERE CODIGO_BARRAS = _CODIGO_BARRAS;
+		RETURN TRUE;
+	END IF;
+	EXCEPTION WHEN OTHERS THEN 
+		RETURN FALSE;
+END;
+
+$BODY$;
+
+DROP FUNCTION public.spr_productos(integer, integer, integer, integer, integer, integer, character varying, character varying, character varying, integer);
+
+
+CREATE OR REPLACE FUNCTION public.spr_productos(
+	_accion integer,
+	_codigo_barras character varying,
+	_codigo_marca integer,
+	_codigo_familia integer,
+	_codigo_categoria integer,
+	_codigo_unidad integer,
+	_tiempo_garantia character varying,
+	_nombre character varying,
+	_observaciones character varying DEFAULT NULL::character varying,
+	_codigo_dni_usuario integer DEFAULT NULL::integer)
+    RETURNS boolean
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+AS $BODY$
+
+BEGIN
+	/* SI LA ACCION ES IGUAL A 1, SE INGRESA EL REGISTRO A LA TABLA USUARIOS */
+	IF(_ACCION = 1) THEN
+		INSERT INTO PRODUCTOS (CODIGO_BARRAS,CODIGO_MARCA, CODIGO_FAMILIA, CODIGO_CATEGORIA, CODIGO_UNIDAD, FLAG_DISPONIBLE, TIEMPO_GARANTIA, NOMBRE) VALUES (_CODIGO_BARRAS,_CODIGO_MARCA, _CODIGO_FAMILIA,_CODIGO_CATEGORIA,_CODIGO_UNIDAD, 1, _TIEMPO_GARANTIA, _NOMBRE);
+		RETURN TRUE;
+	END IF;
+	/*SI LA ACCION ES IGUAL A 2, SE MODIFICA EL PRODUCTO*/
+	IF(_ACCION = 2) THEN
+		UPDATE PRODUCTOS SET
+			CODIGO_MARCA = _CODIGO_MARCA,
+			CODIGO_FAMILIA = _CODIGO_FAMILIA,
+			CODIGO_CATEGORIA = _CODIGO_CATEGORIA,
+			CODIGO_UNIDAD = _CODIGO_UNIDAD,
+			TIEMPO_GARANTIA = _TIEMPO_GARANTIA,
+			NOMBRE = _NOMBRE
+		WHERE CODIGO_BARRAS = _CODIGO_BARRAS;
+		INSERT INTO MODIFICAR_PRODUCTOS (CODIGO_DNI_USUARIO,CODIGO_BARRAS,FECHA_MODIFICACION_PRODUCTO,OBSERVACIONES) VALUES (_CODIGO_DNI_USUARIO,_CODIGO_BARRAS, NOW(),_OBSERVACIONES);
+		RETURN TRUE;
+	END IF;
+	/*SI LA ACCION ES IGUAL A 3, SE CAMBIA LA FLAG A 0*/
+	IF(_ACCION = 3 ) THEN
+		UPDATE PRODUCTOS SET
+			FLAG_DISPONIBLE = 0
+		WHERE CODIGO_BARRAS = _CODIGO_BARRAS;
+		INSERT INTO MODIFICAR_PRODUCTOS (CODIGO_DNI_USUARIO,CODIGO_BARRAS,FECHA_MODIFICACION_PRODUCTO,OBSERVACIONES) VALUES (_CODIGO_DNI_USUARIO,_CODIGO_BARRAS, NOW(),_OBSERVACIONES);
+		RETURN TRUE;
+	END IF;
+	/*EXCEPTION WHEN OTHERS THEN 
+		RETURN FALSE;*/
+END;
+
+$BODY$;
+
+DROP FUNCTION public.spr_productovalorprecio(integer, integer);
+
+
+CREATE OR REPLACE FUNCTION public.spr_productovalorprecio(
+	_codigo_tipo_precio integer,
+	_codigo_barras character varying)
+    RETURNS double precision
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+AS $BODY$
+
+declare
+	valor double precision;
+BEGIN 
+	select into valor precio from PRODUCTO_PRECIO where codigo_tipo_precio = _CODIGO_TIPO_PRECIO and codigo_barras = _codigo_barras;
+	IF (valor is null ) THEN
+		RETURN 0.0;
+	END IF;
+	return valor;
+	EXCEPTION WHEN OTHERS THEN 
+		RETURN 0.0;
+END;
+
+$BODY$;
+
+DROP FUNCTION public.spr_serial_producto(integer, character varying, integer, integer);
+
+CREATE OR REPLACE FUNCTION public.spr_serial_producto(
+	_accion integer,
+	_codigo_serie character varying,
+	_codigo_barras character varying,
+	_codigo_compra integer)
+    RETURNS boolean
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+AS $BODY$
+
+BEGIN 
+	IF(_ACCION = 1) THEN
+		INSERT INTO SERIAL_PRODUCTO (CODIGO_SERIE,CODIGO_BARRAS,CODIGO_COMPRA) VALUES (_CODIGO_SERIE, _CODIGO_BARRAS, _CODIGO_COMPRA);
+		RETURN TRUE;
+	END IF;
+	EXCEPTION WHEN OTHERS THEN
+		RETURN FALSE;
+END;
+
+$BODY$;
+
+
+DROP FUNCTION public.spr_stockporalmacen(integer, integer);
+
+CREATE OR REPLACE FUNCTION public.spr_stockporalmacen(
+	_codigo_barras character varying,
+	_codigo_almacen character varying)
+    RETURNS integer
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+AS $BODY$
+
+declare _stock int;
+BEGIN
+	SELECT into _STOCK (STOCK )FROM ALMACEN_PRODUCTOS WHERE CODIGO_BARRAS = _CODIGO_BARRAS AND CODIGO_ALMACEN = _CODIGO_ALMACEN;
+	RETURN _stock;
+END;
+
+$BODY$;
+
+
+DROP FUNCTION public.spr_verificarcantidad(integer, integer, double precision);
+
+CREATE OR REPLACE FUNCTION public.spr_verificarcantidad(
+	_codigobarras character varying,
+	_almacen integer,
+	_cantidad double precision)
+    RETURNS double precision
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+AS $BODY$
+
+DECLARE
+	_CantidadExistente INTEGER;
+BEGIN
+	select into _cantidadExistente stock  from almacen_productos where codigo_barras = _codigoBarras and codigo_almacen = _almacen;
+	IF(_cantidadExistente IS NULL) THEN
+		RETURN -1;
+	END IF;
+	RETURN _CantidadExistente - _cantidad;
+END;
+
+$BODY$;
