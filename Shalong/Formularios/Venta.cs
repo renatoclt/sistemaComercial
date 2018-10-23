@@ -46,14 +46,14 @@ namespace Shalong.Formularios
         private bool ValidarCantidad()
         {
             double cantidad;
-            int codigo_barras;
+            string codigo_barras;
             double diferencia;
             double conversionValor;
             foreach (DataGridViewRow row in dtg_Factura.Rows)
             {
                 if (row.Index != dtg_Factura.RowCount - 1)
                 {
-                    codigo_barras = Int32.Parse(row.Cells["Codigo"].Value.ToString());
+                    codigo_barras = row.Cells["Codigo"].Value.ToString();
                     cantidad = Int32.Parse(row.Cells["Cantidad"].Value.ToString());
                     C_Producto objetoProducto = _shalong.ProductoMostrar1(codigo_barras);
                     conversionValor = _shalong.UnidadesEquivalencia(objetoProducto.CodigoUnidad, Int32.Parse(row.Cells["Unidad"].Value.ToString()));
@@ -119,7 +119,7 @@ namespace Shalong.Formularios
                 {
                     isCellChecked = (bool)row.Cells["GarantiaCheck"].Value;
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     isCellChecked = false;
                 }
@@ -200,7 +200,7 @@ namespace Shalong.Formularios
                         cantidad = Double.Parse(txt_Cantidad.Text);
 
                     }
-                    catch (Exception e)
+                    catch (Exception)
                     {
                         MessageBox.Show("El Número de Cantidad no es Válido, Revise La Cantidad Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                         txt_Cantidad.Clear();
@@ -224,7 +224,7 @@ namespace Shalong.Formularios
                 {
                     total = Double.Parse(txt_Total.Text);
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     total = 0;
                 }
@@ -532,7 +532,7 @@ namespace Shalong.Formularios
                 {
                     cantidad = Double.Parse(dtg_Factura.Rows[rowActual].Cells["Cantidad"].Value.ToString());
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     cantidad = 0;
                     dtg_Factura.Rows[rowActual].Cells["Cantidad"].Value = 0;
@@ -555,14 +555,14 @@ namespace Shalong.Formularios
             }
             else
             {
-                int codigoFilaActual;
+                string codigoFilaActual;
                 try
                 {
-                    codigoFilaActual = Int32.Parse(dtg_Factura.Rows[rowActual].Cells["Codigo"].Value.ToString());
+                    codigoFilaActual = dtg_Factura.Rows[rowActual].Cells["Codigo"].Value.ToString();
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
-                    codigoFilaActual = 0;
+                    codigoFilaActual = "0";
                 }
                 if (_shalong.ProductoExistente(codigoFilaActual))
                 {
@@ -618,7 +618,7 @@ namespace Shalong.Formularios
                         {
                             dtg_Factura.Rows[row.Index].Cells["Cantidad"].Value = Int32.Parse(dtg_Factura.Rows[row.Index].Cells["Cantidad"].Value.ToString()) + 1;
                         }
-                        catch (Exception e)
+                        catch (Exception)
                         {
                             dtg_Factura.Rows[row.Index].Cells["Cantidad"].Value = 0;
                         }
@@ -653,7 +653,7 @@ namespace Shalong.Formularios
         {
             if (dtg_Factura.Rows[rowActual].Cells["Codigo"].Value != null && dtg_Factura.Rows[rowActual].Cells["Descuento"].Value != null)
             {
-                int codigo = Int32.Parse(dtg_Factura.Rows[rowActual].Cells["Codigo"].Value.ToString());
+                string codigo = dtg_Factura.Rows[rowActual].Cells["Codigo"].Value.ToString();
                 C_Producto objetoProducto = _shalong.ProductoMostrar1(codigo);
 
                 int tipoPrecio = Int32.Parse(dtg_Factura.Rows[rowActual].Cells["Tipo_Precio"].Value.ToString());
@@ -693,7 +693,7 @@ namespace Shalong.Formularios
                 {
 
                     double precio;
-                    int codigo = Int32.Parse(dtg_Factura.Rows[rowActual].Cells["Codigo"].Value.ToString());
+                    string codigo = dtg_Factura.Rows[rowActual].Cells["Codigo"].Value.ToString();
                     C_Producto objetoProducto = _shalong.ProductoMostrar1(codigo);
 
                     int tipoPrecio = Int32.Parse(cmb_TipoPrecio.SelectedValue.ToString());

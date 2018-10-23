@@ -204,7 +204,7 @@ namespace Shalong.Formularios
             {
                 if (row.Cells["Codigo"].Value != null)
                 {
-                    objetoOrdenCompraDetalle.CodigoBarras = Int32.Parse(row.Cells["Codigo"].Value.ToString());
+                    objetoOrdenCompraDetalle.CodigoBarras = row.Cells["Codigo"].Value.ToString();
                     objetoOrdenCompraDetalle.Cantidad = row.Cells["Cantidad"].Value.ToString();
                     if (_shalong.OrdenCompraDetalle(1, objetoOrdenCompraDetalle))
                     {
@@ -222,15 +222,15 @@ namespace Shalong.Formularios
 
         private void Dtg_OrdenCompraCodigoProducto(int rowActual)
         {
-            int codigoFilaActual;
+            string codigoFilaActual;
 
             try
             {
-                codigoFilaActual = Int32.Parse(dtg_I_Productos.Rows[rowActual].Cells["Codigo"].Value.ToString());
+                codigoFilaActual = dtg_I_Productos.Rows[rowActual].Cells["Codigo"].Value.ToString();
             }
             catch (Exception)
             {
-                codigoFilaActual = -999;
+                codigoFilaActual = "-999";
             }
             if (_shalong.ProductoExistente(codigoFilaActual))
             {

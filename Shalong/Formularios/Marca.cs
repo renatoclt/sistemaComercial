@@ -143,11 +143,7 @@ namespace Shalong.Formularios
 
         private void txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!(char.IsLetter(e.KeyChar) || char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
-            {
-                e.Handled = true;
-                return;
-            }
+            
         }
 
         private void txt_M_Nombre_KeyPress(object sender, KeyPressEventArgs e)

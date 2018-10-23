@@ -41,7 +41,7 @@ namespace Shalong.Formularios
         }
         private void EliminarBaseDatos()
         {
-            int codigoBarras = Int32.Parse(cmb_Producto.SelectedValue.ToString());
+            string codigoBarras = cmb_Producto.SelectedValue.ToString();
             _shalong.ProductoPrecio(3, 1, codigoBarras, 1);
         }
         private void Btn_Guardar_Click(object sender, EventArgs e)
@@ -103,7 +103,7 @@ namespace Shalong.Formularios
        
         private void GuardarBaseDatos()
         {
-            int codigoBarras;
+            string codigoBarras;
             int codigoTipoPrecio;
             double precio;
             bool isCorrecto = true;
@@ -114,7 +114,7 @@ namespace Shalong.Formularios
                 {
                     if (row.Cells["Precio"].Value.ToString() != String.Empty)
                     {
-                        codigoBarras = Int32.Parse(cmb_Producto.SelectedValue.ToString());
+                        codigoBarras = cmb_Producto.SelectedValue.ToString();
                         codigoTipoPrecio = Int32.Parse(row.Cells["Codigo"].Value.ToString());
                         precio = Double.Parse(row.Cells["Precio"].Value.ToString());
                         if (!_shalong.ProductoPrecio(1, codigoTipoPrecio, codigoBarras, precio))

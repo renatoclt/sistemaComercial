@@ -113,7 +113,7 @@ namespace Shalong.Formularios
 
         private void cmb_Producto_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_Producto obj = _Shalong.MostrarUnidadProducto(Int32.Parse(cmb_Producto.SelectedValue.ToString()));
+            C_Producto obj = _Shalong.MostrarUnidadProducto(cmb_Producto.SelectedValue.ToString());
             txtUnidad.Text = obj.NombreUnidad;
         }
 

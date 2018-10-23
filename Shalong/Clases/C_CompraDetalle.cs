@@ -35,9 +35,9 @@ namespace Shalong.Clases
             get { return codigoCompra; }
             set { codigoCompra = value; }
         }
-        int codigoProducto;
+        string codigoProducto;
 
-        public int CodigoProducto
+        public string CodigoProducto
         {
             get { return codigoProducto; }
             set { codigoProducto = value; }
@@ -87,9 +87,9 @@ namespace Shalong.Clases
             set { codigo_credito = value; }
         }
 
-        int codigoBarras;
+        string codigoBarras;
 
-        public int CodigoBarras
+        public string CodigoBarras
         {
             get { return codigoBarras; }
             set { codigoBarras = value; }

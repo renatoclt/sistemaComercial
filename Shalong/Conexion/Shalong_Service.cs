@@ -36,7 +36,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -65,7 +65,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -94,7 +94,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -123,7 +123,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -158,7 +158,7 @@ namespace Shalong.Conexion
                 res = (bool)cmd.Parameters[":resultado"].Value;
                 cnn.Close();
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -185,7 +185,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -211,7 +211,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (int)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return 0;
             }
@@ -237,7 +237,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -263,7 +263,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (double)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return 0;
             }
@@ -289,7 +289,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (double)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return 0;
             }
@@ -315,7 +315,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (double)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return 0;
             }
@@ -341,7 +341,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (int)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return 0;
             }
@@ -368,7 +368,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -401,7 +401,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -427,7 +427,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (int)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return 0;
             }
@@ -458,7 +458,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -486,7 +486,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -514,7 +514,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -548,7 +548,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -577,7 +577,7 @@ namespace Shalong.Conexion
                 res = (bool)cmd.Parameters[":resultado"].Value;
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -603,7 +603,7 @@ namespace Shalong.Conexion
                 res = (bool)cmd.Parameters[":resultado"].Value;
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -631,7 +631,7 @@ namespace Shalong.Conexion
                 res = (bool)cmd.Parameters[":resultado"].Value;
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -660,7 +660,7 @@ namespace Shalong.Conexion
                 res = (bool)cmd.Parameters[":resultado"].Value;
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -688,7 +688,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -719,7 +719,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -749,7 +749,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -787,7 +787,7 @@ namespace Shalong.Conexion
                 res = (bool)cmd.Parameters[":resultado"].Value;
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -824,7 +824,7 @@ namespace Shalong.Conexion
                 res = (bool)cmd.Parameters[":resultado"].Value;
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -834,7 +834,7 @@ namespace Shalong.Conexion
             }
             return res;
         }
-        public bool ProductoExistente(int codigoBarras)
+        public bool ProductoExistente(string codigoBarras)
         {
             bool res = false;
             NpgsqlConnection cnn = new NpgsqlConnection(cadenaConexion);
@@ -850,7 +850,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -860,7 +860,7 @@ namespace Shalong.Conexion
             }
             return res;
         }
-        public bool ProductoPrecio(int accion, int codigoTipoPrecio, int codigoBarras, double precio)
+        public bool ProductoPrecio(int accion, int codigoTipoPrecio, string codigoBarras, double precio)
         {
             bool res = false;
             NpgsqlConnection cnn = new NpgsqlConnection(cadenaConexion);
@@ -879,7 +879,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -889,7 +889,7 @@ namespace Shalong.Conexion
             }
             return res;
         }
-        public double ProductoPrecioValor(int codigoTipoPrecio, int codigoBarras)
+        public double ProductoPrecioValor(int codigoTipoPrecio, string codigoBarras)
         {
             double res = 0.0;
             NpgsqlConnection cnn = new NpgsqlConnection(cadenaConexion);
@@ -906,7 +906,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (double)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return 0;
             }
@@ -941,7 +941,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -969,7 +969,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1000,7 +1000,7 @@ namespace Shalong.Conexion
                 res = (bool)cmd.Parameters[":resultado"].Value;
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1035,7 +1035,7 @@ namespace Shalong.Conexion
             }
             return res;
         }
-        public double VerificarCantidad(int codigo_barras, int almacen, double cantidad)
+        public double VerificarCantidad(string codigo_barras, int almacen, double cantidad)
         {
             double res = 0;
             NpgsqlConnection cnn = new NpgsqlConnection(cadenaConexion);
@@ -1107,7 +1107,7 @@ namespace Shalong.Conexion
                 res = (bool)cmd.Parameters[":resultado"].Value;
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1137,7 +1137,7 @@ namespace Shalong.Conexion
                 res = (bool)cmd.Parameters[":resultado"].Value;
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1168,7 +1168,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1196,7 +1196,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1224,7 +1224,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1252,7 +1252,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1281,7 +1281,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1318,7 +1318,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1351,7 +1351,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1377,7 +1377,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (int)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return 0;
             }
@@ -1412,7 +1412,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1443,7 +1443,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1472,7 +1472,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1500,7 +1500,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (int)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return 0;
             }
@@ -1554,7 +1554,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (int)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return 0;
             }
@@ -1589,7 +1589,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1615,7 +1615,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (DateTime)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return DateTime.Now;
             }
@@ -1643,7 +1643,7 @@ namespace Shalong.Conexion
                 res = (bool)cmd.Parameters[":resultado"].Value;
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1668,7 +1668,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (int)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return 0;
             }
@@ -1696,7 +1696,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1727,7 +1727,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1752,7 +1752,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1778,7 +1778,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (bool)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return false;
             }
@@ -1809,7 +1809,7 @@ namespace Shalong.Conexion
                 cmd.ExecuteNonQuery();
                 res = (int)cmd.Parameters[":resultado"].Value;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return 0;
             }
@@ -1833,7 +1833,7 @@ namespace Shalong.Conexion
                 res = (bool)cmd.Parameters[":resultado"].Value;
                 cnn.Close();
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 return;
             }
@@ -1869,9 +1869,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -1905,9 +1905,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -1942,9 +1942,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -1979,9 +1979,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2015,9 +2015,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2048,9 +2048,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2083,9 +2083,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2116,9 +2116,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2149,9 +2149,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2182,9 +2182,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2216,9 +2216,9 @@ namespace Shalong.Conexion
                 }
                 cnn.Close();
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2249,9 +2249,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2288,9 +2288,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2326,9 +2326,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2366,9 +2366,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2406,9 +2406,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2452,9 +2452,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2485,9 +2485,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2514,9 +2514,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2543,9 +2543,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2576,9 +2576,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2612,9 +2612,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2648,9 +2648,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2658,7 +2658,7 @@ namespace Shalong.Conexion
             }
             return lista;
         }
-        public List<C_Kardex> KardexMostrar(int codigo)
+        public List<C_Kardex> KardexMostrar(string codigo)
         {
             List<C_Kardex> lista = new List<C_Kardex>();
             NpgsqlConnection cnn = new NpgsqlConnection(cadenaConexion);
@@ -2685,9 +2685,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2712,7 +2712,7 @@ namespace Shalong.Conexion
                     {
                         lista.Add(new C_Producto
                         {
-                            CodigoBarras = rd.GetInt32(0),
+                            CodigoBarras = rd.GetString(0),
                             CodigoMarca = rd.GetInt32(1),
                             CodigoFamilia = rd.GetInt32(2),
                             CodigoCategoria = rd.GetInt32(3),
@@ -2723,9 +2723,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2752,15 +2752,15 @@ namespace Shalong.Conexion
                         {
                             CodigoTipoPrecio = rd.GetInt32(0),
                             Nombre = rd.GetString(1),
-                            CodigoBarras = rd.GetInt32(2),
+                            CodigoBarras = rd.GetString(2),
                             Precio = rd.GetDouble(3)
                         });
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2799,9 +2799,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2836,9 +2836,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2870,9 +2870,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2904,9 +2904,9 @@ namespace Shalong.Conexion
                 }
                 cnn.Close();
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2937,9 +2937,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -2970,9 +2970,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3004,9 +3004,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3037,9 +3037,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3070,9 +3070,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3104,9 +3104,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3148,9 +3148,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3182,9 +3182,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3217,9 +3217,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3244,16 +3244,16 @@ namespace Shalong.Conexion
                     {
                         lista.Add(new C_OrdenCompra
                         {
-                            CodigoBarras = rd.GetInt32(0),
+                            CodigoBarras = rd.GetString(0),
                             Nombre = rd.GetString(1)
 
                         });
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3280,7 +3280,7 @@ namespace Shalong.Conexion
                         lista.Add(new C_CompraDetalle
                         {
                             Codigo_credito = rd.GetInt32(0),
-                            CodigoBarras = rd.GetInt32(1),
+                            CodigoBarras = rd.GetString(1),
                             Nombre = rd.GetString(2),
                             Cantidad = rd.GetDouble(3),
                             CostoUnitario = rd.GetDouble(4),
@@ -3290,9 +3290,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3334,7 +3334,7 @@ namespace Shalong.Conexion
                         lista.Add(new C_OrdenCompraDetalle
                         {
                             CodigoOrdenCompra = rd.GetInt32(0),
-                            CodigoBarras = rd.GetInt32(1),
+                            CodigoBarras = rd.GetString(1),
                             Nombre = rd.GetString(2),
                             Cantidad = rd.GetString(3),
                             Unidad = rd.GetInt32(4),
@@ -3346,9 +3346,9 @@ namespace Shalong.Conexion
                 }
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3381,9 +3381,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3418,9 +3418,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3455,9 +3455,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3491,9 +3491,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3527,9 +3527,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3559,9 +3559,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3589,9 +3589,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3627,9 +3627,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3659,9 +3659,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3689,9 +3689,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3719,9 +3719,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3749,9 +3749,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3782,9 +3782,9 @@ namespace Shalong.Conexion
                 }
                 cnn.Close();
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3816,9 +3816,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3826,7 +3826,7 @@ namespace Shalong.Conexion
             }
             return lista;
         }
-        public C_Producto ProductoMostrar1(int codigo)
+        public C_Producto ProductoMostrar1(string codigo)
         {
             C_Producto lista = new C_Producto();
             NpgsqlConnection cnn = new NpgsqlConnection(cadenaConexion);
@@ -3834,14 +3834,14 @@ namespace Shalong.Conexion
             {
                 
                 cnn.Open();
-                NpgsqlCommand cmd = new NpgsqlCommand("select codigo_barras, codigo_marca, codigo_familia, codigo_categoria, codigo_unidad, tiempo_garantia, nombre from productos where flag_disponible = 1 and codigo_barras = " + codigo, cnn);
+                NpgsqlCommand cmd = new NpgsqlCommand("select codigo_barras, codigo_marca, codigo_familia, codigo_categoria, codigo_unidad, tiempo_garantia, nombre from productos where flag_disponible = 1 and codigo_barras = '" + codigo +"'", cnn);
                 cmd.CommandType = System.Data.CommandType.Text;
                 NpgsqlDataReader rd = cmd.ExecuteReader();
                 if (rd.HasRows)
                 {
                     while (rd.Read())
                     {
-                        lista.CodigoBarras = rd.GetInt32(0);
+                        lista.CodigoBarras = rd.GetString(0);
                         lista.CodigoMarca = rd.GetInt32(1);
                         lista.CodigoFamilia = rd.GetInt32(2);
                         lista.CodigoCategoria = rd.GetInt32(3);
@@ -3851,9 +3851,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception ex )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar un producto " );
             }
             finally
             {
@@ -3889,9 +3889,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3922,9 +3922,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3952,9 +3952,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -3982,9 +3982,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -4012,9 +4012,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -4042,9 +4042,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -4072,9 +4072,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -4103,9 +4103,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -4144,9 +4144,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -4176,9 +4176,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -4208,9 +4208,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -4219,7 +4219,7 @@ namespace Shalong.Conexion
             return lista;
 
         }
-        public C_Producto MostrarUnidadProducto(int codigo)
+        public C_Producto MostrarUnidadProducto(string codigoBarras)
         {
             C_Producto lista = new C_Producto();
             NpgsqlConnection cnn = new NpgsqlConnection(cadenaConexion);
@@ -4227,21 +4227,21 @@ namespace Shalong.Conexion
             {
                 
                 cnn.Open();
-                NpgsqlCommand cmd = new NpgsqlCommand("select codigo_barras, nombre from vw_unidadproductos where codigo_barras = " + codigo, cnn);
+                NpgsqlCommand cmd = new NpgsqlCommand("select codigo_barras, nombre from vw_unidadproductos where codigo_barras = " + codigoBarras, cnn);
                 cmd.CommandType = System.Data.CommandType.Text;
                 NpgsqlDataReader rd = cmd.ExecuteReader();
                 if (rd.HasRows)
                 {
                     while (rd.Read())
                     {
-                        lista.CodigoBarras = rd.GetInt32(0);
+                        lista.CodigoBarras = rd.GetString(0);
                         lista.NombreUnidad = rd.GetString(1);
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -4276,9 +4276,9 @@ namespace Shalong.Conexion
                 }
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -4309,9 +4309,9 @@ namespace Shalong.Conexion
                 }
                 cnn.Close();
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -4419,9 +4419,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -4522,9 +4522,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -4625,9 +4625,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -4729,9 +4729,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -4832,9 +4832,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -4935,9 +4935,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -5038,9 +5038,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -5141,9 +5141,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -5244,9 +5244,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -5358,9 +5358,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -5470,9 +5470,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -5582,9 +5582,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -5694,9 +5694,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -5806,9 +5806,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -5918,9 +5918,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -6041,9 +6041,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -6161,9 +6161,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -6281,9 +6281,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -6401,9 +6401,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -6521,9 +6521,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -6641,9 +6641,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -6762,9 +6762,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -6881,9 +6881,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -7000,9 +7000,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -7119,9 +7119,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -7238,9 +7238,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -7357,9 +7357,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -7477,9 +7477,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -7594,9 +7594,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar");
             }
             finally
             {
@@ -7711,9 +7711,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -7828,9 +7828,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {
@@ -7945,9 +7945,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                throw new Exception("Error al mostrar", ex);
+                throw new Exception("Error al mostrar" );
             }
             finally
             {

@@ -15,7 +15,7 @@ namespace Shalong.Formularios
     public partial class Kardex : Form
     {
         Shalong_Service _shalong = new Shalong_Service();
-        int _cod;
+        string _cod;
        
         private I_Parametros _interfazParametros;
         private C_Parametros _objetoParametros;
@@ -51,11 +51,11 @@ namespace Shalong.Formularios
         }
         private void cmb_Documento_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_Producto obj = _shalong.ProductoMostrar1(Int32.Parse(cmb_Documento.SelectedValue.ToString()));
+            C_Producto obj = _shalong.ProductoMostrar1(cmb_Documento.SelectedValue.ToString());
             _cod = obj.CodigoBarras;
             CargarDataGridView(_cod);
         }
-        private void CargarDataGridView(int _cod)
+        private void CargarDataGridView(string _cod)
         {
             dataGridView1.AutoGenerateColumns = false;
             dataGridView1.DataSource = _shalong.KardexMostrar(_cod);    

@@ -100,7 +100,7 @@ namespace Shalong.Formularios
         }
         private void Cmb_M_Producto_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_Producto obj = _shalong.ProductoMostrar1(Int32.Parse(cmb_M_Producto.SelectedValue.ToString()));
+            C_Producto obj = _shalong.ProductoMostrar1(cmb_M_Producto.SelectedValue.ToString());
             txt_M_Codigo.Text = "" + obj.CodigoBarras;
             txt_M_Nombre.Text = "" + obj.Nombre;
             txt_M_TiempoGarantia.Text = "" + obj.TiempoGarantia;
@@ -112,7 +112,7 @@ namespace Shalong.Formularios
 
         private void Cmb_E_Producto_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_Producto obj = _shalong.ProductoMostrar1(Int32.Parse(cmb_E_Producto.SelectedValue.ToString()));
+            C_Producto obj = _shalong.ProductoMostrar1(cmb_E_Producto.SelectedValue.ToString());
             txt_E_Codigo.Text = "" + obj.CodigoBarras;
             txt_E_Nombre.Text = "" + obj.Nombre;
             txt_E_TiempoGarantia.Text = "" + obj.TiempoGarantia;
@@ -267,14 +267,14 @@ namespace Shalong.Formularios
                 MessageBox.Show("Ingrese un Codigo del Producto, Por Favor","Gestion Ventas",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
                 return;
             }
-            else if (_shalong.ProductoExistente(Int32.Parse(txt_I_Codigo.Text)))
+            else if (_shalong.ProductoExistente(txt_I_Codigo.Text))
             {
                 MessageBox.Show("El Codigo del Producto ya existe, Ingrese otro ó Modifiquelo","Gestion Ventas",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                objetoProducto.CodigoBarras = Int32.Parse(txt_I_Codigo.Text);
+                objetoProducto.CodigoBarras = txt_I_Codigo.Text;
             }
             //
             if (cmb_I_Marca.SelectedIndex == -1)
@@ -357,7 +357,7 @@ namespace Shalong.Formularios
         private void ModificarProductos()
         {
             C_Producto objetoProducto = new C_Producto();
-            objetoProducto.CodigoBarras = Int32.Parse(txt_M_Codigo.Text);
+            objetoProducto.CodigoBarras = txt_M_Codigo.Text;
             objetoProducto.CodigoMarca = Int32.Parse(cmb_M_Marca.SelectedValue.ToString());
             objetoProducto.CodigoFamilia = Int32.Parse(cmb_M_Familia.SelectedValue.ToString());
             objetoProducto.CodigoCategoria = Int32.Parse(cmb_M_Categoria.SelectedValue.ToString());
@@ -383,7 +383,7 @@ namespace Shalong.Formularios
         private void EliminarProducto()
         {
             C_Producto objetoProducto = new C_Producto();
-            objetoProducto.CodigoBarras = Int32.Parse(txt_M_Codigo.Text);
+            objetoProducto.CodigoBarras = txt_M_Codigo.Text;
             objetoProducto.CodigoMarca = Int32.Parse(cmb_M_Marca.SelectedValue.ToString());
             objetoProducto.CodigoFamilia = Int32.Parse(cmb_M_Familia.SelectedValue.ToString());
             objetoProducto.CodigoCategoria = Int32.Parse(cmb_M_Categoria.SelectedValue.ToString());
@@ -484,9 +484,9 @@ namespace Shalong.Formularios
 
         private void txt_I_Codigo_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+            if (!(char.IsNumber(e.KeyChar)) && !(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
-                MessageBox.Show("Solo se permiten numeros");
+                MessageBox.Show("Solo se permiten numeros y letras");
                 e.Handled = true;
                 return;
             }

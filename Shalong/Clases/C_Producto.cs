@@ -7,9 +7,9 @@ namespace Shalong.Conexion
 {
     class C_Producto
     {
-        int codigoBarras;
+        string codigoBarras;
 
-        public int CodigoBarras
+        public string CodigoBarras
         {
             get { return codigoBarras; }
             set { codigoBarras = value; }

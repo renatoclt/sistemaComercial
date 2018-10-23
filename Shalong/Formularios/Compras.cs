@@ -361,7 +361,7 @@ namespace Shalong.Formularios
             C_CompraDetalle objetoCompraDetalle = new C_CompraDetalle();
             //objetoCompraDetalle.CodigoCompraDetalle = 1;
             objetoCompraDetalle.CodigoCompra = _shalong.CompraCodigo(objetoCompra);
-            objetoCompraDetalle.CodigoProducto = 0;
+            objetoCompraDetalle.CodigoProducto = "0";
             objetoCompraDetalle.CostoUnitario = 0.0;
             objetoCompraDetalle.CostoTotal = 0.0;
             objetoCompraDetalle.Cantidad = 0.0;
@@ -374,7 +374,7 @@ namespace Shalong.Formularios
                     {
                         if (row.Cells["Codigo"].Value != null)
                         {
-                            objetoCompraDetalle.CodigoProducto = Int32.Parse(row.Cells["Codigo"].Value.ToString());
+                            objetoCompraDetalle.CodigoProducto = row.Cells["Codigo"].Value.ToString();
                             objetoCompraDetalle.CostoUnitario = Double.Parse(row.Cells["Costo_Unitario"].Value.ToString());
                             objetoCompraDetalle.CostoTotal = Double.Parse(row.Cells["Costo_Total"].Value.ToString());
                             objetoCompraDetalle.CodigoUnidad = Int32.Parse(row.Cells["Unidad"].Value.ToString());
@@ -410,7 +410,7 @@ namespace Shalong.Formularios
                 {
                     if (row.Cells["Codigo"].Value != null)
                     {
-                        objetoCompraDetalle.CodigoProducto = Int32.Parse(row.Cells["Codigo"].Value.ToString());
+                        objetoCompraDetalle.CodigoProducto = row.Cells["Codigo"].Value.ToString();
                         objetoCompraDetalle.CostoUnitario = Double.Parse(row.Cells["Costo_Unitario"].Value.ToString());
                         objetoCompraDetalle.CostoTotal = Double.Parse(row.Cells["Costo_Total"].Value.ToString());
                         objetoCompraDetalle.Cantidad = Double.Parse(row.Cells["Cantidad"].Value.ToString());
@@ -513,7 +513,7 @@ namespace Shalong.Formularios
             }
             if (dtg_SG_Compras.Rows[rowActual].Cells["Nombre"].Value == null)
             {
-                int codigo = Int32.Parse(dtg_SG_Compras.Rows[rowActual].Cells["Codigo"].Value.ToString());
+                string codigo = dtg_SG_Compras.Rows[rowActual].Cells["Codigo"].Value.ToString();
                 if (MostrarDatosProducto(codigo, rowActual))
                 {
                     Dtg_SG_ComprasCantidad(rowActual);
@@ -525,7 +525,7 @@ namespace Shalong.Formularios
             if (dtg_SG_Compras.Rows[rowActual].Cells["Codigo"].Value == null)
             {
                 dtg_SG_Compras.Rows[rowActual].Cells["Codigo"].Value = dtg_SG_Compras.Rows[rowActual].Cells["Nombre"].Value;
-                MostrarDatosProducto(Int32.Parse(dtg_SG_Compras.Rows[rowActual].Cells["Codigo"].Value.ToString()), rowActual);
+                MostrarDatosProducto(dtg_SG_Compras.Rows[rowActual].Cells["Codigo"].Value.ToString(), rowActual);
                 Dtg_SG_ComprasCantidad(rowActual);
                 Dtg_SG_AgregarCosto(rowActual);
             }
@@ -581,7 +581,7 @@ namespace Shalong.Formularios
         }
 
 
-        private bool MostrarDatosProducto(int codigo, int row)
+        private bool MostrarDatosProducto(string codigo, int row)
         {
             if (_shalong.ProductoExistente(codigo))
             {
@@ -601,7 +601,6 @@ namespace Shalong.Formularios
         {
             double sumatoria = 0.0;
             double parcial = 0.0;
-            double cantidad = 0.0;
             double total = 0.0;
             int tipoCambio = _codigoTipoCambio;
             foreach (DataGridViewRow row in dtg_SG_Compras.Rows)
@@ -629,7 +628,6 @@ namespace Shalong.Formularios
             {
                 double sumatoria = 0.0;
                 double parcial = 0.0;
-                double cantidad = 0.0;
                 double total = 0.0;
                 int tipoCambio = _codigoTipoCambio;
                 foreach (DataGridViewRow row in dtg_SG_Compras.Rows)
@@ -665,7 +663,7 @@ namespace Shalong.Formularios
             }
             if (dtg_CG_Compras.Rows[rowActual].Cells["Cg_Nombre"].Value == null)
             {
-                int codigo = Int32.Parse(dtg_CG_Compras.Rows[rowActual].Cells["Cg_Codigo"].Value.ToString());
+                string codigo = dtg_CG_Compras.Rows[rowActual].Cells["Cg_Codigo"].Value.ToString();
                 MostrarDatosProductoConGarantia(codigo, rowActual);
             }
 
@@ -688,7 +686,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void MostrarDatosProductoConGarantia(int codigo, int row)
+        private void MostrarDatosProductoConGarantia(string codigo, int row)
         {
             if (_shalong.ProductoExistente(codigo))
             {

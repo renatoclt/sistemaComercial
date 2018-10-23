@@ -24,7 +24,6 @@ namespace Shalong.Formularios
         int _codigoCaja;
         double _total;
         int _accion;
-        bool _ok = false;
         private I_Parametros _interfazParametros;
         private C_Parametros _objetoParametros;
         public AbrirCaja(I_Parametros parametros)
@@ -91,14 +90,13 @@ namespace Shalong.Formularios
         private void CargarBilletaje()
         {
             int codigoCajaAnterior;
-            if(cmb_NombreCaja.SelectedValue == null)
-            {
-
-                Total();
-            }
-            else
+            if(cmb_NombreCaja.SelectedValue != null)
             {
                 codigoCajaAnterior = _shalong.CajaUltima(Int32.Parse(cmb_NombreCaja.SelectedValue.ToString()));
+                if(codigoCajaAnterior == 0)
+                {
+                    dtg_Billetaje.Enabled = true;
+                }
                 List<C_Billetaje> objetoBilletaje = _shalong.BilletajeCajaMostrar(codigoCajaAnterior);
                 foreach (DataGridViewRow row in dtg_Billetaje.Rows)
                 {

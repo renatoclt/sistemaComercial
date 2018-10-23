@@ -21,9 +21,9 @@ namespace Shalong.Conexion
             get { return nombre; }
             set { nombre = value; }
         }
-        int codigoBarras;
+        string codigoBarras;
 
-        public int CodigoBarras
+        public string CodigoBarras
         {
             get { return codigoBarras; }
             set { codigoBarras = value; }

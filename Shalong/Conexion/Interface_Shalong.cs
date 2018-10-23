@@ -32,11 +32,11 @@ namespace Shalong.Conexion
         List<C_NombreCaja> NombreCajaMostrar();
         C_NombreCaja NombreCajaMostrar1(int codigo);
         bool Producto(int accion, C_Producto objetoProducto);
-        bool ProductoExistente(int codigoBarras);
+        bool ProductoExistente(string codigoBarras);
         List<C_Producto> ProductoMostrar();
-        C_Producto ProductoMostrar1(int codigo);
-        bool ProductoPrecio(int accion, int codigoTipoPrecio, int codigoBarras, double precio);
-        double ProductoPrecioValor(int codigoTipoPrecio, int codigoBarras);
+        C_Producto ProductoMostrar1(string codigo);
+        bool ProductoPrecio(int accion, int codigoTipoPrecio, string codigoBarras, double precio);
+        double ProductoPrecioValor(int codigoTipoPrecio, string codigoBarras);
         List<C_ProductoPrecio> ProductoPrecioMostrar(int codigo);
         bool Proveedor(int accion, C_Proveedor oProveedor);
         bool TipoAlmacen(int accion, C_TipoAlmacen objetoTipoAlmacen );
