@@ -23,9 +23,9 @@ namespace Shalong.Conexion
             set { nombreAlmacen = value; }
         }
 
-        int codigoProducto;
+        string codigoProducto;
 
-        public int CodigoProducto
+        public string CodigoProducto
         {
             get { return codigoProducto; }
             set { codigoProducto = value; }

@@ -83,7 +83,7 @@ namespace Shalong.Formularios
         
         private void ComprobarPrecioProducto()
         {
-            List<C_ProductoPrecio> lista = _shalong.ProductoPrecioMostrar(Int32.Parse(cmb_Producto.SelectedValue.ToString()));
+            List<C_ProductoPrecio> lista = _shalong.ProductoPrecioMostrar(cmb_Producto.SelectedValue.ToString());
             if (lista.Count > 0)
             {
                 foreach (DataGridViewRow row in dtg_ProductoPrecio.Rows)
@@ -109,7 +109,7 @@ namespace Shalong.Formularios
             bool isCorrecto = true;
             if (cmb_Producto.SelectedIndex > -1)
             {
-                List<C_ProductoPrecio> lista = _shalong.ProductoPrecioMostrar(Int32.Parse(cmb_Producto.SelectedValue.ToString()));
+                List<C_ProductoPrecio> lista = _shalong.ProductoPrecioMostrar(cmb_Producto.SelectedValue.ToString());
                 foreach (DataGridViewRow row in dtg_ProductoPrecio.Rows)
                 {
                     if (row.Cells["Precio"].Value.ToString() != String.Empty)

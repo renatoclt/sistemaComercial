@@ -88,7 +88,7 @@ namespace Shalong.Formularios
             }
             else
             {
-                obj.CodigoProducto = Int32.Parse(cmb_Producto.SelectedValue.ToString());
+                obj.CodigoProducto = cmb_Producto.SelectedValue.ToString();
             }
             if (cmb_almacen.SelectedIndex == -1)
             {
@@ -109,7 +109,7 @@ namespace Shalong.Formularios
                 if (obj.Cantidad != 0)
                 {
 
-                    if (_shalong.AlmacenProducto(1, Int32.Parse(cmb_almacen.SelectedValue.ToString()), Int32.Parse(cmb_Producto.SelectedValue.ToString()), Double.Parse(txt_cantidad.Text) * -1))
+                    if (_shalong.AlmacenProducto(1, Int32.Parse(cmb_almacen.SelectedValue.ToString()), cmb_Producto.SelectedValue.ToString(), Double.Parse(txt_cantidad.Text) * -1))
                     {
                         MessageBox.Show("Ingreso Correcto", "Gestion Ventas", MessageBoxButtons.OK);
                         CargarCombobox();
@@ -130,7 +130,7 @@ namespace Shalong.Formularios
                 if (obj.Cantidad != 0)
                 {
 
-                    if (_shalong.AlmacenProducto(1, Int32.Parse(cmb_almacen.SelectedValue.ToString()), Int32.Parse(cmb_Producto.SelectedValue.ToString()), Double.Parse(txt_cantidad.Text) * -1))
+                    if (_shalong.AlmacenProducto(1, Int32.Parse(cmb_almacen.SelectedValue.ToString()), cmb_Producto.SelectedValue.ToString(), Double.Parse(txt_cantidad.Text) * -1))
                     {
 
                         MessageBox.Show("Ingreso Correcto", "Gestion Ventas", MessageBoxButtons.OK);

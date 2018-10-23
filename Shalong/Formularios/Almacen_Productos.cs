@@ -86,7 +86,7 @@ namespace Shalong.Formularios
             string g = cmb_Almacen.SelectedValue.ToString();
             if (txt_Cantidad.Text != String.Empty)
             {
-                if (_Shalong.AlmacenProducto(1, Int32.Parse(cmb_Almacen.SelectedValue.ToString()), Int32.Parse(cmb_Producto.SelectedValue.ToString()), Double.Parse(txt_Cantidad.Text)))
+                if (_Shalong.AlmacenProducto(1, Int32.Parse(cmb_Almacen.SelectedValue.ToString()), cmb_Producto.SelectedValue.ToString(), Double.Parse(txt_Cantidad.Text)))
                 {
                     MessageBox.Show("Ingreso Correcto","Gestion Ventas",MessageBoxButtons.OK);
                     CargarComboBox();

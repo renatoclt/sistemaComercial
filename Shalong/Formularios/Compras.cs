@@ -479,7 +479,7 @@ namespace Shalong.Formularios
         private bool GuardarAlmacen()
         {
             int accion;
-            int codigoSerial;
+            string codigoProducto;
             int codigoAlmacen;
             double cantidad;
             foreach (DataGridViewRow row in dtg_SG_Compras.Rows)
@@ -487,10 +487,10 @@ namespace Shalong.Formularios
                 if (row.Index != dtg_SG_Compras.RowCount && row.Cells["Codigo"].Value != null)
                 {
                     accion = 1;
-                    codigoSerial = Int32.Parse(row.Cells["Codigo"].Value.ToString());
+                    codigoProducto = row.Cells["Codigo"].Value.ToString();
                     codigoAlmacen = _codigoAlmacen;
                     cantidad = Double.Parse(row.Cells["Cantidad"].Value.ToString());
-                    if (!_shalong.AlmacenProducto(accion, codigoAlmacen, codigoSerial, cantidad))
+                    if (!_shalong.AlmacenProducto(accion, codigoAlmacen, codigoProducto, cantidad))
                     {
                         MessageBox.Show("Error al Guardar en Almacen", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                         return false;

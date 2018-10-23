@@ -10,7 +10,7 @@ namespace Shalong.Conexion
     {
         bool Almacen(int accion, C_Almacen objetoAlmacen);
         List<C_Almacen> AlmacenMostrar();
-        bool AlmacenProducto(int accion, int codigoAlmacen, int codigoProducto, double cantidad);
+        bool AlmacenProducto(int accion, int codigoAlmacen, string codigoProducto, double cantidad);
         bool Categoria(int accion, C_Categoria objetoCategoria);
         List<C_Categoria> CategoriaMostrar();
         C_Categoria CategoriaMostrar1(int codigo);
@@ -37,7 +37,7 @@ namespace Shalong.Conexion
         C_Producto ProductoMostrar1(string codigo);
         bool ProductoPrecio(int accion, int codigoTipoPrecio, string codigoBarras, double precio);
         double ProductoPrecioValor(int codigoTipoPrecio, string codigoBarras);
-        List<C_ProductoPrecio> ProductoPrecioMostrar(int codigo);
+        List<C_ProductoPrecio> ProductoPrecioMostrar(string codigo);
         bool Proveedor(int accion, C_Proveedor oProveedor);
         bool TipoAlmacen(int accion, C_TipoAlmacen objetoTipoAlmacen );
         bool TipoCambio(int accion, C_TipoCambio objetoTipoCambio);

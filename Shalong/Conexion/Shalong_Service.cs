@@ -75,7 +75,7 @@ namespace Shalong.Conexion
             }
             return res;
         }
-        public bool AlmacenProducto(int accion, int codigoAlmacen, int codigoProducto, double cantidad)
+        public bool AlmacenProducto(int accion, int codigoAlmacen, string codigoProducto, double cantidad)
         {
             bool res = false;
             NpgsqlConnection cnn = new NpgsqlConnection(cadenaConexion);
@@ -1897,7 +1897,7 @@ namespace Shalong.Conexion
                     {
                         lista.Add(new C_Almacen_Producto
                         {
-                            CodigoProducto = rd.GetInt32(0),
+                            CodigoProducto = rd.GetString(0),
                             CodigoAlmacen = rd.GetInt32(1),
                             Cantidad = rd.GetDouble(2),
                             NombreProducto = rd.GetString(3)
@@ -2733,7 +2733,7 @@ namespace Shalong.Conexion
             }
             return lista;
         }
-        public List<C_ProductoPrecio> ProductoPrecioMostrar(int codigo)
+        public List<C_ProductoPrecio> ProductoPrecioMostrar(string codigoProducto)
         {
             List<C_ProductoPrecio> lista = new List<C_ProductoPrecio>();
             NpgsqlConnection cnn = new NpgsqlConnection(cadenaConexion);
@@ -2741,7 +2741,7 @@ namespace Shalong.Conexion
             {
                 
                 cnn.Open();
-                NpgsqlCommand cmd = new NpgsqlCommand("select codigo_tipo_precio, nombre, codigo_barras, precio from vw_Producto_Precio where codigo_barras = " + codigo, cnn);
+                NpgsqlCommand cmd = new NpgsqlCommand("select codigo_tipo_precio, nombre, codigo_barras, precio from vw_Producto_Precio where codigo_barras = '" + codigoProducto + "'", cnn);
                 cmd.CommandType = System.Data.CommandType.Text;
                 NpgsqlDataReader rd = cmd.ExecuteReader();
                 if (rd.HasRows)
@@ -3399,7 +3399,7 @@ namespace Shalong.Conexion
             {
                 
                 cnn.Open();
-                NpgsqlCommand cmd = new NpgsqlCommand("select  codigo_almacen, almacen, codigo_barras, stock, producto from vw_productoalmacen where codigo_barras = " + codigo + "and codigo_almacen = " + codigoAlmacen, cnn);
+                NpgsqlCommand cmd = new NpgsqlCommand("select  codigo_almacen, almacen, codigo_barras, stock, producto from vw_productoalmacen where codigo_barras = '" + codigo + "' and codigo_almacen = " + codigoAlmacen, cnn);
                 cmd.CommandType = System.Data.CommandType.Text;
                 NpgsqlDataReader rd = cmd.ExecuteReader();
                 if (rd.HasRows)
@@ -3411,7 +3411,7 @@ namespace Shalong.Conexion
 
                             CodigoAlmacen = rd.GetInt32(0),
                             NombreAlmacen = rd.GetString(1),
-                            CodigoProducto = rd.GetInt32(2),
+                            CodigoProducto = rd.GetString(2),
                             Cantidad = rd.GetDouble(3),
 
                         });
@@ -4227,7 +4227,7 @@ namespace Shalong.Conexion
             {
                 
                 cnn.Open();
-                NpgsqlCommand cmd = new NpgsqlCommand("select codigo_barras, nombre from vw_unidadproductos where codigo_barras = " + codigoBarras, cnn);
+                NpgsqlCommand cmd = new NpgsqlCommand("select codigo_barras, nombre from vw_unidadproductos where codigo_barras = '" + codigoBarras+"'", cnn);
                 cmd.CommandType = System.Data.CommandType.Text;
                 NpgsqlDataReader rd = cmd.ExecuteReader();
                 if (rd.HasRows)
