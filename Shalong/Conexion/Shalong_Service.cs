@@ -11,9 +11,9 @@ namespace Shalong.Conexion
 {
     class Shalong_Service : Interface_Shalong
     {
-        string cadenaConexion = "Server= localhost; port = 5432 ;User Id=postgres;Password=root;Database=gestion_ventas";
+        //string cadenaConexion = "Server= localhost; port = 5432 ;User Id=postgres;Password=root;Database=gestion_ventas";
         //cadena para subir 
-        //string cadenaConexion = "Server= localhost; port = 5432 ;User Id=postgres;Password=admin;Database=gestion_ventas";
+        string cadenaConexion = "Server= 192.168.1.15; port = 5432 ;User Id=postgres;Password=admin;Database=gestion_ventas";
 
         // FUNCIONES DE INGRESO, MODIFICACION Y ELIMNACION
 
