@@ -47,10 +47,10 @@ namespace Shalong.Clases
             set { egreso = value; }
         }
 
-        int codigo;
+        string codigo;
 
 
-        public int Codigo
+        public string Codigo
         {
             get { return codigo; }
             set { codigo = value; }

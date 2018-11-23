@@ -30,19 +30,19 @@ namespace Shalong.Formularios
         }
         private void CargarComboBox() 
         {
-            CargarComboboxCliente();
+            this.CargarComboboxCliente();
         }
         private void CargarComboboxCliente()
         {
-            cmb_M_Nombre.DisplayMember = "Nombre";
-            cmb_M_Nombre.ValueMember = "Codigo";
-            cmb_M_Nombre.DataSource = _shalong.ClienteMostrar();
-            cmb_E_Nombre.DisplayMember = "Nombre";
-            cmb_E_Nombre.ValueMember = "Codigo";
-            cmb_E_Nombre.DataSource = _shalong.ClienteMostrar();
+            Cmb_M_Nombre.DisplayMember = "Nombre";
+            Cmb_M_Nombre.ValueMember = "Codigo";
+            Cmb_M_Nombre.DataSource = _shalong.ClienteMostrar();
+            Cmb_E_Nombre.DisplayMember = "Nombre";
+            Cmb_E_Nombre.ValueMember = "Codigo";
+            Cmb_E_Nombre.DataSource = _shalong.ClienteMostrar();
         }
 
-        private void btn_Guardar_Click(object sender, EventArgs e)
+        private void Btn_Guardar_Click(object sender, EventArgs e)
         {
             IngresarCliente();
         }
@@ -50,22 +50,18 @@ namespace Shalong.Formularios
         private void IngresarCliente()
         {
             C_Cliente objetoCliente = new C_Cliente();
-            objetoCliente.Nombre = txt_I_Nombre.Text;
-            objetoCliente.Dni = txt_I_Dni.Text;
-            objetoCliente.Apellido_paterno = txt_I_APaterno.Text;
-            objetoCliente.Apellido_materno = txt_I_AMaterno.Text;
-            if (txt_I_Nombre.Text != String.Empty)
+            objetoCliente.Nombre = Txt_I_Nombre.Text;
+            objetoCliente.Dni = Txt_I_Dni.Text;
+            objetoCliente.Apellido_paterno = Txt_I_APaterno.Text;
+            objetoCliente.Apellido_materno = Txt_I_AMaterno.Text;
+            if (Txt_I_Nombre.Text != String.Empty)
             {
-                if (txt_I_Dni.Text != String.Empty)
+                if (Txt_I_Dni.Text != String.Empty)
                 {
                     if (_shalong.Cliente(1, objetoCliente))
                     {
                         MessageBox.Show("Se Ingreso al Cliente Correctamente", "Gestion Ventas", MessageBoxButtons.OK);
-                        CargarComboBox();
-                        txt_I_Nombre.Clear();
-                        txt_I_Dni.Clear();
-                        txt_I_APaterno.Clear();
-                        txt_I_AMaterno.Clear();
+                        this.Limpiar();
                     }
                     else
                     {
@@ -84,9 +80,9 @@ namespace Shalong.Formularios
         }
        
 
-        private void btn_Modificar_Click(object sender, EventArgs e)
+        private void Btn_Modificar_Click(object sender, EventArgs e)
         {
-            if (cmb_M_Nombre.SelectedIndex == -1)
+            if (Cmb_M_Nombre.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Cliente Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                 CargarComboBox();
@@ -100,24 +96,24 @@ namespace Shalong.Formularios
         private void ModificarCliente()
         {
             C_Cliente objetoCliente = new C_Cliente();
-            objetoCliente.Codigo = Int32.Parse(cmb_M_Nombre.SelectedValue.ToString());
-            objetoCliente.Nombre = txt_M_Nombre.Text;
-            objetoCliente.Dni = txt_M_Dni.Text;
-            objetoCliente.Apellido_paterno = txt_M_APaterno.Text;
-            objetoCliente.Apellido_materno = txt_M_AMaterno.Text;
-            if (txt_M_Nombre.Text != String.Empty)
+            objetoCliente.Codigo = Int32.Parse(Cmb_M_Nombre.SelectedValue.ToString());
+            objetoCliente.Nombre = Txt_M_Nombre.Text;
+            objetoCliente.Dni = Txt_M_Dni.Text;
+            objetoCliente.Apellido_paterno = Txt_M_APaterno.Text;
+            objetoCliente.Apellido_materno = Txt_M_AMaterno.Text;
+            if (Txt_M_Nombre.Text != String.Empty)
             {
-                if (txt_M_Dni.Text != String.Empty)
+                if (Txt_M_Dni.Text != String.Empty)
                 {
 
                     if (_shalong.Cliente(2, objetoCliente))
                     {
                         MessageBox.Show("Se Modifico correctamente", "Gestion Ventas", MessageBoxButtons.OK);
                         CargarComboBox();
-                        /*txt_M_Nombre.Clear();
-                        txt_M_Dni.Clear();
-                        txt_M_APaterno.Clear();
-                        txt_M_AMaterno.Clear();*/
+                        /*Txt_M_Nombre.Clear();
+                        Txt_M_Dni.Clear();
+                        Txt_M_APaterno.Clear();
+                        Txt_M_AMaterno.Clear();*/
                     }
                     else
                     {
@@ -135,21 +131,21 @@ namespace Shalong.Formularios
             }
              
         }
-        private void cmb_M_Nombre_SelectedIndexChanged(object sender, EventArgs e)
+        private void Cmb_M_Nombre_SelectedIndexChanged(object sender, EventArgs e)
         {
-           C_Cliente obj = _shalong.ClienteMostrar1(Int32.Parse(cmb_M_Nombre.SelectedValue.ToString()));
+           C_Cliente obj = _shalong.ClienteMostrar1(Int32.Parse(Cmb_M_Nombre.SelectedValue.ToString()));
            
-           txt_M_Nombre.Text = "" + obj.Nombre;
-           txt_M_Dni.Text = "" + obj.Dni;
-           txt_M_APaterno.Text = "" + obj.Apellido_paterno;
-           txt_M_AMaterno.Text = "" + obj.Apellido_materno;
+           Txt_M_Nombre.Text = "" + obj.Nombre;
+           Txt_M_Dni.Text = "" + obj.Dni;
+           Txt_M_APaterno.Text = "" + obj.Apellido_paterno;
+           Txt_M_AMaterno.Text = "" + obj.Apellido_materno;
 
         }
 
 
-        private void btn_Eliminar_Click(object sender, EventArgs e)
+        private void Btn_Eliminar_Click(object sender, EventArgs e)
         {
-            if (cmb_E_Nombre.SelectedIndex == -1)
+            if (Cmb_E_Nombre.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Cliente Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                 return;
@@ -157,35 +153,33 @@ namespace Shalong.Formularios
             else
             {
                 EliminarCliente();
+                this.Limpiar();
             }
         }
         private void EliminarCliente()
         {
             C_Cliente objetoCliente = new C_Cliente();
-            objetoCliente.Codigo = Int32.Parse(cmb_E_Nombre.SelectedValue.ToString());
-            objetoCliente.Dni = txt_E_Dni.Text;
-            objetoCliente.Apellido_paterno = txt_E_APaterno.Text;
-            objetoCliente.Apellido_materno = txt_E_AMaterno.Text;
+            objetoCliente.Codigo = Int32.Parse(Cmb_E_Nombre.SelectedValue.ToString());
+            objetoCliente.Dni = Txt_E_Dni.Text;
+            objetoCliente.Apellido_paterno = Txt_E_APaterno.Text;
+            objetoCliente.Apellido_materno = Txt_E_AMaterno.Text;
             if (_shalong.Cliente(3, objetoCliente))
             {
                 MessageBox.Show("Se Elimino Correctamente", "Gestion Ventas", MessageBoxButtons.OK);
                 CargarComboBox();
-                /*txt_E_Dni.Clear();
-                txt_E_APaterno.Clear();
-                txt_E_AMaterno.Clear();*/
             }            
         }
 
-        private void cmb_E_Nombre_SelectedIndexChanged(object sender, EventArgs e)
+        private void Cmb_E_Nombre_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_Cliente obj = _shalong.ClienteMostrar1(Int32.Parse(cmb_E_Nombre.SelectedValue.ToString()));
-            txt_E_Dni.Text = "" + obj.Dni;
-            txt_E_APaterno.Text = "" + obj.Apellido_paterno;
-            txt_E_AMaterno.Text = "" + obj.Apellido_materno;
+            C_Cliente obj = _shalong.ClienteMostrar1(Int32.Parse(Cmb_E_Nombre.SelectedValue.ToString()));
+            Txt_E_Dni.Text = "" + obj.Dni;
+            Txt_E_APaterno.Text = "" + obj.Apellido_paterno;
+            Txt_E_AMaterno.Text = "" + obj.Apellido_materno;
             
         }
 
-        private void txt_I_Dni_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_I_Dni_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
@@ -195,7 +189,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_M_Dni_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_M_Dni_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
@@ -205,7 +199,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar)|| char.IsPunctuation(e.KeyChar)) &&(e.KeyChar != (char)Keys.Space) && (e.KeyChar !=(char)Keys.Back)) 
             {
@@ -214,7 +208,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_M_Nombre_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_M_Nombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar)|| char.IsPunctuation(e.KeyChar)) &&(e.KeyChar != (char)Keys.Space) && (e.KeyChar !=(char)Keys.Back)) 
             {
@@ -223,7 +217,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_I_APaterno_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_I_APaterno_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar) || char.IsPunctuation(e.KeyChar)) && (e.KeyChar != (char)Keys.Space) && (e.KeyChar != (char)Keys.Back))
             {
@@ -232,7 +226,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_I_AMaterno_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_I_AMaterno_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar) || char.IsPunctuation(e.KeyChar)) && (e.KeyChar != (char)Keys.Space) && (e.KeyChar != (char)Keys.Back)) 
             {
@@ -241,7 +235,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_M_APaterno_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_M_APaterno_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar) || char.IsPunctuation(e.KeyChar)) && (e.KeyChar != (char)Keys.Space) && (e.KeyChar != (char)Keys.Back)) 
             {
@@ -250,7 +244,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_M_AMaterno_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_M_AMaterno_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar) || char.IsPunctuation(e.KeyChar)) && (e.KeyChar != (char)Keys.Space) && (e.KeyChar != (char)Keys.Back)) 
             {
@@ -263,6 +257,24 @@ namespace Shalong.Formularios
         {
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
+        }
+
+        private void Limpiar()
+        {
+            CargarComboBox();
+            Cmb_E_Nombre.ResetText();
+            Cmb_M_Nombre.ResetText();
+            Txt_I_Nombre.Clear();
+            Txt_I_Dni.Clear();
+            Txt_I_APaterno.Clear();
+            Txt_I_AMaterno.Clear();
+            Txt_M_AMaterno.Clear();
+            Txt_M_APaterno.Clear();
+            Txt_M_Dni.Clear();
+            Txt_M_Nombre.Clear();
+            Txt_E_AMaterno.Clear();
+            Txt_E_APaterno.Clear();
+            Txt_E_Dni.Clear();
         }
     }
 }

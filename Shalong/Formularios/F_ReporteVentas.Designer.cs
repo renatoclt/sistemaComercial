@@ -42,26 +42,26 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.label6 = new System.Windows.Forms.Label();
-            this.btn_Fecha = new System.Windows.Forms.Button();
+            this.Btn_Fecha = new System.Windows.Forms.Button();
             this.dtp_hasta = new System.Windows.Forms.DateTimePicker();
             this.dtp_de = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.cmb_Empresa = new System.Windows.Forms.ComboBox();
-            this.cmb_Cliente = new System.Windows.Forms.ComboBox();
+            this.Cmb_Empresa = new System.Windows.Forms.ComboBox();
+            this.Cmb_Cliente = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.btn_Empresa = new System.Windows.Forms.Button();
-            this.btn_Cliente = new System.Windows.Forms.Button();
+            this.Btn_Empresa = new System.Windows.Forms.Button();
+            this.Btn_Cliente = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.btn_Exportar = new System.Windows.Forms.Button();
-            this.btn_TipoPago = new System.Windows.Forms.Button();
-            this.btn_Caja = new System.Windows.Forms.Button();
+            this.Btn_Exportar = new System.Windows.Forms.Button();
+            this.Btn_TipoPago = new System.Windows.Forms.Button();
+            this.Btn_Caja = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.cmb_TipoPago = new System.Windows.Forms.ComboBox();
-            this.cmb_Caja = new System.Windows.Forms.ComboBox();
+            this.Cmb_TipoPago = new System.Windows.Forms.ComboBox();
+            this.Cmb_Caja = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.cmb_TipoDeVenta = new System.Windows.Forms.ComboBox();
+            this.Cmb_TipoDeVenta = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Ventas)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
@@ -161,7 +161,7 @@
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel5, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel4, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.cmb_TipoDeVenta, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.Cmb_TipoDeVenta, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -182,7 +182,7 @@
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.55556F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.45594F));
             this.tableLayoutPanel5.Controls.Add(this.label6, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.btn_Fecha, 4, 0);
+            this.tableLayoutPanel5.Controls.Add(this.Btn_Fecha, 4, 0);
             this.tableLayoutPanel5.Controls.Add(this.dtp_hasta, 3, 0);
             this.tableLayoutPanel5.Controls.Add(this.dtp_de, 1, 0);
             this.tableLayoutPanel5.Controls.Add(this.label5, 2, 0);
@@ -204,16 +204,16 @@
             this.label6.TabIndex = 6;
             this.label6.Text = "De :";
             // 
-            // btn_Fecha
+            // Btn_Fecha
             // 
-            this.btn_Fecha.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btn_Fecha.Location = new System.Drawing.Point(822, 3);
-            this.btn_Fecha.Name = "btn_Fecha";
-            this.btn_Fecha.Size = new System.Drawing.Size(177, 43);
-            this.btn_Fecha.TabIndex = 2;
-            this.btn_Fecha.Text = "Buscar Fecha";
-            this.btn_Fecha.UseVisualStyleBackColor = true;
-            this.btn_Fecha.Click += new System.EventHandler(this.btn_Fecha_Click);
+            this.Btn_Fecha.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Btn_Fecha.Location = new System.Drawing.Point(822, 3);
+            this.Btn_Fecha.Name = "Btn_Fecha";
+            this.Btn_Fecha.Size = new System.Drawing.Size(177, 43);
+            this.Btn_Fecha.TabIndex = 2;
+            this.Btn_Fecha.Text = "Buscar Fecha";
+            this.Btn_Fecha.UseVisualStyleBackColor = true;
+            this.Btn_Fecha.Click += new System.EventHandler(this.Btn_Fecha_Click);
             // 
             // dtp_hasta
             // 
@@ -250,11 +250,11 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.195402F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.13793F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel4.Controls.Add(this.cmb_Empresa, 4, 0);
-            this.tableLayoutPanel4.Controls.Add(this.cmb_Cliente, 1, 0);
+            this.tableLayoutPanel4.Controls.Add(this.Cmb_Empresa, 4, 0);
+            this.tableLayoutPanel4.Controls.Add(this.Cmb_Cliente, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.label4, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.btn_Empresa, 5, 0);
-            this.tableLayoutPanel4.Controls.Add(this.btn_Cliente, 2, 0);
+            this.tableLayoutPanel4.Controls.Add(this.Btn_Empresa, 5, 0);
+            this.tableLayoutPanel4.Controls.Add(this.Btn_Cliente, 2, 0);
             this.tableLayoutPanel4.Controls.Add(this.label3, 3, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 92);
@@ -264,27 +264,27 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(1044, 48);
             this.tableLayoutPanel4.TabIndex = 1;
             // 
-            // cmb_Empresa
+            // Cmb_Empresa
             // 
-            this.cmb_Empresa.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.cmb_Empresa.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_Empresa.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_Empresa.FormattingEnabled = true;
-            this.cmb_Empresa.Location = new System.Drawing.Point(619, 13);
-            this.cmb_Empresa.Name = "cmb_Empresa";
-            this.cmb_Empresa.Size = new System.Drawing.Size(246, 28);
-            this.cmb_Empresa.TabIndex = 7;
+            this.Cmb_Empresa.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Cmb_Empresa.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_Empresa.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_Empresa.FormattingEnabled = true;
+            this.Cmb_Empresa.Location = new System.Drawing.Point(619, 13);
+            this.Cmb_Empresa.Name = "Cmb_Empresa";
+            this.Cmb_Empresa.Size = new System.Drawing.Size(246, 28);
+            this.Cmb_Empresa.TabIndex = 7;
             // 
-            // cmb_Cliente
+            // Cmb_Cliente
             // 
-            this.cmb_Cliente.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.cmb_Cliente.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_Cliente.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_Cliente.FormattingEnabled = true;
-            this.cmb_Cliente.Location = new System.Drawing.Point(84, 13);
-            this.cmb_Cliente.Name = "cmb_Cliente";
-            this.cmb_Cliente.Size = new System.Drawing.Size(301, 28);
-            this.cmb_Cliente.TabIndex = 6;
+            this.Cmb_Cliente.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Cmb_Cliente.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_Cliente.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_Cliente.FormattingEnabled = true;
+            this.Cmb_Cliente.Location = new System.Drawing.Point(84, 13);
+            this.Cmb_Cliente.Name = "Cmb_Cliente";
+            this.Cmb_Cliente.Size = new System.Drawing.Size(301, 28);
+            this.Cmb_Cliente.TabIndex = 6;
             // 
             // label4
             // 
@@ -296,27 +296,27 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Cliente :";
             // 
-            // btn_Empresa
+            // Btn_Empresa
             // 
-            this.btn_Empresa.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btn_Empresa.Location = new System.Drawing.Point(871, 5);
-            this.btn_Empresa.Name = "btn_Empresa";
-            this.btn_Empresa.Size = new System.Drawing.Size(167, 37);
-            this.btn_Empresa.TabIndex = 1;
-            this.btn_Empresa.Text = "Buscar Empresa";
-            this.btn_Empresa.UseVisualStyleBackColor = true;
-            this.btn_Empresa.Click += new System.EventHandler(this.btn_Empresa_Click);
+            this.Btn_Empresa.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Btn_Empresa.Location = new System.Drawing.Point(871, 5);
+            this.Btn_Empresa.Name = "Btn_Empresa";
+            this.Btn_Empresa.Size = new System.Drawing.Size(167, 37);
+            this.Btn_Empresa.TabIndex = 1;
+            this.Btn_Empresa.Text = "Buscar Empresa";
+            this.Btn_Empresa.UseVisualStyleBackColor = true;
+            this.Btn_Empresa.Click += new System.EventHandler(this.Btn_Empresa_Click);
             // 
-            // btn_Cliente
+            // Btn_Cliente
             // 
-            this.btn_Cliente.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btn_Cliente.Location = new System.Drawing.Point(395, 5);
-            this.btn_Cliente.Name = "btn_Cliente";
-            this.btn_Cliente.Size = new System.Drawing.Size(122, 37);
-            this.btn_Cliente.TabIndex = 2;
-            this.btn_Cliente.Text = "Buscar Cliente";
-            this.btn_Cliente.UseVisualStyleBackColor = true;
-            this.btn_Cliente.Click += new System.EventHandler(this.btn_Cliente_Click);
+            this.Btn_Cliente.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Btn_Cliente.Location = new System.Drawing.Point(395, 5);
+            this.Btn_Cliente.Name = "Btn_Cliente";
+            this.Btn_Cliente.Size = new System.Drawing.Size(122, 37);
+            this.Btn_Cliente.TabIndex = 2;
+            this.Btn_Cliente.Text = "Buscar Cliente";
+            this.Btn_Cliente.UseVisualStyleBackColor = true;
+            this.Btn_Cliente.Click += new System.EventHandler(this.Btn_Cliente_Click);
             // 
             // label3
             // 
@@ -338,12 +338,12 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.16858F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.8046F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel3.Controls.Add(this.btn_Exportar, 6, 0);
-            this.tableLayoutPanel3.Controls.Add(this.btn_TipoPago, 5, 0);
-            this.tableLayoutPanel3.Controls.Add(this.btn_Caja, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Btn_Exportar, 6, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Btn_TipoPago, 5, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Btn_Caja, 2, 0);
             this.tableLayoutPanel3.Controls.Add(this.label1, 3, 0);
-            this.tableLayoutPanel3.Controls.Add(this.cmb_TipoPago, 4, 0);
-            this.tableLayoutPanel3.Controls.Add(this.cmb_Caja, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Cmb_TipoPago, 4, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Cmb_Caja, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 38);
@@ -353,38 +353,38 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(1044, 48);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
-            // btn_Exportar
+            // Btn_Exportar
             // 
-            this.btn_Exportar.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btn_Exportar.Location = new System.Drawing.Point(897, 3);
-            this.btn_Exportar.Name = "btn_Exportar";
-            this.btn_Exportar.Size = new System.Drawing.Size(144, 42);
-            this.btn_Exportar.TabIndex = 0;
-            this.btn_Exportar.Text = "Exportar";
-            this.btn_Exportar.UseVisualStyleBackColor = true;
-            this.btn_Exportar.Click += new System.EventHandler(this.btn_Exportar_Click);
+            this.Btn_Exportar.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Btn_Exportar.Location = new System.Drawing.Point(897, 3);
+            this.Btn_Exportar.Name = "Btn_Exportar";
+            this.Btn_Exportar.Size = new System.Drawing.Size(144, 42);
+            this.Btn_Exportar.TabIndex = 0;
+            this.Btn_Exportar.Text = "Exportar";
+            this.Btn_Exportar.UseVisualStyleBackColor = true;
+            this.Btn_Exportar.Click += new System.EventHandler(this.Btn_Exportar_Click);
             // 
-            // btn_TipoPago
+            // Btn_TipoPago
             // 
-            this.btn_TipoPago.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btn_TipoPago.Location = new System.Drawing.Point(732, 6);
-            this.btn_TipoPago.Name = "btn_TipoPago";
-            this.btn_TipoPago.Size = new System.Drawing.Size(159, 35);
-            this.btn_TipoPago.TabIndex = 1;
-            this.btn_TipoPago.Text = "Buscar Tipo Pago";
-            this.btn_TipoPago.UseVisualStyleBackColor = true;
-            this.btn_TipoPago.Click += new System.EventHandler(this.btn_TipoPago_Click);
+            this.Btn_TipoPago.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Btn_TipoPago.Location = new System.Drawing.Point(732, 6);
+            this.Btn_TipoPago.Name = "Btn_TipoPago";
+            this.Btn_TipoPago.Size = new System.Drawing.Size(159, 35);
+            this.Btn_TipoPago.TabIndex = 1;
+            this.Btn_TipoPago.Text = "Buscar Tipo Pago";
+            this.Btn_TipoPago.UseVisualStyleBackColor = true;
+            this.Btn_TipoPago.Click += new System.EventHandler(this.Btn_TipoPago_Click);
             // 
-            // btn_Caja
+            // Btn_Caja
             // 
-            this.btn_Caja.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btn_Caja.Location = new System.Drawing.Point(256, 6);
-            this.btn_Caja.Name = "btn_Caja";
-            this.btn_Caja.Size = new System.Drawing.Size(118, 35);
-            this.btn_Caja.TabIndex = 2;
-            this.btn_Caja.Text = "Buscar Caja";
-            this.btn_Caja.UseVisualStyleBackColor = true;
-            this.btn_Caja.Click += new System.EventHandler(this.btn_Caja_Click);
+            this.Btn_Caja.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Btn_Caja.Location = new System.Drawing.Point(256, 6);
+            this.Btn_Caja.Name = "Btn_Caja";
+            this.Btn_Caja.Size = new System.Drawing.Size(118, 35);
+            this.Btn_Caja.TabIndex = 2;
+            this.Btn_Caja.Text = "Buscar Caja";
+            this.Btn_Caja.UseVisualStyleBackColor = true;
+            this.Btn_Caja.Click += new System.EventHandler(this.Btn_Caja_Click);
             // 
             // label1
             // 
@@ -396,27 +396,27 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Tipo de Pago :";
             // 
-            // cmb_TipoPago
+            // Cmb_TipoPago
             // 
-            this.cmb_TipoPago.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.cmb_TipoPago.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_TipoPago.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_TipoPago.FormattingEnabled = true;
-            this.cmb_TipoPago.Location = new System.Drawing.Point(511, 13);
-            this.cmb_TipoPago.Name = "cmb_TipoPago";
-            this.cmb_TipoPago.Size = new System.Drawing.Size(211, 28);
-            this.cmb_TipoPago.TabIndex = 4;
+            this.Cmb_TipoPago.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Cmb_TipoPago.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_TipoPago.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_TipoPago.FormattingEnabled = true;
+            this.Cmb_TipoPago.Location = new System.Drawing.Point(511, 13);
+            this.Cmb_TipoPago.Name = "Cmb_TipoPago";
+            this.Cmb_TipoPago.Size = new System.Drawing.Size(211, 28);
+            this.Cmb_TipoPago.TabIndex = 4;
             // 
-            // cmb_Caja
+            // Cmb_Caja
             // 
-            this.cmb_Caja.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.cmb_Caja.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_Caja.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_Caja.FormattingEnabled = true;
-            this.cmb_Caja.Location = new System.Drawing.Point(83, 13);
-            this.cmb_Caja.Name = "cmb_Caja";
-            this.cmb_Caja.Size = new System.Drawing.Size(157, 28);
-            this.cmb_Caja.TabIndex = 5;
+            this.Cmb_Caja.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Cmb_Caja.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_Caja.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_Caja.FormattingEnabled = true;
+            this.Cmb_Caja.Location = new System.Drawing.Point(83, 13);
+            this.Cmb_Caja.Name = "Cmb_Caja";
+            this.Cmb_Caja.Size = new System.Drawing.Size(157, 28);
+            this.Cmb_Caja.TabIndex = 5;
             // 
             // label2
             // 
@@ -428,20 +428,20 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Caja :";
             // 
-            // cmb_TipoDeVenta
+            // Cmb_TipoDeVenta
             // 
-            this.cmb_TipoDeVenta.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.cmb_TipoDeVenta.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_TipoDeVenta.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_TipoDeVenta.FormattingEnabled = true;
-            this.cmb_TipoDeVenta.Items.AddRange(new object[] {
+            this.Cmb_TipoDeVenta.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Cmb_TipoDeVenta.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_TipoDeVenta.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_TipoDeVenta.FormattingEnabled = true;
+            this.Cmb_TipoDeVenta.Items.AddRange(new object[] {
             "Ventas Realizadas",
             "Ventas Anuladas"});
-            this.cmb_TipoDeVenta.Location = new System.Drawing.Point(396, 3);
-            this.cmb_TipoDeVenta.Name = "cmb_TipoDeVenta";
-            this.cmb_TipoDeVenta.Size = new System.Drawing.Size(257, 28);
-            this.cmb_TipoDeVenta.TabIndex = 3;
-            this.cmb_TipoDeVenta.SelectedIndexChanged += new System.EventHandler(this.cmb_TipoDeVenta_SelectedIndexChanged);
+            this.Cmb_TipoDeVenta.Location = new System.Drawing.Point(396, 3);
+            this.Cmb_TipoDeVenta.Name = "Cmb_TipoDeVenta";
+            this.Cmb_TipoDeVenta.Size = new System.Drawing.Size(257, 28);
+            this.Cmb_TipoDeVenta.TabIndex = 3;
+            this.Cmb_TipoDeVenta.SelectedIndexChanged += new System.EventHandler(this.Cmb_TipoDeVenta_SelectedIndexChanged);
             // 
             // F_ReporteVentas
             // 
@@ -474,20 +474,20 @@
         private System.Windows.Forms.DataGridView dgv_Ventas;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.Button btn_Exportar;
-        private System.Windows.Forms.Button btn_TipoPago;
-        private System.Windows.Forms.Button btn_Caja;
+        private System.Windows.Forms.Button Btn_Exportar;
+        private System.Windows.Forms.Button Btn_TipoPago;
+        private System.Windows.Forms.Button Btn_Caja;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cmb_TipoPago;
-        private System.Windows.Forms.ComboBox cmb_Caja;
+        private System.Windows.Forms.ComboBox Cmb_TipoPago;
+        private System.Windows.Forms.ComboBox Cmb_Caja;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btn_Empresa;
-        private System.Windows.Forms.Button btn_Cliente;
+        private System.Windows.Forms.Button Btn_Empresa;
+        private System.Windows.Forms.Button Btn_Cliente;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cmb_Cliente;
-        private System.Windows.Forms.ComboBox cmb_Empresa;
+        private System.Windows.Forms.ComboBox Cmb_Cliente;
+        private System.Windows.Forms.ComboBox Cmb_Empresa;
         private System.Windows.Forms.DataGridViewTextBoxColumn NombreCaja;
         private System.Windows.Forms.DataGridViewTextBoxColumn NombreDocumento;
         private System.Windows.Forms.DataGridViewTextBoxColumn TipoPago;
@@ -498,10 +498,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn TotalVenta;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button btn_Fecha;
+        private System.Windows.Forms.Button Btn_Fecha;
         private System.Windows.Forms.DateTimePicker dtp_hasta;
         private System.Windows.Forms.DateTimePicker dtp_de;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox cmb_TipoDeVenta;
+        private System.Windows.Forms.ComboBox Cmb_TipoDeVenta;
     }
 }

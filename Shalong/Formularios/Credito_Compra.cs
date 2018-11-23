@@ -48,16 +48,16 @@ namespace Shalong.Formularios
         }
         private void CargarComboBoxCredito()
         {
-            cmb_CodigoCredito.DisplayMember = "CodigoCredito";
-            cmb_CodigoCredito.ValueMember = "CodigoCredito";
-            cmb_CodigoCredito.DataSource = _shalong.CreditoCompraMostrar();
+            Cmb_CodigoCredito.DisplayMember = "CodigoCredito";
+            Cmb_CodigoCredito.ValueMember = "CodigoCredito";
+            Cmb_CodigoCredito.DataSource = _shalong.CreditoCompraMostrar();
 
         }
         private void CargarComboBoxTipoPago()
         {
-            cmb_TipoPago.DisplayMember = "Nombre";
-            cmb_TipoPago.ValueMember = "Codigo";
-            cmb_TipoPago.DataSource = _shalong.TipoPagoMostrar();
+            Cmb_TipoPago.DisplayMember = "Nombre";
+            Cmb_TipoPago.ValueMember = "Codigo";
+            Cmb_TipoPago.DataSource = _shalong.TipoPagoMostrar();
         }
 
         private void dtg_CreditoCompra_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
@@ -65,16 +65,16 @@ namespace Shalong.Formularios
             dtg_CreditoCompra.ClearSelection();
         }
 
-        private void btn_I_Pago_Click(object sender, EventArgs e)
+        private void Btn_I_Pago_Click(object sender, EventArgs e)
         {
-            if (cmb_TipoPago.SelectedIndex == -1)
+            if (Cmb_TipoPago.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese un Tipo de Pago Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                 return;
             }
             else
             {
-                if (cmb_CodigoCredito.SelectedIndex == -1)
+                if (Cmb_CodigoCredito.SelectedIndex == -1)
                 {
                     MessageBox.Show("Ingrese un Codigo de Credito Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                     return;
@@ -89,21 +89,21 @@ namespace Shalong.Formularios
         {
             C_Pago objetoPago = new C_Pago();
             objetoPago.CodigoPago = 1;
-            objetoPago.CodigoCredito = Int32.Parse(cmb_CodigoCredito.SelectedValue.ToString());
+            objetoPago.CodigoCredito = Int32.Parse(Cmb_CodigoCredito.SelectedValue.ToString());
 
-            //objetoPago.MontoPagar = Double.Parse(txt_I_MontoPagar.Text.ToString());
-            objetoPago.CodigoTipoPago = Int32.Parse(cmb_TipoPago.SelectedValue.ToString());
-            objetoPago.NumVoucher = txt_I_NumVoucher.Text;
-            objetoPago.NumCuenta = txt_I_NumCuenta.Text;
-            objetoPago.EntidadBancaria = txt_I_EntidadBancaria.Text;
-            if (txt_I_MontoPagar.Text == String.Empty)
+            //objetoPago.MontoPagar = Double.Parse(Txt_I_MontoPagar.Text.ToString());
+            objetoPago.CodigoTipoPago = Int32.Parse(Cmb_TipoPago.SelectedValue.ToString());
+            objetoPago.NumVoucher = Txt_I_NumVoucher.Text;
+            objetoPago.NumCuenta = Txt_I_NumCuenta.Text;
+            objetoPago.EntidadBancaria = Txt_I_EntidadBancaria.Text;
+            if (Txt_I_MontoPagar.Text == String.Empty)
             {
                 MessageBox.Show("No deje el monto en blanco", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 objetoPago.MontoPagar = 0.0;
             }
             else 
             {
-                objetoPago.MontoPagar = Double.Parse(txt_I_MontoPagar.Text.ToString());
+                objetoPago.MontoPagar = Double.Parse(Txt_I_MontoPagar.Text.ToString());
                 if (_shalong.Pago(1, objetoPago))
                 {
                     MessageBox.Show("Ingreso Correctamente", "Gestion Ventas", MessageBoxButtons.OK);
@@ -115,39 +115,39 @@ namespace Shalong.Formularios
                     MessageBox.Show("Revise Los Datos", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
             }
-            if (txt_I_NumVoucher.Text == String.Empty)
+            if (Txt_I_NumVoucher.Text == String.Empty)
             {
-                txt_I_NumVoucher.Text = "N/E";
-                objetoPago.NumVoucher = txt_I_NumVoucher.Text;
+                Txt_I_NumVoucher.Text = "N/E";
+                objetoPago.NumVoucher = Txt_I_NumVoucher.Text;
             }
             else
             {
-                objetoPago.NumVoucher = txt_I_NumVoucher.Text;
+                objetoPago.NumVoucher = Txt_I_NumVoucher.Text;
             }
-            if (txt_I_NumCuenta.Text == String.Empty)
+            if (Txt_I_NumCuenta.Text == String.Empty)
             {
-                txt_I_NumCuenta.Text = "N/E";
-                objetoPago.NumCuenta = txt_I_NumCuenta.Text;
-            }
-            else
-            {
-                objetoPago.NumCuenta = txt_I_NumCuenta.Text;
-            }
-            if (txt_I_EntidadBancaria.Text == String.Empty)
-            {
-                txt_I_EntidadBancaria.Text = "N/E";
-                objetoPago.EntidadBancaria = txt_I_EntidadBancaria.Text;
+                Txt_I_NumCuenta.Text = "N/E";
+                objetoPago.NumCuenta = Txt_I_NumCuenta.Text;
             }
             else
             {
-                objetoPago.EntidadBancaria = txt_I_EntidadBancaria.Text;
+                objetoPago.NumCuenta = Txt_I_NumCuenta.Text;
+            }
+            if (Txt_I_EntidadBancaria.Text == String.Empty)
+            {
+                Txt_I_EntidadBancaria.Text = "N/E";
+                objetoPago.EntidadBancaria = Txt_I_EntidadBancaria.Text;
+            }
+            else
+            {
+                objetoPago.EntidadBancaria = Txt_I_EntidadBancaria.Text;
             }
             objetoPago.CodigoCaja = _codigoCaja;
             objetoPago.FechaPago = dtp_ProxPago.Value;
            
         }
 
-        private void cmb_CodigoCredito_SelectedIndexChanged(object sender, EventArgs e)
+        private void Cmb_CodigoCredito_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
@@ -158,7 +158,7 @@ namespace Shalong.Formularios
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
         }
 
-        private void txt_I_MontoPagar_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_I_MontoPagar_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar) || e.KeyChar == '.') && (e.KeyChar != (char)Keys.Back))
             {

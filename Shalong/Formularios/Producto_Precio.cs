@@ -41,12 +41,12 @@ namespace Shalong.Formularios
         }
         private void EliminarBaseDatos()
         {
-            string codigoBarras = cmb_Producto.SelectedValue.ToString();
+            string codigoBarras = Cmb_Producto.SelectedValue.ToString();
             _shalong.ProductoPrecio(3, 1, codigoBarras, 1);
         }
         private void Btn_Guardar_Click(object sender, EventArgs e)
         {
-            if (cmb_Producto.SelectedIndex == -1)
+            if (Cmb_Producto.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Producto Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                 CargarComboBox();
@@ -69,10 +69,10 @@ namespace Shalong.Formularios
         }
         private void CargarComboBox()
         {
-            cmb_Producto.DisplayMember = "Nombre";
-            cmb_Producto.ValueMember = "CodigoBarras";
-            cmb_Producto.DataSource = _shalong.ProductoMostrar();
-            cmb_Producto.SelectedIndex = -1;
+            Cmb_Producto.DisplayMember = "Nombre";
+            Cmb_Producto.ValueMember = "CodigoBarras";
+            Cmb_Producto.DataSource = _shalong.ProductoMostrar();
+            Cmb_Producto.SelectedIndex = -1;
         }
         private void CargarDataGridView()
         {
@@ -83,7 +83,7 @@ namespace Shalong.Formularios
         
         private void ComprobarPrecioProducto()
         {
-            List<C_ProductoPrecio> lista = _shalong.ProductoPrecioMostrar(cmb_Producto.SelectedValue.ToString());
+            List<C_ProductoPrecio> lista = _shalong.ProductoPrecioMostrar(Cmb_Producto.SelectedValue.ToString());
             if (lista.Count > 0)
             {
                 foreach (DataGridViewRow row in dtg_ProductoPrecio.Rows)
@@ -107,14 +107,14 @@ namespace Shalong.Formularios
             int codigoTipoPrecio;
             double precio;
             bool isCorrecto = true;
-            if (cmb_Producto.SelectedIndex > -1)
+            if (Cmb_Producto.SelectedIndex > -1)
             {
-                List<C_ProductoPrecio> lista = _shalong.ProductoPrecioMostrar(cmb_Producto.SelectedValue.ToString());
+                List<C_ProductoPrecio> lista = _shalong.ProductoPrecioMostrar(Cmb_Producto.SelectedValue.ToString());
                 foreach (DataGridViewRow row in dtg_ProductoPrecio.Rows)
                 {
                     if (row.Cells["Precio"].Value.ToString() != String.Empty)
                     {
-                        codigoBarras = cmb_Producto.SelectedValue.ToString();
+                        codigoBarras = Cmb_Producto.SelectedValue.ToString();
                         codigoTipoPrecio = Int32.Parse(row.Cells["Codigo"].Value.ToString());
                         precio = Double.Parse(row.Cells["Precio"].Value.ToString());
                         if (!_shalong.ProductoPrecio(1, codigoTipoPrecio, codigoBarras, precio))

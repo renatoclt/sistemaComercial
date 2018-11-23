@@ -38,15 +38,15 @@ namespace Shalong.Formularios
         }
         private void CargarComboBoxTipoPago()
         {
-            cmb_TipoPago.DisplayMember = "Nombre";
-            cmb_TipoPago.ValueMember = "Codigo";
-            cmb_TipoPago.DataSource = _shalong.TipoPagoMostrar();
+            Cmb_TipoPago.DisplayMember = "Nombre";
+            Cmb_TipoPago.ValueMember = "Codigo";
+            Cmb_TipoPago.DataSource = _shalong.TipoPagoMostrar();
         }
         private void CargarComboBoxCodigoCredito()
         {
-            cmb_CodigoCredito.DisplayMember = "CodigoCredito";
-            cmb_CodigoCredito.ValueMember = "CodigoCredito";
-            cmb_CodigoCredito.DataSource = _shalong.CreditoVentaMostrar();
+            Cmb_CodigoCredito.DisplayMember = "CodigoCredito";
+            Cmb_CodigoCredito.ValueMember = "CodigoCredito";
+            Cmb_CodigoCredito.DataSource = _shalong.CreditoVentaMostrar();
         }
         private void CargarDataGridView()
         {
@@ -59,41 +59,41 @@ namespace Shalong.Formularios
             dtg_CreditoVenta.ClearSelection();
         }
 
-        private void btn_Pagar_Click(object sender, EventArgs e)
+        private void Btn_Pagar_Click(object sender, EventArgs e)
         {
             C_Pago objetoPago = new C_Pago();
-            if (cmb_TipoPago.SelectedIndex == -1)
+            if (Cmb_TipoPago.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese un Tipo de Pago Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                 return;
             }
             else
             {
-                objetoPago.CodigoTipoPago = Int32.Parse(cmb_TipoPago.SelectedValue.ToString());
+                objetoPago.CodigoTipoPago = Int32.Parse(Cmb_TipoPago.SelectedValue.ToString());
             }
             objetoPago.CodigoCaja = _codigoCaja;
-            if (cmb_CodigoCredito.SelectedIndex == -1)
+            if (Cmb_CodigoCredito.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese un Codigo de Credito Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                 return;
             }
             else
             {
-                objetoPago.CodigoCredito = Int32.Parse(cmb_CodigoCredito.SelectedValue.ToString());
+                objetoPago.CodigoCredito = Int32.Parse(Cmb_CodigoCredito.SelectedValue.ToString());
             }
             //
             objetoPago.NumCuenta = " ";
             objetoPago.EntidadBancaria = " ";
             objetoPago.NumVoucher = " ";
             objetoPago.FechaPago = dtp_Fecha.Value;
-            if (txt_Monto.Text == String.Empty)
+            if (Txt_Monto.Text == String.Empty)
             {
                 MessageBox.Show("No deje el monto en blanco", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 objetoPago.MontoPagar = 0.0;
             }
             else
             {
-                objetoPago.MontoPagar = Double.Parse(txt_Monto.Text);
+                objetoPago.MontoPagar = Double.Parse(Txt_Monto.Text);
                 if (_shalong.Pago(1, objetoPago))
                 {
                     MessageBox.Show("Pago Realizado satisfactoriamente", "Gestion Ventas", MessageBoxButtons.OK);
@@ -114,7 +114,7 @@ namespace Shalong.Formularios
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
         }
 
-        private void txt_Monto_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_Monto_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar) || e.KeyChar == '.' ) && (e.KeyChar != (char)Keys.Back))
             {

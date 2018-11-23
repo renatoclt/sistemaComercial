@@ -33,9 +33,9 @@
             this.Tipo_Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmb_Producto = new System.Windows.Forms.ComboBox();
+            this.Cmb_Producto = new System.Windows.Forms.ComboBox();
             this.Label1 = new System.Windows.Forms.Label();
-            this.btn_Guardar = new System.Windows.Forms.Button();
+            this.Btn_Guardar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_ProductoPrecio)).BeginInit();
             this.SuspendLayout();
             // 
@@ -72,18 +72,18 @@
             this.Precio.HeaderText = "Precio";
             this.Precio.Name = "Precio";
             // 
-            // cmb_Producto
+            // Cmb_Producto
             // 
-            this.cmb_Producto.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_Producto.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_Producto.FormattingEnabled = true;
-            this.cmb_Producto.Location = new System.Drawing.Point(119, 30);
-            this.cmb_Producto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cmb_Producto.Name = "cmb_Producto";
-            this.cmb_Producto.Size = new System.Drawing.Size(259, 28);
-            this.cmb_Producto.TabIndex = 1;
-            this.cmb_Producto.SelectedIndexChanged += new System.EventHandler(this.Cmb_Producto_SelectedIndexChanged);
-            this.cmb_Producto.SelectionChangeCommitted += new System.EventHandler(this.Cmb_Producto_SelectionChangeCommitted);
+            this.Cmb_Producto.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_Producto.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_Producto.FormattingEnabled = true;
+            this.Cmb_Producto.Location = new System.Drawing.Point(119, 30);
+            this.Cmb_Producto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Cmb_Producto.Name = "Cmb_Producto";
+            this.Cmb_Producto.Size = new System.Drawing.Size(259, 28);
+            this.Cmb_Producto.TabIndex = 1;
+            this.Cmb_Producto.SelectedIndexChanged += new System.EventHandler(this.Cmb_Producto_SelectedIndexChanged);
+            this.Cmb_Producto.SelectionChangeCommitted += new System.EventHandler(this.Cmb_Producto_SelectionChangeCommitted);
             // 
             // Label1
             // 
@@ -94,24 +94,24 @@
             this.Label1.TabIndex = 2;
             this.Label1.Text = "Producto";
             // 
-            // btn_Guardar
+            // Btn_Guardar
             // 
-            this.btn_Guardar.Location = new System.Drawing.Point(146, 326);
-            this.btn_Guardar.Name = "btn_Guardar";
-            this.btn_Guardar.Size = new System.Drawing.Size(117, 35);
-            this.btn_Guardar.TabIndex = 3;
-            this.btn_Guardar.Text = "Guardar";
-            this.btn_Guardar.UseVisualStyleBackColor = true;
-            this.btn_Guardar.Click += new System.EventHandler(this.Btn_Guardar_Click);
+            this.Btn_Guardar.Location = new System.Drawing.Point(146, 326);
+            this.Btn_Guardar.Name = "Btn_Guardar";
+            this.Btn_Guardar.Size = new System.Drawing.Size(117, 35);
+            this.Btn_Guardar.TabIndex = 3;
+            this.Btn_Guardar.Text = "Guardar";
+            this.Btn_Guardar.UseVisualStyleBackColor = true;
+            this.Btn_Guardar.Click += new System.EventHandler(this.Btn_Guardar_Click);
             // 
             // Producto_Precio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(416, 373);
-            this.Controls.Add(this.btn_Guardar);
+            this.Controls.Add(this.Btn_Guardar);
             this.Controls.Add(this.Label1);
-            this.Controls.Add(this.cmb_Producto);
+            this.Controls.Add(this.Cmb_Producto);
             this.Controls.Add(this.dtg_ProductoPrecio);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -128,9 +128,9 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dtg_ProductoPrecio;
-        private System.Windows.Forms.ComboBox cmb_Producto;
+        private System.Windows.Forms.ComboBox Cmb_Producto;
         private System.Windows.Forms.Label Label1;
-        private System.Windows.Forms.Button btn_Guardar;
+        private System.Windows.Forms.Button Btn_Guardar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Tipo_Precio;
         private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Precio;

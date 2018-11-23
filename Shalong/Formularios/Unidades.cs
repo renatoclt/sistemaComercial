@@ -34,34 +34,34 @@ namespace Shalong.Formularios
         }
         private void CargarComboboxUnidad()
         {
-            cmb_I_HijoUnidad.ValueMember = "Codigo";
-            cmb_I_HijoUnidad.DisplayMember = "Nombre";
-            cmb_I_HijoUnidad.DataSource = _shalong.UnidadMostrar();
-            cmb_I_PadreUnidad.ValueMember = "Codigo";
-            cmb_I_PadreUnidad.DisplayMember = "Nombre";
-            cmb_I_PadreUnidad.DataSource = _shalong.UnidadMostrar();
-            cmb_M_HijoUnidad.ValueMember = "Codigo";
-            cmb_M_HijoUnidad.DisplayMember = "Nombre";
-            cmb_M_HijoUnidad.DataSource = _shalong.UnidadMostrar();
-            cmb_M_PadreUnidad.ValueMember = "Codigo";
-            cmb_M_PadreUnidad.DisplayMember = "Nombre";
-            cmb_M_PadreUnidad.DataSource = _shalong.UnidadMostrar();
-            cmb_E_HijoUnidad.ValueMember = "Codigo";
-            cmb_E_HijoUnidad.DisplayMember = "Nombre";
-            cmb_E_HijoUnidad.DataSource = _shalong.UnidadMostrar();
-            cmb_E_PadreUnidad.ValueMember = "Codigo";
-            cmb_E_PadreUnidad.DisplayMember = "Nombre";
-            cmb_E_PadreUnidad.DataSource = _shalong.UnidadMostrar();
+            Cmb_I_HijoUnidad.ValueMember = "Codigo";
+            Cmb_I_HijoUnidad.DisplayMember = "Nombre";
+            Cmb_I_HijoUnidad.DataSource = _shalong.UnidadMostrar();
+            Cmb_I_PadreUnidad.ValueMember = "Codigo";
+            Cmb_I_PadreUnidad.DisplayMember = "Nombre";
+            Cmb_I_PadreUnidad.DataSource = _shalong.UnidadMostrar();
+            Cmb_M_HijoUnidad.ValueMember = "Codigo";
+            Cmb_M_HijoUnidad.DisplayMember = "Nombre";
+            Cmb_M_HijoUnidad.DataSource = _shalong.UnidadMostrar();
+            Cmb_M_PadreUnidad.ValueMember = "Codigo";
+            Cmb_M_PadreUnidad.DisplayMember = "Nombre";
+            Cmb_M_PadreUnidad.DataSource = _shalong.UnidadMostrar();
+            Cmb_E_HijoUnidad.ValueMember = "Codigo";
+            Cmb_E_HijoUnidad.DisplayMember = "Nombre";
+            Cmb_E_HijoUnidad.DataSource = _shalong.UnidadMostrar();
+            Cmb_E_PadreUnidad.ValueMember = "Codigo";
+            Cmb_E_PadreUnidad.DisplayMember = "Nombre";
+            Cmb_E_PadreUnidad.DataSource = _shalong.UnidadMostrar();
         }
 
-        private void btn_Guardar_Click(object sender, EventArgs e)
+        private void Btn_Guardar_Click(object sender, EventArgs e)
         {
-            if (cmb_I_HijoUnidad.SelectedIndex == -1)
+            if (Cmb_I_HijoUnidad.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione una Unidad Hijo", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            else if (cmb_I_PadreUnidad.SelectedIndex == -1)
+            else if (Cmb_I_PadreUnidad.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione una Unidad Padre", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -76,24 +76,24 @@ namespace Shalong.Formularios
         public void Guardar()
         {
             C_UnidadEquivalencias objeto = new C_UnidadEquivalencias();
-            objeto.CantidadHijo = Double.Parse(txt_I_HijoUnidad.Text);
-            objeto.CantidadPadre = Double.Parse(txt_I_PadreUnidad.Text);
-            objeto.CodigoHijo = Int32.Parse(cmb_I_HijoUnidad.SelectedValue.ToString());
-            objeto.CodigoPadre = Int32.Parse(cmb_I_PadreUnidad.SelectedValue.ToString());
+            objeto.CantidadHijo = Double.Parse(Txt_I_HijoUnidad.Text);
+            objeto.CantidadPadre = Double.Parse(Txt_I_PadreUnidad.Text);
+            objeto.CodigoHijo = Int32.Parse(Cmb_I_HijoUnidad.SelectedValue.ToString());
+            objeto.CodigoPadre = Int32.Parse(Cmb_I_PadreUnidad.SelectedValue.ToString());
             if (_shalong.UnidadEquivalencias(1, objeto))
             {
                 MessageBox.Show("Ingreso Correcto", "Gestion Ventas", MessageBoxButtons.OK);
             }
         }
 
-        private void btn_Modificar_Click(object sender, EventArgs e)
+        private void Btn_Modificar_Click(object sender, EventArgs e)
         {
-            if (cmb_M_HijoUnidad.SelectedIndex == -1)
+            if (Cmb_M_HijoUnidad.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione una Unidad Hijo", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            else if (cmb_M_PadreUnidad.SelectedIndex == -1)
+            else if (Cmb_M_PadreUnidad.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione una Unidad Padre", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -108,24 +108,24 @@ namespace Shalong.Formularios
         {
 
             C_UnidadEquivalencias objeto = new C_UnidadEquivalencias();
-            objeto.CantidadHijo = Double.Parse(txt_M_HijoUnidad.Text);
-            objeto.CantidadPadre = Double.Parse(txt_M_PadreUnidad.Text);
-            objeto.CodigoHijo = Int32.Parse(cmb_M_HijoUnidad.SelectedValue.ToString());
-            objeto.CodigoPadre = Int32.Parse(cmb_M_PadreUnidad.SelectedValue.ToString());
+            objeto.CantidadHijo = Double.Parse(Txt_M_HijoUnidad.Text);
+            objeto.CantidadPadre = Double.Parse(Txt_M_PadreUnidad.Text);
+            objeto.CodigoHijo = Int32.Parse(Cmb_M_HijoUnidad.SelectedValue.ToString());
+            objeto.CodigoPadre = Int32.Parse(Cmb_M_PadreUnidad.SelectedValue.ToString());
             if (_shalong.UnidadEquivalencias(2, objeto))
             {
                 MessageBox.Show("Modifico Correctamente", "Gestion Ventas", MessageBoxButtons.OK);
             }
         }
 
-        private void btn_Eliminar_Click(object sender, EventArgs e)
+        private void Btn_Eliminar_Click(object sender, EventArgs e)
         {
-            if (cmb_E_HijoUnidad.SelectedIndex == -1)
+            if (Cmb_E_HijoUnidad.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione una Unidad Hijo", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            else if (cmb_E_PadreUnidad.SelectedIndex == -1)
+            else if (Cmb_E_PadreUnidad.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione una Unidad Padre", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -141,8 +141,8 @@ namespace Shalong.Formularios
             C_UnidadEquivalencias objeto = new C_UnidadEquivalencias();
             objeto.CantidadHijo = 1;
             objeto.CantidadPadre = 1;
-            objeto.CodigoHijo = Int32.Parse(cmb_M_HijoUnidad.SelectedValue.ToString());
-            objeto.CodigoPadre = Int32.Parse(cmb_M_PadreUnidad.SelectedValue.ToString());
+            objeto.CodigoHijo = Int32.Parse(Cmb_M_HijoUnidad.SelectedValue.ToString());
+            objeto.CodigoPadre = Int32.Parse(Cmb_M_PadreUnidad.SelectedValue.ToString());
             if (_shalong.UnidadEquivalencias(3, objeto))
             {
                 MessageBox.Show("Elimino Correctamente", "Gestion Ventas", MessageBoxButtons.OK);

@@ -88,17 +88,17 @@ namespace Shalong.Formularios
         }
         private bool Validar()
         {
-            if (cmb_I_TipoDocumento.SelectedIndex == -1)
+            if (Cmb_I_TipoDocumento.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleecione un tipo de documento");
                 return false;
             }
-            if (cmb_I_Cliente.SelectedIndex == -1 && cmb_I_Empresa.SelectedIndex == -1)
+            if (Cmb_I_Cliente.SelectedIndex == -1 && Cmb_I_Empresa.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un cliente o una empresa");
                 return false;
             }
-            if (txt_I_NDocumento.Text == String.Empty)
+            if (Txt_I_NDocumento.Text == String.Empty)
             {
                 MessageBox.Show("Ingrese un numero de documento");
                 return false;
@@ -127,7 +127,7 @@ namespace Shalong.Formularios
                 if (isCellChecked)
                 {
                     C_Venta objetoVenta = new C_Venta();
-                    objetoVenta.NumeroDocumentoVenta = txt_I_NDocumento.Text;
+                    objetoVenta.NumeroDocumentoVenta = Txt_I_NDocumento.Text;
                     int codigoVenta = _shalong.VentasCodigo(objetoVenta);
                     string garantia;
                     if (row.Cells["Garantia"].Value != null)
@@ -152,10 +152,10 @@ namespace Shalong.Formularios
             double total;
             double igv;
             double subTotal;
-            subTotal = Double.Parse(txt_SubTotal.Text);
-            igv = Double.Parse(txt_IGV.Text);
+            subTotal = Double.Parse(Txt_SubTotal.Text);
+            igv = Double.Parse(Txt_IGV.Text);
             total = subTotal + igv;
-            txt_Total.Text = String.Format("{0:0.00}", total);
+            Txt_Total.Text = String.Format("{0:0.00}", total);
             CalcularDevolucion();
         }
         private void SubTotal()
@@ -167,22 +167,22 @@ namespace Shalong.Formularios
                 if (dtg_Factura.Rows[row.Index].Cells["PrecioTotalSinRedondear"].Value != null)
                     subTotal += Double.Parse(dtg_Factura.Rows[row.Index].Cells["PrecioTotalSinRedondear"].Value.ToString());
             }
-            txt_SubTotal.Text = String.Format("{0:0.00}", subTotal);
+            Txt_SubTotal.Text = String.Format("{0:0.00}", subTotal);
             if (chk_Igv.Checked)
             {
                 igv = subTotal * 0.18;
-                txt_IGV.Text = String.Format("{0:0.00}", igv);
+                Txt_IGV.Text = String.Format("{0:0.00}", igv);
             }
             else
             {
-                txt_IGV.Text = "0.00";
+                Txt_IGV.Text = "0.00";
             }
         }
         private void ActualizarTipoPrecio()
         {
             foreach (DataGridViewRow row in dtg_Factura.Rows)
             {
-                row.Cells["Tipo_Precio"].Value = cmb_TipoPrecio.SelectedValue;
+                row.Cells["Tipo_Precio"].Value = Cmb_TipoPrecio.SelectedValue;
             }
         }
         private void CalcularDevolucion()
@@ -192,29 +192,29 @@ namespace Shalong.Formularios
             double devolucion;
             if (!chk_VariosPagos.Checked)
             {
-                if (txt_Total.Text != String.Empty && txt_Cantidad.Text != String.Empty)
+                if (Txt_Total.Text != String.Empty && Txt_Cantidad.Text != String.Empty)
                 {
-                    total = Double.Parse(txt_Total.Text);
+                    total = Double.Parse(Txt_Total.Text);
                     try
                     {
-                        cantidad = Double.Parse(txt_Cantidad.Text);
+                        cantidad = Double.Parse(Txt_Cantidad.Text);
 
                     }
                     catch (Exception)
                     {
                         MessageBox.Show("El Número de Cantidad no es Válido, Revise La Cantidad Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                        txt_Cantidad.Clear();
-                        txt_SubTotal.Clear();
-                        txt_IGV.Clear();
-                        txt_Total.Clear();
+                        Txt_Cantidad.Clear();
+                        Txt_SubTotal.Clear();
+                        Txt_IGV.Clear();
+                        Txt_Total.Clear();
                         return;
-                        //cantidad = double.Parse(txt_Cantidad.Text);
+                        //cantidad = double.Parse(Txt_Cantidad.Text);
                     }
                     devolucion = cantidad - total;
                     if (devolucion > 0)
-                        txt_Devolucion.Text = String.Format("{0:0.00}", devolucion);
+                        Txt_Devolucion.Text = String.Format("{0:0.00}", devolucion);
                     else
-                        txt_Devolucion.Clear();
+                        Txt_Devolucion.Clear();
 
                 }
             }
@@ -222,7 +222,7 @@ namespace Shalong.Formularios
             {
                 try
                 {
-                    total = Double.Parse(txt_Total.Text);
+                    total = Double.Parse(Txt_Total.Text);
                 }
                 catch (Exception)
                 {
@@ -243,7 +243,7 @@ namespace Shalong.Formularios
                         }
                     }
                 }
-                txt_Devolucion.Text = String.Format("{0:0.00}", cantidad);
+                Txt_Devolucion.Text = String.Format("{0:0.00}", cantidad);
 
             }
         }
@@ -261,7 +261,7 @@ namespace Shalong.Formularios
                 C_Venta objetoVenta = new C_Venta();
                 try
                 {
-                    objetoVenta.TotalVenta = Double.Parse(txt_Total.Text);
+                    objetoVenta.TotalVenta = Double.Parse(Txt_Total.Text);
                 }
                 catch (Exception e)
                 {
@@ -270,30 +270,30 @@ namespace Shalong.Formularios
                 }
                 int[] totalPago = new int[dgv_TipoPago.RowCount];
                 int[] tipoPago = new int[dgv_TipoPago.RowCount];
-                objetoVenta.CodigoTipoDocumento = Int32.Parse(cmb_I_TipoDocumento.SelectedValue.ToString());
+                objetoVenta.CodigoTipoDocumento = Int32.Parse(Cmb_I_TipoDocumento.SelectedValue.ToString());
                 objetoVenta.Codigo = 1;
                 objetoVenta.CodigoCaja = _objetoParametros.CodigoCaja;
-                if (cmb_I_Cliente.SelectedValue == null)
+                if (Cmb_I_Cliente.SelectedValue == null)
                 {
                     objetoVenta.CodigoCliente = -1;
                 }
                 else
                 {
-                    objetoVenta.CodigoCliente = Int32.Parse(cmb_I_Cliente.SelectedValue.ToString());
+                    objetoVenta.CodigoCliente = Int32.Parse(Cmb_I_Cliente.SelectedValue.ToString());
                 }
-                objetoVenta.NumeroDocumentoVenta = txt_I_NDocumento.Text;
-                if (cmb_I_Empresa.SelectedValue == null)
+                objetoVenta.NumeroDocumentoVenta = Txt_I_NDocumento.Text;
+                if (Cmb_I_Empresa.SelectedValue == null)
                 {
                     objetoVenta.CodigoEmpresa = -1;
                 }
                 else
                 {
-                    objetoVenta.CodigoEmpresa = Int32.Parse(cmb_I_Empresa.SelectedValue.ToString());
+                    objetoVenta.CodigoEmpresa = Int32.Parse(Cmb_I_Empresa.SelectedValue.ToString());
                 }
 
                 if (chk_VariosPagos.Checked)
                 {
-                    if (txt_Devolucion.Text != txt_Total.Text)
+                    if (Txt_Devolucion.Text != Txt_Total.Text)
                     {
                         MessageBox.Show("El pago no es igual al total de la venta", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                         return;
@@ -332,16 +332,16 @@ namespace Shalong.Formularios
                         {
                             int cliente = -1;
                             string empresa = "-1";
-                            if (cmb_I_Cliente.SelectedIndex != -1)
+                            if (Cmb_I_Cliente.SelectedIndex != -1)
                             {
-                                cliente = Int32.Parse(cmb_I_Cliente.SelectedValue.ToString());
+                                cliente = Int32.Parse(Cmb_I_Cliente.SelectedValue.ToString());
                             }
-                            if (cmb_I_Empresa.SelectedIndex != -1)
+                            if (Cmb_I_Empresa.SelectedIndex != -1)
                             {
-                                empresa = cmb_I_Empresa.SelectedValue.ToString();
+                                empresa = Cmb_I_Empresa.SelectedValue.ToString();
                             }
                             int codigoVenta = _shalong.VentasCodigo(objetoVenta);
-                            Credito objeto = new Credito(objetoVenta.NumeroDocumentoVenta, Double.Parse(txt_Total.Text), cliente, empresa, codigoVenta, _objetoParametros.CodigoCaja);
+                            Credito objeto = new Credito(objetoVenta.NumeroDocumentoVenta, Double.Parse(Txt_Total.Text), cliente, empresa, codigoVenta, _objetoParametros.CodigoCaja);
                             objeto.ShowDialog();
                         }
                         objetoVenta.TotalVenta = totalPago[i];
@@ -364,7 +364,7 @@ namespace Shalong.Formularios
                 else
                 {
 
-                    objetoVenta.CodigoTipoPago = Int32.Parse(cmb_TipoPago.SelectedValue.ToString());
+                    objetoVenta.CodigoTipoPago = Int32.Parse(Cmb_TipoPago.SelectedValue.ToString());
                     if (_shalong.Ventas(1, objetoVenta))
                     {
                         //MessageBox.Show("Ingreso Correctamente la Venta");
@@ -373,16 +373,16 @@ namespace Shalong.Formularios
                         {
                             int cliente = -1;
                             string empresa = "-1";
-                            if (cmb_I_Cliente.SelectedIndex != -1)
+                            if (Cmb_I_Cliente.SelectedIndex != -1)
                             {
-                                cliente = Int32.Parse(cmb_I_Cliente.SelectedValue.ToString());
+                                cliente = Int32.Parse(Cmb_I_Cliente.SelectedValue.ToString());
                             }
-                            if (cmb_I_Empresa.SelectedIndex != -1)
+                            if (Cmb_I_Empresa.SelectedIndex != -1)
                             {
-                                empresa = cmb_I_Empresa.SelectedValue.ToString();
+                                empresa = Cmb_I_Empresa.SelectedValue.ToString();
                             }
                             int codigoVenta = _shalong.VentasCodigo(objetoVenta);
-                            Credito objeto = new Credito(objetoVenta.NumeroDocumentoVenta, Double.Parse(txt_Total.Text), cliente, empresa, codigoVenta, _objetoParametros.CodigoCaja);
+                            Credito objeto = new Credito(objetoVenta.NumeroDocumentoVenta, Double.Parse(Txt_Total.Text), cliente, empresa, codigoVenta, _objetoParametros.CodigoCaja);
                             objeto.ShowDialog();
                         }
                     }
@@ -399,7 +399,7 @@ namespace Shalong.Formularios
             C_VentaDetalle objetoVentaDetalle = new C_VentaDetalle();
             C_Venta objetoVenta = new C_Venta();
             //objetoVenta.CodigoCaja = _codigoCaja;
-            objetoVenta.NumeroDocumentoVenta = txt_I_NDocumento.Text;
+            objetoVenta.NumeroDocumentoVenta = Txt_I_NDocumento.Text;
             objetoVentaDetalle.CodigoVenta = _shalong.VentasCodigo(objetoVenta);
             foreach (DataGridViewRow row in dtg_Factura.Rows)
             {
@@ -431,15 +431,15 @@ namespace Shalong.Formularios
 
         private void Limpiar()
         {
-            cmb_I_Cliente.SelectedIndex = -1;
-            cmb_I_Empresa.SelectedIndex = -1;
-            cmb_TipoPago.SelectedIndex = -1;
-            cmb_I_TipoDocumento.SelectedIndex = -1;
-            txt_I_NDocumento.Text = "";
+            Cmb_I_Cliente.SelectedIndex = -1;
+            Cmb_I_Empresa.SelectedIndex = -1;
+            Cmb_TipoPago.SelectedIndex = -1;
+            Cmb_I_TipoDocumento.SelectedIndex = -1;
+            Txt_I_NDocumento.Text = "";
             dtg_Factura.Rows.Clear();
             dgv_TipoPago.Rows.Clear();
-            txt_Cantidad.Text = "";
-            txt_Devolucion.Text = "";
+            Txt_Cantidad.Text = "";
+            Txt_Devolucion.Text = "";
         }
 
         // CARGAR
@@ -466,39 +466,39 @@ namespace Shalong.Formularios
         }
         private void CargarComboBoxTipoPago()
         {
-            cmb_TipoPago.DisplayMember = "Nombre";
-            cmb_TipoPago.ValueMember = "Codigo";
-            cmb_TipoPago.DataSource = _shalong.TipoPagoMostrar();
-            //cmb_TipoPago.AutoCompleteCustomSource = DataHelper.LoadAutoComplete();   
+            Cmb_TipoPago.DisplayMember = "Nombre";
+            Cmb_TipoPago.ValueMember = "Codigo";
+            Cmb_TipoPago.DataSource = _shalong.TipoPagoMostrar();
+            //Cmb_TipoPago.AutoCompleteCustomSource = DataHelper.LoadAutoComplete();   
         }
         private void CargarComboBoxCliente()
         {
-            cmb_I_Cliente.DisplayMember = "Nombre";
-            cmb_I_Cliente.ValueMember = "Codigo";
-            cmb_I_Cliente.DataSource = _shalong.ClienteMostrar();
-            cmb_I_Cliente.SelectedIndex = -1;
+            Cmb_I_Cliente.DisplayMember = "Nombre";
+            Cmb_I_Cliente.ValueMember = "Codigo";
+            Cmb_I_Cliente.DataSource = _shalong.ClienteMostrar();
+            Cmb_I_Cliente.SelectedIndex = -1;
         }
         private void CargarComboBoxEmpresa()
         {
-            cmb_I_Empresa.DisplayMember = "Nombre";
-            cmb_I_Empresa.ValueMember = "Codigo";
-            cmb_I_Empresa.DataSource = _shalong.EmpresaMostrar();
-            cmb_I_Empresa.SelectedIndex = -1;
+            Cmb_I_Empresa.DisplayMember = "Nombre";
+            Cmb_I_Empresa.ValueMember = "Codigo";
+            Cmb_I_Empresa.DataSource = _shalong.EmpresaMostrar();
+            Cmb_I_Empresa.SelectedIndex = -1;
         }
         private void CargarComboBoxTipoPrecio()
         {
-            cmb_TipoPrecio.DisplayMember = "Nombre";
-            cmb_TipoPrecio.ValueMember = "Codigo";
-            cmb_TipoPrecio.DataSource = _shalong.TipoPrecioMostrar();
-            //cmb_TipoPrecio.SelectedIndex = -1;
+            Cmb_TipoPrecio.DisplayMember = "Nombre";
+            Cmb_TipoPrecio.ValueMember = "Codigo";
+            Cmb_TipoPrecio.DataSource = _shalong.TipoPrecioMostrar();
+            //Cmb_TipoPrecio.SelectedIndex = -1;
 
         }
         private void CargarComboBoxTipoDocumento()
         {
-            cmb_I_TipoDocumento.DisplayMember = "Nombre";
-            cmb_I_TipoDocumento.ValueMember = "Codigo";
-            cmb_I_TipoDocumento.DataSource = _shalong.TipoDocumentoMostrar();
-            cmb_I_TipoDocumento.SelectedIndex = -1;
+            Cmb_I_TipoDocumento.DisplayMember = "Nombre";
+            Cmb_I_TipoDocumento.ValueMember = "Codigo";
+            Cmb_I_TipoDocumento.DataSource = _shalong.TipoDocumentoMostrar();
+            Cmb_I_TipoDocumento.SelectedIndex = -1;
 
         }
         private void CargarDataGridViewProductos()
@@ -546,7 +546,7 @@ namespace Shalong.Formularios
         }
         private void Dtg_FacturaCodigo(int rowActual)
         {
-            if (cmb_TipoPrecio.SelectedIndex == -1)
+            if (Cmb_TipoPrecio.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Tipo de Precio Valido Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 dtg_Factura.Rows.Clear();
@@ -580,7 +580,7 @@ namespace Shalong.Formularios
         }
         private void Dtg_FacturaNombre(int rowActual)
         {
-            if (cmb_TipoPrecio.SelectedIndex == -1)
+            if (Cmb_TipoPrecio.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese un Tipo de Precio Valido Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 dtg_Factura.Rows.Clear();
@@ -680,7 +680,7 @@ namespace Shalong.Formularios
         }
         private void Dtg_FacturaMostrarProducto(int rowActual)
         {
-            if (cmb_TipoPrecio.SelectedIndex == -1)
+            if (Cmb_TipoPrecio.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese un Tipo de Precio Valido Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 dtg_Factura.Rows.Clear();
@@ -696,7 +696,7 @@ namespace Shalong.Formularios
                     string codigo = dtg_Factura.Rows[rowActual].Cells["Codigo"].Value.ToString();
                     C_Producto objetoProducto = _shalong.ProductoMostrar1(codigo);
 
-                    int tipoPrecio = Int32.Parse(cmb_TipoPrecio.SelectedValue.ToString());
+                    int tipoPrecio = Int32.Parse(Cmb_TipoPrecio.SelectedValue.ToString());
                     dtg_Factura.Rows[rowActual].Cells["Garantia"].Value = objetoProducto.TiempoGarantia;
                     dtg_Factura.Rows[rowActual].Cells["Descuento"].Value = 0;
                     dtg_Factura.Rows[rowActual].Cells["Tipo_Precio"].Value = tipoPrecio;
@@ -719,18 +719,18 @@ namespace Shalong.Formularios
 
         //EVENTOS
 
-        private void btn_I_Cliente_Click(object sender, EventArgs e)
+        private void Btn_I_Cliente_Click(object sender, EventArgs e)
         {
             Cliente objeto = new Cliente();
             objeto.ShowDialog();
         }
-        private void btn_I_Empresa_Click(object sender, EventArgs e)
+        private void Btn_I_Empresa_Click(object sender, EventArgs e)
         {
             Empresa objeto = new Empresa();
             objeto.ShowDialog();
 
         }
-        private void txt_Cantidad_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_Cantidad_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar) || e.KeyChar == '.' || (char.IsWhiteSpace(e.KeyChar))) && (e.KeyChar != (char)Keys.Back))
             {
@@ -739,7 +739,7 @@ namespace Shalong.Formularios
                 return;
             }
         }
-        private void txt_Cantidad_TextChanged_1(object sender, EventArgs e)
+        private void Txt_Cantidad_TextChanged_1(object sender, EventArgs e)
         {
             int rowActual;
             rowActual = 0;
@@ -750,25 +750,25 @@ namespace Shalong.Formularios
             else
             {
                 //MessageBox.Show("Ingrese un Producto Antes de Ingresar una Cantidad de Ingreso");
-                txt_Cantidad.Clear();
+                Txt_Cantidad.Clear();
                 return;
             }
         }
-        private void cmb_I_TipoDocumento_SelectedValueChanged(object sender, EventArgs e)
+        private void Cmb_I_TipoDocumento_SelectedValueChanged(object sender, EventArgs e)
         {
-            if (cmb_I_TipoDocumento.SelectedIndex != -1)
+            if (Cmb_I_TipoDocumento.SelectedIndex != -1)
             {
-                if (Int32.Parse(cmb_I_TipoDocumento.SelectedValue.ToString()) == 3)
+                if (Int32.Parse(Cmb_I_TipoDocumento.SelectedValue.ToString()) == 3)
                 {
                     chk_Igv.Enabled = false;
                     chk_Igv.Checked = false;
                 }
-                if (Int32.Parse(cmb_I_TipoDocumento.SelectedValue.ToString()) == 5)
+                if (Int32.Parse(Cmb_I_TipoDocumento.SelectedValue.ToString()) == 5)
                 {
                     chk_Igv.Enabled = false;
                     chk_Igv.Checked = false;
                 }
-                if (Int32.Parse(cmb_I_TipoDocumento.SelectedValue.ToString()) == 4)
+                if (Int32.Parse(Cmb_I_TipoDocumento.SelectedValue.ToString()) == 4)
                 {
                     chk_Igv.Enabled = true;
                     chk_Igv.Checked = true;
@@ -782,37 +782,37 @@ namespace Shalong.Formularios
             
 
         }
-        private void cmb_TipoPago_SelectedValueChanged(object sender, EventArgs e)
+        private void Cmb_TipoPago_SelectedValueChanged(object sender, EventArgs e)
         {
-            if (cmb_TipoPago.SelectedIndex != -1)
+            if (Cmb_TipoPago.SelectedIndex != -1)
             {
-                if (Int32.Parse(cmb_TipoPago.SelectedValue.ToString()) == 1)
+                if (Int32.Parse(Cmb_TipoPago.SelectedValue.ToString()) == 1)
                 {
-                    txt_Cantidad.Enabled = true;
-                    txt_Cantidad.Clear();
-                    txt_Devolucion.Text = "0.0";
+                    Txt_Cantidad.Enabled = true;
+                    Txt_Cantidad.Clear();
+                    Txt_Devolucion.Text = "0.0";
 
                 }
                 else
                 {
-                    txt_Cantidad.Enabled = false;
-                    txt_Cantidad.Clear();
-                    txt_Devolucion.Text = "0.0";
-                    txt_Cantidad.Text = txt_Total.Text;
+                    Txt_Cantidad.Enabled = false;
+                    Txt_Cantidad.Clear();
+                    Txt_Devolucion.Text = "0.0";
+                    Txt_Cantidad.Text = Txt_Total.Text;
                 }
             }
 
         }
-        private void txt_Total_TextChanged(object sender, EventArgs e)
+        private void Txt_Total_TextChanged(object sender, EventArgs e)
         {
-            if (Int32.Parse(cmb_TipoPago.SelectedValue.ToString()) == 1)
+            if (Int32.Parse(Cmb_TipoPago.SelectedValue.ToString()) == 1)
             {
             }
             else
             {
-                txt_Cantidad.Enabled = false;
-                txt_Cantidad.Text = txt_Total.Text;
-                txt_Devolucion.Text = "0.0";
+                Txt_Cantidad.Enabled = false;
+                Txt_Cantidad.Text = Txt_Total.Text;
+                Txt_Devolucion.Text = "0.0";
             }
         }
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
@@ -828,24 +828,24 @@ namespace Shalong.Formularios
         {
 
         }
-        private void txt_Cantidad_TextChanged(object sender, EventArgs e)
+        private void Txt_Cantidad_TextChanged(object sender, EventArgs e)
         {
             CalcularDevolucion();
         }
-        private void cmb_I_Cliente_SelectedIndexChanged(object sender, EventArgs e)
+        private void Cmb_I_Cliente_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cmb_I_Cliente.SelectedIndex == -1)
+            if (Cmb_I_Cliente.SelectedIndex == -1)
             {
-                txt_P_Nombre.Clear();
+                Txt_P_Nombre.Clear();
             }
 
-            if (cmb_I_Cliente.SelectedIndex != -1)
+            if (Cmb_I_Cliente.SelectedIndex != -1)
             {
-                cmb_I_Empresa.SelectedIndex = -1;
-                C_Cliente obj = _shalong.ClienteMostrar1(Int32.Parse(cmb_I_Cliente.SelectedValue.ToString()));
-                txt_P_Nombre.Text = " " + obj.Nombre + "  " + "" + obj.Apellido_paterno + "  " + "" + obj.Apellido_materno;
-                txt_P_Telefono.Enabled = false;
-                txt_P_Direccion.Enabled = false;
+                Cmb_I_Empresa.SelectedIndex = -1;
+                C_Cliente obj = _shalong.ClienteMostrar1(Int32.Parse(Cmb_I_Cliente.SelectedValue.ToString()));
+                Txt_P_Nombre.Text = " " + obj.Nombre + "  " + "" + obj.Apellido_paterno + "  " + "" + obj.Apellido_materno;
+                Txt_P_Telefono.Enabled = false;
+                Txt_P_Direccion.Enabled = false;
             }
         }
         private void dtg_TipoPago_CellValueChanged(object sender, DataGridViewCellEventArgs e)
@@ -905,47 +905,47 @@ namespace Shalong.Formularios
             /*
             Dtg_FacturaMostrarProducto(fila);*/
         }
-        private void cmb_I_Empresa_SelectedIndexChanged(object sender, EventArgs e)
+        private void Cmb_I_Empresa_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cmb_I_Empresa.SelectedIndex == -1)
+            if (Cmb_I_Empresa.SelectedIndex == -1)
             {
-                txt_P_Nombre.Clear();
-                txt_P_Direccion.Clear();
-                txt_P_Telefono.Clear();
+                Txt_P_Nombre.Clear();
+                Txt_P_Direccion.Clear();
+                Txt_P_Telefono.Clear();
             }
-            if (cmb_I_Empresa.SelectedIndex != -1)
+            if (Cmb_I_Empresa.SelectedIndex != -1)
             {
-                cmb_I_Cliente.SelectedIndex = -1;
-                C_Empresa obj = _shalong.EmpresaMostrar1(Int32.Parse(cmb_I_Empresa.SelectedValue.ToString()));
-                txt_P_Nombre.Text = "" + obj.Nombre;
-                txt_P_Direccion.Text = "" + obj.Direccion;
-                txt_P_Telefono.Text = "" + obj.Telefono;
-                txt_P_Direccion.Enabled = true;
-                txt_P_Telefono.Enabled = true;
+                Cmb_I_Cliente.SelectedIndex = -1;
+                C_Empresa obj = _shalong.EmpresaMostrar1(Int32.Parse(Cmb_I_Empresa.SelectedValue.ToString()));
+                Txt_P_Nombre.Text = "" + obj.Nombre;
+                Txt_P_Direccion.Text = "" + obj.Direccion;
+                Txt_P_Telefono.Text = "" + obj.Telefono;
+                Txt_P_Direccion.Enabled = true;
+                Txt_P_Telefono.Enabled = true;
             }
         }
         private void chk_VariosPagos_CheckedChanged(object sender, EventArgs e)
         {
             if (chk_VariosPagos.Checked)
             {
-                cmb_TipoPago.Visible = false;
+                Cmb_TipoPago.Visible = false;
                 lbl_TipoPago.Visible = false;
-                txt_Cantidad.Visible = false;
+                Txt_Cantidad.Visible = false;
                 lbl_Cantidad.Visible = false;
                 dgv_TipoPago.Visible = true;
                 lbl_TotalDevolucion.Text = "Total";
             }
             else
             {
-                txt_Cantidad.Visible = true;
+                Txt_Cantidad.Visible = true;
                 lbl_Cantidad.Visible = true;
-                cmb_TipoPago.Visible = true;
+                Cmb_TipoPago.Visible = true;
                 lbl_TipoPago.Visible = true;
                 dgv_TipoPago.Visible = false;
                 lbl_TotalDevolucion.Text = "Devolucion";
             }
         }
-        private void cmb_TipoPrecio_SelectedIndexChanged(object sender, EventArgs e)
+        private void Cmb_TipoPrecio_SelectedIndexChanged(object sender, EventArgs e)
         {
             ActualizarTipoPrecio();
         }
@@ -956,7 +956,7 @@ namespace Shalong.Formularios
                 chk_Igv.Checked = true;
                 return;
             }
-            if (cmb_I_TipoDocumento.SelectedIndex == -1)
+            if (Cmb_I_TipoDocumento.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Tipo de Documento", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;

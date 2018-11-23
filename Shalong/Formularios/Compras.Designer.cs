@@ -40,7 +40,7 @@
             this.Unidad = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.Costo_Unitario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Costo_Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txt_I_Total = new System.Windows.Forms.TextBox();
+            this.Txt_I_Total = new System.Windows.Forms.TextBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.dtg_CG_Compras = new System.Windows.Forms.DataGridView();
             this.Cg_Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -53,37 +53,37 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dtp_I_Fecha = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
-            this.txt_I_NroDocumento = new System.Windows.Forms.TextBox();
+            this.Txt_I_NroDocumento = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.chk_Credito = new System.Windows.Forms.CheckBox();
-            this.cmb_I_TipoDocumento = new System.Windows.Forms.ComboBox();
+            this.Cmb_I_TipoDocumento = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.label8 = new System.Windows.Forms.Label();
-            this.btn_I_TipoCambio = new System.Windows.Forms.Button();
-            this.txt_I_TipoCambio = new System.Windows.Forms.TextBox();
+            this.Btn_I_TipoCambio = new System.Windows.Forms.Button();
+            this.Txt_I_TipoCambio = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.cmb_I_TipoMoneda = new System.Windows.Forms.ComboBox();
+            this.Cmb_I_TipoMoneda = new System.Windows.Forms.ComboBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.cmb_M_NroDocumento = new System.Windows.Forms.ComboBox();
+            this.Cmb_M_NroDocumento = new System.Windows.Forms.ComboBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.cmb_Documentos = new System.Windows.Forms.ComboBox();
+            this.Cmb_Documentos = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.txt_I_Proveedor = new System.Windows.Forms.TextBox();
+            this.Txt_I_Proveedor = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.cmb_I_Proveedor = new System.Windows.Forms.ComboBox();
+            this.Cmb_I_Proveedor = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.Btn_Guardar = new System.Windows.Forms.Button();
-            this.btn_Otra = new System.Windows.Forms.Button();
+            this.Btn_Otra = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tab_Producto.SuspendLayout();
             this.tabPage4.SuspendLayout();
@@ -153,7 +153,7 @@
             this.tableLayoutPanel10.ColumnCount = 1;
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel10.Controls.Add(this.dtg_SG_Compras, 0, 0);
-            this.tableLayoutPanel10.Controls.Add(this.txt_I_Total, 0, 1);
+            this.tableLayoutPanel10.Controls.Add(this.Txt_I_Total, 0, 1);
             this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel10.Name = "tableLayoutPanel10";
@@ -227,14 +227,14 @@
             this.Costo_Total.Name = "Costo_Total";
             this.Costo_Total.ReadOnly = true;
             // 
-            // txt_I_Total
+            // Txt_I_Total
             // 
-            this.txt_I_Total.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.txt_I_Total.Enabled = false;
-            this.txt_I_Total.Location = new System.Drawing.Point(534, 208);
-            this.txt_I_Total.Name = "txt_I_Total";
-            this.txt_I_Total.Size = new System.Drawing.Size(139, 26);
-            this.txt_I_Total.TabIndex = 1;
+            this.Txt_I_Total.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.Txt_I_Total.Enabled = false;
+            this.Txt_I_Total.Location = new System.Drawing.Point(534, 208);
+            this.Txt_I_Total.Name = "Txt_I_Total";
+            this.Txt_I_Total.Size = new System.Drawing.Size(139, 26);
+            this.Txt_I_Total.TabIndex = 1;
             // 
             // tabPage5
             // 
@@ -331,7 +331,7 @@
             this.tableLayoutPanel5.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.dtp_I_Fecha, 3, 0);
             this.tableLayoutPanel5.Controls.Add(this.label2, 2, 0);
-            this.tableLayoutPanel5.Controls.Add(this.txt_I_NroDocumento, 1, 0);
+            this.tableLayoutPanel5.Controls.Add(this.Txt_I_NroDocumento, 1, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
@@ -367,13 +367,13 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Fecha";
             // 
-            // txt_I_NroDocumento
+            // Txt_I_NroDocumento
             // 
-            this.txt_I_NroDocumento.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txt_I_NroDocumento.Location = new System.Drawing.Point(137, 3);
-            this.txt_I_NroDocumento.Name = "txt_I_NroDocumento";
-            this.txt_I_NroDocumento.Size = new System.Drawing.Size(174, 26);
-            this.txt_I_NroDocumento.TabIndex = 6;
+            this.Txt_I_NroDocumento.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Txt_I_NroDocumento.Location = new System.Drawing.Point(137, 3);
+            this.Txt_I_NroDocumento.Name = "Txt_I_NroDocumento";
+            this.Txt_I_NroDocumento.Size = new System.Drawing.Size(174, 26);
+            this.Txt_I_NroDocumento.TabIndex = 6;
             // 
             // tableLayoutPanel6
             // 
@@ -383,7 +383,7 @@
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36.56717F));
             this.tableLayoutPanel6.Controls.Add(this.label3, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.chk_Credito, 2, 0);
-            this.tableLayoutPanel6.Controls.Add(this.cmb_I_TipoDocumento, 1, 0);
+            this.tableLayoutPanel6.Controls.Add(this.Cmb_I_TipoDocumento, 1, 0);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel6.Location = new System.Drawing.Point(3, 39);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
@@ -413,14 +413,14 @@
             this.chk_Credito.Text = "Credito";
             this.chk_Credito.UseVisualStyleBackColor = true;
             // 
-            // cmb_I_TipoDocumento
+            // Cmb_I_TipoDocumento
             // 
-            this.cmb_I_TipoDocumento.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.cmb_I_TipoDocumento.FormattingEnabled = true;
-            this.cmb_I_TipoDocumento.Location = new System.Drawing.Point(153, 3);
-            this.cmb_I_TipoDocumento.Name = "cmb_I_TipoDocumento";
-            this.cmb_I_TipoDocumento.Size = new System.Drawing.Size(240, 28);
-            this.cmb_I_TipoDocumento.TabIndex = 13;
+            this.Cmb_I_TipoDocumento.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Cmb_I_TipoDocumento.FormattingEnabled = true;
+            this.Cmb_I_TipoDocumento.Location = new System.Drawing.Point(153, 3);
+            this.Cmb_I_TipoDocumento.Name = "Cmb_I_TipoDocumento";
+            this.Cmb_I_TipoDocumento.Size = new System.Drawing.Size(240, 28);
+            this.Cmb_I_TipoDocumento.TabIndex = 13;
             // 
             // tableLayoutPanel7
             // 
@@ -431,10 +431,10 @@
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.01493F));
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.1791F));
             this.tableLayoutPanel7.Controls.Add(this.label8, 0, 0);
-            this.tableLayoutPanel7.Controls.Add(this.btn_I_TipoCambio, 4, 0);
-            this.tableLayoutPanel7.Controls.Add(this.txt_I_TipoCambio, 3, 0);
+            this.tableLayoutPanel7.Controls.Add(this.Btn_I_TipoCambio, 4, 0);
+            this.tableLayoutPanel7.Controls.Add(this.Txt_I_TipoCambio, 3, 0);
             this.tableLayoutPanel7.Controls.Add(this.label4, 2, 0);
-            this.tableLayoutPanel7.Controls.Add(this.cmb_I_TipoMoneda, 1, 0);
+            this.tableLayoutPanel7.Controls.Add(this.Cmb_I_TipoMoneda, 1, 0);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 75);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
@@ -453,25 +453,25 @@
             this.label8.TabIndex = 12;
             this.label8.Text = "Moneda";
             // 
-            // btn_I_TipoCambio
+            // Btn_I_TipoCambio
             // 
-            this.btn_I_TipoCambio.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btn_I_TipoCambio.Location = new System.Drawing.Point(577, 3);
-            this.btn_I_TipoCambio.Name = "btn_I_TipoCambio";
-            this.btn_I_TipoCambio.Size = new System.Drawing.Size(75, 25);
-            this.btn_I_TipoCambio.TabIndex = 8;
-            this.btn_I_TipoCambio.Text = "...";
-            this.btn_I_TipoCambio.UseVisualStyleBackColor = true;
-            this.btn_I_TipoCambio.Click += new System.EventHandler(this.btn_I_TipoCambio_Click_1);
+            this.Btn_I_TipoCambio.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Btn_I_TipoCambio.Location = new System.Drawing.Point(577, 3);
+            this.Btn_I_TipoCambio.Name = "Btn_I_TipoCambio";
+            this.Btn_I_TipoCambio.Size = new System.Drawing.Size(75, 25);
+            this.Btn_I_TipoCambio.TabIndex = 8;
+            this.Btn_I_TipoCambio.Text = "...";
+            this.Btn_I_TipoCambio.UseVisualStyleBackColor = true;
+            this.Btn_I_TipoCambio.Click += new System.EventHandler(this.Btn_I_TipoCambio_Click_1);
             // 
-            // txt_I_TipoCambio
+            // Txt_I_TipoCambio
             // 
-            this.txt_I_TipoCambio.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txt_I_TipoCambio.Enabled = false;
-            this.txt_I_TipoCambio.Location = new System.Drawing.Point(463, 3);
-            this.txt_I_TipoCambio.Name = "txt_I_TipoCambio";
-            this.txt_I_TipoCambio.Size = new System.Drawing.Size(94, 26);
-            this.txt_I_TipoCambio.TabIndex = 9;
+            this.Txt_I_TipoCambio.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Txt_I_TipoCambio.Enabled = false;
+            this.Txt_I_TipoCambio.Location = new System.Drawing.Point(463, 3);
+            this.Txt_I_TipoCambio.Name = "Txt_I_TipoCambio";
+            this.Txt_I_TipoCambio.Size = new System.Drawing.Size(94, 26);
+            this.Txt_I_TipoCambio.TabIndex = 9;
             // 
             // label4
             // 
@@ -483,15 +483,15 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Tipo Cambio";
             // 
-            // cmb_I_TipoMoneda
+            // Cmb_I_TipoMoneda
             // 
-            this.cmb_I_TipoMoneda.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.cmb_I_TipoMoneda.FormattingEnabled = true;
-            this.cmb_I_TipoMoneda.Location = new System.Drawing.Point(98, 3);
-            this.cmb_I_TipoMoneda.Name = "cmb_I_TipoMoneda";
-            this.cmb_I_TipoMoneda.Size = new System.Drawing.Size(234, 28);
-            this.cmb_I_TipoMoneda.TabIndex = 11;
-            this.cmb_I_TipoMoneda.SelectedIndexChanged += new System.EventHandler(this.cmb_I_TipoMoneda_SelectedIndexChanged_2);
+            this.Cmb_I_TipoMoneda.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Cmb_I_TipoMoneda.FormattingEnabled = true;
+            this.Cmb_I_TipoMoneda.Location = new System.Drawing.Point(98, 3);
+            this.Cmb_I_TipoMoneda.Name = "Cmb_I_TipoMoneda";
+            this.Cmb_I_TipoMoneda.Size = new System.Drawing.Size(234, 28);
+            this.Cmb_I_TipoMoneda.TabIndex = 11;
+            this.Cmb_I_TipoMoneda.SelectedIndexChanged += new System.EventHandler(this.Cmb_I_TipoMoneda_SelectedIndexChanged_2);
             // 
             // tabPage2
             // 
@@ -514,7 +514,7 @@
             this.tableLayoutPanel8.Controls.Add(this.dateTimePicker2, 3, 0);
             this.tableLayoutPanel8.Controls.Add(this.label6, 0, 0);
             this.tableLayoutPanel8.Controls.Add(this.label5, 2, 0);
-            this.tableLayoutPanel8.Controls.Add(this.cmb_M_NroDocumento, 1, 0);
+            this.tableLayoutPanel8.Controls.Add(this.Cmb_M_NroDocumento, 1, 0);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
@@ -552,15 +552,15 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Fecha";
             // 
-            // cmb_M_NroDocumento
+            // Cmb_M_NroDocumento
             // 
-            this.cmb_M_NroDocumento.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.cmb_M_NroDocumento.FormattingEnabled = true;
-            this.cmb_M_NroDocumento.Location = new System.Drawing.Point(113, 40);
-            this.cmb_M_NroDocumento.Name = "cmb_M_NroDocumento";
-            this.cmb_M_NroDocumento.Size = new System.Drawing.Size(185, 28);
-            this.cmb_M_NroDocumento.TabIndex = 10;
-            this.cmb_M_NroDocumento.SelectionChangeCommitted += new System.EventHandler(this.cmb_M_NroDocumento_SelectionChangeCommitted);
+            this.Cmb_M_NroDocumento.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Cmb_M_NroDocumento.FormattingEnabled = true;
+            this.Cmb_M_NroDocumento.Location = new System.Drawing.Point(113, 40);
+            this.Cmb_M_NroDocumento.Name = "Cmb_M_NroDocumento";
+            this.Cmb_M_NroDocumento.Size = new System.Drawing.Size(185, 28);
+            this.Cmb_M_NroDocumento.TabIndex = 10;
+            this.Cmb_M_NroDocumento.SelectionChangeCommitted += new System.EventHandler(this.Cmb_M_NroDocumento_SelectionChangeCommitted);
             // 
             // tabPage6
             // 
@@ -580,7 +580,7 @@
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.89764F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.10236F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel9.Controls.Add(this.cmb_Documentos, 2, 1);
+            this.tableLayoutPanel9.Controls.Add(this.Cmb_Documentos, 2, 1);
             this.tableLayoutPanel9.Controls.Add(this.label10, 1, 1);
             this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 3);
@@ -592,15 +592,15 @@
             this.tableLayoutPanel9.Size = new System.Drawing.Size(676, 109);
             this.tableLayoutPanel9.TabIndex = 6;
             // 
-            // cmb_Documentos
+            // Cmb_Documentos
             // 
-            this.cmb_Documentos.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.cmb_Documentos.FormattingEnabled = true;
-            this.cmb_Documentos.Location = new System.Drawing.Point(268, 44);
-            this.cmb_Documentos.Name = "cmb_Documentos";
-            this.cmb_Documentos.Size = new System.Drawing.Size(309, 28);
-            this.cmb_Documentos.TabIndex = 5;
-            this.cmb_Documentos.SelectionChangeCommitted += new System.EventHandler(this.cmb_Documentos_SelectionChangeCommitted_1);
+            this.Cmb_Documentos.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Cmb_Documentos.FormattingEnabled = true;
+            this.Cmb_Documentos.Location = new System.Drawing.Point(268, 44);
+            this.Cmb_Documentos.Name = "Cmb_Documentos";
+            this.Cmb_Documentos.Size = new System.Drawing.Size(309, 28);
+            this.Cmb_Documentos.TabIndex = 5;
+            this.Cmb_Documentos.SelectionChangeCommitted += new System.EventHandler(this.Cmb_Documentos_SelectionChangeCommitted_1);
             // 
             // label10
             // 
@@ -640,9 +640,9 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 78.03278F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 79F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 309F));
-            this.tableLayoutPanel3.Controls.Add(this.txt_I_Proveedor, 3, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Txt_I_Proveedor, 3, 0);
             this.tableLayoutPanel3.Controls.Add(this.label9, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.cmb_I_Proveedor, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Cmb_I_Proveedor, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.label7, 2, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
@@ -652,14 +652,14 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(676, 62);
             this.tableLayoutPanel3.TabIndex = 13;
             // 
-            // txt_I_Proveedor
+            // Txt_I_Proveedor
             // 
-            this.txt_I_Proveedor.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txt_I_Proveedor.Enabled = false;
-            this.txt_I_Proveedor.Location = new System.Drawing.Point(369, 18);
-            this.txt_I_Proveedor.Name = "txt_I_Proveedor";
-            this.txt_I_Proveedor.Size = new System.Drawing.Size(283, 26);
-            this.txt_I_Proveedor.TabIndex = 12;
+            this.Txt_I_Proveedor.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Txt_I_Proveedor.Enabled = false;
+            this.Txt_I_Proveedor.Location = new System.Drawing.Point(369, 18);
+            this.Txt_I_Proveedor.Name = "Txt_I_Proveedor";
+            this.Txt_I_Proveedor.Size = new System.Drawing.Size(283, 26);
+            this.Txt_I_Proveedor.TabIndex = 12;
             // 
             // label9
             // 
@@ -671,15 +671,15 @@
             this.label9.TabIndex = 0;
             this.label9.Text = "RUC";
             // 
-            // cmb_I_Proveedor
+            // Cmb_I_Proveedor
             // 
-            this.cmb_I_Proveedor.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.cmb_I_Proveedor.FormattingEnabled = true;
-            this.cmb_I_Proveedor.Location = new System.Drawing.Point(66, 17);
-            this.cmb_I_Proveedor.Name = "cmb_I_Proveedor";
-            this.cmb_I_Proveedor.Size = new System.Drawing.Size(218, 28);
-            this.cmb_I_Proveedor.TabIndex = 1;
-            this.cmb_I_Proveedor.SelectedIndexChanged += new System.EventHandler(this.cmb_I_Proveedor_SelectedIndexChanged_1);
+            this.Cmb_I_Proveedor.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Cmb_I_Proveedor.FormattingEnabled = true;
+            this.Cmb_I_Proveedor.Location = new System.Drawing.Point(66, 17);
+            this.Cmb_I_Proveedor.Name = "Cmb_I_Proveedor";
+            this.Cmb_I_Proveedor.Size = new System.Drawing.Size(218, 28);
+            this.Cmb_I_Proveedor.TabIndex = 1;
+            this.Cmb_I_Proveedor.SelectedIndexChanged += new System.EventHandler(this.Cmb_I_Proveedor_SelectedIndexChanged_1);
             // 
             // label7
             // 
@@ -697,7 +697,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.Btn_Guardar, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.btn_Otra, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.Btn_Otra, 1, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 542);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -717,16 +717,16 @@
             this.Btn_Guardar.UseVisualStyleBackColor = true;
             this.Btn_Guardar.Click += new System.EventHandler(this.Btn_Guardar_Click_1);
             // 
-            // btn_Otra
+            // Btn_Otra
             // 
-            this.btn_Otra.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_Otra.Location = new System.Drawing.Point(407, 18);
-            this.btn_Otra.Name = "btn_Otra";
-            this.btn_Otra.Size = new System.Drawing.Size(221, 36);
-            this.btn_Otra.TabIndex = 5;
-            this.btn_Otra.Text = "Ingresar Otra Compra";
-            this.btn_Otra.UseVisualStyleBackColor = true;
-            this.btn_Otra.Click += new System.EventHandler(this.btn_Otra_Click_1);
+            this.Btn_Otra.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Btn_Otra.Location = new System.Drawing.Point(407, 18);
+            this.Btn_Otra.Name = "Btn_Otra";
+            this.Btn_Otra.Size = new System.Drawing.Size(221, 36);
+            this.Btn_Otra.TabIndex = 5;
+            this.Btn_Otra.Text = "Ingresar Otra Compra";
+            this.Btn_Otra.UseVisualStyleBackColor = true;
+            this.Btn_Otra.Click += new System.EventHandler(this.Btn_Otra_Click_1);
             // 
             // Compras
             // 
@@ -777,7 +777,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TabControl tab_Producto;
         private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.TextBox txt_I_Total;
+        private System.Windows.Forms.TextBox Txt_I_Total;
         private System.Windows.Forms.DataGridView dtg_SG_Compras;
         private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
         private System.Windows.Forms.DataGridViewComboBoxColumn Nombre;
@@ -797,37 +797,37 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dtp_I_Fecha;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txt_I_NroDocumento;
+        private System.Windows.Forms.TextBox Txt_I_NroDocumento;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckBox chk_Credito;
-        private System.Windows.Forms.ComboBox cmb_I_TipoDocumento;
+        private System.Windows.Forms.ComboBox Cmb_I_TipoDocumento;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button btn_I_TipoCambio;
-        private System.Windows.Forms.TextBox txt_I_TipoCambio;
+        private System.Windows.Forms.Button Btn_I_TipoCambio;
+        private System.Windows.Forms.TextBox Txt_I_TipoCambio;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox cmb_I_TipoMoneda;
+        private System.Windows.Forms.ComboBox Cmb_I_TipoMoneda;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox cmb_M_NroDocumento;
+        private System.Windows.Forms.ComboBox Cmb_M_NroDocumento;
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
-        private System.Windows.Forms.ComboBox cmb_Documentos;
+        private System.Windows.Forms.ComboBox Cmb_Documentos;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TabControl tabControl2;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.TextBox txt_I_Proveedor;
+        private System.Windows.Forms.TextBox Txt_I_Proveedor;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox cmb_I_Proveedor;
+        private System.Windows.Forms.ComboBox Cmb_I_Proveedor;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Button Btn_Guardar;
-        private System.Windows.Forms.Button btn_Otra;
+        private System.Windows.Forms.Button Btn_Otra;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel10;
 
     }

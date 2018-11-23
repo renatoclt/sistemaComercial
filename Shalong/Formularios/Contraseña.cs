@@ -20,8 +20,8 @@ namespace Shalong.Formularios
             InitializeComponent();
             if (objetoParametros.TipoTrabajador == "Administrador")
             {
-                txt_Usuario.Text = "" + objetoParametros.DniUsuario;
-                txt_Contraseña.Select();
+                Txt_Usuario.Text = "" + objetoParametros.DniUsuario;
+                Txt_Contraseña.Select();
             }
         }
          public Contraseña(I_Parametros parametros)
@@ -32,8 +32,8 @@ namespace Shalong.Formularios
          public Contraseña(I_Parametros parametros, C_Parametros objetoParametros)
             : this(parametros)
         {
-            txt_Usuario.Text = "" + objetoParametros.DniUsuario;
-            txt_Contraseña.Select();
+            Txt_Usuario.Text = "" + objetoParametros.DniUsuario;
+            Txt_Contraseña.Select();
         }
         int _codigoAdministrador;
         string _observacion;
@@ -67,17 +67,17 @@ namespace Shalong.Formularios
         private void button1_Click(object sender, EventArgs e)
         {
             C_Contraseña obj = new C_Contraseña();
-            if (txt_Usuario.Text == string.Empty)
+            if (Txt_Usuario.Text == string.Empty)
             {
                 MessageBox.Show("Ingrese un Usuario Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                 return;
             }
             else
             {
-                _codigoAdministrador = Int32.Parse(txt_Usuario.Text);
+                _codigoAdministrador = Int32.Parse(Txt_Usuario.Text);
             }
-            _observacion = txt_Observacion.Text;
-            if (_shalong.Auditoria(_codigoAdministrador, txt_Contraseña.Text))
+            _observacion = Txt_Observacion.Text;
+            if (_shalong.Auditoria(_codigoAdministrador, Txt_Contraseña.Text))
             {
                 this.DialogResult = System.Windows.Forms.DialogResult.OK;
                 this.Close();
@@ -95,8 +95,8 @@ namespace Shalong.Formularios
             {
                 MessageBox.Show("Error al ingresar los datos","Gestion Ventas",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
-            obj.CodigoAdministrador = Int32.Parse(txt_Usuario.Text);
-            obj.Observacion = txt_Observacion.Text;
+            obj.CodigoAdministrador = Int32.Parse(Txt_Usuario.Text);
+            obj.Observacion = Txt_Observacion.Text;
             //if (_shalong.IngresoAuditoria(1, obj))
             //{
             //    MessageBox.Show("Ingreso Correcto","Gestion Ventas",MessageBoxButtons.OK);

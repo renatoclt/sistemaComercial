@@ -31,18 +31,18 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TipoDocumento));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Ingresar = new System.Windows.Forms.TabPage();
-            this.btn_I_TipoDocumento = new System.Windows.Forms.Button();
-            this.txt_I_Nombre = new System.Windows.Forms.TextBox();
+            this.Btn_I_TipoDocumento = new System.Windows.Forms.Button();
+            this.Txt_I_Nombre = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Modificar = new System.Windows.Forms.TabPage();
-            this.btn_M_TipoDocumento = new System.Windows.Forms.Button();
-            this.txt_M_Nombre = new System.Windows.Forms.TextBox();
+            this.Btn_M_TipoDocumento = new System.Windows.Forms.Button();
+            this.Txt_M_Nombre = new System.Windows.Forms.TextBox();
             this.lbl_M_TipoDocumento = new System.Windows.Forms.Label();
-            this.cmb_M_TipoDocumento = new System.Windows.Forms.ComboBox();
+            this.Cmb_M_TipoDocumento = new System.Windows.Forms.ComboBox();
             this.Eliminar = new System.Windows.Forms.TabPage();
-            this.btn_E_TipoDocumento = new System.Windows.Forms.Button();
-            this.cmb_E_TipoDocumento = new System.Windows.Forms.ComboBox();
-            this.txt_E_TipoDocumento = new System.Windows.Forms.Label();
+            this.Btn_E_TipoDocumento = new System.Windows.Forms.Button();
+            this.Cmb_E_TipoDocumento = new System.Windows.Forms.ComboBox();
+            this.Txt_E_TipoDocumento = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.Ingresar.SuspendLayout();
             this.Modificar.SuspendLayout();
@@ -63,8 +63,8 @@
             // 
             // Ingresar
             // 
-            this.Ingresar.Controls.Add(this.btn_I_TipoDocumento);
-            this.Ingresar.Controls.Add(this.txt_I_Nombre);
+            this.Ingresar.Controls.Add(this.Btn_I_TipoDocumento);
+            this.Ingresar.Controls.Add(this.Txt_I_Nombre);
             this.Ingresar.Controls.Add(this.label1);
             this.Ingresar.Location = new System.Drawing.Point(4, 29);
             this.Ingresar.Name = "Ingresar";
@@ -74,24 +74,24 @@
             this.Ingresar.Text = "Ingresar";
             this.Ingresar.UseVisualStyleBackColor = true;
             // 
-            // btn_I_TipoDocumento
+            // Btn_I_TipoDocumento
             // 
-            this.btn_I_TipoDocumento.Location = new System.Drawing.Point(104, 104);
-            this.btn_I_TipoDocumento.Name = "btn_I_TipoDocumento";
-            this.btn_I_TipoDocumento.Size = new System.Drawing.Size(113, 37);
-            this.btn_I_TipoDocumento.TabIndex = 6;
-            this.btn_I_TipoDocumento.Text = "Ingresar";
-            this.btn_I_TipoDocumento.UseVisualStyleBackColor = true;
-            this.btn_I_TipoDocumento.Click += new System.EventHandler(this.btn_I_TipoDocumento_Click);
+            this.Btn_I_TipoDocumento.Location = new System.Drawing.Point(104, 104);
+            this.Btn_I_TipoDocumento.Name = "Btn_I_TipoDocumento";
+            this.Btn_I_TipoDocumento.Size = new System.Drawing.Size(113, 37);
+            this.Btn_I_TipoDocumento.TabIndex = 6;
+            this.Btn_I_TipoDocumento.Text = "Ingresar";
+            this.Btn_I_TipoDocumento.UseVisualStyleBackColor = true;
+            this.Btn_I_TipoDocumento.Click += new System.EventHandler(this.Btn_I_TipoDocumento_Click);
             // 
-            // txt_I_Nombre
+            // Txt_I_Nombre
             // 
-            this.txt_I_Nombre.Location = new System.Drawing.Point(104, 50);
-            this.txt_I_Nombre.MaxLength = 50;
-            this.txt_I_Nombre.Name = "txt_I_Nombre";
-            this.txt_I_Nombre.Size = new System.Drawing.Size(217, 26);
-            this.txt_I_Nombre.TabIndex = 1;
-            this.txt_I_Nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_I_Nombre_KeyPress);
+            this.Txt_I_Nombre.Location = new System.Drawing.Point(104, 50);
+            this.Txt_I_Nombre.MaxLength = 50;
+            this.Txt_I_Nombre.Name = "Txt_I_Nombre";
+            this.Txt_I_Nombre.Size = new System.Drawing.Size(217, 26);
+            this.Txt_I_Nombre.TabIndex = 1;
+            this.Txt_I_Nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_I_Nombre_KeyPress);
             // 
             // label1
             // 
@@ -104,10 +104,10 @@
             // 
             // Modificar
             // 
-            this.Modificar.Controls.Add(this.btn_M_TipoDocumento);
-            this.Modificar.Controls.Add(this.txt_M_Nombre);
+            this.Modificar.Controls.Add(this.Btn_M_TipoDocumento);
+            this.Modificar.Controls.Add(this.Txt_M_Nombre);
             this.Modificar.Controls.Add(this.lbl_M_TipoDocumento);
-            this.Modificar.Controls.Add(this.cmb_M_TipoDocumento);
+            this.Modificar.Controls.Add(this.Cmb_M_TipoDocumento);
             this.Modificar.Location = new System.Drawing.Point(4, 29);
             this.Modificar.Name = "Modificar";
             this.Modificar.Padding = new System.Windows.Forms.Padding(3);
@@ -116,24 +116,24 @@
             this.Modificar.Text = "Modificar";
             this.Modificar.UseVisualStyleBackColor = true;
             // 
-            // btn_M_TipoDocumento
+            // Btn_M_TipoDocumento
             // 
-            this.btn_M_TipoDocumento.Location = new System.Drawing.Point(112, 108);
-            this.btn_M_TipoDocumento.Name = "btn_M_TipoDocumento";
-            this.btn_M_TipoDocumento.Size = new System.Drawing.Size(112, 38);
-            this.btn_M_TipoDocumento.TabIndex = 3;
-            this.btn_M_TipoDocumento.Text = "Modificar";
-            this.btn_M_TipoDocumento.UseVisualStyleBackColor = true;
-            this.btn_M_TipoDocumento.Click += new System.EventHandler(this.btn_M_TipoDocumento_Click);
+            this.Btn_M_TipoDocumento.Location = new System.Drawing.Point(112, 108);
+            this.Btn_M_TipoDocumento.Name = "Btn_M_TipoDocumento";
+            this.Btn_M_TipoDocumento.Size = new System.Drawing.Size(112, 38);
+            this.Btn_M_TipoDocumento.TabIndex = 3;
+            this.Btn_M_TipoDocumento.Text = "Modificar";
+            this.Btn_M_TipoDocumento.UseVisualStyleBackColor = true;
+            this.Btn_M_TipoDocumento.Click += new System.EventHandler(this.Btn_M_TipoDocumento_Click);
             // 
-            // txt_M_Nombre
+            // Txt_M_Nombre
             // 
-            this.txt_M_Nombre.Location = new System.Drawing.Point(123, 62);
-            this.txt_M_Nombre.MaxLength = 50;
-            this.txt_M_Nombre.Name = "txt_M_Nombre";
-            this.txt_M_Nombre.Size = new System.Drawing.Size(193, 26);
-            this.txt_M_Nombre.TabIndex = 1;
-            this.txt_M_Nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_M_Nombre_KeyPress);
+            this.Txt_M_Nombre.Location = new System.Drawing.Point(123, 62);
+            this.Txt_M_Nombre.MaxLength = 50;
+            this.Txt_M_Nombre.Name = "Txt_M_Nombre";
+            this.Txt_M_Nombre.Size = new System.Drawing.Size(193, 26);
+            this.Txt_M_Nombre.TabIndex = 1;
+            this.Txt_M_Nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_M_Nombre_KeyPress);
             // 
             // lbl_M_TipoDocumento
             // 
@@ -144,22 +144,22 @@
             this.lbl_M_TipoDocumento.TabIndex = 0;
             this.lbl_M_TipoDocumento.Text = "Nombre";
             // 
-            // cmb_M_TipoDocumento
+            // Cmb_M_TipoDocumento
             // 
-            this.cmb_M_TipoDocumento.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_M_TipoDocumento.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_M_TipoDocumento.FormattingEnabled = true;
-            this.cmb_M_TipoDocumento.Location = new System.Drawing.Point(24, 15);
-            this.cmb_M_TipoDocumento.Name = "cmb_M_TipoDocumento";
-            this.cmb_M_TipoDocumento.Size = new System.Drawing.Size(292, 28);
-            this.cmb_M_TipoDocumento.TabIndex = 0;
-            this.cmb_M_TipoDocumento.SelectedIndexChanged += new System.EventHandler(this.cmb_M_TipoDocumento_SelectedIndexChanged);
+            this.Cmb_M_TipoDocumento.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_M_TipoDocumento.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_M_TipoDocumento.FormattingEnabled = true;
+            this.Cmb_M_TipoDocumento.Location = new System.Drawing.Point(24, 15);
+            this.Cmb_M_TipoDocumento.Name = "Cmb_M_TipoDocumento";
+            this.Cmb_M_TipoDocumento.Size = new System.Drawing.Size(292, 28);
+            this.Cmb_M_TipoDocumento.TabIndex = 0;
+            this.Cmb_M_TipoDocumento.SelectedIndexChanged += new System.EventHandler(this.Cmb_M_TipoDocumento_SelectedIndexChanged);
             // 
             // Eliminar
             // 
-            this.Eliminar.Controls.Add(this.btn_E_TipoDocumento);
-            this.Eliminar.Controls.Add(this.cmb_E_TipoDocumento);
-            this.Eliminar.Controls.Add(this.txt_E_TipoDocumento);
+            this.Eliminar.Controls.Add(this.Btn_E_TipoDocumento);
+            this.Eliminar.Controls.Add(this.Cmb_E_TipoDocumento);
+            this.Eliminar.Controls.Add(this.Txt_E_TipoDocumento);
             this.Eliminar.Location = new System.Drawing.Point(4, 29);
             this.Eliminar.Name = "Eliminar";
             this.Eliminar.Padding = new System.Windows.Forms.Padding(3);
@@ -168,35 +168,35 @@
             this.Eliminar.Text = "Eliminar";
             this.Eliminar.UseVisualStyleBackColor = true;
             // 
-            // btn_E_TipoDocumento
+            // Btn_E_TipoDocumento
             // 
-            this.btn_E_TipoDocumento.Location = new System.Drawing.Point(113, 104);
-            this.btn_E_TipoDocumento.Name = "btn_E_TipoDocumento";
-            this.btn_E_TipoDocumento.Size = new System.Drawing.Size(111, 37);
-            this.btn_E_TipoDocumento.TabIndex = 2;
-            this.btn_E_TipoDocumento.Text = "Eliminar";
-            this.btn_E_TipoDocumento.UseVisualStyleBackColor = true;
-            this.btn_E_TipoDocumento.Click += new System.EventHandler(this.btn_E_TipoDocumento_Click);
+            this.Btn_E_TipoDocumento.Location = new System.Drawing.Point(113, 104);
+            this.Btn_E_TipoDocumento.Name = "Btn_E_TipoDocumento";
+            this.Btn_E_TipoDocumento.Size = new System.Drawing.Size(111, 37);
+            this.Btn_E_TipoDocumento.TabIndex = 2;
+            this.Btn_E_TipoDocumento.Text = "Eliminar";
+            this.Btn_E_TipoDocumento.UseVisualStyleBackColor = true;
+            this.Btn_E_TipoDocumento.Click += new System.EventHandler(this.Btn_E_TipoDocumento_Click);
             // 
-            // cmb_E_TipoDocumento
+            // Cmb_E_TipoDocumento
             // 
-            this.cmb_E_TipoDocumento.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_E_TipoDocumento.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_E_TipoDocumento.FormattingEnabled = true;
-            this.cmb_E_TipoDocumento.Location = new System.Drawing.Point(113, 48);
-            this.cmb_E_TipoDocumento.Name = "cmb_E_TipoDocumento";
-            this.cmb_E_TipoDocumento.Size = new System.Drawing.Size(204, 28);
-            this.cmb_E_TipoDocumento.TabIndex = 1;
-            this.cmb_E_TipoDocumento.SelectedIndexChanged += new System.EventHandler(this.cmb_E_TipoDocumento_SelectedIndexChanged);
+            this.Cmb_E_TipoDocumento.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_E_TipoDocumento.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_E_TipoDocumento.FormattingEnabled = true;
+            this.Cmb_E_TipoDocumento.Location = new System.Drawing.Point(113, 48);
+            this.Cmb_E_TipoDocumento.Name = "Cmb_E_TipoDocumento";
+            this.Cmb_E_TipoDocumento.Size = new System.Drawing.Size(204, 28);
+            this.Cmb_E_TipoDocumento.TabIndex = 1;
+            this.Cmb_E_TipoDocumento.SelectedIndexChanged += new System.EventHandler(this.Cmb_E_TipoDocumento_SelectedIndexChanged);
             // 
-            // txt_E_TipoDocumento
+            // Txt_E_TipoDocumento
             // 
-            this.txt_E_TipoDocumento.AutoSize = true;
-            this.txt_E_TipoDocumento.Location = new System.Drawing.Point(31, 51);
-            this.txt_E_TipoDocumento.Name = "txt_E_TipoDocumento";
-            this.txt_E_TipoDocumento.Size = new System.Drawing.Size(65, 20);
-            this.txt_E_TipoDocumento.TabIndex = 0;
-            this.txt_E_TipoDocumento.Text = "Nombre";
+            this.Txt_E_TipoDocumento.AutoSize = true;
+            this.Txt_E_TipoDocumento.Location = new System.Drawing.Point(31, 51);
+            this.Txt_E_TipoDocumento.Name = "Txt_E_TipoDocumento";
+            this.Txt_E_TipoDocumento.Size = new System.Drawing.Size(65, 20);
+            this.Txt_E_TipoDocumento.TabIndex = 0;
+            this.Txt_E_TipoDocumento.Text = "Nombre";
             // 
             // TipoDocumento
             // 
@@ -227,15 +227,15 @@
         private System.Windows.Forms.TabPage Ingresar;
         private System.Windows.Forms.TabPage Modificar;
         private System.Windows.Forms.TabPage Eliminar;
-        private System.Windows.Forms.Button btn_I_TipoDocumento;
-        private System.Windows.Forms.TextBox txt_I_Nombre;
+        private System.Windows.Forms.Button Btn_I_TipoDocumento;
+        private System.Windows.Forms.TextBox Txt_I_Nombre;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btn_M_TipoDocumento;
-        private System.Windows.Forms.TextBox txt_M_Nombre;
+        private System.Windows.Forms.Button Btn_M_TipoDocumento;
+        private System.Windows.Forms.TextBox Txt_M_Nombre;
         private System.Windows.Forms.Label lbl_M_TipoDocumento;
-        private System.Windows.Forms.ComboBox cmb_M_TipoDocumento;
-        private System.Windows.Forms.Button btn_E_TipoDocumento;
-        private System.Windows.Forms.ComboBox cmb_E_TipoDocumento;
-        private System.Windows.Forms.Label txt_E_TipoDocumento;
+        private System.Windows.Forms.ComboBox Cmb_M_TipoDocumento;
+        private System.Windows.Forms.Button Btn_E_TipoDocumento;
+        private System.Windows.Forms.ComboBox Cmb_E_TipoDocumento;
+        private System.Windows.Forms.Label Txt_E_TipoDocumento;
     }
 }

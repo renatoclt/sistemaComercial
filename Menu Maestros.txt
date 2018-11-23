@@ -1,0 +1,43 @@
+DROP FUNCTION public.spr_trabajadores_proveedor(integer, integer, character varying, character varying, character varying, character varying, integer);
+
+CREATE OR REPLACE FUNCTION public.spr_trabajadores_proveedor(
+	_accion integer,
+	_codigo_proveedor integer,
+	_celular character varying,
+	_nombre character varying,
+	_apellido_paterno character varying,
+	_apellido_materno character varying,
+	_codigo_trabajadores_proveedor integer DEFAULT NULL::integer)
+    RETURNS boolean
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+AS $BODY$
+
+BEGIN
+	IF (_ACCION = 1)THEN
+		INSERT INTO TRABAJADORES_PROVEEDOR (CODIGO_PROVEEDOR,CELULAR,NOMBRE,APELLIDO_PATERNO,APELLIDO_MATERNO,FLAG) VALUES
+			(_CODIGO_PROVEEDOR,_CELULAR,_NOMBRE,_APELLIDO_PATERNO,_APELLIDO_MATERNO,1);
+		RETURN TRUE;
+	END IF;
+	IF(_ACCION = 2) THEN
+		UPDATE TRABAJADORES_PROVEEDOR SET
+			CELULAR = _CELULAR,
+			NOMBRE = _NOMBRE,
+			APELLIDO_PATERNO = _APELLIDO_PATERNO,
+			APELLIDO_MATERNO = _APELLIDO_MATERNO
+		WHERE CODIGO_TRABAJADORES_PROVEEDOR = _CODIGO_TRABAJADORES_PROVEEDOR;
+		RETURN TRUE;
+	END IF;
+	IF(_ACCION = 3) THEN
+		UPDATE TRABAJADORES_PROVEEDOR SET
+			FLAG = 0
+		WHERE CODIGO_TRABAJADORES_PROVEEDOR = _CODIGO_TRABAJADORES_PROVEEDOR;
+		RETURN TRUE;
+	END IF;
+	EXCEPTION WHEN OTHERS THEN
+		RETURN FALSE;
+END;
+
+$BODY$;

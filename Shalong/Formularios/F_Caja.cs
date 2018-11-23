@@ -46,15 +46,15 @@ namespace Shalong.Formularios
         }
         public void CargarComboBoxCaja()
         {
-            cmb_Caja.DisplayMember = "NombreCaja";
-            cmb_Caja.ValueMember = "CodigoCaja";
-            cmb_Caja.DataSource = _shalong.CajaMostrar();
+            Cmb_Caja.DisplayMember = "NombreCaja";
+            Cmb_Caja.ValueMember = "CodigoCaja";
+            Cmb_Caja.DataSource = _shalong.CajaMostrar();
         }
         public void CargarComboBoxTrabajador()
         {
-            cmb_Trabajador.DisplayMember = "NombreCompleto";
-            cmb_Trabajador.ValueMember = "Dni";
-            cmb_Trabajador.DataSource = _shalong.UsuarioMostrar();
+            Cmb_Trabajador.DisplayMember = "NombreCompleto";
+            Cmb_Trabajador.ValueMember = "Dni";
+            Cmb_Trabajador.DataSource = _shalong.UsuarioMostrar();
         }
         public void CargarDataGridView()
         {
@@ -62,48 +62,48 @@ namespace Shalong.Formularios
             dgv_Caja.DataSource = _shalong.ReporteCajaTodo();
         }
 
-        private void btn_Trabajador_Click(object sender, EventArgs e)
+        private void Btn_Trabajador_Click(object sender, EventArgs e)
         {
 
             dgv_Caja.DataSource = null;
-            dgv_Caja.DataSource = _shalong.ReporteCajaPorTrabajador(Int32.Parse(cmb_Trabajador.SelectedValue.ToString()));
+            dgv_Caja.DataSource = _shalong.ReporteCajaPorTrabajador(Int32.Parse(Cmb_Trabajador.SelectedValue.ToString()));
         }
 
-        private void btn_Caja_Click(object sender, EventArgs e)
+        private void Btn_Caja_Click(object sender, EventArgs e)
         {
             dgv_Caja.DataSource = null;
-            dgv_Caja.DataSource = _shalong.ReporteCajaPorNombreCaja(Int32.Parse(cmb_Caja.SelectedValue.ToString()));
+            dgv_Caja.DataSource = _shalong.ReporteCajaPorNombreCaja(Int32.Parse(Cmb_Caja.SelectedValue.ToString()));
         }
 
-        private void btn_Fechas_Click(object sender, EventArgs e)
+        private void Btn_Fechas_Click(object sender, EventArgs e)
         {
-            if (cmb_Por.SelectedIndex == 0)
+            if (Cmb_Por.SelectedIndex == 0)
             {
                 dgv_Caja.DataSource = null;
                 dgv_Caja.DataSource = _shalong.ReporteCajaPorFechaInicio(dtp_De.Value, dtp_Hasta.Value);
             }
-            else if (cmb_Por.SelectedIndex == 1)
+            else if (Cmb_Por.SelectedIndex == 1)
             {
                 dgv_Caja.DataSource = null;
                 dgv_Caja.DataSource = _shalong.ReporteCajaPorFechaCierre(dtp_De.Value, dtp_Hasta.Value);
             }
-            else if (cmb_Por.SelectedIndex == 2)
+            else if (Cmb_Por.SelectedIndex == 2)
             {
                 dgv_Caja.DataSource = null;
                 dgv_Caja.DataSource = _shalong.ReporteCajaPorAmbasFechas(dtp_De.Value, dtp_Hasta.Value);
             }
-            else if (cmb_Por.SelectedIndex == -1)
+            else if (Cmb_Por.SelectedIndex == -1)
             {
                 MessageBox.Show("Por favor seleccione una accion valida");
-                cmb_Por.SelectedIndex = -1;
-                cmb_Por.ResetText();
+                Cmb_Por.SelectedIndex = -1;
+                Cmb_Por.ResetText();
                 CargarDataGridView();
                 return;
 
             }
         }
 
-        private void btn_Exportar_Click(object sender, EventArgs e)
+        private void Btn_Exportar_Click(object sender, EventArgs e)
         {
             Exportar();
         }

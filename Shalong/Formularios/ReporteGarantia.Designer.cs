@@ -37,12 +37,12 @@
             this.dtg_Garantia = new System.Windows.Forms.DataGridView();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.lbl_codigo = new System.Windows.Forms.Label();
-            this.txt_Codigo_serial = new System.Windows.Forms.TextBox();
-            this.btn_Codigo = new System.Windows.Forms.Button();
+            this.Txt_Codigo_serial = new System.Windows.Forms.TextBox();
+            this.Btn_Codigo = new System.Windows.Forms.Button();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.txt_Codigo_Venta = new System.Windows.Forms.TextBox();
+            this.Txt_Codigo_Venta = new System.Windows.Forms.TextBox();
             this.lbl_Factura = new System.Windows.Forms.Label();
-            this.btn_Buscar = new System.Windows.Forms.Button();
+            this.Btn_Buscar = new System.Windows.Forms.Button();
             this.Codigo_serial = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NumeroDocumento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Garantia = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -105,8 +105,8 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Controls.Add(this.lbl_codigo, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.txt_Codigo_serial, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.btn_Codigo, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.Txt_Codigo_serial, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.Btn_Codigo, 2, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 43);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -126,26 +126,26 @@
             this.lbl_codigo.TabIndex = 0;
             this.lbl_codigo.Text = "Codigo de Serie";
             // 
-            // txt_Codigo_serial
+            // Txt_Codigo_serial
             // 
-            this.txt_Codigo_serial.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Codigo_serial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Codigo_serial.Location = new System.Drawing.Point(231, 6);
-            this.txt_Codigo_serial.Name = "txt_Codigo_serial";
-            this.txt_Codigo_serial.Size = new System.Drawing.Size(293, 26);
-            this.txt_Codigo_serial.TabIndex = 2;
+            this.Txt_Codigo_serial.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Txt_Codigo_serial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_Codigo_serial.Location = new System.Drawing.Point(231, 6);
+            this.Txt_Codigo_serial.Name = "Txt_Codigo_serial";
+            this.Txt_Codigo_serial.Size = new System.Drawing.Size(293, 26);
+            this.Txt_Codigo_serial.TabIndex = 2;
             // 
-            // btn_Codigo
+            // Btn_Codigo
             // 
-            this.btn_Codigo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_Codigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Codigo.Location = new System.Drawing.Point(617, 5);
-            this.btn_Codigo.Name = "btn_Codigo";
-            this.btn_Codigo.Size = new System.Drawing.Size(121, 28);
-            this.btn_Codigo.TabIndex = 5;
-            this.btn_Codigo.Text = "Buscar";
-            this.btn_Codigo.UseVisualStyleBackColor = true;
-            this.btn_Codigo.Click += new System.EventHandler(this.btn_Codigo_Click);
+            this.Btn_Codigo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Btn_Codigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Codigo.Location = new System.Drawing.Point(617, 5);
+            this.Btn_Codigo.Name = "Btn_Codigo";
+            this.Btn_Codigo.Size = new System.Drawing.Size(121, 28);
+            this.Btn_Codigo.TabIndex = 5;
+            this.Btn_Codigo.Text = "Buscar";
+            this.Btn_Codigo.UseVisualStyleBackColor = true;
+            this.Btn_Codigo.Click += new System.EventHandler(this.Btn_Codigo_Click);
             // 
             // tableLayoutPanel3
             // 
@@ -154,9 +154,9 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.04914F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Controls.Add(this.txt_Codigo_Venta, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Txt_Codigo_Venta, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.lbl_Factura, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.btn_Buscar, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Btn_Buscar, 2, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -165,14 +165,14 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(814, 34);
             this.tableLayoutPanel3.TabIndex = 3;
             // 
-            // txt_Codigo_Venta
+            // Txt_Codigo_Venta
             // 
-            this.txt_Codigo_Venta.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Codigo_Venta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Codigo_Venta.Location = new System.Drawing.Point(233, 4);
-            this.txt_Codigo_Venta.Name = "txt_Codigo_Venta";
-            this.txt_Codigo_Venta.Size = new System.Drawing.Size(291, 26);
-            this.txt_Codigo_Venta.TabIndex = 3;
+            this.Txt_Codigo_Venta.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Txt_Codigo_Venta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_Codigo_Venta.Location = new System.Drawing.Point(233, 4);
+            this.Txt_Codigo_Venta.Name = "Txt_Codigo_Venta";
+            this.Txt_Codigo_Venta.Size = new System.Drawing.Size(291, 26);
+            this.Txt_Codigo_Venta.TabIndex = 3;
             // 
             // lbl_Factura
             // 
@@ -185,17 +185,17 @@
             this.lbl_Factura.TabIndex = 1;
             this.lbl_Factura.Text = "N° Documento";
             // 
-            // btn_Buscar
+            // Btn_Buscar
             // 
-            this.btn_Buscar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_Buscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Buscar.Location = new System.Drawing.Point(617, 3);
-            this.btn_Buscar.Name = "btn_Buscar";
-            this.btn_Buscar.Size = new System.Drawing.Size(121, 28);
-            this.btn_Buscar.TabIndex = 4;
-            this.btn_Buscar.Text = "Buscar";
-            this.btn_Buscar.UseVisualStyleBackColor = true;
-            this.btn_Buscar.Click += new System.EventHandler(this.btn_Buscar_Click);
+            this.Btn_Buscar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Btn_Buscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Buscar.Location = new System.Drawing.Point(617, 3);
+            this.Btn_Buscar.Name = "Btn_Buscar";
+            this.Btn_Buscar.Size = new System.Drawing.Size(121, 28);
+            this.Btn_Buscar.TabIndex = 4;
+            this.Btn_Buscar.Text = "Buscar";
+            this.Btn_Buscar.UseVisualStyleBackColor = true;
+            this.Btn_Buscar.Click += new System.EventHandler(this.Btn_Buscar_Click);
             // 
             // Codigo_serial
             // 
@@ -258,12 +258,12 @@
         private System.Windows.Forms.DataGridView dtg_Garantia;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label lbl_codigo;
-        private System.Windows.Forms.TextBox txt_Codigo_serial;
-        private System.Windows.Forms.Button btn_Codigo;
+        private System.Windows.Forms.TextBox Txt_Codigo_serial;
+        private System.Windows.Forms.Button Btn_Codigo;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.TextBox txt_Codigo_Venta;
+        private System.Windows.Forms.TextBox Txt_Codigo_Venta;
         private System.Windows.Forms.Label lbl_Factura;
-        private System.Windows.Forms.Button btn_Buscar;
+        private System.Windows.Forms.Button Btn_Buscar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Codigo_serial;
         private System.Windows.Forms.DataGridViewTextBoxColumn NumeroDocumento;
         private System.Windows.Forms.DataGridViewTextBoxColumn Garantia;

@@ -32,15 +32,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dtp_proximoPago = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
-            this.txt_I_TotalDeuda = new System.Windows.Forms.TextBox();
+            this.Txt_I_TotalDeuda = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txt_I_MontoPagado = new System.Windows.Forms.TextBox();
-            this.btn_Guardar = new System.Windows.Forms.Button();
+            this.Txt_I_MontoPagado = new System.Windows.Forms.TextBox();
+            this.Btn_Guardar = new System.Windows.Forms.Button();
             this.lbl = new System.Windows.Forms.Label();
-            this.txt_I_NumDocumento = new System.Windows.Forms.TextBox();
+            this.Txt_I_NumDocumento = new System.Windows.Forms.TextBox();
             this.lbl_Proveedor = new System.Windows.Forms.Label();
-            this.cmb_I_Proveedor = new System.Windows.Forms.ComboBox();
-            this.cmb_SelectCredito = new System.Windows.Forms.ComboBox();
+            this.Cmb_I_Proveedor = new System.Windows.Forms.ComboBox();
+            this.Cmb_SelectCredito = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -68,13 +68,13 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Total de Deuda";
             // 
-            // txt_I_TotalDeuda
+            // Txt_I_TotalDeuda
             // 
-            this.txt_I_TotalDeuda.Location = new System.Drawing.Point(199, 219);
-            this.txt_I_TotalDeuda.Name = "txt_I_TotalDeuda";
-            this.txt_I_TotalDeuda.Size = new System.Drawing.Size(200, 26);
-            this.txt_I_TotalDeuda.TabIndex = 5;
-            this.txt_I_TotalDeuda.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.Txt_I_TotalDeuda.Location = new System.Drawing.Point(199, 219);
+            this.Txt_I_TotalDeuda.Name = "Txt_I_TotalDeuda";
+            this.Txt_I_TotalDeuda.Size = new System.Drawing.Size(200, 26);
+            this.Txt_I_TotalDeuda.TabIndex = 5;
+            this.Txt_I_TotalDeuda.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label3
             // 
@@ -85,24 +85,24 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Monto de Pagado";
             // 
-            // txt_I_MontoPagado
+            // Txt_I_MontoPagado
             // 
-            this.txt_I_MontoPagado.Location = new System.Drawing.Point(199, 272);
-            this.txt_I_MontoPagado.Name = "txt_I_MontoPagado";
-            this.txt_I_MontoPagado.Size = new System.Drawing.Size(200, 26);
-            this.txt_I_MontoPagado.TabIndex = 6;
-            this.txt_I_MontoPagado.Text = "0";
-            this.txt_I_MontoPagado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.Txt_I_MontoPagado.Location = new System.Drawing.Point(199, 272);
+            this.Txt_I_MontoPagado.Name = "Txt_I_MontoPagado";
+            this.Txt_I_MontoPagado.Size = new System.Drawing.Size(200, 26);
+            this.Txt_I_MontoPagado.TabIndex = 6;
+            this.Txt_I_MontoPagado.Text = "0";
+            this.Txt_I_MontoPagado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // btn_Guardar
+            // Btn_Guardar
             // 
-            this.btn_Guardar.Location = new System.Drawing.Point(161, 326);
-            this.btn_Guardar.Name = "btn_Guardar";
-            this.btn_Guardar.Size = new System.Drawing.Size(119, 38);
-            this.btn_Guardar.TabIndex = 7;
-            this.btn_Guardar.Text = "Guardar";
-            this.btn_Guardar.UseVisualStyleBackColor = true;
-            this.btn_Guardar.Click += new System.EventHandler(this.btn_Guardar_Click);
+            this.Btn_Guardar.Location = new System.Drawing.Point(161, 326);
+            this.Btn_Guardar.Name = "Btn_Guardar";
+            this.Btn_Guardar.Size = new System.Drawing.Size(119, 38);
+            this.Btn_Guardar.TabIndex = 7;
+            this.Btn_Guardar.Text = "Guardar";
+            this.Btn_Guardar.UseVisualStyleBackColor = true;
+            this.Btn_Guardar.Click += new System.EventHandler(this.Btn_Guardar_Click);
             // 
             // lbl
             // 
@@ -113,13 +113,13 @@
             this.lbl.TabIndex = 8;
             this.lbl.Text = "N° Documento";
             // 
-            // txt_I_NumDocumento
+            // Txt_I_NumDocumento
             // 
-            this.txt_I_NumDocumento.Location = new System.Drawing.Point(199, 85);
-            this.txt_I_NumDocumento.Name = "txt_I_NumDocumento";
-            this.txt_I_NumDocumento.Size = new System.Drawing.Size(200, 26);
-            this.txt_I_NumDocumento.TabIndex = 2;
-            this.txt_I_NumDocumento.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.Txt_I_NumDocumento.Location = new System.Drawing.Point(199, 85);
+            this.Txt_I_NumDocumento.Name = "Txt_I_NumDocumento";
+            this.Txt_I_NumDocumento.Size = new System.Drawing.Size(200, 26);
+            this.Txt_I_NumDocumento.TabIndex = 2;
+            this.Txt_I_NumDocumento.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbl_Proveedor
             // 
@@ -130,48 +130,48 @@
             this.lbl_Proveedor.TabIndex = 10;
             this.lbl_Proveedor.Text = "Proveedor";
             // 
-            // cmb_I_Proveedor
+            // Cmb_I_Proveedor
             // 
-            this.cmb_I_Proveedor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_I_Proveedor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_I_Proveedor.FormattingEnabled = true;
-            this.cmb_I_Proveedor.Items.AddRange(new object[] {
+            this.Cmb_I_Proveedor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_I_Proveedor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_I_Proveedor.FormattingEnabled = true;
+            this.Cmb_I_Proveedor.Items.AddRange(new object[] {
             "Credito de Compra",
             "Credito de Venta"});
-            this.cmb_I_Proveedor.Location = new System.Drawing.Point(199, 125);
-            this.cmb_I_Proveedor.Name = "cmb_I_Proveedor";
-            this.cmb_I_Proveedor.Size = new System.Drawing.Size(200, 28);
-            this.cmb_I_Proveedor.TabIndex = 3;
+            this.Cmb_I_Proveedor.Location = new System.Drawing.Point(199, 125);
+            this.Cmb_I_Proveedor.Name = "Cmb_I_Proveedor";
+            this.Cmb_I_Proveedor.Size = new System.Drawing.Size(200, 28);
+            this.Cmb_I_Proveedor.TabIndex = 3;
             // 
-            // cmb_SelectCredito
+            // Cmb_SelectCredito
             // 
-            this.cmb_SelectCredito.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_SelectCredito.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_SelectCredito.Enabled = false;
-            this.cmb_SelectCredito.FormattingEnabled = true;
-            this.cmb_SelectCredito.Items.AddRange(new object[] {
+            this.Cmb_SelectCredito.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_SelectCredito.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_SelectCredito.Enabled = false;
+            this.Cmb_SelectCredito.FormattingEnabled = true;
+            this.Cmb_SelectCredito.Items.AddRange(new object[] {
             "Credito de Compra",
             "Credito de Venta"});
-            this.cmb_SelectCredito.Location = new System.Drawing.Point(104, 12);
-            this.cmb_SelectCredito.Name = "cmb_SelectCredito";
-            this.cmb_SelectCredito.Size = new System.Drawing.Size(235, 28);
-            this.cmb_SelectCredito.TabIndex = 1;
-            this.cmb_SelectCredito.SelectedIndexChanged += new System.EventHandler(this.cmb_SelectCredito_SelectedIndexChanged);
+            this.Cmb_SelectCredito.Location = new System.Drawing.Point(104, 12);
+            this.Cmb_SelectCredito.Name = "Cmb_SelectCredito";
+            this.Cmb_SelectCredito.Size = new System.Drawing.Size(235, 28);
+            this.Cmb_SelectCredito.TabIndex = 1;
+            this.Cmb_SelectCredito.SelectedIndexChanged += new System.EventHandler(this.Cmb_SelectCredito_SelectedIndexChanged);
             // 
             // Credito
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(426, 385);
-            this.Controls.Add(this.cmb_I_Proveedor);
+            this.Controls.Add(this.Cmb_I_Proveedor);
             this.Controls.Add(this.lbl_Proveedor);
-            this.Controls.Add(this.txt_I_NumDocumento);
+            this.Controls.Add(this.Txt_I_NumDocumento);
             this.Controls.Add(this.lbl);
-            this.Controls.Add(this.btn_Guardar);
-            this.Controls.Add(this.cmb_SelectCredito);
-            this.Controls.Add(this.txt_I_MontoPagado);
+            this.Controls.Add(this.Btn_Guardar);
+            this.Controls.Add(this.Cmb_SelectCredito);
+            this.Controls.Add(this.Txt_I_MontoPagado);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txt_I_TotalDeuda);
+            this.Controls.Add(this.Txt_I_TotalDeuda);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dtp_proximoPago);
             this.Controls.Add(this.label1);
@@ -191,14 +191,14 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dtp_proximoPago;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txt_I_TotalDeuda;
+        private System.Windows.Forms.TextBox Txt_I_TotalDeuda;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txt_I_MontoPagado;
-        private System.Windows.Forms.Button btn_Guardar;
+        private System.Windows.Forms.TextBox Txt_I_MontoPagado;
+        private System.Windows.Forms.Button Btn_Guardar;
         private System.Windows.Forms.Label lbl;
-        private System.Windows.Forms.TextBox txt_I_NumDocumento;
+        private System.Windows.Forms.TextBox Txt_I_NumDocumento;
         private System.Windows.Forms.Label lbl_Proveedor;
-        private System.Windows.Forms.ComboBox cmb_I_Proveedor;
-        private System.Windows.Forms.ComboBox cmb_SelectCredito;
+        private System.Windows.Forms.ComboBox Cmb_I_Proveedor;
+        private System.Windows.Forms.ComboBox Cmb_SelectCredito;
     }
 }

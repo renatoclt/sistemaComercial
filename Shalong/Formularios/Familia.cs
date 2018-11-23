@@ -32,12 +32,12 @@ namespace Shalong.Formularios
         }
         private void CargarComboBox()
         {
-            cmb_M_Nombre.DisplayMember = "Nombre";
-            cmb_M_Nombre.ValueMember = "Codigo";
-            cmb_M_Nombre.DataSource = _shalong.FamiliaMostrar();
-            cmb_E_Nombre.DisplayMember = "Nombre";
-            cmb_E_Nombre.ValueMember = "Codigo";
-            cmb_E_Nombre.DataSource = _shalong.FamiliaMostrar();
+            Cmb_M_Nombre.DisplayMember = "Nombre";
+            Cmb_M_Nombre.ValueMember = "Codigo";
+            Cmb_M_Nombre.DataSource = _shalong.FamiliaMostrar();
+            Cmb_E_Nombre.DisplayMember = "Nombre";
+            Cmb_E_Nombre.ValueMember = "Codigo";
+            Cmb_E_Nombre.DataSource = _shalong.FamiliaMostrar();
         }
         private void Btn_Guardar_Click(object sender, EventArgs e)
         {
@@ -46,15 +46,15 @@ namespace Shalong.Formularios
         private void GuardarFamilia()
         {
             C_Familia objetoFamilia = new C_Familia();
-            objetoFamilia.Nombre = txt_I_Nombre.Text;
+            objetoFamilia.Nombre = Txt_I_Nombre.Text;
             objetoFamilia.Codigo = 1;
-            if (txt_I_Nombre.Text != String.Empty)
+            if (Txt_I_Nombre.Text != String.Empty)
             {
                 if (_shalong.Familia(1, objetoFamilia))
                 {
                     MessageBox.Show("Ingreso correctamente","Gestion Ventas",MessageBoxButtons.OK);
                     CargarComboBox();
-                    txt_I_Nombre.Clear();
+                    Txt_I_Nombre.Clear();
                 }
                 else
                 {
@@ -68,7 +68,7 @@ namespace Shalong.Formularios
         }
         private void Btn_Modificar_Click(object sender, EventArgs e)
         {
-            if (cmb_M_Nombre.SelectedIndex == -1)
+            if (Cmb_M_Nombre.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione una Familia Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                 CargarComboBox();
@@ -82,9 +82,9 @@ namespace Shalong.Formularios
         private void ModificarFamilia()
         {
             C_Familia objetoFamilia = new C_Familia();
-            objetoFamilia.Codigo = Int32.Parse(cmb_M_Nombre.SelectedValue.ToString());
-            objetoFamilia.Nombre = txt_M_Nombre.Text;
-            if (txt_M_Nombre.Text != String.Empty)
+            objetoFamilia.Codigo = Int32.Parse(Cmb_M_Nombre.SelectedValue.ToString());
+            objetoFamilia.Nombre = Txt_M_Nombre.Text;
+            if (Txt_M_Nombre.Text != String.Empty)
             {
                 if (_shalong.Familia(2, objetoFamilia))
                 {
@@ -104,7 +104,7 @@ namespace Shalong.Formularios
 
         private void Btn_Eliminar_Click(object sender, EventArgs e)
         {
-            if (cmb_E_Nombre.SelectedIndex == -1)
+            if (Cmb_E_Nombre.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione una Familia a Eliminar", "Gestion Ventas", MessageBoxButtons.OK);
                 CargarComboBox();
@@ -120,13 +120,13 @@ namespace Shalong.Formularios
         private void EliminarFamilia()
         {
             C_Familia objetoFamilia = new C_Familia();
-            objetoFamilia.Codigo = Int32.Parse(cmb_E_Nombre.SelectedValue.ToString());
+            objetoFamilia.Codigo = Int32.Parse(Cmb_E_Nombre.SelectedValue.ToString());
             objetoFamilia.Nombre = " ";
             if (_shalong.Familia(3, objetoFamilia))
             {
                 MessageBox.Show("Se elimino correctamente", "Gestion Ventas", MessageBoxButtons.OK);
                 CargarComboBox();
-                txt_M_Nombre.Clear();
+                Txt_M_Nombre.Clear();
             }
             else
             {
@@ -136,11 +136,11 @@ namespace Shalong.Formularios
         }
         private void Cmb_M_Nombre_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_Familia obj = _shalong.FamiliaMostrar1(Int32.Parse(cmb_M_Nombre.SelectedValue.ToString()));
-            txt_M_Nombre.Text = obj.Nombre;
+            C_Familia obj = _shalong.FamiliaMostrar1(Int32.Parse(Cmb_M_Nombre.SelectedValue.ToString()));
+            Txt_M_Nombre.Text = obj.Nombre;
         }
 
-        private void txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar) || (char.IsWhiteSpace(e.KeyChar))) && (e.KeyChar != (char)Keys.Back))
             {              
@@ -149,7 +149,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_M_Nombre_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_M_Nombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar) || (char.IsWhiteSpace(e.KeyChar))) && (e.KeyChar != (char)Keys.Back))
             {

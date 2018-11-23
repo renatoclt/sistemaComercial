@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TipoLineaCredito));
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.cmb_I_TC = new System.Windows.Forms.ComboBox();
+            this.Cmb_I_TC = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Txt_I_Nombre = new System.Windows.Forms.TextBox();
             this.Btn_Guardar = new System.Windows.Forms.Button();
@@ -41,7 +41,7 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.cmb_I_TC);
+            this.tabPage1.Controls.Add(this.Cmb_I_TC);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.Txt_I_Nombre);
             this.tabPage1.Controls.Add(this.Btn_Guardar);
@@ -55,19 +55,19 @@
             this.tabPage1.Text = "Insertar";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // cmb_I_TC
+            // Cmb_I_TC
             // 
-            this.cmb_I_TC.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_I_TC.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_I_TC.FormattingEnabled = true;
-            this.cmb_I_TC.Items.AddRange(new object[] {
+            this.Cmb_I_TC.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_I_TC.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_I_TC.FormattingEnabled = true;
+            this.Cmb_I_TC.Items.AddRange(new object[] {
             "Dias",
             "Meses",
             "Años"});
-            this.cmb_I_TC.Location = new System.Drawing.Point(58, 67);
-            this.cmb_I_TC.Name = "cmb_I_TC";
-            this.cmb_I_TC.Size = new System.Drawing.Size(202, 28);
-            this.cmb_I_TC.TabIndex = 6;
+            this.Cmb_I_TC.Location = new System.Drawing.Point(58, 67);
+            this.Cmb_I_TC.Name = "Cmb_I_TC";
+            this.Cmb_I_TC.Size = new System.Drawing.Size(202, 28);
+            this.Cmb_I_TC.TabIndex = 6;
             // 
             // label1
             // 
@@ -130,7 +130,7 @@
         #endregion
 
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.ComboBox cmb_I_TC;
+        private System.Windows.Forms.ComboBox Cmb_I_TC;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox Txt_I_Nombre;
         private System.Windows.Forms.Button Btn_Guardar;

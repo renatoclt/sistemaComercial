@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Permisos));
-            this.cmb_usuario = new System.Windows.Forms.ComboBox();
+            this.Cmb_usuario = new System.Windows.Forms.ComboBox();
             this.chk_Inicio = new System.Windows.Forms.CheckBox();
             this.chk_Productos = new System.Windows.Forms.CheckBox();
             this.chk_Maestros = new System.Windows.Forms.CheckBox();
@@ -65,15 +65,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.dtg_Reportes)).BeginInit();
             this.SuspendLayout();
             // 
-            // cmb_usuario
+            // Cmb_usuario
             // 
-            this.cmb_usuario.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_usuario.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_usuario.FormattingEnabled = true;
-            this.cmb_usuario.Location = new System.Drawing.Point(323, 12);
-            this.cmb_usuario.Name = "cmb_usuario";
-            this.cmb_usuario.Size = new System.Drawing.Size(341, 28);
-            this.cmb_usuario.TabIndex = 1;
+            this.Cmb_usuario.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_usuario.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_usuario.FormattingEnabled = true;
+            this.Cmb_usuario.Location = new System.Drawing.Point(323, 12);
+            this.Cmb_usuario.Name = "Cmb_usuario";
+            this.Cmb_usuario.Size = new System.Drawing.Size(341, 28);
+            this.Cmb_usuario.TabIndex = 1;
             // 
             // chk_Inicio
             // 
@@ -316,7 +316,7 @@
             this.Controls.Add(this.chk_Maestros);
             this.Controls.Add(this.chk_Productos);
             this.Controls.Add(this.chk_Inicio);
-            this.Controls.Add(this.cmb_usuario);
+            this.Controls.Add(this.Cmb_usuario);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -338,7 +338,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox cmb_usuario;
+        private System.Windows.Forms.ComboBox Cmb_usuario;
         private System.Windows.Forms.CheckBox chk_Inicio;
         private System.Windows.Forms.CheckBox chk_Productos;
         private System.Windows.Forms.CheckBox chk_Maestros;

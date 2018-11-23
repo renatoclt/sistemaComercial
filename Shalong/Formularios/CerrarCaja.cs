@@ -45,8 +45,8 @@ namespace Shalong.Formularios
         {
             Txt_Egresos.Text = String.Format("{0:0.00}", _shalong.CajaEgresos(_codigoCaja));
             Txt_Ingresos.Text = String.Format("{0:0.00}", _shalong.CajaIngresos(_codigoCaja));
-            txt_TotalDia.Text = String.Format("{0:0.00}", Double.Parse(Txt_Ingresos.Text) - Double.Parse(Txt_Egresos.Text));
-            txt_Efectivo.Text = String.Format("{0:0.00}", _shalong.CajaEfectivo(_codigoCaja));
+            Txt_TotalDia.Text = String.Format("{0:0.00}", Double.Parse(Txt_Ingresos.Text) - Double.Parse(Txt_Egresos.Text));
+            Txt_Efectivo.Text = String.Format("{0:0.00}", _shalong.CajaEfectivo(_codigoCaja));
         }
         //cargamos el gridview con las denominaciones de la moneda
         private void CargarDataGridView()
@@ -78,7 +78,7 @@ namespace Shalong.Formularios
         {
             _valorDolar = _shalong.TipoCambioDiario();
             _codigoDolar = _shalong.TipoCambioCodigo();
-            txt_Dolar.Text = "" + _valorDolar;
+            Txt_Dolar.Text = "" + _valorDolar;
         }
 
         private void Total()
@@ -88,7 +88,7 @@ namespace Shalong.Formularios
             //si el dolar no tiene valor
             try
             {
-                _valorDolar = Double.Parse(txt_Dolar.Text);
+                _valorDolar = Double.Parse(Txt_Dolar.Text);
             }
             catch
             {
@@ -106,14 +106,14 @@ namespace Shalong.Formularios
                     _total = _total + ((Double.Parse(row.Cells["Valor"].Value.ToString()) * Double.Parse(row.Cells["Cantidad"].Value.ToString())) * _valorDolar);
                 }
             }
-            txt_Total.Text = String.Format("{0:0.00}", _total);
-            if (txt_Total.Text == txt_Efectivo.Text)
+            Txt_Total.Text = String.Format("{0:0.00}", _total);
+            if (Txt_Total.Text == Txt_Efectivo.Text)
             {
-                btn_CerrarCaja.Enabled = true;
+                Btn_CerrarCaja.Enabled = true;
             }
             else
             {
-                btn_CerrarCaja.Enabled = false;
+                Btn_CerrarCaja.Enabled = false;
             }
         }
 
@@ -135,10 +135,10 @@ namespace Shalong.Formularios
             MessageBox.Show("Ingrese solo numeros");
         }
 
-        private void btn_Cuadrar_Click(object sender, EventArgs e)
+        private void Btn_Cuadrar_Click(object sender, EventArgs e)
         {
             double monto = 0;
-            monto = Double.Parse(txt_Efectivo.Text) - Double.Parse(txt_Total.Text);
+            monto = Double.Parse(Txt_Efectivo.Text) - Double.Parse(Txt_Total.Text);
             CreditoTrabajador objetoCreditoTrabajador = new CreditoTrabajador(_objetoParametros,monto);
             objetoCreditoTrabajador.Show();
             CargarDataGridView();
@@ -146,11 +146,11 @@ namespace Shalong.Formularios
             Total();
         }
 
-        private void btn_CerrarCaja_Click(object sender, EventArgs e)
+        private void Btn_CerrarCaja_Click(object sender, EventArgs e)
         {
             C_Caja objetoCaja = new C_Caja();
             objetoCaja.CodigoCaja = _codigoCaja;
-            objetoCaja.SaldoFinal = Double.Parse(txt_Total.Text);
+            objetoCaja.SaldoFinal = Double.Parse(Txt_Total.Text);
             if (_shalong.CajaCerrar(objetoCaja))
             {
                 C_BilletajeCaja objetoBilletajeCaja = new C_BilletajeCaja();

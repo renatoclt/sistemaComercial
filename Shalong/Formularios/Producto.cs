@@ -100,26 +100,26 @@ namespace Shalong.Formularios
         }
         private void Cmb_M_Producto_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_Producto obj = _shalong.ProductoMostrar1(cmb_M_Producto.SelectedValue.ToString());
-            txt_M_Codigo.Text = "" + obj.CodigoBarras;
-            txt_M_Nombre.Text = "" + obj.Nombre;
-            txt_M_TiempoGarantia.Text = "" + obj.TiempoGarantia;
-            cmb_M_Categoria.SelectedValue = obj.CodigoCategoria;
-            cmb_M_Familia.SelectedValue = obj.CodigoFamilia;
-            cmb_M_Marca.SelectedValue = obj.CodigoMarca;
-            cmb_M_Unidad.SelectedValue = obj.CodigoUnidad;
+            C_Producto obj = _shalong.ProductoMostrar1(Cmb_M_Producto.SelectedValue.ToString());
+            Txt_M_Codigo.Text = "" + obj.CodigoBarras;
+            Txt_M_Nombre.Text = "" + obj.Nombre;
+            Txt_M_TiempoGarantia.Text = "" + obj.TiempoGarantia;
+            Cmb_M_Categoria.SelectedValue = obj.CodigoCategoria;
+            Cmb_M_Familia.SelectedValue = obj.CodigoFamilia;
+            Cmb_M_Marca.SelectedValue = obj.CodigoMarca;
+            Cmb_M_Unidad.SelectedValue = obj.CodigoUnidad;
         }
 
         private void Cmb_E_Producto_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_Producto obj = _shalong.ProductoMostrar1(cmb_E_Producto.SelectedValue.ToString());
-            txt_E_Codigo.Text = "" + obj.CodigoBarras;
-            txt_E_Nombre.Text = "" + obj.Nombre;
-            txt_E_TiempoGarantia.Text = "" + obj.TiempoGarantia;
-            cmb_E_Categoria.SelectedValue = obj.CodigoCategoria;
-            cmb_E_Familia.SelectedValue = obj.CodigoFamilia;
-            cmb_E_Marca.SelectedValue = obj.CodigoMarca;
-            cmb_E_Unidad.SelectedValue = obj.CodigoUnidad;
+            C_Producto obj = _shalong.ProductoMostrar1(Cmb_E_Producto.SelectedValue.ToString());
+            Txt_E_Codigo.Text = "" + obj.CodigoBarras;
+            Txt_E_Nombre.Text = "" + obj.Nombre;
+            Txt_E_TiempoGarantia.Text = "" + obj.TiempoGarantia;
+            Cmb_E_Categoria.SelectedValue = obj.CodigoCategoria;
+            Cmb_E_Familia.SelectedValue = obj.CodigoFamilia;
+            Cmb_E_Marca.SelectedValue = obj.CodigoMarca;
+            Cmb_E_Unidad.SelectedValue = obj.CodigoUnidad;
         }
 
         private void Btn_Eliminar_Click(object sender, EventArgs e)
@@ -148,66 +148,66 @@ namespace Shalong.Formularios
 
         private void CargarComboBoxProducto()
         {
-            cmb_M_Producto.DisplayMember = "Nombre";
-            cmb_M_Producto.ValueMember = "CodigoBarras";
-            cmb_M_Producto.DataSource = _shalong.ProductoMostrar();
-            cmb_E_Producto.DisplayMember = "Nombre";
-            cmb_E_Producto.ValueMember = "CodigoBarras";
-            cmb_E_Producto.DataSource = _shalong.ProductoMostrar();
+            Cmb_M_Producto.DisplayMember = "Nombre";
+            Cmb_M_Producto.ValueMember = "CodigoBarras";
+            Cmb_M_Producto.DataSource = _shalong.ProductoMostrar();
+            Cmb_E_Producto.DisplayMember = "Nombre";
+            Cmb_E_Producto.ValueMember = "CodigoBarras";
+            Cmb_E_Producto.DataSource = _shalong.ProductoMostrar();
         }
 
         private void CargarComboBoxUnidad()
         {
-            cmb_I_Unidad.DisplayMember = "Nombre";
-            cmb_I_Unidad.ValueMember = "Codigo";
-            cmb_I_Unidad.DataSource = _shalong.UnidadMostrar();
+            Cmb_I_Unidad.DisplayMember = "Nombre";
+            Cmb_I_Unidad.ValueMember = "Codigo";
+            Cmb_I_Unidad.DataSource = _shalong.UnidadMostrar();
 
-            cmb_M_Unidad.DisplayMember = "Nombre";
-            cmb_M_Unidad.ValueMember = "Codigo";
-            cmb_M_Unidad.DataSource = _shalong.UnidadMostrar();
+            Cmb_M_Unidad.DisplayMember = "Nombre";
+            Cmb_M_Unidad.ValueMember = "Codigo";
+            Cmb_M_Unidad.DataSource = _shalong.UnidadMostrar();
 
-            cmb_E_Unidad.DisplayMember = "Nombre";
-            cmb_E_Unidad.ValueMember = "Codigo";
-            cmb_E_Unidad.DataSource = _shalong.UnidadMostrar();
+            Cmb_E_Unidad.DisplayMember = "Nombre";
+            Cmb_E_Unidad.ValueMember = "Codigo";
+            Cmb_E_Unidad.DataSource = _shalong.UnidadMostrar();
         }
 
         private void CargarComboBoxCategoria()
         {
-            cmb_I_Categoria.DisplayMember = "Nombre";
-            cmb_I_Categoria.ValueMember = "Codigo";
-            cmb_I_Categoria.DataSource = _shalong.CategoriaMostrar();
-            cmb_M_Categoria.DisplayMember = "Nombre";
-            cmb_M_Categoria.ValueMember = "Codigo";
-            cmb_M_Categoria.DataSource = _shalong.CategoriaMostrar();
-            cmb_E_Categoria.DisplayMember = "Nombre";
-            cmb_E_Categoria.ValueMember = "Codigo";
-            cmb_E_Categoria.DataSource = _shalong.CategoriaMostrar();
+            Cmb_I_Categoria.DisplayMember = "Nombre";
+            Cmb_I_Categoria.ValueMember = "Codigo";
+            Cmb_I_Categoria.DataSource = _shalong.CategoriaMostrar();
+            Cmb_M_Categoria.DisplayMember = "Nombre";
+            Cmb_M_Categoria.ValueMember = "Codigo";
+            Cmb_M_Categoria.DataSource = _shalong.CategoriaMostrar();
+            Cmb_E_Categoria.DisplayMember = "Nombre";
+            Cmb_E_Categoria.ValueMember = "Codigo";
+            Cmb_E_Categoria.DataSource = _shalong.CategoriaMostrar();
         }
 
         private void CargarComboBoxFamilia()
         {
-            cmb_I_Familia.DisplayMember = "Nombre";
-            cmb_I_Familia.ValueMember = "Codigo";
-            cmb_I_Familia.DataSource = _shalong.FamiliaMostrar();
-            cmb_M_Familia.DisplayMember = "Nombre";
-            cmb_M_Familia.ValueMember = "Codigo";
-            cmb_M_Familia.DataSource = _shalong.FamiliaMostrar();
-            cmb_E_Familia.DisplayMember = "Nombre";
-            cmb_E_Familia.ValueMember = "Codigo";
-            cmb_E_Familia.DataSource = _shalong.FamiliaMostrar();
+            Cmb_I_Familia.DisplayMember = "Nombre";
+            Cmb_I_Familia.ValueMember = "Codigo";
+            Cmb_I_Familia.DataSource = _shalong.FamiliaMostrar();
+            Cmb_M_Familia.DisplayMember = "Nombre";
+            Cmb_M_Familia.ValueMember = "Codigo";
+            Cmb_M_Familia.DataSource = _shalong.FamiliaMostrar();
+            Cmb_E_Familia.DisplayMember = "Nombre";
+            Cmb_E_Familia.ValueMember = "Codigo";
+            Cmb_E_Familia.DataSource = _shalong.FamiliaMostrar();
         }
 
         private void CargarComboBoxMarca()
         {
-            cmb_I_Marca.DisplayMember = "Nombre";
-            cmb_I_Marca.ValueMember = "Codigo";
-            cmb_I_Marca.DataSource = _shalong.MarcaMostrar();
-            cmb_M_Marca.DisplayMember = "Nombre";
-            cmb_M_Marca.ValueMember = "Codigo";
-            cmb_M_Marca.DataSource = _shalong.MarcaMostrar();
-            cmb_E_Marca.DisplayMember = "Nombre";
-            cmb_E_Marca.ValueMember = "Codigo";
-            cmb_E_Marca.DataSource = _shalong.MarcaMostrar();
+            Cmb_I_Marca.DisplayMember = "Nombre";
+            Cmb_I_Marca.ValueMember = "Codigo";
+            Cmb_I_Marca.DataSource = _shalong.MarcaMostrar();
+            Cmb_M_Marca.DisplayMember = "Nombre";
+            Cmb_M_Marca.ValueMember = "Codigo";
+            Cmb_M_Marca.DataSource = _shalong.MarcaMostrar();
+            Cmb_E_Marca.DisplayMember = "Nombre";
+            Cmb_E_Marca.ValueMember = "Codigo";
+            Cmb_E_Marca.DataSource = _shalong.MarcaMostrar();
         }
 
         private void OpenMarca()
@@ -262,91 +262,91 @@ namespace Shalong.Formularios
             objetoProducto.Observacion = "";
             //
             // CODIGO DE BARRAS
-            if (txt_I_Codigo.Text == string.Empty)
+            if (Txt_I_Codigo.Text == string.Empty)
             {
                 MessageBox.Show("Ingrese un Codigo del Producto, Por Favor","Gestion Ventas",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
                 return;
             }
-            else if (_shalong.ProductoExistente(txt_I_Codigo.Text))
+            else if (_shalong.ProductoExistente(Txt_I_Codigo.Text))
             {
                 MessageBox.Show("El Codigo del Producto ya existe, Ingrese otro ó Modifiquelo","Gestion Ventas",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                objetoProducto.CodigoBarras = txt_I_Codigo.Text;
+                objetoProducto.CodigoBarras = Txt_I_Codigo.Text;
             }
             //
-            if (cmb_I_Marca.SelectedIndex == -1)
+            if (Cmb_I_Marca.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese una Marca Por Favor","Gestion Ventas",MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                objetoProducto.CodigoMarca = Int32.Parse(cmb_I_Marca.SelectedValue.ToString());
+                objetoProducto.CodigoMarca = Int32.Parse(Cmb_I_Marca.SelectedValue.ToString());
             }
-            if (cmb_I_Familia.SelectedIndex == -1)
+            if (Cmb_I_Familia.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese una Familia del Producto Por Favor","Gestion Ventas",MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                objetoProducto.CodigoFamilia = Int32.Parse(cmb_I_Familia.SelectedValue.ToString());
+                objetoProducto.CodigoFamilia = Int32.Parse(Cmb_I_Familia.SelectedValue.ToString());
             }
-            if (cmb_I_Categoria.SelectedIndex == -1)
+            if (Cmb_I_Categoria.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese una Categoria del Producto Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                objetoProducto.CodigoCategoria = Int32.Parse(cmb_I_Categoria.SelectedValue.ToString());
+                objetoProducto.CodigoCategoria = Int32.Parse(Cmb_I_Categoria.SelectedValue.ToString());
             }
-            if (cmb_I_Unidad.SelectedIndex == -1)
+            if (Cmb_I_Unidad.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese una Unidad del Producto Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                objetoProducto.CodigoUnidad = Int32.Parse(cmb_I_Unidad.SelectedValue.ToString());
+                objetoProducto.CodigoUnidad = Int32.Parse(Cmb_I_Unidad.SelectedValue.ToString());
             }
-            if (txt_I_TiempoGarantia.Text == string.Empty)
+            if (Txt_I_TiempoGarantia.Text == string.Empty)
             {
                 objetoProducto.TiempoGarantia = "-";
             }
             else
             {
-                objetoProducto.TiempoGarantia = txt_I_TiempoGarantia.Text;
+                objetoProducto.TiempoGarantia = Txt_I_TiempoGarantia.Text;
             }
-            if (txt_I_Nombre.Text == string.Empty)
+            if (Txt_I_Nombre.Text == string.Empty)
             {
                 MessageBox.Show("Ingrese un Nombre del Producto", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                objetoProducto.Nombre = txt_I_Nombre.Text;
+                objetoProducto.Nombre = Txt_I_Nombre.Text;
             }
             if (_shalong.Producto(1, objetoProducto))
             {
-                if (MessageBox.Show("¿Usted desea ingresar la cantidad del Producto " + txt_I_Nombre.Text + "?", "ALMACEN", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show("¿Usted desea ingresar la cantidad del Producto " + Txt_I_Nombre.Text + "?", "ALMACEN", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     Almacen_Productos obj = new Almacen_Productos();
                     obj.ShowDialog();
                 }
-                if (MessageBox.Show("¿Usted desea ingresar el precio del Producto " + txt_I_Nombre.Text + "?", "PRECIO", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show("¿Usted desea ingresar el precio del Producto " + Txt_I_Nombre.Text + "?", "PRECIO", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     Producto_Precio objPrecio = new Producto_Precio();
                     objPrecio.ShowDialog();
                 }
                 MessageBox.Show("Producto ingreso correctamente","Gestion Ventas",MessageBoxButtons.OK);
                 CargarComboBox();
-                txt_I_Codigo.Clear();
-                txt_I_Nombre.Clear();
-                txt_I_TiempoGarantia.Clear();
+                Txt_I_Codigo.Clear();
+                Txt_I_Nombre.Clear();
+                Txt_I_TiempoGarantia.Clear();
             }
             else
             {
@@ -357,22 +357,22 @@ namespace Shalong.Formularios
         private void ModificarProductos()
         {
             C_Producto objetoProducto = new C_Producto();
-            objetoProducto.CodigoBarras = txt_M_Codigo.Text;
-            objetoProducto.CodigoMarca = Int32.Parse(cmb_M_Marca.SelectedValue.ToString());
-            objetoProducto.CodigoFamilia = Int32.Parse(cmb_M_Familia.SelectedValue.ToString());
-            objetoProducto.CodigoCategoria = Int32.Parse(cmb_M_Categoria.SelectedValue.ToString());
-            objetoProducto.CodigoUnidad = Int32.Parse(cmb_M_Unidad.SelectedValue.ToString());
-            objetoProducto.TiempoGarantia = txt_M_TiempoGarantia.Text;
-            objetoProducto.Nombre = txt_M_Nombre.Text;
+            objetoProducto.CodigoBarras = Txt_M_Codigo.Text;
+            objetoProducto.CodigoMarca = Int32.Parse(Cmb_M_Marca.SelectedValue.ToString());
+            objetoProducto.CodigoFamilia = Int32.Parse(Cmb_M_Familia.SelectedValue.ToString());
+            objetoProducto.CodigoCategoria = Int32.Parse(Cmb_M_Categoria.SelectedValue.ToString());
+            objetoProducto.CodigoUnidad = Int32.Parse(Cmb_M_Unidad.SelectedValue.ToString());
+            objetoProducto.TiempoGarantia = Txt_M_TiempoGarantia.Text;
+            objetoProducto.Nombre = Txt_M_Nombre.Text;
             objetoProducto.CodigoAdministrador = _codigoAdministrador;
             objetoProducto.Observacion = _observacion;
             if (_shalong.Producto(2, objetoProducto))
             {
                 MessageBox.Show("Se Modifico correctamente","Gestion Ventas",MessageBoxButtons.OK);
                 CargarComboBox();
-                txt_E_Nombre.Clear();
-                txt_E_Codigo.Clear();
-                txt_E_TiempoGarantia.Clear();
+                Txt_E_Nombre.Clear();
+                Txt_E_Codigo.Clear();
+                Txt_E_TiempoGarantia.Clear();
             }
             else
             {
@@ -383,13 +383,13 @@ namespace Shalong.Formularios
         private void EliminarProducto()
         {
             C_Producto objetoProducto = new C_Producto();
-            objetoProducto.CodigoBarras = txt_M_Codigo.Text;
-            objetoProducto.CodigoMarca = Int32.Parse(cmb_M_Marca.SelectedValue.ToString());
-            objetoProducto.CodigoFamilia = Int32.Parse(cmb_M_Familia.SelectedValue.ToString());
-            objetoProducto.CodigoCategoria = Int32.Parse(cmb_M_Categoria.SelectedValue.ToString());
-            objetoProducto.CodigoUnidad = Int32.Parse(cmb_M_Unidad.SelectedValue.ToString());
-            objetoProducto.TiempoGarantia = txt_M_TiempoGarantia.Text;
-            objetoProducto.Nombre = txt_M_Nombre.Text;
+            objetoProducto.CodigoBarras = Txt_M_Codigo.Text;
+            objetoProducto.CodigoMarca = Int32.Parse(Cmb_M_Marca.SelectedValue.ToString());
+            objetoProducto.CodigoFamilia = Int32.Parse(Cmb_M_Familia.SelectedValue.ToString());
+            objetoProducto.CodigoCategoria = Int32.Parse(Cmb_M_Categoria.SelectedValue.ToString());
+            objetoProducto.CodigoUnidad = Int32.Parse(Cmb_M_Unidad.SelectedValue.ToString());
+            objetoProducto.TiempoGarantia = Txt_M_TiempoGarantia.Text;
+            objetoProducto.Nombre = Txt_M_Nombre.Text;
             objetoProducto.CodigoAdministrador = _codigoAdministrador;
             objetoProducto.Observacion = _observacion;
             if (_shalong.Producto(3, objetoProducto))
@@ -482,7 +482,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_I_Codigo_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_I_Codigo_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar)) && !(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
@@ -491,7 +491,7 @@ namespace Shalong.Formularios
                 return;
             }
         }
-        private void txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar) || (char.IsNumber(e.KeyChar)) || (char.IsWhiteSpace(e.KeyChar))) && (e.KeyChar != (char)Keys.Back))
             {
@@ -499,7 +499,7 @@ namespace Shalong.Formularios
                 return;
             }
         }
-        private void txt_I_TiempoGarantia_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_I_TiempoGarantia_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar) || (char.IsLetter(e.KeyChar)) || e.KeyChar == '-' || (char.IsWhiteSpace(e.KeyChar))) && (e.KeyChar != (char)Keys.Back))
             {

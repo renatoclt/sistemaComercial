@@ -32,12 +32,12 @@ namespace Shalong.Formularios
         }
         private void CargarCombobox()
         {
-            cmb_M_Marca.ValueMember = "Codigo";
-            cmb_M_Marca.DisplayMember = "Nombre";
-            cmb_M_Marca.DataSource = _shalong.MarcaMostrar();
-            cmb_E_Marca.ValueMember = "Codigo";
-            cmb_E_Marca.DisplayMember = "Nombre";
-            cmb_E_Marca.DataSource = _shalong.MarcaMostrar();
+            Cmb_M_Marca.ValueMember = "Codigo";
+            Cmb_M_Marca.DisplayMember = "Nombre";
+            Cmb_M_Marca.DataSource = _shalong.MarcaMostrar();
+            Cmb_E_Marca.ValueMember = "Codigo";
+            Cmb_E_Marca.DisplayMember = "Nombre";
+            Cmb_E_Marca.DataSource = _shalong.MarcaMostrar();
         }
 
         private void Btn_Guardar_Click(object sender, EventArgs e)
@@ -48,15 +48,15 @@ namespace Shalong.Formularios
         {
             C_Marca objetoMarca = new C_Marca();
             objetoMarca.Codigo = 1;
-            objetoMarca.Nombre = txt_I_Nombre.Text;
+            objetoMarca.Nombre = Txt_I_Nombre.Text;
             //Validaciones validacion = new Validaciones();
-            if (txt_I_Nombre.Text != String.Empty)
+            if (Txt_I_Nombre.Text != String.Empty)
             {
                 if (_shalong.Marca(1, objetoMarca))
                 {
                     MessageBox.Show("Ingreso Correcto","Gestion Ventas",MessageBoxButtons.OK);
                     CargarCombobox();
-                    txt_I_Nombre.Clear();
+                    Txt_I_Nombre.Clear();
                 }
                 else
                 {
@@ -71,7 +71,7 @@ namespace Shalong.Formularios
 
         private void Btn_Modificar_Click(object sender, EventArgs e)
         {
-            if (cmb_M_Marca.SelectedIndex == -1)
+            if (Cmb_M_Marca.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione una Marca Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                 CargarCombobox();
@@ -85,15 +85,15 @@ namespace Shalong.Formularios
         private void ModificarMarca()
         {
             C_Marca objetoMarca = new C_Marca();
-            objetoMarca.Codigo = Int32.Parse(cmb_M_Marca.SelectedValue.ToString());
-            objetoMarca.Nombre = txt_M_Nombre.Text;
-            if (txt_M_Nombre.Text != String.Empty)
+            objetoMarca.Codigo = Int32.Parse(Cmb_M_Marca.SelectedValue.ToString());
+            objetoMarca.Nombre = Txt_M_Nombre.Text;
+            if (Txt_M_Nombre.Text != String.Empty)
             {
                 if (_shalong.Marca(2, objetoMarca))
                 {
                     MessageBox.Show("Se modifico Correctamente", "Gestion Ventas", MessageBoxButtons.OK);
                     CargarCombobox();
-                    txt_M_Nombre.Clear();
+                    Txt_M_Nombre.Clear();
                 }
                 else
                 {
@@ -107,7 +107,7 @@ namespace Shalong.Formularios
         }
         private void Btn_Eliminar_Click(object sender, EventArgs e)
         {
-            if (cmb_E_Marca.SelectedIndex == -1)
+            if (Cmb_E_Marca.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione una Marca Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                 CargarCombobox();
@@ -121,7 +121,7 @@ namespace Shalong.Formularios
         private void EliminarMarca()
         {
             C_Marca objetoMarca = new C_Marca();
-            objetoMarca.Codigo = Int32.Parse(cmb_E_Marca.SelectedValue.ToString());
+            objetoMarca.Codigo = Int32.Parse(Cmb_E_Marca.SelectedValue.ToString());
             //objetoMarca.Nombre = "";
             if (_shalong.Marca(3, objetoMarca ))
             {
@@ -137,16 +137,16 @@ namespace Shalong.Formularios
 
         private void Cmb_M_Marca_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_Marca obj = _shalong.MarcaMostrar1(Int32.Parse(cmb_M_Marca.SelectedValue.ToString()));
-            txt_M_Nombre.Text = obj.Nombre;
+            C_Marca obj = _shalong.MarcaMostrar1(Int32.Parse(Cmb_M_Marca.SelectedValue.ToString()));
+            Txt_M_Nombre.Text = obj.Nombre;
         }
 
-        private void txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             
         }
 
-        private void txt_M_Nombre_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_M_Nombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar) || char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {

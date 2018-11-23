@@ -30,62 +30,62 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Producto));
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.txt_I_TiempoGarantia = new System.Windows.Forms.TextBox();
+            this.Txt_I_TiempoGarantia = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.Btn_I_Unidad = new System.Windows.Forms.Button();
             this.Btn_I_Categoria = new System.Windows.Forms.Button();
             this.Btn_I_Familia = new System.Windows.Forms.Button();
             this.Btn_I_Marca = new System.Windows.Forms.Button();
-            this.cmb_I_Unidad = new System.Windows.Forms.ComboBox();
-            this.cmb_I_Categoria = new System.Windows.Forms.ComboBox();
-            this.cmb_I_Familia = new System.Windows.Forms.ComboBox();
+            this.Cmb_I_Unidad = new System.Windows.Forms.ComboBox();
+            this.Cmb_I_Categoria = new System.Windows.Forms.ComboBox();
+            this.Cmb_I_Familia = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.cmb_I_Marca = new System.Windows.Forms.ComboBox();
-            this.btn_I_Guardar = new System.Windows.Forms.Button();
-            this.txt_I_Codigo = new System.Windows.Forms.TextBox();
-            this.txt_I_Nombre = new System.Windows.Forms.TextBox();
+            this.Cmb_I_Marca = new System.Windows.Forms.ComboBox();
+            this.Btn_I_Guardar = new System.Windows.Forms.Button();
+            this.Txt_I_Codigo = new System.Windows.Forms.TextBox();
+            this.Txt_I_Nombre = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Tab_Producto = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.txt_M_TiempoGarantia = new System.Windows.Forms.TextBox();
+            this.Txt_M_TiempoGarantia = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.Btn_M_Unidad = new System.Windows.Forms.Button();
             this.Btn_M_Categoria = new System.Windows.Forms.Button();
             this.Btn_M_Familia = new System.Windows.Forms.Button();
             this.Btn_M_Marca = new System.Windows.Forms.Button();
-            this.cmb_M_Producto = new System.Windows.Forms.ComboBox();
-            this.cmb_M_Unidad = new System.Windows.Forms.ComboBox();
-            this.cmb_M_Categoria = new System.Windows.Forms.ComboBox();
-            this.cmb_M_Familia = new System.Windows.Forms.ComboBox();
+            this.Cmb_M_Producto = new System.Windows.Forms.ComboBox();
+            this.Cmb_M_Unidad = new System.Windows.Forms.ComboBox();
+            this.Cmb_M_Categoria = new System.Windows.Forms.ComboBox();
+            this.Cmb_M_Familia = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.cmb_M_Marca = new System.Windows.Forms.ComboBox();
-            this.btn_Modificar = new System.Windows.Forms.Button();
-            this.txt_M_Codigo = new System.Windows.Forms.TextBox();
-            this.txt_M_Nombre = new System.Windows.Forms.TextBox();
+            this.Cmb_M_Marca = new System.Windows.Forms.ComboBox();
+            this.Btn_Modificar = new System.Windows.Forms.Button();
+            this.Txt_M_Codigo = new System.Windows.Forms.TextBox();
+            this.Txt_M_Nombre = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.txt_E_TiempoGarantia = new System.Windows.Forms.TextBox();
+            this.Txt_E_TiempoGarantia = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.cmb_E_Producto = new System.Windows.Forms.ComboBox();
-            this.cmb_E_Unidad = new System.Windows.Forms.ComboBox();
-            this.cmb_E_Categoria = new System.Windows.Forms.ComboBox();
-            this.cmb_E_Familia = new System.Windows.Forms.ComboBox();
+            this.Cmb_E_Producto = new System.Windows.Forms.ComboBox();
+            this.Cmb_E_Unidad = new System.Windows.Forms.ComboBox();
+            this.Cmb_E_Categoria = new System.Windows.Forms.ComboBox();
+            this.Cmb_E_Familia = new System.Windows.Forms.ComboBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.cmb_E_Marca = new System.Windows.Forms.ComboBox();
-            this.btn_Eliminar = new System.Windows.Forms.Button();
-            this.txt_E_Codigo = new System.Windows.Forms.TextBox();
-            this.txt_E_Nombre = new System.Windows.Forms.TextBox();
+            this.Cmb_E_Marca = new System.Windows.Forms.ComboBox();
+            this.Btn_Eliminar = new System.Windows.Forms.Button();
+            this.Txt_E_Codigo = new System.Windows.Forms.TextBox();
+            this.Txt_E_Nombre = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.tabPage1.SuspendLayout();
@@ -96,23 +96,23 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.txt_I_TiempoGarantia);
+            this.tabPage1.Controls.Add(this.Txt_I_TiempoGarantia);
             this.tabPage1.Controls.Add(this.label22);
             this.tabPage1.Controls.Add(this.Btn_I_Unidad);
             this.tabPage1.Controls.Add(this.Btn_I_Categoria);
             this.tabPage1.Controls.Add(this.Btn_I_Familia);
             this.tabPage1.Controls.Add(this.Btn_I_Marca);
-            this.tabPage1.Controls.Add(this.cmb_I_Unidad);
-            this.tabPage1.Controls.Add(this.cmb_I_Categoria);
-            this.tabPage1.Controls.Add(this.cmb_I_Familia);
+            this.tabPage1.Controls.Add(this.Cmb_I_Unidad);
+            this.tabPage1.Controls.Add(this.Cmb_I_Categoria);
+            this.tabPage1.Controls.Add(this.Cmb_I_Familia);
             this.tabPage1.Controls.Add(this.label7);
             this.tabPage1.Controls.Add(this.label6);
             this.tabPage1.Controls.Add(this.label5);
             this.tabPage1.Controls.Add(this.label3);
-            this.tabPage1.Controls.Add(this.cmb_I_Marca);
-            this.tabPage1.Controls.Add(this.btn_I_Guardar);
-            this.tabPage1.Controls.Add(this.txt_I_Codigo);
-            this.tabPage1.Controls.Add(this.txt_I_Nombre);
+            this.tabPage1.Controls.Add(this.Cmb_I_Marca);
+            this.tabPage1.Controls.Add(this.Btn_I_Guardar);
+            this.tabPage1.Controls.Add(this.Txt_I_Codigo);
+            this.tabPage1.Controls.Add(this.Txt_I_Nombre);
             this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
@@ -123,15 +123,15 @@
             this.tabPage1.Text = "Insertar";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // txt_I_TiempoGarantia
+            // Txt_I_TiempoGarantia
             // 
-            this.txt_I_TiempoGarantia.Location = new System.Drawing.Point(152, 106);
-            this.txt_I_TiempoGarantia.MaxLength = 40;
-            this.txt_I_TiempoGarantia.Name = "txt_I_TiempoGarantia";
-            this.txt_I_TiempoGarantia.Size = new System.Drawing.Size(262, 26);
-            this.txt_I_TiempoGarantia.TabIndex = 3;
-            this.txt_I_TiempoGarantia.TextChanged += new System.EventHandler(this.Txt_I_TiempoGarantia_TextChanged);
-            this.txt_I_TiempoGarantia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_I_TiempoGarantia_KeyPress);
+            this.Txt_I_TiempoGarantia.Location = new System.Drawing.Point(152, 106);
+            this.Txt_I_TiempoGarantia.MaxLength = 40;
+            this.Txt_I_TiempoGarantia.Name = "Txt_I_TiempoGarantia";
+            this.Txt_I_TiempoGarantia.Size = new System.Drawing.Size(262, 26);
+            this.Txt_I_TiempoGarantia.TabIndex = 3;
+            this.Txt_I_TiempoGarantia.TextChanged += new System.EventHandler(this.Txt_I_TiempoGarantia_TextChanged);
+            this.Txt_I_TiempoGarantia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_I_TiempoGarantia_KeyPress);
             // 
             // label22
             // 
@@ -186,36 +186,36 @@
             this.Btn_I_Marca.UseVisualStyleBackColor = true;
             this.Btn_I_Marca.Click += new System.EventHandler(this.Btn_I_Marca_Click);
             // 
-            // cmb_I_Unidad
+            // Cmb_I_Unidad
             // 
-            this.cmb_I_Unidad.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_I_Unidad.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_I_Unidad.FormattingEnabled = true;
-            this.cmb_I_Unidad.Location = new System.Drawing.Point(152, 288);
-            this.cmb_I_Unidad.Name = "cmb_I_Unidad";
-            this.cmb_I_Unidad.Size = new System.Drawing.Size(221, 28);
-            this.cmb_I_Unidad.TabIndex = 7;
+            this.Cmb_I_Unidad.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_I_Unidad.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_I_Unidad.FormattingEnabled = true;
+            this.Cmb_I_Unidad.Location = new System.Drawing.Point(152, 288);
+            this.Cmb_I_Unidad.Name = "Cmb_I_Unidad";
+            this.Cmb_I_Unidad.Size = new System.Drawing.Size(221, 28);
+            this.Cmb_I_Unidad.TabIndex = 7;
             // 
-            // cmb_I_Categoria
+            // Cmb_I_Categoria
             // 
-            this.cmb_I_Categoria.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_I_Categoria.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_I_Categoria.FormattingEnabled = true;
-            this.cmb_I_Categoria.Location = new System.Drawing.Point(152, 250);
-            this.cmb_I_Categoria.Name = "cmb_I_Categoria";
-            this.cmb_I_Categoria.Size = new System.Drawing.Size(221, 28);
-            this.cmb_I_Categoria.TabIndex = 6;
+            this.Cmb_I_Categoria.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_I_Categoria.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_I_Categoria.FormattingEnabled = true;
+            this.Cmb_I_Categoria.Location = new System.Drawing.Point(152, 250);
+            this.Cmb_I_Categoria.Name = "Cmb_I_Categoria";
+            this.Cmb_I_Categoria.Size = new System.Drawing.Size(221, 28);
+            this.Cmb_I_Categoria.TabIndex = 6;
             // 
-            // cmb_I_Familia
+            // Cmb_I_Familia
             // 
-            this.cmb_I_Familia.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_I_Familia.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_I_Familia.FormattingEnabled = true;
-            this.cmb_I_Familia.Location = new System.Drawing.Point(152, 208);
-            this.cmb_I_Familia.Name = "cmb_I_Familia";
-            this.cmb_I_Familia.Size = new System.Drawing.Size(221, 28);
-            this.cmb_I_Familia.TabIndex = 5;
-            this.cmb_I_Familia.SelectedIndexChanged += new System.EventHandler(this.Cmb_I_Familia_SelectedIndexChanged);
+            this.Cmb_I_Familia.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_I_Familia.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_I_Familia.FormattingEnabled = true;
+            this.Cmb_I_Familia.Location = new System.Drawing.Point(152, 208);
+            this.Cmb_I_Familia.Name = "Cmb_I_Familia";
+            this.Cmb_I_Familia.Size = new System.Drawing.Size(221, 28);
+            this.Cmb_I_Familia.TabIndex = 5;
+            this.Cmb_I_Familia.SelectedIndexChanged += new System.EventHandler(this.Cmb_I_Familia_SelectedIndexChanged);
             // 
             // label7
             // 
@@ -253,42 +253,42 @@
             this.label3.TabIndex = 35;
             this.label3.Text = "Marca";
             // 
-            // cmb_I_Marca
+            // Cmb_I_Marca
             // 
-            this.cmb_I_Marca.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_I_Marca.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_I_Marca.FormattingEnabled = true;
-            this.cmb_I_Marca.Location = new System.Drawing.Point(152, 166);
-            this.cmb_I_Marca.Name = "cmb_I_Marca";
-            this.cmb_I_Marca.Size = new System.Drawing.Size(221, 28);
-            this.cmb_I_Marca.TabIndex = 4;
+            this.Cmb_I_Marca.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_I_Marca.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_I_Marca.FormattingEnabled = true;
+            this.Cmb_I_Marca.Location = new System.Drawing.Point(152, 166);
+            this.Cmb_I_Marca.Name = "Cmb_I_Marca";
+            this.Cmb_I_Marca.Size = new System.Drawing.Size(221, 28);
+            this.Cmb_I_Marca.TabIndex = 4;
             // 
-            // btn_I_Guardar
+            // Btn_I_Guardar
             // 
-            this.btn_I_Guardar.Location = new System.Drawing.Point(152, 347);
-            this.btn_I_Guardar.Name = "btn_I_Guardar";
-            this.btn_I_Guardar.Size = new System.Drawing.Size(94, 34);
-            this.btn_I_Guardar.TabIndex = 33;
-            this.btn_I_Guardar.Text = "Guardar";
-            this.btn_I_Guardar.UseVisualStyleBackColor = true;
-            this.btn_I_Guardar.Click += new System.EventHandler(this.Btn_I_Guardar_Click);
+            this.Btn_I_Guardar.Location = new System.Drawing.Point(152, 347);
+            this.Btn_I_Guardar.Name = "Btn_I_Guardar";
+            this.Btn_I_Guardar.Size = new System.Drawing.Size(94, 34);
+            this.Btn_I_Guardar.TabIndex = 33;
+            this.Btn_I_Guardar.Text = "Guardar";
+            this.Btn_I_Guardar.UseVisualStyleBackColor = true;
+            this.Btn_I_Guardar.Click += new System.EventHandler(this.Btn_I_Guardar_Click);
             // 
-            // txt_I_Codigo
+            // Txt_I_Codigo
             // 
-            this.txt_I_Codigo.Location = new System.Drawing.Point(152, 19);
-            this.txt_I_Codigo.Name = "txt_I_Codigo";
-            this.txt_I_Codigo.Size = new System.Drawing.Size(262, 26);
-            this.txt_I_Codigo.TabIndex = 1;
-            this.txt_I_Codigo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_I_Codigo_KeyPress);
+            this.Txt_I_Codigo.Location = new System.Drawing.Point(152, 19);
+            this.Txt_I_Codigo.Name = "Txt_I_Codigo";
+            this.Txt_I_Codigo.Size = new System.Drawing.Size(262, 26);
+            this.Txt_I_Codigo.TabIndex = 1;
+            this.Txt_I_Codigo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_I_Codigo_KeyPress);
             // 
-            // txt_I_Nombre
+            // Txt_I_Nombre
             // 
-            this.txt_I_Nombre.Location = new System.Drawing.Point(152, 60);
-            this.txt_I_Nombre.MaxLength = 60;
-            this.txt_I_Nombre.Name = "txt_I_Nombre";
-            this.txt_I_Nombre.Size = new System.Drawing.Size(262, 26);
-            this.txt_I_Nombre.TabIndex = 2;
-            this.txt_I_Nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_I_Nombre_KeyPress);
+            this.Txt_I_Nombre.Location = new System.Drawing.Point(152, 60);
+            this.Txt_I_Nombre.MaxLength = 60;
+            this.Txt_I_Nombre.Name = "Txt_I_Nombre";
+            this.Txt_I_Nombre.Size = new System.Drawing.Size(262, 26);
+            this.Txt_I_Nombre.TabIndex = 2;
+            this.Txt_I_Nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_I_Nombre_KeyPress);
             // 
             // label4
             // 
@@ -323,24 +323,24 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.txt_M_TiempoGarantia);
+            this.tabPage2.Controls.Add(this.Txt_M_TiempoGarantia);
             this.tabPage2.Controls.Add(this.label23);
             this.tabPage2.Controls.Add(this.Btn_M_Unidad);
             this.tabPage2.Controls.Add(this.Btn_M_Categoria);
             this.tabPage2.Controls.Add(this.Btn_M_Familia);
             this.tabPage2.Controls.Add(this.Btn_M_Marca);
-            this.tabPage2.Controls.Add(this.cmb_M_Producto);
-            this.tabPage2.Controls.Add(this.cmb_M_Unidad);
-            this.tabPage2.Controls.Add(this.cmb_M_Categoria);
-            this.tabPage2.Controls.Add(this.cmb_M_Familia);
+            this.tabPage2.Controls.Add(this.Cmb_M_Producto);
+            this.tabPage2.Controls.Add(this.Cmb_M_Unidad);
+            this.tabPage2.Controls.Add(this.Cmb_M_Categoria);
+            this.tabPage2.Controls.Add(this.Cmb_M_Familia);
             this.tabPage2.Controls.Add(this.label8);
             this.tabPage2.Controls.Add(this.label9);
             this.tabPage2.Controls.Add(this.label10);
             this.tabPage2.Controls.Add(this.label11);
-            this.tabPage2.Controls.Add(this.cmb_M_Marca);
-            this.tabPage2.Controls.Add(this.btn_Modificar);
-            this.tabPage2.Controls.Add(this.txt_M_Codigo);
-            this.tabPage2.Controls.Add(this.txt_M_Nombre);
+            this.tabPage2.Controls.Add(this.Cmb_M_Marca);
+            this.tabPage2.Controls.Add(this.Btn_Modificar);
+            this.tabPage2.Controls.Add(this.Txt_M_Codigo);
+            this.tabPage2.Controls.Add(this.Txt_M_Nombre);
             this.tabPage2.Controls.Add(this.label12);
             this.tabPage2.Controls.Add(this.label14);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
@@ -351,12 +351,12 @@
             this.tabPage2.Text = "Modificar";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // txt_M_TiempoGarantia
+            // Txt_M_TiempoGarantia
             // 
-            this.txt_M_TiempoGarantia.Location = new System.Drawing.Point(147, 143);
-            this.txt_M_TiempoGarantia.Name = "txt_M_TiempoGarantia";
-            this.txt_M_TiempoGarantia.Size = new System.Drawing.Size(262, 26);
-            this.txt_M_TiempoGarantia.TabIndex = 4;
+            this.Txt_M_TiempoGarantia.Location = new System.Drawing.Point(147, 143);
+            this.Txt_M_TiempoGarantia.Name = "Txt_M_TiempoGarantia";
+            this.Txt_M_TiempoGarantia.Size = new System.Drawing.Size(262, 26);
+            this.Txt_M_TiempoGarantia.TabIndex = 4;
             // 
             // label23
             // 
@@ -411,46 +411,46 @@
             this.Btn_M_Marca.UseVisualStyleBackColor = true;
             this.Btn_M_Marca.Click += new System.EventHandler(this.Btn_M_Marca_Click);
             // 
-            // cmb_M_Producto
+            // Cmb_M_Producto
             // 
-            this.cmb_M_Producto.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_M_Producto.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_M_Producto.FormattingEnabled = true;
-            this.cmb_M_Producto.Location = new System.Drawing.Point(23, 20);
-            this.cmb_M_Producto.Name = "cmb_M_Producto";
-            this.cmb_M_Producto.Size = new System.Drawing.Size(385, 28);
-            this.cmb_M_Producto.TabIndex = 1;
-            this.cmb_M_Producto.SelectedIndexChanged += new System.EventHandler(this.Cmb_M_Producto_SelectedIndexChanged);
+            this.Cmb_M_Producto.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_M_Producto.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_M_Producto.FormattingEnabled = true;
+            this.Cmb_M_Producto.Location = new System.Drawing.Point(23, 20);
+            this.Cmb_M_Producto.Name = "Cmb_M_Producto";
+            this.Cmb_M_Producto.Size = new System.Drawing.Size(385, 28);
+            this.Cmb_M_Producto.TabIndex = 1;
+            this.Cmb_M_Producto.SelectedIndexChanged += new System.EventHandler(this.Cmb_M_Producto_SelectedIndexChanged);
             // 
-            // cmb_M_Unidad
+            // Cmb_M_Unidad
             // 
-            this.cmb_M_Unidad.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_M_Unidad.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_M_Unidad.FormattingEnabled = true;
-            this.cmb_M_Unidad.Location = new System.Drawing.Point(147, 315);
-            this.cmb_M_Unidad.Name = "cmb_M_Unidad";
-            this.cmb_M_Unidad.Size = new System.Drawing.Size(224, 28);
-            this.cmb_M_Unidad.TabIndex = 8;
+            this.Cmb_M_Unidad.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_M_Unidad.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_M_Unidad.FormattingEnabled = true;
+            this.Cmb_M_Unidad.Location = new System.Drawing.Point(147, 315);
+            this.Cmb_M_Unidad.Name = "Cmb_M_Unidad";
+            this.Cmb_M_Unidad.Size = new System.Drawing.Size(224, 28);
+            this.Cmb_M_Unidad.TabIndex = 8;
             // 
-            // cmb_M_Categoria
+            // Cmb_M_Categoria
             // 
-            this.cmb_M_Categoria.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_M_Categoria.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_M_Categoria.FormattingEnabled = true;
-            this.cmb_M_Categoria.Location = new System.Drawing.Point(147, 277);
-            this.cmb_M_Categoria.Name = "cmb_M_Categoria";
-            this.cmb_M_Categoria.Size = new System.Drawing.Size(224, 28);
-            this.cmb_M_Categoria.TabIndex = 7;
+            this.Cmb_M_Categoria.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_M_Categoria.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_M_Categoria.FormattingEnabled = true;
+            this.Cmb_M_Categoria.Location = new System.Drawing.Point(147, 277);
+            this.Cmb_M_Categoria.Name = "Cmb_M_Categoria";
+            this.Cmb_M_Categoria.Size = new System.Drawing.Size(224, 28);
+            this.Cmb_M_Categoria.TabIndex = 7;
             // 
-            // cmb_M_Familia
+            // Cmb_M_Familia
             // 
-            this.cmb_M_Familia.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_M_Familia.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_M_Familia.FormattingEnabled = true;
-            this.cmb_M_Familia.Location = new System.Drawing.Point(147, 235);
-            this.cmb_M_Familia.Name = "cmb_M_Familia";
-            this.cmb_M_Familia.Size = new System.Drawing.Size(224, 28);
-            this.cmb_M_Familia.TabIndex = 6;
+            this.Cmb_M_Familia.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_M_Familia.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_M_Familia.FormattingEnabled = true;
+            this.Cmb_M_Familia.Location = new System.Drawing.Point(147, 235);
+            this.Cmb_M_Familia.Name = "Cmb_M_Familia";
+            this.Cmb_M_Familia.Size = new System.Drawing.Size(224, 28);
+            this.Cmb_M_Familia.TabIndex = 6;
             // 
             // label8
             // 
@@ -488,40 +488,40 @@
             this.label11.TabIndex = 50;
             this.label11.Text = "Marca";
             // 
-            // cmb_M_Marca
+            // Cmb_M_Marca
             // 
-            this.cmb_M_Marca.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_M_Marca.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_M_Marca.FormattingEnabled = true;
-            this.cmb_M_Marca.Location = new System.Drawing.Point(147, 193);
-            this.cmb_M_Marca.Name = "cmb_M_Marca";
-            this.cmb_M_Marca.Size = new System.Drawing.Size(224, 28);
-            this.cmb_M_Marca.TabIndex = 5;
+            this.Cmb_M_Marca.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_M_Marca.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_M_Marca.FormattingEnabled = true;
+            this.Cmb_M_Marca.Location = new System.Drawing.Point(147, 193);
+            this.Cmb_M_Marca.Name = "Cmb_M_Marca";
+            this.Cmb_M_Marca.Size = new System.Drawing.Size(224, 28);
+            this.Cmb_M_Marca.TabIndex = 5;
             // 
-            // btn_Modificar
+            // Btn_Modificar
             // 
-            this.btn_Modificar.Location = new System.Drawing.Point(166, 362);
-            this.btn_Modificar.Name = "btn_Modificar";
-            this.btn_Modificar.Size = new System.Drawing.Size(94, 34);
-            this.btn_Modificar.TabIndex = 9;
-            this.btn_Modificar.Text = "Modificar";
-            this.btn_Modificar.UseVisualStyleBackColor = true;
-            this.btn_Modificar.Click += new System.EventHandler(this.Btn_Modificar_Click);
+            this.Btn_Modificar.Location = new System.Drawing.Point(166, 362);
+            this.Btn_Modificar.Name = "Btn_Modificar";
+            this.Btn_Modificar.Size = new System.Drawing.Size(94, 34);
+            this.Btn_Modificar.TabIndex = 9;
+            this.Btn_Modificar.Text = "Modificar";
+            this.Btn_Modificar.UseVisualStyleBackColor = true;
+            this.Btn_Modificar.Click += new System.EventHandler(this.Btn_Modificar_Click);
             // 
-            // txt_M_Codigo
+            // Txt_M_Codigo
             // 
-            this.txt_M_Codigo.Enabled = false;
-            this.txt_M_Codigo.Location = new System.Drawing.Point(147, 68);
-            this.txt_M_Codigo.Name = "txt_M_Codigo";
-            this.txt_M_Codigo.Size = new System.Drawing.Size(262, 26);
-            this.txt_M_Codigo.TabIndex = 2;
+            this.Txt_M_Codigo.Enabled = false;
+            this.Txt_M_Codigo.Location = new System.Drawing.Point(147, 68);
+            this.Txt_M_Codigo.Name = "Txt_M_Codigo";
+            this.Txt_M_Codigo.Size = new System.Drawing.Size(262, 26);
+            this.Txt_M_Codigo.TabIndex = 2;
             // 
-            // txt_M_Nombre
+            // Txt_M_Nombre
             // 
-            this.txt_M_Nombre.Location = new System.Drawing.Point(146, 111);
-            this.txt_M_Nombre.Name = "txt_M_Nombre";
-            this.txt_M_Nombre.Size = new System.Drawing.Size(262, 26);
-            this.txt_M_Nombre.TabIndex = 3;
+            this.Txt_M_Nombre.Location = new System.Drawing.Point(146, 111);
+            this.Txt_M_Nombre.Name = "Txt_M_Nombre";
+            this.Txt_M_Nombre.Size = new System.Drawing.Size(262, 26);
+            this.Txt_M_Nombre.TabIndex = 3;
             // 
             // label12
             // 
@@ -544,20 +544,20 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.txt_E_TiempoGarantia);
+            this.tabPage3.Controls.Add(this.Txt_E_TiempoGarantia);
             this.tabPage3.Controls.Add(this.label24);
-            this.tabPage3.Controls.Add(this.cmb_E_Producto);
-            this.tabPage3.Controls.Add(this.cmb_E_Unidad);
-            this.tabPage3.Controls.Add(this.cmb_E_Categoria);
-            this.tabPage3.Controls.Add(this.cmb_E_Familia);
+            this.tabPage3.Controls.Add(this.Cmb_E_Producto);
+            this.tabPage3.Controls.Add(this.Cmb_E_Unidad);
+            this.tabPage3.Controls.Add(this.Cmb_E_Categoria);
+            this.tabPage3.Controls.Add(this.Cmb_E_Familia);
             this.tabPage3.Controls.Add(this.label15);
             this.tabPage3.Controls.Add(this.label16);
             this.tabPage3.Controls.Add(this.label17);
             this.tabPage3.Controls.Add(this.label18);
-            this.tabPage3.Controls.Add(this.cmb_E_Marca);
-            this.tabPage3.Controls.Add(this.btn_Eliminar);
-            this.tabPage3.Controls.Add(this.txt_E_Codigo);
-            this.tabPage3.Controls.Add(this.txt_E_Nombre);
+            this.tabPage3.Controls.Add(this.Cmb_E_Marca);
+            this.tabPage3.Controls.Add(this.Btn_Eliminar);
+            this.tabPage3.Controls.Add(this.Txt_E_Codigo);
+            this.tabPage3.Controls.Add(this.Txt_E_Nombre);
             this.tabPage3.Controls.Add(this.label19);
             this.tabPage3.Controls.Add(this.label21);
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
@@ -568,13 +568,13 @@
             this.tabPage3.Text = "Eliminar";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // txt_E_TiempoGarantia
+            // Txt_E_TiempoGarantia
             // 
-            this.txt_E_TiempoGarantia.Enabled = false;
-            this.txt_E_TiempoGarantia.Location = new System.Drawing.Point(148, 133);
-            this.txt_E_TiempoGarantia.Name = "txt_E_TiempoGarantia";
-            this.txt_E_TiempoGarantia.Size = new System.Drawing.Size(262, 26);
-            this.txt_E_TiempoGarantia.TabIndex = 4;
+            this.Txt_E_TiempoGarantia.Enabled = false;
+            this.Txt_E_TiempoGarantia.Location = new System.Drawing.Point(148, 133);
+            this.Txt_E_TiempoGarantia.Name = "Txt_E_TiempoGarantia";
+            this.Txt_E_TiempoGarantia.Size = new System.Drawing.Size(262, 26);
+            this.Txt_E_TiempoGarantia.TabIndex = 4;
             // 
             // label24
             // 
@@ -585,43 +585,43 @@
             this.label24.TabIndex = 74;
             this.label24.Text = "Tiempo de \r\nGarantia";
             // 
-            // cmb_E_Producto
+            // Cmb_E_Producto
             // 
-            this.cmb_E_Producto.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_E_Producto.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_E_Producto.FormattingEnabled = true;
-            this.cmb_E_Producto.Location = new System.Drawing.Point(25, 13);
-            this.cmb_E_Producto.Name = "cmb_E_Producto";
-            this.cmb_E_Producto.Size = new System.Drawing.Size(385, 28);
-            this.cmb_E_Producto.TabIndex = 1;
-            this.cmb_E_Producto.SelectedIndexChanged += new System.EventHandler(this.Cmb_E_Producto_SelectedIndexChanged);
+            this.Cmb_E_Producto.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_E_Producto.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_E_Producto.FormattingEnabled = true;
+            this.Cmb_E_Producto.Location = new System.Drawing.Point(25, 13);
+            this.Cmb_E_Producto.Name = "Cmb_E_Producto";
+            this.Cmb_E_Producto.Size = new System.Drawing.Size(385, 28);
+            this.Cmb_E_Producto.TabIndex = 1;
+            this.Cmb_E_Producto.SelectedIndexChanged += new System.EventHandler(this.Cmb_E_Producto_SelectedIndexChanged);
             // 
-            // cmb_E_Unidad
+            // Cmb_E_Unidad
             // 
-            this.cmb_E_Unidad.Enabled = false;
-            this.cmb_E_Unidad.FormattingEnabled = true;
-            this.cmb_E_Unidad.Location = new System.Drawing.Point(148, 308);
-            this.cmb_E_Unidad.Name = "cmb_E_Unidad";
-            this.cmb_E_Unidad.Size = new System.Drawing.Size(262, 28);
-            this.cmb_E_Unidad.TabIndex = 8;
+            this.Cmb_E_Unidad.Enabled = false;
+            this.Cmb_E_Unidad.FormattingEnabled = true;
+            this.Cmb_E_Unidad.Location = new System.Drawing.Point(148, 308);
+            this.Cmb_E_Unidad.Name = "Cmb_E_Unidad";
+            this.Cmb_E_Unidad.Size = new System.Drawing.Size(262, 28);
+            this.Cmb_E_Unidad.TabIndex = 8;
             // 
-            // cmb_E_Categoria
+            // Cmb_E_Categoria
             // 
-            this.cmb_E_Categoria.Enabled = false;
-            this.cmb_E_Categoria.FormattingEnabled = true;
-            this.cmb_E_Categoria.Location = new System.Drawing.Point(148, 270);
-            this.cmb_E_Categoria.Name = "cmb_E_Categoria";
-            this.cmb_E_Categoria.Size = new System.Drawing.Size(262, 28);
-            this.cmb_E_Categoria.TabIndex = 7;
+            this.Cmb_E_Categoria.Enabled = false;
+            this.Cmb_E_Categoria.FormattingEnabled = true;
+            this.Cmb_E_Categoria.Location = new System.Drawing.Point(148, 270);
+            this.Cmb_E_Categoria.Name = "Cmb_E_Categoria";
+            this.Cmb_E_Categoria.Size = new System.Drawing.Size(262, 28);
+            this.Cmb_E_Categoria.TabIndex = 7;
             // 
-            // cmb_E_Familia
+            // Cmb_E_Familia
             // 
-            this.cmb_E_Familia.Enabled = false;
-            this.cmb_E_Familia.FormattingEnabled = true;
-            this.cmb_E_Familia.Location = new System.Drawing.Point(148, 228);
-            this.cmb_E_Familia.Name = "cmb_E_Familia";
-            this.cmb_E_Familia.Size = new System.Drawing.Size(262, 28);
-            this.cmb_E_Familia.TabIndex = 6;
+            this.Cmb_E_Familia.Enabled = false;
+            this.Cmb_E_Familia.FormattingEnabled = true;
+            this.Cmb_E_Familia.Location = new System.Drawing.Point(148, 228);
+            this.Cmb_E_Familia.Name = "Cmb_E_Familia";
+            this.Cmb_E_Familia.Size = new System.Drawing.Size(262, 28);
+            this.Cmb_E_Familia.TabIndex = 6;
             // 
             // label15
             // 
@@ -659,40 +659,40 @@
             this.label18.TabIndex = 66;
             this.label18.Text = "Marca";
             // 
-            // cmb_E_Marca
+            // Cmb_E_Marca
             // 
-            this.cmb_E_Marca.Enabled = false;
-            this.cmb_E_Marca.FormattingEnabled = true;
-            this.cmb_E_Marca.Location = new System.Drawing.Point(148, 186);
-            this.cmb_E_Marca.Name = "cmb_E_Marca";
-            this.cmb_E_Marca.Size = new System.Drawing.Size(262, 28);
-            this.cmb_E_Marca.TabIndex = 5;
+            this.Cmb_E_Marca.Enabled = false;
+            this.Cmb_E_Marca.FormattingEnabled = true;
+            this.Cmb_E_Marca.Location = new System.Drawing.Point(148, 186);
+            this.Cmb_E_Marca.Name = "Cmb_E_Marca";
+            this.Cmb_E_Marca.Size = new System.Drawing.Size(262, 28);
+            this.Cmb_E_Marca.TabIndex = 5;
             // 
-            // btn_Eliminar
+            // Btn_Eliminar
             // 
-            this.btn_Eliminar.Location = new System.Drawing.Point(148, 353);
-            this.btn_Eliminar.Name = "btn_Eliminar";
-            this.btn_Eliminar.Size = new System.Drawing.Size(94, 34);
-            this.btn_Eliminar.TabIndex = 9;
-            this.btn_Eliminar.Text = "Eliminar";
-            this.btn_Eliminar.UseVisualStyleBackColor = true;
-            this.btn_Eliminar.Click += new System.EventHandler(this.Btn_Eliminar_Click);
+            this.Btn_Eliminar.Location = new System.Drawing.Point(148, 353);
+            this.Btn_Eliminar.Name = "Btn_Eliminar";
+            this.Btn_Eliminar.Size = new System.Drawing.Size(94, 34);
+            this.Btn_Eliminar.TabIndex = 9;
+            this.Btn_Eliminar.Text = "Eliminar";
+            this.Btn_Eliminar.UseVisualStyleBackColor = true;
+            this.Btn_Eliminar.Click += new System.EventHandler(this.Btn_Eliminar_Click);
             // 
-            // txt_E_Codigo
+            // Txt_E_Codigo
             // 
-            this.txt_E_Codigo.Enabled = false;
-            this.txt_E_Codigo.Location = new System.Drawing.Point(148, 61);
-            this.txt_E_Codigo.Name = "txt_E_Codigo";
-            this.txt_E_Codigo.Size = new System.Drawing.Size(262, 26);
-            this.txt_E_Codigo.TabIndex = 2;
+            this.Txt_E_Codigo.Enabled = false;
+            this.Txt_E_Codigo.Location = new System.Drawing.Point(148, 61);
+            this.Txt_E_Codigo.Name = "Txt_E_Codigo";
+            this.Txt_E_Codigo.Size = new System.Drawing.Size(262, 26);
+            this.Txt_E_Codigo.TabIndex = 2;
             // 
-            // txt_E_Nombre
+            // Txt_E_Nombre
             // 
-            this.txt_E_Nombre.Enabled = false;
-            this.txt_E_Nombre.Location = new System.Drawing.Point(148, 93);
-            this.txt_E_Nombre.Name = "txt_E_Nombre";
-            this.txt_E_Nombre.Size = new System.Drawing.Size(262, 26);
-            this.txt_E_Nombre.TabIndex = 3;
+            this.Txt_E_Nombre.Enabled = false;
+            this.Txt_E_Nombre.Location = new System.Drawing.Point(148, 93);
+            this.Txt_E_Nombre.Name = "Txt_E_Nombre";
+            this.Txt_E_Nombre.Size = new System.Drawing.Size(262, 26);
+            this.Txt_E_Nombre.TabIndex = 3;
             // 
             // label19
             // 
@@ -739,48 +739,48 @@
         #endregion
 
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.ComboBox cmb_I_Unidad;
-        private System.Windows.Forms.ComboBox cmb_I_Categoria;
-        private System.Windows.Forms.ComboBox cmb_I_Familia;
+        private System.Windows.Forms.ComboBox Cmb_I_Unidad;
+        private System.Windows.Forms.ComboBox Cmb_I_Categoria;
+        private System.Windows.Forms.ComboBox Cmb_I_Familia;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cmb_I_Marca;
-        private System.Windows.Forms.Button btn_I_Guardar;
-        private System.Windows.Forms.TextBox txt_I_Codigo;
-        private System.Windows.Forms.TextBox txt_I_Nombre;
+        private System.Windows.Forms.ComboBox Cmb_I_Marca;
+        private System.Windows.Forms.Button Btn_I_Guardar;
+        private System.Windows.Forms.TextBox Txt_I_Codigo;
+        private System.Windows.Forms.TextBox Txt_I_Nombre;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabControl Tab_Producto;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.ComboBox cmb_M_Producto;
-        private System.Windows.Forms.ComboBox cmb_M_Unidad;
-        private System.Windows.Forms.ComboBox cmb_M_Categoria;
-        private System.Windows.Forms.ComboBox cmb_M_Familia;
+        private System.Windows.Forms.ComboBox Cmb_M_Producto;
+        private System.Windows.Forms.ComboBox Cmb_M_Unidad;
+        private System.Windows.Forms.ComboBox Cmb_M_Categoria;
+        private System.Windows.Forms.ComboBox Cmb_M_Familia;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.ComboBox cmb_M_Marca;
-        private System.Windows.Forms.Button btn_Modificar;
-        private System.Windows.Forms.TextBox txt_M_Codigo;
-        private System.Windows.Forms.TextBox txt_M_Nombre;
+        private System.Windows.Forms.ComboBox Cmb_M_Marca;
+        private System.Windows.Forms.Button Btn_Modificar;
+        private System.Windows.Forms.TextBox Txt_M_Codigo;
+        private System.Windows.Forms.TextBox Txt_M_Nombre;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.ComboBox cmb_E_Producto;
-        private System.Windows.Forms.ComboBox cmb_E_Unidad;
-        private System.Windows.Forms.ComboBox cmb_E_Categoria;
-        private System.Windows.Forms.ComboBox cmb_E_Familia;
+        private System.Windows.Forms.ComboBox Cmb_E_Producto;
+        private System.Windows.Forms.ComboBox Cmb_E_Unidad;
+        private System.Windows.Forms.ComboBox Cmb_E_Categoria;
+        private System.Windows.Forms.ComboBox Cmb_E_Familia;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.ComboBox cmb_E_Marca;
-        private System.Windows.Forms.Button btn_Eliminar;
-        private System.Windows.Forms.TextBox txt_E_Codigo;
-        private System.Windows.Forms.TextBox txt_E_Nombre;
+        private System.Windows.Forms.ComboBox Cmb_E_Marca;
+        private System.Windows.Forms.Button Btn_Eliminar;
+        private System.Windows.Forms.TextBox Txt_E_Codigo;
+        private System.Windows.Forms.TextBox Txt_E_Nombre;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Button Btn_I_Unidad;
@@ -791,11 +791,11 @@
         private System.Windows.Forms.Button Btn_M_Categoria;
         private System.Windows.Forms.Button Btn_M_Familia;
         private System.Windows.Forms.Button Btn_M_Marca;
-        private System.Windows.Forms.TextBox txt_I_TiempoGarantia;
+        private System.Windows.Forms.TextBox Txt_I_TiempoGarantia;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox txt_M_TiempoGarantia;
+        private System.Windows.Forms.TextBox Txt_M_TiempoGarantia;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox txt_E_TiempoGarantia;
+        private System.Windows.Forms.TextBox Txt_E_TiempoGarantia;
         private System.Windows.Forms.Label label24;
 
 

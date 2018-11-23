@@ -27,24 +27,24 @@ namespace Shalong.Formularios
         }
         public void CargarComboBox()
         {
-            cmb_M_Nombre.DisplayMember = "Nombre";
-            cmb_M_Nombre.ValueMember = "Codigo";
-            cmb_M_Nombre.DataSource = _shalong.TipoPagoMostrar();
-            cmb_E_Nombre.DisplayMember = "Nombre";
-            cmb_E_Nombre.ValueMember = "Codigo";
-            cmb_E_Nombre.DataSource = _shalong.TipoPagoMostrar();
+            Cmb_M_Nombre.DisplayMember = "Nombre";
+            Cmb_M_Nombre.ValueMember = "Codigo";
+            Cmb_M_Nombre.DataSource = _shalong.TipoPagoMostrar();
+            Cmb_E_Nombre.DisplayMember = "Nombre";
+            Cmb_E_Nombre.ValueMember = "Codigo";
+            Cmb_E_Nombre.DataSource = _shalong.TipoPagoMostrar();
  
         }
 
-        private void btn_Guardar_Click(object sender, EventArgs e)
+        private void Btn_Guardar_Click(object sender, EventArgs e)
         {
             GuardarTipoPago();
         }
         private void GuardarTipoPago()
         {
             C_TipoPago objetoTipoPago = new C_TipoPago();
-            objetoTipoPago.Nombre = txt_I_Nombre.Text;
-            if (txt_I_Nombre.Text != String.Empty)
+            objetoTipoPago.Nombre = Txt_I_Nombre.Text;
+            if (Txt_I_Nombre.Text != String.Empty)
             {
                 if (_shalong.TipoPago(1, objetoTipoPago))
                 {
@@ -63,9 +63,9 @@ namespace Shalong.Formularios
             }
         }
 
-        private void btn_Modificar_Click(object sender, EventArgs e)
+        private void Btn_Modificar_Click(object sender, EventArgs e)
         {
-            if (cmb_M_Nombre.SelectedIndex == -1)
+            if (Cmb_M_Nombre.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Tipo de Pago Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 CargarComboBox();
@@ -80,9 +80,9 @@ namespace Shalong.Formularios
         private void ModificarTipoCambio()
         {
             C_TipoPago objetoTipoPago = new C_TipoPago();
-            objetoTipoPago.Codigo = Int32.Parse(cmb_M_Nombre.SelectedValue.ToString());
-            objetoTipoPago.Nombre = txt_M_Nombre.Text;
-            if (txt_M_Nombre.Text != String.Empty)
+            objetoTipoPago.Codigo = Int32.Parse(Cmb_M_Nombre.SelectedValue.ToString());
+            objetoTipoPago.Nombre = Txt_M_Nombre.Text;
+            if (Txt_M_Nombre.Text != String.Empty)
             {
                 if (_shalong.TipoPago(2, objetoTipoPago))
                 {
@@ -100,9 +100,9 @@ namespace Shalong.Formularios
             }
         }
 
-        private void btn_Eliminar_Click(object sender, EventArgs e)
+        private void Btn_Eliminar_Click(object sender, EventArgs e)
         {
-            if (cmb_E_Nombre.SelectedIndex == -1)
+            if (Cmb_E_Nombre.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Tipo de Pago Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 CargarComboBox();
@@ -116,7 +116,7 @@ namespace Shalong.Formularios
         public void eliminar()
         {
             C_TipoPago objetoTipoPago = new C_TipoPago();
-            objetoTipoPago.Codigo = Int32.Parse(cmb_E_Nombre.SelectedValue.ToString());
+            objetoTipoPago.Codigo = Int32.Parse(Cmb_E_Nombre.SelectedValue.ToString());
             objetoTipoPago.Nombre = "";
             if (_shalong.TipoPago(3, objetoTipoPago))
             {
@@ -129,18 +129,18 @@ namespace Shalong.Formularios
             }
         }
 
-        private void cmb_M_Nombre_SelectedIndexChanged(object sender, EventArgs e)
+        private void Cmb_M_Nombre_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_TipoPago obj = _shalong.TipoPagoMostrar1(Int32.Parse(cmb_M_Nombre.SelectedValue.ToString()));
-            txt_M_Nombre.Text =" " + obj.Nombre;
+            C_TipoPago obj = _shalong.TipoPagoMostrar1(Int32.Parse(Cmb_M_Nombre.SelectedValue.ToString()));
+            Txt_M_Nombre.Text =" " + obj.Nombre;
         }
 
-        private void cmb_E_Nombre_SelectedIndexChanged(object sender, EventArgs e)
+        private void Cmb_E_Nombre_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_TipoPago obj = _shalong.TipoPagoMostrar1(Int32.Parse(cmb_E_Nombre.SelectedValue.ToString()));
+            C_TipoPago obj = _shalong.TipoPagoMostrar1(Int32.Parse(Cmb_E_Nombre.SelectedValue.ToString()));
         }
 
-        private void txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
@@ -149,7 +149,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_M_Nombre_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_M_Nombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {

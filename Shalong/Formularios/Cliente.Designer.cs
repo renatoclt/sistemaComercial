@@ -32,35 +32,35 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label6 = new System.Windows.Forms.Label();
-            this.txt_I_AMaterno = new System.Windows.Forms.TextBox();
+            this.Txt_I_AMaterno = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txt_I_APaterno = new System.Windows.Forms.TextBox();
-            this.txt_I_Dni = new System.Windows.Forms.TextBox();
+            this.Txt_I_APaterno = new System.Windows.Forms.TextBox();
+            this.Txt_I_Dni = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txt_I_Nombre = new System.Windows.Forms.TextBox();
-            this.btn_Guardar = new System.Windows.Forms.Button();
+            this.Txt_I_Nombre = new System.Windows.Forms.TextBox();
+            this.Btn_Guardar = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label2 = new System.Windows.Forms.Label();
-            this.txt_M_AMaterno = new System.Windows.Forms.TextBox();
+            this.Txt_M_AMaterno = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.txt_M_APaterno = new System.Windows.Forms.TextBox();
-            this.txt_M_Dni = new System.Windows.Forms.TextBox();
+            this.Txt_M_APaterno = new System.Windows.Forms.TextBox();
+            this.Txt_M_Dni = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.txt_M_Nombre = new System.Windows.Forms.TextBox();
-            this.cmb_M_Nombre = new System.Windows.Forms.ComboBox();
-            this.btn_Modificar = new System.Windows.Forms.Button();
+            this.Txt_M_Nombre = new System.Windows.Forms.TextBox();
+            this.Cmb_M_Nombre = new System.Windows.Forms.ComboBox();
+            this.Btn_Modificar = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.label10 = new System.Windows.Forms.Label();
-            this.txt_E_AMaterno = new System.Windows.Forms.TextBox();
+            this.Txt_E_AMaterno = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.txt_E_APaterno = new System.Windows.Forms.TextBox();
-            this.txt_E_Dni = new System.Windows.Forms.TextBox();
+            this.Txt_E_APaterno = new System.Windows.Forms.TextBox();
+            this.Txt_E_Dni = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.cmb_E_Nombre = new System.Windows.Forms.ComboBox();
+            this.Cmb_E_Nombre = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.btn_Eliminar = new System.Windows.Forms.Button();
+            this.Btn_Eliminar = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -82,14 +82,14 @@
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.label6);
-            this.tabPage1.Controls.Add(this.txt_I_AMaterno);
+            this.tabPage1.Controls.Add(this.Txt_I_AMaterno);
             this.tabPage1.Controls.Add(this.label5);
-            this.tabPage1.Controls.Add(this.txt_I_APaterno);
-            this.tabPage1.Controls.Add(this.txt_I_Dni);
+            this.tabPage1.Controls.Add(this.Txt_I_APaterno);
+            this.tabPage1.Controls.Add(this.Txt_I_Dni);
             this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Controls.Add(this.txt_I_Nombre);
-            this.tabPage1.Controls.Add(this.btn_Guardar);
+            this.tabPage1.Controls.Add(this.Txt_I_Nombre);
+            this.tabPage1.Controls.Add(this.Btn_Guardar);
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage1.Name = "tabPage1";
@@ -108,14 +108,14 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "Apellido \r\nMaterno";
             // 
-            // txt_I_AMaterno
+            // Txt_I_AMaterno
             // 
-            this.txt_I_AMaterno.Location = new System.Drawing.Point(86, 144);
-            this.txt_I_AMaterno.MaxLength = 30;
-            this.txt_I_AMaterno.Name = "txt_I_AMaterno";
-            this.txt_I_AMaterno.Size = new System.Drawing.Size(202, 26);
-            this.txt_I_AMaterno.TabIndex = 4;
-            this.txt_I_AMaterno.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_I_AMaterno_KeyPress);
+            this.Txt_I_AMaterno.Location = new System.Drawing.Point(86, 144);
+            this.Txt_I_AMaterno.MaxLength = 30;
+            this.Txt_I_AMaterno.Name = "Txt_I_AMaterno";
+            this.Txt_I_AMaterno.Size = new System.Drawing.Size(202, 26);
+            this.Txt_I_AMaterno.TabIndex = 4;
+            this.Txt_I_AMaterno.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_I_AMaterno_KeyPress);
             // 
             // label5
             // 
@@ -126,23 +126,23 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "Apellido \r\nPaterno\r\n";
             // 
-            // txt_I_APaterno
+            // Txt_I_APaterno
             // 
-            this.txt_I_APaterno.Location = new System.Drawing.Point(86, 94);
-            this.txt_I_APaterno.MaxLength = 30;
-            this.txt_I_APaterno.Name = "txt_I_APaterno";
-            this.txt_I_APaterno.Size = new System.Drawing.Size(202, 26);
-            this.txt_I_APaterno.TabIndex = 3;
-            this.txt_I_APaterno.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_I_APaterno_KeyPress);
+            this.Txt_I_APaterno.Location = new System.Drawing.Point(86, 94);
+            this.Txt_I_APaterno.MaxLength = 30;
+            this.Txt_I_APaterno.Name = "Txt_I_APaterno";
+            this.Txt_I_APaterno.Size = new System.Drawing.Size(202, 26);
+            this.Txt_I_APaterno.TabIndex = 3;
+            this.Txt_I_APaterno.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_I_APaterno_KeyPress);
             // 
-            // txt_I_Dni
+            // Txt_I_Dni
             // 
-            this.txt_I_Dni.Location = new System.Drawing.Point(86, 56);
-            this.txt_I_Dni.MaxLength = 16;
-            this.txt_I_Dni.Name = "txt_I_Dni";
-            this.txt_I_Dni.Size = new System.Drawing.Size(202, 26);
-            this.txt_I_Dni.TabIndex = 2;
-            this.txt_I_Dni.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_I_Dni_KeyPress);
+            this.Txt_I_Dni.Location = new System.Drawing.Point(86, 56);
+            this.Txt_I_Dni.MaxLength = 16;
+            this.Txt_I_Dni.Name = "Txt_I_Dni";
+            this.Txt_I_Dni.Size = new System.Drawing.Size(202, 26);
+            this.Txt_I_Dni.TabIndex = 2;
+            this.Txt_I_Dni.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_I_Dni_KeyPress);
             // 
             // label4
             // 
@@ -162,38 +162,38 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Nombre";
             // 
-            // txt_I_Nombre
+            // Txt_I_Nombre
             // 
-            this.txt_I_Nombre.Location = new System.Drawing.Point(86, 15);
-            this.txt_I_Nombre.MaxLength = 30;
-            this.txt_I_Nombre.Name = "txt_I_Nombre";
-            this.txt_I_Nombre.Size = new System.Drawing.Size(202, 26);
-            this.txt_I_Nombre.TabIndex = 1;
-            this.txt_I_Nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_I_Nombre_KeyPress);
+            this.Txt_I_Nombre.Location = new System.Drawing.Point(86, 15);
+            this.Txt_I_Nombre.MaxLength = 30;
+            this.Txt_I_Nombre.Name = "Txt_I_Nombre";
+            this.Txt_I_Nombre.Size = new System.Drawing.Size(202, 26);
+            this.Txt_I_Nombre.TabIndex = 1;
+            this.Txt_I_Nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_I_Nombre_KeyPress);
             // 
-            // btn_Guardar
+            // Btn_Guardar
             // 
-            this.btn_Guardar.Location = new System.Drawing.Point(100, 212);
-            this.btn_Guardar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btn_Guardar.Name = "btn_Guardar";
-            this.btn_Guardar.Size = new System.Drawing.Size(112, 35);
-            this.btn_Guardar.TabIndex = 5;
-            this.btn_Guardar.Text = "Guardar";
-            this.btn_Guardar.UseVisualStyleBackColor = true;
-            this.btn_Guardar.Click += new System.EventHandler(this.btn_Guardar_Click);
+            this.Btn_Guardar.Location = new System.Drawing.Point(100, 212);
+            this.Btn_Guardar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Btn_Guardar.Name = "Btn_Guardar";
+            this.Btn_Guardar.Size = new System.Drawing.Size(112, 35);
+            this.Btn_Guardar.TabIndex = 5;
+            this.Btn_Guardar.Text = "Guardar";
+            this.Btn_Guardar.UseVisualStyleBackColor = true;
+            this.Btn_Guardar.Click += new System.EventHandler(this.Btn_Guardar_Click);
             // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.label2);
-            this.tabPage2.Controls.Add(this.txt_M_AMaterno);
+            this.tabPage2.Controls.Add(this.Txt_M_AMaterno);
             this.tabPage2.Controls.Add(this.label7);
-            this.tabPage2.Controls.Add(this.txt_M_APaterno);
-            this.tabPage2.Controls.Add(this.txt_M_Dni);
+            this.tabPage2.Controls.Add(this.Txt_M_APaterno);
+            this.tabPage2.Controls.Add(this.Txt_M_Dni);
             this.tabPage2.Controls.Add(this.label8);
             this.tabPage2.Controls.Add(this.label9);
-            this.tabPage2.Controls.Add(this.txt_M_Nombre);
-            this.tabPage2.Controls.Add(this.cmb_M_Nombre);
-            this.tabPage2.Controls.Add(this.btn_Modificar);
+            this.tabPage2.Controls.Add(this.Txt_M_Nombre);
+            this.tabPage2.Controls.Add(this.Cmb_M_Nombre);
+            this.tabPage2.Controls.Add(this.Btn_Modificar);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage2.Name = "tabPage2";
@@ -212,14 +212,14 @@
             this.label2.TabIndex = 19;
             this.label2.Text = "Apellido \r\nMaterno";
             // 
-            // txt_M_AMaterno
+            // Txt_M_AMaterno
             // 
-            this.txt_M_AMaterno.Location = new System.Drawing.Point(94, 182);
-            this.txt_M_AMaterno.MaxLength = 30;
-            this.txt_M_AMaterno.Name = "txt_M_AMaterno";
-            this.txt_M_AMaterno.Size = new System.Drawing.Size(202, 26);
-            this.txt_M_AMaterno.TabIndex = 5;
-            this.txt_M_AMaterno.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_M_AMaterno_KeyPress);
+            this.Txt_M_AMaterno.Location = new System.Drawing.Point(94, 182);
+            this.Txt_M_AMaterno.MaxLength = 30;
+            this.Txt_M_AMaterno.Name = "Txt_M_AMaterno";
+            this.Txt_M_AMaterno.Size = new System.Drawing.Size(202, 26);
+            this.Txt_M_AMaterno.TabIndex = 5;
+            this.Txt_M_AMaterno.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_M_AMaterno_KeyPress);
             // 
             // label7
             // 
@@ -230,23 +230,23 @@
             this.label7.TabIndex = 17;
             this.label7.Text = "Apellido \r\nPaterno\r\n";
             // 
-            // txt_M_APaterno
+            // Txt_M_APaterno
             // 
-            this.txt_M_APaterno.Location = new System.Drawing.Point(94, 132);
-            this.txt_M_APaterno.MaxLength = 30;
-            this.txt_M_APaterno.Name = "txt_M_APaterno";
-            this.txt_M_APaterno.Size = new System.Drawing.Size(202, 26);
-            this.txt_M_APaterno.TabIndex = 4;
-            this.txt_M_APaterno.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_M_APaterno_KeyPress);
+            this.Txt_M_APaterno.Location = new System.Drawing.Point(94, 132);
+            this.Txt_M_APaterno.MaxLength = 30;
+            this.Txt_M_APaterno.Name = "Txt_M_APaterno";
+            this.Txt_M_APaterno.Size = new System.Drawing.Size(202, 26);
+            this.Txt_M_APaterno.TabIndex = 4;
+            this.Txt_M_APaterno.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_M_APaterno_KeyPress);
             // 
-            // txt_M_Dni
+            // Txt_M_Dni
             // 
-            this.txt_M_Dni.Location = new System.Drawing.Point(94, 94);
-            this.txt_M_Dni.MaxLength = 16;
-            this.txt_M_Dni.Name = "txt_M_Dni";
-            this.txt_M_Dni.Size = new System.Drawing.Size(202, 26);
-            this.txt_M_Dni.TabIndex = 3;
-            this.txt_M_Dni.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_M_Dni_KeyPress);
+            this.Txt_M_Dni.Location = new System.Drawing.Point(94, 94);
+            this.Txt_M_Dni.MaxLength = 16;
+            this.Txt_M_Dni.Name = "Txt_M_Dni";
+            this.Txt_M_Dni.Size = new System.Drawing.Size(202, 26);
+            this.Txt_M_Dni.TabIndex = 3;
+            this.Txt_M_Dni.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_M_Dni_KeyPress);
             // 
             // label8
             // 
@@ -266,48 +266,48 @@
             this.label9.TabIndex = 13;
             this.label9.Text = "Nombre";
             // 
-            // txt_M_Nombre
+            // Txt_M_Nombre
             // 
-            this.txt_M_Nombre.Location = new System.Drawing.Point(94, 53);
-            this.txt_M_Nombre.MaxLength = 30;
-            this.txt_M_Nombre.Name = "txt_M_Nombre";
-            this.txt_M_Nombre.Size = new System.Drawing.Size(202, 26);
-            this.txt_M_Nombre.TabIndex = 2;
-            this.txt_M_Nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_M_Nombre_KeyPress);
+            this.Txt_M_Nombre.Location = new System.Drawing.Point(94, 53);
+            this.Txt_M_Nombre.MaxLength = 30;
+            this.Txt_M_Nombre.Name = "Txt_M_Nombre";
+            this.Txt_M_Nombre.Size = new System.Drawing.Size(202, 26);
+            this.Txt_M_Nombre.TabIndex = 2;
+            this.Txt_M_Nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_M_Nombre_KeyPress);
             // 
-            // cmb_M_Nombre
+            // Cmb_M_Nombre
             // 
-            this.cmb_M_Nombre.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_M_Nombre.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_M_Nombre.FormattingEnabled = true;
-            this.cmb_M_Nombre.Location = new System.Drawing.Point(11, 8);
-            this.cmb_M_Nombre.Name = "cmb_M_Nombre";
-            this.cmb_M_Nombre.Size = new System.Drawing.Size(280, 28);
-            this.cmb_M_Nombre.TabIndex = 10;
-            this.cmb_M_Nombre.SelectedIndexChanged += new System.EventHandler(this.cmb_M_Nombre_SelectedIndexChanged);
+            this.Cmb_M_Nombre.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_M_Nombre.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_M_Nombre.FormattingEnabled = true;
+            this.Cmb_M_Nombre.Location = new System.Drawing.Point(11, 8);
+            this.Cmb_M_Nombre.Name = "Cmb_M_Nombre";
+            this.Cmb_M_Nombre.Size = new System.Drawing.Size(280, 28);
+            this.Cmb_M_Nombre.TabIndex = 10;
+            this.Cmb_M_Nombre.SelectedIndexChanged += new System.EventHandler(this.Cmb_M_Nombre_SelectedIndexChanged);
             // 
-            // btn_Modificar
+            // Btn_Modificar
             // 
-            this.btn_Modificar.Location = new System.Drawing.Point(103, 229);
-            this.btn_Modificar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btn_Modificar.Name = "btn_Modificar";
-            this.btn_Modificar.Size = new System.Drawing.Size(112, 35);
-            this.btn_Modificar.TabIndex = 6;
-            this.btn_Modificar.Text = "Modificar";
-            this.btn_Modificar.UseVisualStyleBackColor = true;
-            this.btn_Modificar.Click += new System.EventHandler(this.btn_Modificar_Click);
+            this.Btn_Modificar.Location = new System.Drawing.Point(103, 229);
+            this.Btn_Modificar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Btn_Modificar.Name = "Btn_Modificar";
+            this.Btn_Modificar.Size = new System.Drawing.Size(112, 35);
+            this.Btn_Modificar.TabIndex = 6;
+            this.Btn_Modificar.Text = "Modificar";
+            this.Btn_Modificar.UseVisualStyleBackColor = true;
+            this.Btn_Modificar.Click += new System.EventHandler(this.Btn_Modificar_Click);
             // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.label10);
-            this.tabPage3.Controls.Add(this.txt_E_AMaterno);
+            this.tabPage3.Controls.Add(this.Txt_E_AMaterno);
             this.tabPage3.Controls.Add(this.label11);
-            this.tabPage3.Controls.Add(this.txt_E_APaterno);
-            this.tabPage3.Controls.Add(this.txt_E_Dni);
+            this.tabPage3.Controls.Add(this.Txt_E_APaterno);
+            this.tabPage3.Controls.Add(this.Txt_E_Dni);
             this.tabPage3.Controls.Add(this.label12);
-            this.tabPage3.Controls.Add(this.cmb_E_Nombre);
+            this.tabPage3.Controls.Add(this.Cmb_E_Nombre);
             this.tabPage3.Controls.Add(this.label3);
-            this.tabPage3.Controls.Add(this.btn_Eliminar);
+            this.tabPage3.Controls.Add(this.Btn_Eliminar);
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
@@ -325,12 +325,12 @@
             this.label10.TabIndex = 20;
             this.label10.Text = "Apellido \r\nMaterno";
             // 
-            // txt_E_AMaterno
+            // Txt_E_AMaterno
             // 
-            this.txt_E_AMaterno.Location = new System.Drawing.Point(94, 182);
-            this.txt_E_AMaterno.Name = "txt_E_AMaterno";
-            this.txt_E_AMaterno.Size = new System.Drawing.Size(202, 26);
-            this.txt_E_AMaterno.TabIndex = 4;
+            this.Txt_E_AMaterno.Location = new System.Drawing.Point(94, 182);
+            this.Txt_E_AMaterno.Name = "Txt_E_AMaterno";
+            this.Txt_E_AMaterno.Size = new System.Drawing.Size(202, 26);
+            this.Txt_E_AMaterno.TabIndex = 4;
             // 
             // label11
             // 
@@ -341,19 +341,19 @@
             this.label11.TabIndex = 18;
             this.label11.Text = "Apellido \r\nPaterno\r\n";
             // 
-            // txt_E_APaterno
+            // Txt_E_APaterno
             // 
-            this.txt_E_APaterno.Location = new System.Drawing.Point(94, 121);
-            this.txt_E_APaterno.Name = "txt_E_APaterno";
-            this.txt_E_APaterno.Size = new System.Drawing.Size(202, 26);
-            this.txt_E_APaterno.TabIndex = 3;
+            this.Txt_E_APaterno.Location = new System.Drawing.Point(94, 121);
+            this.Txt_E_APaterno.Name = "Txt_E_APaterno";
+            this.Txt_E_APaterno.Size = new System.Drawing.Size(202, 26);
+            this.Txt_E_APaterno.TabIndex = 3;
             // 
-            // txt_E_Dni
+            // Txt_E_Dni
             // 
-            this.txt_E_Dni.Location = new System.Drawing.Point(94, 70);
-            this.txt_E_Dni.Name = "txt_E_Dni";
-            this.txt_E_Dni.Size = new System.Drawing.Size(202, 26);
-            this.txt_E_Dni.TabIndex = 2;
+            this.Txt_E_Dni.Location = new System.Drawing.Point(94, 70);
+            this.Txt_E_Dni.Name = "Txt_E_Dni";
+            this.Txt_E_Dni.Size = new System.Drawing.Size(202, 26);
+            this.Txt_E_Dni.TabIndex = 2;
             // 
             // label12
             // 
@@ -364,16 +364,16 @@
             this.label12.TabIndex = 15;
             this.label12.Text = "DNI";
             // 
-            // cmb_E_Nombre
+            // Cmb_E_Nombre
             // 
-            this.cmb_E_Nombre.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_E_Nombre.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_E_Nombre.FormattingEnabled = true;
-            this.cmb_E_Nombre.Location = new System.Drawing.Point(94, 27);
-            this.cmb_E_Nombre.Name = "cmb_E_Nombre";
-            this.cmb_E_Nombre.Size = new System.Drawing.Size(199, 28);
-            this.cmb_E_Nombre.TabIndex = 1;
-            this.cmb_E_Nombre.SelectedIndexChanged += new System.EventHandler(this.cmb_E_Nombre_SelectedIndexChanged);
+            this.Cmb_E_Nombre.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_E_Nombre.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_E_Nombre.FormattingEnabled = true;
+            this.Cmb_E_Nombre.Location = new System.Drawing.Point(94, 27);
+            this.Cmb_E_Nombre.Name = "Cmb_E_Nombre";
+            this.Cmb_E_Nombre.Size = new System.Drawing.Size(199, 28);
+            this.Cmb_E_Nombre.TabIndex = 1;
+            this.Cmb_E_Nombre.SelectedIndexChanged += new System.EventHandler(this.Cmb_E_Nombre_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -384,16 +384,16 @@
             this.label3.TabIndex = 11;
             this.label3.Text = "Nombre";
             // 
-            // btn_Eliminar
+            // Btn_Eliminar
             // 
-            this.btn_Eliminar.Location = new System.Drawing.Point(97, 231);
-            this.btn_Eliminar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btn_Eliminar.Name = "btn_Eliminar";
-            this.btn_Eliminar.Size = new System.Drawing.Size(112, 35);
-            this.btn_Eliminar.TabIndex = 5;
-            this.btn_Eliminar.Text = "Eliminar";
-            this.btn_Eliminar.UseVisualStyleBackColor = true;
-            this.btn_Eliminar.Click += new System.EventHandler(this.btn_Eliminar_Click);
+            this.Btn_Eliminar.Location = new System.Drawing.Point(97, 231);
+            this.Btn_Eliminar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Btn_Eliminar.Name = "Btn_Eliminar";
+            this.Btn_Eliminar.Size = new System.Drawing.Size(112, 35);
+            this.Btn_Eliminar.TabIndex = 5;
+            this.Btn_Eliminar.Text = "Eliminar";
+            this.Btn_Eliminar.UseVisualStyleBackColor = true;
+            this.Btn_Eliminar.Click += new System.EventHandler(this.Btn_Eliminar_Click);
             // 
             // Cliente
             // 
@@ -423,35 +423,35 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txt_I_AMaterno;
+        private System.Windows.Forms.TextBox Txt_I_AMaterno;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txt_I_APaterno;
-        private System.Windows.Forms.TextBox txt_I_Dni;
+        private System.Windows.Forms.TextBox Txt_I_APaterno;
+        private System.Windows.Forms.TextBox Txt_I_Dni;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txt_I_Nombre;
-        private System.Windows.Forms.Button btn_Guardar;
+        private System.Windows.Forms.TextBox Txt_I_Nombre;
+        private System.Windows.Forms.Button Btn_Guardar;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txt_M_AMaterno;
+        private System.Windows.Forms.TextBox Txt_M_AMaterno;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txt_M_APaterno;
-        private System.Windows.Forms.TextBox txt_M_Dni;
+        private System.Windows.Forms.TextBox Txt_M_APaterno;
+        private System.Windows.Forms.TextBox Txt_M_Dni;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txt_M_Nombre;
-        private System.Windows.Forms.ComboBox cmb_M_Nombre;
-        private System.Windows.Forms.Button btn_Modificar;
+        private System.Windows.Forms.TextBox Txt_M_Nombre;
+        private System.Windows.Forms.ComboBox Cmb_M_Nombre;
+        private System.Windows.Forms.Button Btn_Modificar;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox txt_E_AMaterno;
+        private System.Windows.Forms.TextBox Txt_E_AMaterno;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox txt_E_APaterno;
-        private System.Windows.Forms.TextBox txt_E_Dni;
+        private System.Windows.Forms.TextBox Txt_E_APaterno;
+        private System.Windows.Forms.TextBox Txt_E_Dni;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ComboBox cmb_E_Nombre;
+        private System.Windows.Forms.ComboBox Cmb_E_Nombre;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btn_Eliminar;
+        private System.Windows.Forms.Button Btn_Eliminar;
 
     }
 }

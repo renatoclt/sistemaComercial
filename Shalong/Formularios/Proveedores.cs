@@ -65,21 +65,21 @@ namespace Shalong.Formularios
         }
         private void CargarLineaCreditoModificar()
         {
-            cmb_M_TipoProveedor.DisplayMember = "NombreCompleto";
-            cmb_M_TipoProveedor.ValueMember = "Codigo";
-            cmb_M_TipoProveedor.DataSource = _Shalong.TipoLineaCreditoMostrar();
+            Cmb_M_TipoProveedor.DisplayMember = "NombreCompleto";
+            Cmb_M_TipoProveedor.ValueMember = "Codigo";
+            Cmb_M_TipoProveedor.DataSource = _Shalong.TipoLineaCreditoMostrar();
         }
         private void CargarLineaCreditoEliminar()
         {
-            cmb_E_TipoProveedor.DisplayMember = "NombreCompleto";
-            cmb_E_TipoProveedor.ValueMember = "Codigo";
-            cmb_E_TipoProveedor.DataSource = _Shalong.TipoLineaCreditoMostrar();
+            Cmb_E_TipoProveedor.DisplayMember = "NombreCompleto";
+            Cmb_E_TipoProveedor.ValueMember = "Codigo";
+            Cmb_E_TipoProveedor.DataSource = _Shalong.TipoLineaCreditoMostrar();
         }
         private void CargarLineaCreditoIngresar()
         {
-            cmb_I_TipoProveedor.DisplayMember = "NombreCompleto";
-            cmb_I_TipoProveedor.ValueMember = "Codigo";
-            cmb_I_TipoProveedor.DataSource = _Shalong.TipoLineaCreditoMostrar();
+            Cmb_I_TipoProveedor.DisplayMember = "NombreCompleto";
+            Cmb_I_TipoProveedor.ValueMember = "Codigo";
+            Cmb_I_TipoProveedor.DataSource = _Shalong.TipoLineaCreditoMostrar();
         }
 
         //CARGAR DATAGRIDVIEW
@@ -113,7 +113,7 @@ namespace Shalong.Formularios
         {
             EliminarProveedor();
         }
-        private void btn_AgregarLineaCredito_Click(object sender, EventArgs e)
+        private void Btn_AgregarLineaCredito_Click(object sender, EventArgs e)
         {
             TipoLineaCredito obj = new TipoLineaCredito();
             obj.ShowDialog();
@@ -125,14 +125,14 @@ namespace Shalong.Formularios
         {
             C_Proveedor oProveedor = new C_Proveedor();
             //INGRESO DE LINEA DE CREDITO
-            if (cmb_I_TipoProveedor.SelectedIndex == -1)
+            if (Cmb_I_TipoProveedor.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese una Linea de Credito", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                oProveedor.CodigoTipoLineaCredito = Int32.Parse(cmb_I_TipoProveedor.SelectedValue.ToString());
+                oProveedor.CodigoTipoLineaCredito = Int32.Parse(Cmb_I_TipoProveedor.SelectedValue.ToString());
             }
             //INGRESO DE RUC
             if (Txt_I_RUC.Text == string.Empty)
@@ -254,14 +254,14 @@ namespace Shalong.Formularios
             {
                 oProveedor.Nombre = Txt_M_Nombre.Text;
             }
-            if (cmb_M_TipoProveedor.SelectedIndex == -1)
+            if (Cmb_M_TipoProveedor.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese una Linea de Credito", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                oProveedor.CodigoTipoLineaCredito = Int32.Parse(cmb_M_TipoProveedor.SelectedValue.ToString());
+                oProveedor.CodigoTipoLineaCredito = Int32.Parse(Cmb_M_TipoProveedor.SelectedValue.ToString());
             }
             //CUENTA AHORROS EN SOLES
             if (Txt_I_CuentasSoles.Text == string.Empty)
@@ -353,7 +353,7 @@ namespace Shalong.Formularios
                 oProveedor.Codigo = Int32.Parse(Cmb_E_Proveedores.SelectedValue.ToString());
             }
             oProveedor.Nombre = Txt_E_Nombre.Text;
-            oProveedor.CodigoTipoLineaCredito = Int32.Parse(cmb_E_TipoProveedor.SelectedValue.ToString());
+            oProveedor.CodigoTipoLineaCredito = Int32.Parse(Cmb_E_TipoProveedor.SelectedValue.ToString());
             oProveedor.CuentaDolares = Txt_E_CuentasDolares.Text;
             oProveedor.CuentasSoles = Txt_E_CuentasSoles.Text;
             oProveedor.Direccion = Txt_E_Direccion.Text;
@@ -365,6 +365,7 @@ namespace Shalong.Formularios
             {
                 MessageBox.Show("Se elimino Correctamente", "Gestion Ventas", MessageBoxButtons.OK);
                 CargarComboBox();
+                this.LimpiarProveedoresEliminados();
             }
             else
             {
@@ -373,6 +374,7 @@ namespace Shalong.Formularios
         }
         public void LimpiarProveedores()
         {
+            
             Txt_I_Nombre.Clear();
             Txt_I_RUC.Clear();
             Txt_I_Direccion.Clear();
@@ -380,41 +382,75 @@ namespace Shalong.Formularios
             Txt_I_PaginaWeb.Clear();
             Txt_I_CuentasSoles.Clear();
             Txt_I_CuentasDolares.Clear();
-            cmb_I_TipoProveedor.SelectedIndex = -1;
-            cmb_I_TipoProveedor.ResetText();
+            Cmb_I_TipoProveedor.SelectedIndex = -1;
+            Cmb_I_TipoProveedor.ResetText();
             Txt_I_Monto.Text = "0.0";
+        }
+        public void LimpiarProveedoresEliminados()
+        {
+            Txt_E_Nombre.Clear();
+            Txt_E_RUC.Clear();
+            Txt_E_Direccion.Clear();
+            Txt_E_Telefono.Text = "0";
+            Txt_E_PaginaWeb.Clear();
+            Txt_E_CuentasSoles.Clear();
+            Txt_E_CuentasDolares.Clear();
+            Cmb_E_TipoProveedor.SelectedIndex = -1;
+            Cmb_E_TipoProveedor.ResetText();
+            Cmb_E_Proveedores.SelectedIndex = -1;
+            Cmb_E_Proveedores.ResetText();
+            Txt_E_Monto.Clear();
+            Txt_M_Nombre.Clear();
+            Txt_M_RUC.Clear();
+            Txt_M_Direccion.Clear();
+            Txt_M_Telefono.Text = "0";
+            Txt_M_PaginaWeb.Clear();
+            Txt_M_CuentasSoles.Clear();
+            Txt_M_CuentasDolares.Clear();
+            Cmb_M_TipoProveedor.SelectedIndex = -1;
+            Cmb_M_TipoProveedor.ResetText();
+            Cmb_M_Proveedores.SelectedIndex = -1;
+            Cmb_M_Proveedores.ResetText();
+            Txt_M_Monto.Clear();
+            Gv_E_Contactos.DataSource = null;
+            Gv_M_Contactos.DataSource = null;
         }
 
 
         //COMBOBOX MODIFICAR Y ELIMINAR
         private void Cmb_E_Proveedores_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_Proveedor obj = _Shalong.ProveedorMostrar1(Int32.Parse(Cmb_E_Proveedores.SelectedValue.ToString()));
-            Txt_E_CuentasDolares.Text = obj.CuentaDolares;
-            Txt_E_CuentasSoles.Text = obj.CuentasSoles;
-            Txt_E_Direccion.Text = obj.Direccion;
-            Txt_E_Nombre.Text = obj.Nombre;
-            Txt_E_PaginaWeb.Text = obj.PaginaWeb;
-            Txt_E_RUC.Text = obj.RUC;
-            Txt_E_Telefono.Text = "" + obj.Telefono;
-            Txt_E_Monto.Text = "" + obj.MontoPrestamo;
-            cmb_E_TipoProveedor.SelectedValue = obj.CodigoTipoLineaCredito;
-            CargarDataGridViewElimnar();
+            if(Cmb_E_Proveedores.SelectedValue != null){
+                C_Proveedor obj = _Shalong.ProveedorMostrar1(Int32.Parse(Cmb_E_Proveedores.SelectedValue.ToString()));
+                Txt_E_CuentasDolares.Text = obj.CuentaDolares;
+                Txt_E_CuentasSoles.Text = obj.CuentasSoles;
+                Txt_E_Direccion.Text = obj.Direccion;
+                Txt_E_Nombre.Text = obj.Nombre;
+                Txt_E_PaginaWeb.Text = obj.PaginaWeb;
+                Txt_E_RUC.Text = obj.RUC;
+                Txt_E_Telefono.Text = "" + obj.Telefono;
+                Txt_E_Monto.Text = "" + obj.MontoPrestamo;
+                Cmb_E_TipoProveedor.SelectedValue = obj.CodigoTipoLineaCredito;
+                CargarDataGridViewElimnar();
+            }
+            
         }
         private void Cmb_M_Proveedores_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_Proveedor obj = _Shalong.ProveedorMostrar1(Int32.Parse(Cmb_M_Proveedores.SelectedValue.ToString()));
-            Txt_M_CuentasDolares.Text = obj.CuentaDolares;
-            Txt_M_CuentasSoles.Text = obj.CuentasSoles;
-            Txt_M_Direccion.Text = obj.Direccion;
-            Txt_M_Nombre.Text = obj.Nombre;
-            Txt_M_PaginaWeb.Text = obj.PaginaWeb;
-            Txt_M_RUC.Text = obj.RUC;
-            Txt_M_Telefono.Text = "" + obj.Telefono;
-            Txt_M_Monto.Text = "" + obj.MontoPrestamo;
-            cmb_M_TipoProveedor.SelectedValue = obj.CodigoTipoLineaCredito;
-            CargarDataGridViewModificar();
-
+            if(Cmb_M_Proveedores.SelectedValue != null)
+            {
+                C_Proveedor obj = _Shalong.ProveedorMostrar1(Int32.Parse(Cmb_M_Proveedores.SelectedValue.ToString()));
+                Txt_M_CuentasDolares.Text = obj.CuentaDolares;
+                Txt_M_CuentasSoles.Text = obj.CuentasSoles;
+                Txt_M_Direccion.Text = obj.Direccion;
+                Txt_M_Nombre.Text = obj.Nombre;
+                Txt_M_PaginaWeb.Text = obj.PaginaWeb;
+                Txt_M_RUC.Text = obj.RUC;
+                Txt_M_Telefono.Text = "" + obj.Telefono;
+                Txt_M_Monto.Text = "" + obj.MontoPrestamo;
+                Cmb_M_TipoProveedor.SelectedValue = obj.CodigoTipoLineaCredito;
+                CargarDataGridViewModificar();
+            }
         }
 
         // OTROS
@@ -479,7 +515,7 @@ namespace Shalong.Formularios
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
         }
 
-        private void btn_M_Trabajadores_Click(object sender, EventArgs e)
+        private void Btn_M_Trabajadores_Click(object sender, EventArgs e)
         {
             if (Cmb_M_Proveedores.SelectedIndex != -1)
             {
@@ -491,7 +527,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void btn_E_Trabajadores_Click(object sender, EventArgs e)
+        private void Btn_E_Trabajadores_Click(object sender, EventArgs e)
         {
             if (Cmb_E_Proveedores.SelectedIndex != -1)
             {
@@ -502,7 +538,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void btn_M_LineaCredito_Click(object sender, EventArgs e)
+        private void Btn_M_LineaCredito_Click(object sender, EventArgs e)
         {
             TipoLineaCredito obj = new TipoLineaCredito();
             obj.ShowDialog();

@@ -33,15 +33,15 @@ namespace Shalong.Formularios
         private void GuardarTipoAlmacen()
         {
             C_TipoAlmacen objetoTipoAlmacen = new C_TipoAlmacen();
-            objetoTipoAlmacen.Nombre = txt_I_Nombre.Text;
+            objetoTipoAlmacen.Nombre = Txt_I_Nombre.Text;
             objetoTipoAlmacen.Codigo = 1;
-            if (txt_I_Nombre.Text != String.Empty)
+            if (Txt_I_Nombre.Text != String.Empty)
             {
                 if (_shalong.TipoAlmacen(1, objetoTipoAlmacen))
                 {
                     MessageBox.Show("Ingreso Correcto", "Gestion Ventas", MessageBoxButtons.OK);
                     CargarCombobox();
-                    txt_I_Nombre.Clear();
+                    Txt_I_Nombre.Clear();
                 }
                 else
                 {
@@ -56,7 +56,7 @@ namespace Shalong.Formularios
 
         private void Btn_Modificar_Click(object sender, EventArgs e)
         {
-            if (cmb_M_Nombre.SelectedIndex == -1)
+            if (Cmb_M_Nombre.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Tipo de Almacen Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 CargarCombobox();
@@ -71,9 +71,9 @@ namespace Shalong.Formularios
         private void ModificarTipoAlmacen()
         {
             C_TipoAlmacen objetoTipoAlmacen = new C_TipoAlmacen();
-            objetoTipoAlmacen.Codigo = Int32.Parse(cmb_M_Nombre.SelectedValue.ToString());
-            objetoTipoAlmacen.Nombre = txt_M_Nombre.Text;
-            if (txt_M_Nombre.Text != String.Empty)
+            objetoTipoAlmacen.Codigo = Int32.Parse(Cmb_M_Nombre.SelectedValue.ToString());
+            objetoTipoAlmacen.Nombre = Txt_M_Nombre.Text;
+            if (Txt_M_Nombre.Text != String.Empty)
             {
                 if (_shalong.TipoAlmacen(2, objetoTipoAlmacen))
                 {
@@ -93,7 +93,7 @@ namespace Shalong.Formularios
         }
         private void Btn_Eliminar_Click(object sender, EventArgs e)
         {
-            if (cmb_E_Nombre.SelectedIndex == -1)
+            if (Cmb_E_Nombre.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Tipo de Almacen Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 CargarCombobox();
@@ -107,7 +107,7 @@ namespace Shalong.Formularios
         private void EliminarTipoAlmacen()
         {
             C_TipoAlmacen objetoTipoAlmacen = new C_TipoAlmacen();
-            objetoTipoAlmacen.Codigo = Int32.Parse(cmb_E_Nombre.SelectedValue.ToString());
+            objetoTipoAlmacen.Codigo = Int32.Parse(Cmb_E_Nombre.SelectedValue.ToString());
             objetoTipoAlmacen.Nombre = " ";
             if (_shalong.TipoAlmacen(3, objetoTipoAlmacen ))
             {
@@ -126,24 +126,24 @@ namespace Shalong.Formularios
         }
         private void CargarComboBoxModificar()
         {
-            cmb_M_Nombre.DisplayMember = "Nombre";
-            cmb_M_Nombre.ValueMember = "Codigo";
-            cmb_M_Nombre.DataSource = _shalong.TipoAlmacenMostrar();
+            Cmb_M_Nombre.DisplayMember = "Nombre";
+            Cmb_M_Nombre.ValueMember = "Codigo";
+            Cmb_M_Nombre.DataSource = _shalong.TipoAlmacenMostrar();
         }
         private void CargarComboBoxEliminar()
         {
-            cmb_E_Nombre.DisplayMember = "Nombre";
-            cmb_E_Nombre.ValueMember = "Codigo";
-            cmb_E_Nombre.DataSource = _shalong.TipoAlmacenMostrar();
+            Cmb_E_Nombre.DisplayMember = "Nombre";
+            Cmb_E_Nombre.ValueMember = "Codigo";
+            Cmb_E_Nombre.DataSource = _shalong.TipoAlmacenMostrar();
         }
 
-        private void cmb_M_Nombre_SelectedIndexChanged(object sender, EventArgs e)
+        private void Cmb_M_Nombre_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_TipoAlmacen obj = _shalong.TipoAlmacenMostrar1(Int32.Parse(cmb_M_Nombre.SelectedValue.ToString()));
-            txt_M_Nombre.Text = obj.Nombre;
+            C_TipoAlmacen obj = _shalong.TipoAlmacenMostrar1(Int32.Parse(Cmb_M_Nombre.SelectedValue.ToString()));
+            Txt_M_Nombre.Text = obj.Nombre;
         }
 
-        private void txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
@@ -152,7 +152,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_M_Nombre_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_M_Nombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {

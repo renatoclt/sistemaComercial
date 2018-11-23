@@ -46,15 +46,15 @@ namespace Shalong.Formularios
         }
         public void CargarComboBoxTrabajador()
         {
-            cmb_Trabajador.DisplayMember = "NombreCompleto";
-            cmb_Trabajador.ValueMember = "Dni";
-            cmb_Trabajador.DataSource = _shalong.UsuarioMostrar();
+            Cmb_Trabajador.DisplayMember = "NombreCompleto";
+            Cmb_Trabajador.ValueMember = "Dni";
+            Cmb_Trabajador.DataSource = _shalong.UsuarioMostrar();
         }
         public void CargarComboBoxCaja()
         {
-            cmb_Caja.DisplayMember = "NombreCaja";
-            cmb_Caja.ValueMember = "CodigoCaja";
-            cmb_Caja.DataSource = _shalong.CajaMostrar();
+            Cmb_Caja.DisplayMember = "NombreCaja";
+            Cmb_Caja.ValueMember = "CodigoCaja";
+            Cmb_Caja.DataSource = _shalong.CajaMostrar();
         }
 
         //CARGAR DATA GRID VIEW
@@ -68,12 +68,12 @@ namespace Shalong.Formularios
 
         //BOTONES
 
-        private void btn_Trabajador_Click(object sender, EventArgs e)
+        private void Btn_Trabajador_Click(object sender, EventArgs e)
         {
-            if (cmb_Trabajador.SelectedIndex != -1)
+            if (Cmb_Trabajador.SelectedIndex != -1)
             {
                 dgv_Credito.DataSource = null;
-                dgv_Credito.DataSource = _shalong.ReporteTrabajadorPorTrabajador(Int32.Parse(cmb_Trabajador.SelectedValue.ToString()));
+                dgv_Credito.DataSource = _shalong.ReporteTrabajadorPorTrabajador(Int32.Parse(Cmb_Trabajador.SelectedValue.ToString()));
             }
             else
             {
@@ -82,12 +82,12 @@ namespace Shalong.Formularios
                 return;
             }
         }
-        private void btn_Caja_Click(object sender, EventArgs e)
+        private void Btn_Caja_Click(object sender, EventArgs e)
         {
-            if (cmb_Caja.SelectedIndex != -1)
+            if (Cmb_Caja.SelectedIndex != -1)
             {
                 dgv_Credito.DataSource = null;
-                dgv_Credito.DataSource = _shalong.ReporteTrabajadorPorCaja(Int32.Parse(cmb_Caja.SelectedValue.ToString()));
+                dgv_Credito.DataSource = _shalong.ReporteTrabajadorPorCaja(Int32.Parse(Cmb_Caja.SelectedValue.ToString()));
             }
             else
             {
@@ -96,12 +96,12 @@ namespace Shalong.Formularios
                 return;
             }
         }
-        private void btn_Documento_Click(object sender, EventArgs e)
+        private void Btn_Documento_Click(object sender, EventArgs e)
         {
-            if (txt_Documento.Text != string.Empty)
+            if (Txt_Documento.Text != string.Empty)
             {
                 dgv_Credito.DataSource = null;
-                dgv_Credito.DataSource = _shalong.ReporteTrabajadorPorDocumento(txt_Documento.Text);
+                dgv_Credito.DataSource = _shalong.ReporteTrabajadorPorDocumento(Txt_Documento.Text);
             }
             else
             {
@@ -110,12 +110,12 @@ namespace Shalong.Formularios
                 return;
             }
         }
-        private void btn_Voucher_Click(object sender, EventArgs e)
+        private void Btn_Voucher_Click(object sender, EventArgs e)
         {
-            if (txt_Voucher.Text != string.Empty)
+            if (Txt_Voucher.Text != string.Empty)
             {
                 dgv_Credito.DataSource = null;
-                dgv_Credito.DataSource = _shalong.ReporteTrabajdorPorVoucher(txt_Voucher.Text);
+                dgv_Credito.DataSource = _shalong.ReporteTrabajdorPorVoucher(Txt_Voucher.Text);
             }
             else
             {
@@ -126,7 +126,7 @@ namespace Shalong.Formularios
         }
 
         //eventos
-        private void txt_Documento_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_Documento_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar) || (char.IsLetter(e.KeyChar)) || e.KeyChar == '-' || (char.IsWhiteSpace(e.KeyChar))) && (e.KeyChar != (char)Keys.Back))
             {
@@ -135,7 +135,7 @@ namespace Shalong.Formularios
                 return;
             }
         }
-        private void txt_Voucher_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_Voucher_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar) || (char.IsLetter(e.KeyChar)) || e.KeyChar == '-' || (char.IsWhiteSpace(e.KeyChar))) && (e.KeyChar != (char)Keys.Back))
             {
@@ -153,7 +153,7 @@ namespace Shalong.Formularios
             if (dataObj != null)
                 Clipboard.SetDataObject(dataObj);
         }
-        private void btn_Exportar_Click(object sender, EventArgs e)
+        private void Btn_Exportar_Click(object sender, EventArgs e)
         {
             Exportar();
         }

@@ -20,7 +20,7 @@ namespace Shalong.Formularios
         {
             InitializeComponent();
             CargarComboBox();
-            cmb_I_Proveedor.SelectedIndex = -1;
+            Cmb_I_Proveedor.SelectedIndex = -1;
         }
 
         private I_Parametros _interfazParametros;
@@ -32,7 +32,7 @@ namespace Shalong.Formularios
                 InitializeComponent();
                 CargarComboBox();
                 _codigoProveedor = codigo;
-                cmb_I_Proveedor.SelectedValue = _codigoProveedor;
+                Cmb_I_Proveedor.SelectedValue = _codigoProveedor;
                 tabControl1.SelectedIndex = 1;
             }
             if (flag == 2)
@@ -40,7 +40,7 @@ namespace Shalong.Formularios
                 InitializeComponent();
                 CargarComboBox();
                 _codigoProveedor = codigo;
-                cmb_I_Proveedor.SelectedValue = _codigoProveedor;
+                Cmb_I_Proveedor.SelectedValue = _codigoProveedor;
                 tabControl1.SelectedIndex = 2;
             }
 
@@ -67,34 +67,34 @@ namespace Shalong.Formularios
         }
         public void CargarComboBoxProveedor()
         {
-            cmb_I_Proveedor.DisplayMember = "Nombre";
-            cmb_I_Proveedor.ValueMember = "Codigo";
-            cmb_I_Proveedor.DataSource = _shalong.ProveedorMostrar();
+            Cmb_I_Proveedor.DisplayMember = "Nombre";
+            Cmb_I_Proveedor.ValueMember = "Codigo";
+            Cmb_I_Proveedor.DataSource = _shalong.ProveedorMostrar();
         }
         public void CargarComboBoxModificar()
         {
-            cmb_M_Trabajador.DisplayMember = "NombreCompletoTrabajador";
-            cmb_M_Trabajador.ValueMember = "CodigoTrabajadorProveedor";
-            cmb_M_Trabajador.DataSource = _shalong.TrabajadorProveedorMostrar();
+            Cmb_M_Trabajador.DisplayMember = "NombreCompletoTrabajador";
+            Cmb_M_Trabajador.ValueMember = "CodigoTrabajadorProveedor";
+            Cmb_M_Trabajador.DataSource = _shalong.TrabajadorProveedorMostrar();
         }
         public void CargarComboBoxEliminar()
         {
-            cmb_E_Trabajador.DisplayMember = "NombreCompletoTrabajador";
-            cmb_E_Trabajador.ValueMember = "CodigoTrabajadorProveedor";
-            cmb_E_Trabajador.DataSource = _shalong.TrabajadorProveedorMostrar();
+            Cmb_E_Trabajador.DisplayMember = "NombreCompletoTrabajador";
+            Cmb_E_Trabajador.ValueMember = "CodigoTrabajadorProveedor";
+            Cmb_E_Trabajador.DataSource = _shalong.TrabajadorProveedorMostrar();
         }
         public void CargarComboBoxPorProveedor()
         {
-            if (cmb_I_Proveedor.SelectedIndex != -1)
+            if (Cmb_I_Proveedor.SelectedIndex != -1)
             {
-                cmb_M_Trabajador.DataSource = null;
-                cmb_M_Trabajador.DisplayMember = "NombreCompletoTrabajador";
-                cmb_M_Trabajador.ValueMember = "CodigoTrabajadorProveedor";
-                cmb_M_Trabajador.DataSource = _shalong.TrabajdorProveedorPorProveedor(Int32.Parse(cmb_I_Proveedor.SelectedValue.ToString()));
-                cmb_E_Trabajador.DataSource = null;
-                cmb_E_Trabajador.DisplayMember = "NombreCompletoTrabajador";
-                cmb_E_Trabajador.ValueMember = "CodigoTrabajadorProveedor";
-                cmb_E_Trabajador.DataSource = _shalong.TrabajdorProveedorPorProveedor(Int32.Parse(cmb_I_Proveedor.SelectedValue.ToString()));
+                Cmb_M_Trabajador.DataSource = null;
+                Cmb_M_Trabajador.DisplayMember = "NombreCompletoTrabajador";
+                Cmb_M_Trabajador.ValueMember = "CodigoTrabajadorProveedor";
+                Cmb_M_Trabajador.DataSource = _shalong.TrabajdorProveedorPorProveedor(Int32.Parse(Cmb_I_Proveedor.SelectedValue.ToString()));
+                Cmb_E_Trabajador.DataSource = null;
+                Cmb_E_Trabajador.DisplayMember = "NombreCompletoTrabajador";
+                Cmb_E_Trabajador.ValueMember = "CodigoTrabajadorProveedor";
+                Cmb_E_Trabajador.DataSource = _shalong.TrabajdorProveedorPorProveedor(Int32.Parse(Cmb_I_Proveedor.SelectedValue.ToString()));
             }
         }
 
@@ -103,46 +103,46 @@ namespace Shalong.Formularios
         public void GuardarIngreso()
         {
             C_TrabajadorProveedor objetoTrabajador = new C_TrabajadorProveedor();
-            if (cmb_I_Proveedor.SelectedIndex == -1)
+            if (Cmb_I_Proveedor.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese un Proveedor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             else
             {
-                objetoTrabajador.CodigoProveedor = Int32.Parse(cmb_I_Proveedor.SelectedValue.ToString());
+                objetoTrabajador.CodigoProveedor = Int32.Parse(Cmb_I_Proveedor.SelectedValue.ToString());
             }
-            if (txt_I_Celular.Text == string.Empty)
+            if (Txt_I_Celular.Text == string.Empty)
             {
                 objetoTrabajador.Celular = "";
             }
             else
             {
-                objetoTrabajador.Celular = txt_I_Celular.Text;
+                objetoTrabajador.Celular = Txt_I_Celular.Text;
             }
-            if (txt_I_Nombre.Text == string.Empty)
+            if (Txt_I_Nombre.Text == string.Empty)
             {
                 objetoTrabajador.Nombre = "";
             }
             else
             {
-                objetoTrabajador.Nombre = txt_I_Nombre.Text;
+                objetoTrabajador.Nombre = Txt_I_Nombre.Text;
             }
-            if (txt_I_AP.Text == string.Empty)
+            if (Txt_I_AP.Text == string.Empty)
             {
                 objetoTrabajador.ApellidoPaterno = "";
             }
             else
             {
-                objetoTrabajador.ApellidoPaterno = txt_I_AP.Text;
+                objetoTrabajador.ApellidoPaterno = Txt_I_AP.Text;
             }
-            if (txt_I_AM.Text == string.Empty)
+            if (Txt_I_AM.Text == string.Empty)
             {
                 objetoTrabajador.ApellidoMaterno = "";
             }
             else
             {
-                objetoTrabajador.ApellidoMaterno = txt_I_AM.Text;
+                objetoTrabajador.ApellidoMaterno = Txt_I_AM.Text;
             }
             if (_shalong.TrabajadorProveedor(1, objetoTrabajador))
             {
@@ -161,55 +161,55 @@ namespace Shalong.Formularios
         public void ModificarTrabajador()
         {
             C_TrabajadorProveedor objetoTrabajador = new C_TrabajadorProveedor();
-            if (cmb_I_Proveedor.SelectedIndex == -1)
+            if (Cmb_I_Proveedor.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione Un Proveedor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             else
             {
-                objetoTrabajador.CodigoProveedor = Int32.Parse(cmb_I_Proveedor.SelectedValue.ToString());
+                objetoTrabajador.CodigoProveedor = Int32.Parse(Cmb_I_Proveedor.SelectedValue.ToString());
             }
-            if (txt_M_Celular.Text == string.Empty)
+            if (Txt_M_Celular.Text == string.Empty)
             {
                 objetoTrabajador.Celular = "";
             }
             else
             {
-                objetoTrabajador.Celular = txt_M_Celular.Text;
+                objetoTrabajador.Celular = Txt_M_Celular.Text;
             }
-            if (txt_M_Nombre.Text == string.Empty)
+            if (Txt_M_Nombre.Text == string.Empty)
             {
                 objetoTrabajador.Nombre = "";
             }
             else
             {
-                objetoTrabajador.Nombre = txt_M_Nombre.Text;
+                objetoTrabajador.Nombre = Txt_M_Nombre.Text;
             }
-            if (txt_M_AP.Text == string.Empty)
+            if (Txt_M_AP.Text == string.Empty)
             {
                 objetoTrabajador.ApellidoPaterno = "";
             }
             else
             {
-                objetoTrabajador.ApellidoPaterno = txt_M_AP.Text;
+                objetoTrabajador.ApellidoPaterno = Txt_M_AP.Text;
             }
-            if (txt_M_AM.Text == string.Empty)
+            if (Txt_M_AM.Text == string.Empty)
             {
                 objetoTrabajador.ApellidoMaterno = "";
             }
             else
             {
-                objetoTrabajador.ApellidoMaterno = txt_M_AM.Text;
+                objetoTrabajador.ApellidoMaterno = Txt_M_AM.Text;
             }
-            if (cmb_M_Trabajador.SelectedIndex == -1)
+            if (Cmb_M_Trabajador.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese un Trabajador a Modificar", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             else
             {
-                objetoTrabajador.CodigoTrabajadorProveedor = Int32.Parse(cmb_M_Trabajador.SelectedValue.ToString());
+                objetoTrabajador.CodigoTrabajadorProveedor = Int32.Parse(Cmb_M_Trabajador.SelectedValue.ToString());
             }
             if (_shalong.TrabajadorProveedor(2, objetoTrabajador))
             {
@@ -231,14 +231,14 @@ namespace Shalong.Formularios
             objetoTrabajador.Nombre = "";
             objetoTrabajador.ApellidoPaterno = "";
             objetoTrabajador.ApellidoMaterno = "";
-            if (cmb_E_Trabajador.SelectedIndex == -1)
+            if (Cmb_E_Trabajador.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Trabajador", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             else
             {
-                objetoTrabajador.CodigoTrabajadorProveedor = Int32.Parse(cmb_E_Trabajador.SelectedValue.ToString());
+                objetoTrabajador.CodigoTrabajadorProveedor = Int32.Parse(Cmb_E_Trabajador.SelectedValue.ToString());
             }
             if (_shalong.TrabajadorProveedor(3, objetoTrabajador))
             {
@@ -255,68 +255,69 @@ namespace Shalong.Formularios
         }
         public void Limpiar()
         {
-            txt_I_Celular.Clear();
-            txt_I_Nombre.Clear();
-            txt_I_AP.Clear();
-            txt_I_AM.Clear();
+            Txt_I_Celular.Clear();
+            Txt_I_Nombre.Clear();
+            Txt_I_AP.Clear();
+            Txt_I_AM.Clear();
         }
         public void LimpiarModificar()
         {
-            txt_M_Celular.Clear();
-            txt_M_Nombre.Clear();
-            txt_M_AP.Clear();
-            txt_M_AM.Clear();
+            Txt_M_Celular.Clear();
+            Txt_M_Nombre.Clear();
+            Txt_M_AP.Clear();
+            Txt_M_AM.Clear();
         }
 
 
         //EVENTOS DEL FORMULARIO
-        private void cmb_M_Trabajador_SelectedIndexChanged(object sender, EventArgs e)
+        private void Cmb_M_Trabajador_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cmb_M_Trabajador.SelectedIndex != -1)
+            if (Cmb_M_Trabajador.SelectedIndex != -1)
             {
-                C_TrabajadorProveedor objMod = _shalong.TrabajadorProveedorMostrar1(Int32.Parse(cmb_M_Trabajador.SelectedValue.ToString()));
-                txt_M_Celular.Text = "" + objMod.Celular;
-                txt_M_Nombre.Text = "" + objMod.Nombre;
-                txt_M_AP.Text = "" + objMod.ApellidoPaterno;
-                txt_M_AM.Text = "" + objMod.ApellidoMaterno;
+                C_TrabajadorProveedor objMod = _shalong.TrabajadorProveedorMostrar1(Int32.Parse(Cmb_M_Trabajador.SelectedValue.ToString()));
+                Txt_M_Celular.Text = "" + objMod.Celular;
+                Txt_M_Nombre.Text = "" + objMod.Nombre;
+                Txt_M_AP.Text = "" + objMod.ApellidoPaterno;
+                Txt_M_AM.Text = "" + objMod.ApellidoMaterno;
             }
         }
-        private void btn_I_Guardar_Click(object sender, EventArgs e)
+        private void Btn_I_Guardar_Click(object sender, EventArgs e)
         {
             GuardarIngreso();
         }
-        private void btn_Modificar_Click(object sender, EventArgs e)
+        private void Btn_Modificar_Click(object sender, EventArgs e)
         {
             ModificarTrabajador();
         }
-        private void btn_Eliminar_Click(object sender, EventArgs e)
+        private void Btn_Eliminar_Click(object sender, EventArgs e)
         {
             Eliminar();
+            this.Limpiar();
         }
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (tabControl1.SelectedIndex == 1 && cmb_I_Proveedor.SelectedIndex == -1)
+            if (tabControl1.SelectedIndex == 1 && Cmb_I_Proveedor.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese un Proveedor Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                cmb_I_Proveedor.ResetText();
-                cmb_M_Trabajador.ResetText();
-                cmb_E_Trabajador.ResetText();
+                Cmb_I_Proveedor.ResetText();
+                Cmb_M_Trabajador.ResetText();
+                Cmb_E_Trabajador.ResetText();
                 LimpiarModificar();
                 tabControl1.SelectedIndex = 0;
                 return;
             }
-            else if (tabControl1.SelectedIndex == 2 && cmb_I_Proveedor.SelectedIndex == -1)
+            else if (tabControl1.SelectedIndex == 2 && Cmb_I_Proveedor.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese un Proveedor Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                cmb_I_Proveedor.ResetText();
-                cmb_E_Trabajador.ResetText();
-                cmb_M_Trabajador.ResetText();
+                Cmb_I_Proveedor.ResetText();
+                Cmb_E_Trabajador.ResetText();
+                Cmb_M_Trabajador.ResetText();
                 tabControl1.SelectedIndex = 0;
                 return;
             }
         }
 
-        private void cmb_I_Proveedor_SelectedIndexChanged(object sender, EventArgs e)
+        private void Cmb_I_Proveedor_SelectedIndexChanged(object sender, EventArgs e)
         {
             LimpiarModificar();
             CargarComboBoxPorProveedor();

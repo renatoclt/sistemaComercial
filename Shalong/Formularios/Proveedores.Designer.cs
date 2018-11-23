@@ -31,10 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Proveedores));
             this.Insertar = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.btn_AgregarLineaCredito = new System.Windows.Forms.Button();
+            this.Btn_AgregarLineaCredito = new System.Windows.Forms.Button();
             this.Txt_I_Monto = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.cmb_I_TipoProveedor = new System.Windows.Forms.ComboBox();
+            this.Cmb_I_TipoProveedor = new System.Windows.Forms.ComboBox();
             this.label25 = new System.Windows.Forms.Label();
             this.Btn_I_Guardar = new System.Windows.Forms.Button();
             this.Txt_I_Nombre = new System.Windows.Forms.TextBox();
@@ -52,9 +52,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.btn_M_Trabajadores = new System.Windows.Forms.Button();
-            this.btn_M_LineaCredito = new System.Windows.Forms.Button();
-            this.cmb_M_TipoProveedor = new System.Windows.Forms.ComboBox();
+            this.Btn_M_Trabajadores = new System.Windows.Forms.Button();
+            this.Btn_M_LineaCredito = new System.Windows.Forms.Button();
+            this.Cmb_M_TipoProveedor = new System.Windows.Forms.ComboBox();
             this.label28 = new System.Windows.Forms.Label();
             this.Txt_M_Monto = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
@@ -79,8 +79,8 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.btn_E_Trabajadores = new System.Windows.Forms.Button();
-            this.cmb_E_TipoProveedor = new System.Windows.Forms.ComboBox();
+            this.Btn_E_Trabajadores = new System.Windows.Forms.Button();
+            this.Cmb_E_TipoProveedor = new System.Windows.Forms.ComboBox();
             this.label29 = new System.Windows.Forms.Label();
             this.Txt_E_Monto = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
@@ -125,10 +125,10 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.btn_AgregarLineaCredito);
+            this.tabPage1.Controls.Add(this.Btn_AgregarLineaCredito);
             this.tabPage1.Controls.Add(this.Txt_I_Monto);
             this.tabPage1.Controls.Add(this.label26);
-            this.tabPage1.Controls.Add(this.cmb_I_TipoProveedor);
+            this.tabPage1.Controls.Add(this.Cmb_I_TipoProveedor);
             this.tabPage1.Controls.Add(this.label25);
             this.tabPage1.Controls.Add(this.Btn_I_Guardar);
             this.tabPage1.Controls.Add(this.Txt_I_Nombre);
@@ -153,15 +153,15 @@
             this.tabPage1.Text = "Insertar";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // btn_AgregarLineaCredito
+            // Btn_AgregarLineaCredito
             // 
-            this.btn_AgregarLineaCredito.Location = new System.Drawing.Point(357, 335);
-            this.btn_AgregarLineaCredito.Name = "btn_AgregarLineaCredito";
-            this.btn_AgregarLineaCredito.Size = new System.Drawing.Size(32, 28);
-            this.btn_AgregarLineaCredito.TabIndex = 38;
-            this.btn_AgregarLineaCredito.Text = "+";
-            this.btn_AgregarLineaCredito.UseVisualStyleBackColor = true;
-            this.btn_AgregarLineaCredito.Click += new System.EventHandler(this.btn_AgregarLineaCredito_Click);
+            this.Btn_AgregarLineaCredito.Location = new System.Drawing.Point(357, 335);
+            this.Btn_AgregarLineaCredito.Name = "Btn_AgregarLineaCredito";
+            this.Btn_AgregarLineaCredito.Size = new System.Drawing.Size(32, 28);
+            this.Btn_AgregarLineaCredito.TabIndex = 38;
+            this.Btn_AgregarLineaCredito.Text = "+";
+            this.Btn_AgregarLineaCredito.UseVisualStyleBackColor = true;
+            this.Btn_AgregarLineaCredito.Click += new System.EventHandler(this.Btn_AgregarLineaCredito_Click);
             // 
             // Txt_I_Monto
             // 
@@ -179,15 +179,15 @@
             this.label26.TabIndex = 36;
             this.label26.Text = "Monto Prestamo";
             // 
-            // cmb_I_TipoProveedor
+            // Cmb_I_TipoProveedor
             // 
-            this.cmb_I_TipoProveedor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_I_TipoProveedor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_I_TipoProveedor.FormattingEnabled = true;
-            this.cmb_I_TipoProveedor.Location = new System.Drawing.Point(152, 335);
-            this.cmb_I_TipoProveedor.Name = "cmb_I_TipoProveedor";
-            this.cmb_I_TipoProveedor.Size = new System.Drawing.Size(189, 28);
-            this.cmb_I_TipoProveedor.TabIndex = 35;
+            this.Cmb_I_TipoProveedor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_I_TipoProveedor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_I_TipoProveedor.FormattingEnabled = true;
+            this.Cmb_I_TipoProveedor.Location = new System.Drawing.Point(152, 335);
+            this.Cmb_I_TipoProveedor.Name = "Cmb_I_TipoProveedor";
+            this.Cmb_I_TipoProveedor.Size = new System.Drawing.Size(189, 28);
+            this.Cmb_I_TipoProveedor.TabIndex = 35;
             // 
             // label25
             // 
@@ -334,9 +334,9 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.btn_M_Trabajadores);
-            this.tabPage2.Controls.Add(this.btn_M_LineaCredito);
-            this.tabPage2.Controls.Add(this.cmb_M_TipoProveedor);
+            this.tabPage2.Controls.Add(this.Btn_M_Trabajadores);
+            this.tabPage2.Controls.Add(this.Btn_M_LineaCredito);
+            this.tabPage2.Controls.Add(this.Cmb_M_TipoProveedor);
             this.tabPage2.Controls.Add(this.label28);
             this.tabPage2.Controls.Add(this.Txt_M_Monto);
             this.tabPage2.Controls.Add(this.label27);
@@ -366,35 +366,35 @@
             this.tabPage2.Text = "Modificar";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // btn_M_Trabajadores
+            // Btn_M_Trabajadores
             // 
-            this.btn_M_Trabajadores.Location = new System.Drawing.Point(162, 443);
-            this.btn_M_Trabajadores.Name = "btn_M_Trabajadores";
-            this.btn_M_Trabajadores.Size = new System.Drawing.Size(198, 28);
-            this.btn_M_Trabajadores.TabIndex = 57;
-            this.btn_M_Trabajadores.Text = "Modificar Trabajadores";
-            this.btn_M_Trabajadores.UseVisualStyleBackColor = true;
-            this.btn_M_Trabajadores.Click += new System.EventHandler(this.btn_M_Trabajadores_Click);
+            this.Btn_M_Trabajadores.Location = new System.Drawing.Point(162, 443);
+            this.Btn_M_Trabajadores.Name = "Btn_M_Trabajadores";
+            this.Btn_M_Trabajadores.Size = new System.Drawing.Size(198, 28);
+            this.Btn_M_Trabajadores.TabIndex = 57;
+            this.Btn_M_Trabajadores.Text = "Modificar Trabajadores";
+            this.Btn_M_Trabajadores.UseVisualStyleBackColor = true;
+            this.Btn_M_Trabajadores.Click += new System.EventHandler(this.Btn_M_Trabajadores_Click);
             // 
-            // btn_M_LineaCredito
+            // Btn_M_LineaCredito
             // 
-            this.btn_M_LineaCredito.Location = new System.Drawing.Point(382, 366);
-            this.btn_M_LineaCredito.Name = "btn_M_LineaCredito";
-            this.btn_M_LineaCredito.Size = new System.Drawing.Size(32, 28);
-            this.btn_M_LineaCredito.TabIndex = 56;
-            this.btn_M_LineaCredito.Text = "+";
-            this.btn_M_LineaCredito.UseVisualStyleBackColor = true;
-            this.btn_M_LineaCredito.Click += new System.EventHandler(this.btn_M_LineaCredito_Click);
+            this.Btn_M_LineaCredito.Location = new System.Drawing.Point(382, 366);
+            this.Btn_M_LineaCredito.Name = "Btn_M_LineaCredito";
+            this.Btn_M_LineaCredito.Size = new System.Drawing.Size(32, 28);
+            this.Btn_M_LineaCredito.TabIndex = 56;
+            this.Btn_M_LineaCredito.Text = "+";
+            this.Btn_M_LineaCredito.UseVisualStyleBackColor = true;
+            this.Btn_M_LineaCredito.Click += new System.EventHandler(this.Btn_M_LineaCredito_Click);
             // 
-            // cmb_M_TipoProveedor
+            // Cmb_M_TipoProveedor
             // 
-            this.cmb_M_TipoProveedor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_M_TipoProveedor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_M_TipoProveedor.FormattingEnabled = true;
-            this.cmb_M_TipoProveedor.Location = new System.Drawing.Point(162, 366);
-            this.cmb_M_TipoProveedor.Name = "cmb_M_TipoProveedor";
-            this.cmb_M_TipoProveedor.Size = new System.Drawing.Size(214, 28);
-            this.cmb_M_TipoProveedor.TabIndex = 55;
+            this.Cmb_M_TipoProveedor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_M_TipoProveedor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_M_TipoProveedor.FormattingEnabled = true;
+            this.Cmb_M_TipoProveedor.Location = new System.Drawing.Point(162, 366);
+            this.Cmb_M_TipoProveedor.Name = "Cmb_M_TipoProveedor";
+            this.Cmb_M_TipoProveedor.Size = new System.Drawing.Size(214, 28);
+            this.Cmb_M_TipoProveedor.TabIndex = 55;
             // 
             // label28
             // 
@@ -601,8 +601,8 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.btn_E_Trabajadores);
-            this.tabPage3.Controls.Add(this.cmb_E_TipoProveedor);
+            this.tabPage3.Controls.Add(this.Btn_E_Trabajadores);
+            this.tabPage3.Controls.Add(this.Cmb_E_TipoProveedor);
             this.tabPage3.Controls.Add(this.label29);
             this.tabPage3.Controls.Add(this.Txt_E_Monto);
             this.tabPage3.Controls.Add(this.label30);
@@ -632,24 +632,24 @@
             this.tabPage3.Text = "Eliminar";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // btn_E_Trabajadores
+            // Btn_E_Trabajadores
             // 
-            this.btn_E_Trabajadores.Location = new System.Drawing.Point(160, 439);
-            this.btn_E_Trabajadores.Name = "btn_E_Trabajadores";
-            this.btn_E_Trabajadores.Size = new System.Drawing.Size(196, 28);
-            this.btn_E_Trabajadores.TabIndex = 74;
-            this.btn_E_Trabajadores.Text = "Eliminar Trabajadores";
-            this.btn_E_Trabajadores.UseVisualStyleBackColor = true;
-            this.btn_E_Trabajadores.Click += new System.EventHandler(this.btn_E_Trabajadores_Click);
+            this.Btn_E_Trabajadores.Location = new System.Drawing.Point(160, 439);
+            this.Btn_E_Trabajadores.Name = "Btn_E_Trabajadores";
+            this.Btn_E_Trabajadores.Size = new System.Drawing.Size(196, 28);
+            this.Btn_E_Trabajadores.TabIndex = 74;
+            this.Btn_E_Trabajadores.Text = "Eliminar Trabajadores";
+            this.Btn_E_Trabajadores.UseVisualStyleBackColor = true;
+            this.Btn_E_Trabajadores.Click += new System.EventHandler(this.Btn_E_Trabajadores_Click);
             // 
-            // cmb_E_TipoProveedor
+            // Cmb_E_TipoProveedor
             // 
-            this.cmb_E_TipoProveedor.Enabled = false;
-            this.cmb_E_TipoProveedor.FormattingEnabled = true;
-            this.cmb_E_TipoProveedor.Location = new System.Drawing.Point(160, 364);
-            this.cmb_E_TipoProveedor.Name = "cmb_E_TipoProveedor";
-            this.cmb_E_TipoProveedor.Size = new System.Drawing.Size(262, 28);
-            this.cmb_E_TipoProveedor.TabIndex = 73;
+            this.Cmb_E_TipoProveedor.Enabled = false;
+            this.Cmb_E_TipoProveedor.FormattingEnabled = true;
+            this.Cmb_E_TipoProveedor.Location = new System.Drawing.Point(160, 364);
+            this.Cmb_E_TipoProveedor.Name = "Cmb_E_TipoProveedor";
+            this.Cmb_E_TipoProveedor.Size = new System.Drawing.Size(262, 28);
+            this.Cmb_E_TipoProveedor.TabIndex = 73;
             // 
             // label29
             // 
@@ -933,24 +933,24 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.ComboBox cmb_I_TipoProveedor;
+        private System.Windows.Forms.ComboBox Cmb_I_TipoProveedor;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.TextBox Txt_I_Monto;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.TextBox Txt_M_Monto;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.ComboBox cmb_M_TipoProveedor;
+        private System.Windows.Forms.ComboBox Cmb_M_TipoProveedor;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.ComboBox cmb_E_TipoProveedor;
+        private System.Windows.Forms.ComboBox Cmb_E_TipoProveedor;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.TextBox Txt_E_Monto;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Button btn_AgregarLineaCredito;
-        private System.Windows.Forms.Button btn_M_LineaCredito;
+        private System.Windows.Forms.Button Btn_AgregarLineaCredito;
+        private System.Windows.Forms.Button Btn_M_LineaCredito;
         private System.Windows.Forms.DataGridViewTextBoxColumn NombreCompletoTrabajador;
         private System.Windows.Forms.DataGridViewTextBoxColumn CelularM;
-        private System.Windows.Forms.Button btn_M_Trabajadores;
-        private System.Windows.Forms.Button btn_E_Trabajadores;
+        private System.Windows.Forms.Button Btn_M_Trabajadores;
+        private System.Windows.Forms.Button Btn_E_Trabajadores;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
     }

@@ -19,19 +19,19 @@ namespace Shalong.Formularios
             InitializeComponent();
         }
 
-        private void btn_Ingresar_Click(object sender, EventArgs e)
+        private void Btn_Ingresar_Click(object sender, EventArgs e)
         {
             Ingresar();
         }
         private void Ingresar()
         {
-            if (txt_Usuario.Text != String.Empty && txt_Contraseña.Text != String.Empty)
+            if (Txt_Usuario.Text != String.Empty && Txt_Contraseña.Text != String.Empty)
             {
-                if (_shalong.Login(Int32.Parse(txt_Usuario.Text), txt_Contraseña.Text))
+                if (_shalong.Login(Int32.Parse(Txt_Usuario.Text), Txt_Contraseña.Text))
                 {
                     MessageBox.Show("Ingreso Correcto","Gestion Ventas");                    
                     C_Parametros objetoParametros = new C_Parametros();
-                    objetoParametros.DniUsuario = Int32.Parse(txt_Usuario.Text);
+                    objetoParametros.DniUsuario = Int32.Parse(Txt_Usuario.Text);
                     objetoParametros.CodigoCaja = 0;
                     objetoParametros.EstadoCaja = false;
                     objetoParametros.ValorDolar = _shalong.TipoCambioDiario();
@@ -57,7 +57,7 @@ namespace Shalong.Formularios
                 MessageBox.Show("No deje los campos vacios", "Gestion Ventas",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
             }
         }
-        private void txt_Usuario_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_Usuario_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (Char.IsDigit(e.KeyChar) || Char.IsControl(e.KeyChar))
             {
@@ -69,7 +69,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_Contraseña_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_Contraseña_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == '\r')
             {

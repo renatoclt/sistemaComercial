@@ -32,29 +32,29 @@ namespace Shalong.Formularios
         private void CargarDataGridViewProductosDetalle()
         {
             dtg_I_Productos.AutoGenerateColumns = false;
-            if (cmb_Documento.SelectedValue == null)
+            if (Cmb_Documento.SelectedValue == null)
             {
                 MessageBox.Show("No hay ningun documento en esa fecha", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
 
             else
             {
-                var list = _shalong.OrdenCompraProducto(Int32.Parse(cmb_Documento.SelectedValue.ToString()));
+                var list = _shalong.OrdenCompraProducto(Int32.Parse(Cmb_Documento.SelectedValue.ToString()));
                 var Databinding = new BindingList<C_OrdenCompraDetalle>(list);
                 dtg_I_Productos.DataSource = Databinding;
-                //dtg_I_Productos.DataSource = _shalong.OrdenCompraProducto(Int32.Parse(cmb_Documento.SelectedValue.ToString()));
+                //dtg_I_Productos.DataSource = _shalong.OrdenCompraProducto(Int32.Parse(Cmb_Documento.SelectedValue.ToString()));
             }
         }
         private void CargarDataGridviewEliminar()
         {
             dtg_I_Productos.AutoGenerateColumns = false;
-            if (cmb_EliminarO.SelectedValue == null)
+            if (Cmb_EliminarO.SelectedValue == null)
             {
                 MessageBox.Show("No hay ninguna orden de compra", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
 
             else
-                dtg_I_Productos.DataSource = _shalong.OrdenCompraProducto(Int32.Parse(cmb_EliminarO.SelectedValue.ToString()));
+                dtg_I_Productos.DataSource = _shalong.OrdenCompraProducto(Int32.Parse(Cmb_EliminarO.SelectedValue.ToString()));
         }
         public OrdenComprar(I_Parametros parametros, C_Parametros objetoParametros)
             : this(parametros)
@@ -79,25 +79,25 @@ namespace Shalong.Formularios
 
         public void CargarComboBoxRuc()
         {
-            cmb_I_Ruc.DisplayMember = "Ruc";
-            cmb_I_Ruc.ValueMember = "CodigoProveedor";
-            cmb_I_Ruc.DataSource = _shalong.OrdenCompraMostrar();
-            cmb_I_Ruc.SelectedIndex = -1;
+            Cmb_I_Ruc.DisplayMember = "Ruc";
+            Cmb_I_Ruc.ValueMember = "CodigoProveedor";
+            Cmb_I_Ruc.DataSource = _shalong.OrdenCompraMostrar();
+            Cmb_I_Ruc.SelectedIndex = -1;
 
         }
 
         public void CargarComboboxEliminar()
         {
-            cmb_EliminarO.DisplayMember = "NumeroDocumento";
-            cmb_EliminarO.ValueMember = "Codigo";
-            cmb_EliminarO.DataSource = _shalong.OrdenCompraDocumento();
+            Cmb_EliminarO.DisplayMember = "NumeroDocumento";
+            Cmb_EliminarO.ValueMember = "Codigo";
+            Cmb_EliminarO.DataSource = _shalong.OrdenCompraDocumento();
         }
 
         private void CargarComboBoxDocumento()
         {
-            cmb_Documento.ValueMember = "Codigo";
-            cmb_Documento.DisplayMember = "NumeroDocumento";
-            cmb_Documento.DataSource = _shalong.OrdenDocumentoPorFecha(dateTimePicker2.Value);
+            Cmb_Documento.ValueMember = "Codigo";
+            Cmb_Documento.DisplayMember = "NumeroDocumento";
+            Cmb_Documento.DataSource = _shalong.OrdenDocumentoPorFecha(dateTimePicker2.Value);
         }
         public void CargarDataGridView()
         {
@@ -120,14 +120,14 @@ namespace Shalong.Formularios
             objetoOrdenCompra.CodigoDniUsuario = _codigoDniUsuario;
 
 
-            if (cmb_I_Ruc.SelectedIndex == -1)
+            if (Cmb_I_Ruc.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Proveedor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                objetoOrdenCompra.CodigoProveedor = Int32.Parse(cmb_I_Ruc.SelectedValue.ToString());
+                objetoOrdenCompra.CodigoProveedor = Int32.Parse(Cmb_I_Ruc.SelectedValue.ToString());
             }
 
 
@@ -141,29 +141,29 @@ namespace Shalong.Formularios
                 objetoOrdenCompra.Fecha = date_I_Fecha.Value;
             }
 
-            if (txt_I_NDocumento.Text == String.Empty)
+            if (Txt_I_NDocumento.Text == String.Empty)
             {
                 MessageBox.Show("Ingrese un Numero de Documento", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                objetoOrdenCompra.NumeroDocumento = txt_I_NDocumento.Text;
+                objetoOrdenCompra.NumeroDocumento = Txt_I_NDocumento.Text;
             }
-            if (txt_I_Observacion.Text == String.Empty)
+            if (Txt_I_Observacion.Text == String.Empty)
             {
-                txt_I_Observacion.Text = "N/E";
-                objetoOrdenCompra.ReferenciaOrdenCompra = txt_I_Observacion.Text;
+                Txt_I_Observacion.Text = "N/E";
+                objetoOrdenCompra.ReferenciaOrdenCompra = Txt_I_Observacion.Text;
             }
             else
             {
-                objetoOrdenCompra.ReferenciaOrdenCompra = txt_I_Observacion.Text;
+                objetoOrdenCompra.ReferenciaOrdenCompra = Txt_I_Observacion.Text;
             }
 
-            if (txt_I_NDocumento.Text == cmb_Documento.Text)
+            if (Txt_I_NDocumento.Text == Cmb_Documento.Text)
             {
                 accion = 2;
-                objetoOrdenCompra.Codigo = Int32.Parse(cmb_Documento.SelectedValue.ToString());
+                objetoOrdenCompra.Codigo = Int32.Parse(Cmb_Documento.SelectedValue.ToString());
             }
 
 
@@ -192,8 +192,8 @@ namespace Shalong.Formularios
         {
             C_OrdenCompraDetalle objetoOrdenCompraDetalle = new C_OrdenCompraDetalle();
             C_OrdenCompra objetoOrdenCompra = new C_OrdenCompra();
-            objetoOrdenCompra.CodigoProveedor = Int32.Parse(cmb_I_Ruc.SelectedValue.ToString());
-            objetoOrdenCompra.NumeroDocumento = txt_I_NDocumento.Text;
+            objetoOrdenCompra.CodigoProveedor = Int32.Parse(Cmb_I_Ruc.SelectedValue.ToString());
+            objetoOrdenCompra.NumeroDocumento = Txt_I_NDocumento.Text;
             objetoOrdenCompraDetalle.CodigoOrdenCompra = _shalong.OrdenCompraCodigo(objetoOrdenCompra);
             if (accion == 2)
             {
@@ -287,10 +287,10 @@ namespace Shalong.Formularios
         private void EliminarOrdenDeCompra()
         {
             C_OrdenCompra objetoOrdenCompra = new C_OrdenCompra();
-            objetoOrdenCompra.Codigo = Int32.Parse(cmb_EliminarO.SelectedValue.ToString());
-            objetoOrdenCompra.CodigoProveedor = Int32.Parse(cmb_I_Ruc.SelectedValue.ToString());
-            objetoOrdenCompra.NumeroDocumento = txt_I_NDocumento.Text;
-            objetoOrdenCompra.ReferenciaOrdenCompra = txt_I_Observacion.Text;
+            objetoOrdenCompra.Codigo = Int32.Parse(Cmb_EliminarO.SelectedValue.ToString());
+            objetoOrdenCompra.CodigoProveedor = Int32.Parse(Cmb_I_Ruc.SelectedValue.ToString());
+            objetoOrdenCompra.NumeroDocumento = Txt_I_NDocumento.Text;
+            objetoOrdenCompra.ReferenciaOrdenCompra = Txt_I_Observacion.Text;
             if (_shalong.OrdenCompra(3, objetoOrdenCompra))
             {
                 MessageBox.Show("Se elimino la orden de compra", "Gestion Ventas", MessageBoxButtons.OK);
@@ -308,7 +308,7 @@ namespace Shalong.Formularios
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
         }
-        private void cmb_I_Ruc_KeyPress_1(object sender, KeyPressEventArgs e)
+        private void Cmb_I_Ruc_KeyPress_1(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Space) && (e.KeyChar != (char)Keys.Back))
             {
@@ -316,17 +316,17 @@ namespace Shalong.Formularios
                 return;
             }
         }
-        private void cmb_I_Ruc_SelectedIndexChanged_1(object sender, EventArgs e)
+        private void Cmb_I_Ruc_SelectedIndexChanged_1(object sender, EventArgs e)
         {
-            //if (cmb_I_Ruc.SelectedIndex == -1)
+            //if (Cmb_I_Ruc.SelectedIndex == -1)
             //{
-            //    txt_I_Nombre.Clear();
+            //    Txt_I_Nombre.Clear();
             //}
-            if (cmb_I_Ruc.SelectedIndex != -1)
+            if (Cmb_I_Ruc.SelectedIndex != -1)
             {
-                // cmb_I_Ruc.SelectedIndex = -1;
-                C_Proveedor obj = _shalong.ProveedorMostrar1(Int32.Parse(cmb_I_Ruc.SelectedValue.ToString()));
-                txt_I_Nombre.Text = " " + obj.Nombre;
+                // Cmb_I_Ruc.SelectedIndex = -1;
+                C_Proveedor obj = _shalong.ProveedorMostrar1(Int32.Parse(Cmb_I_Ruc.SelectedValue.ToString()));
+                Txt_I_Nombre.Text = " " + obj.Nombre;
             }
         }
         private void dtg_I_Productos_CellValueChanged_1(object sender, DataGridViewCellEventArgs e)
@@ -357,38 +357,38 @@ namespace Shalong.Formularios
                 _isValido = true;
             }
         }
-        private void btn_Guardar_Click_1(object sender, EventArgs e)
+        private void Btn_Guardar_Click_1(object sender, EventArgs e)
         {
             GuardarOrdenCompra();
         }
-        private void cmb_Documento_SelectionChangeCommitted_1(object sender, EventArgs e)
+        private void Cmb_Documento_SelectionChangeCommitted_1(object sender, EventArgs e)
         {
-            C_OrdenCompra obj = _shalong.OrdenDocumentoPorFecha1(Int32.Parse(cmb_Documento.SelectedValue.ToString()));
+            C_OrdenCompra obj = _shalong.OrdenDocumentoPorFecha1(Int32.Parse(Cmb_Documento.SelectedValue.ToString()));
             textBox3.Text = "" + obj.ReferenciaOrdenCompra;
-            txt_I_NDocumento.Text = "" + obj.NumeroDocumento;
-            cmb_I_Ruc.SelectedValue = obj.CodigoProveedor;
-            txt_I_Observacion.Text = "" + obj.ReferenciaOrdenCompra;
+            Txt_I_NDocumento.Text = "" + obj.NumeroDocumento;
+            Cmb_I_Ruc.SelectedValue = obj.CodigoProveedor;
+            Txt_I_Observacion.Text = "" + obj.ReferenciaOrdenCompra;
             CargarDataGridViewProductosDetalle();
             dtg_I_Productos.CommitEdit(DataGridViewDataErrorContexts.Commit);
         }
         private void dateTimePicker2_ValueChanged_1(object sender, EventArgs e)
         {
-            cmb_Documento.ValueMember = "Codigo";
-            cmb_Documento.DisplayMember = "NumeroDocumento";
-            cmb_Documento.DataSource = _shalong.OrdenDocumentoPorFecha(dateTimePicker2.Value);
+            Cmb_Documento.ValueMember = "Codigo";
+            Cmb_Documento.DisplayMember = "NumeroDocumento";
+            Cmb_Documento.DataSource = _shalong.OrdenDocumentoPorFecha(dateTimePicker2.Value);
             CargarComboBox();
             CargarDataGridViewProductosDetalle();
         }
-        private void cmb_EliminarO_SelectionChangeCommitted_1(object sender, EventArgs e)
+        private void Cmb_EliminarO_SelectionChangeCommitted_1(object sender, EventArgs e)
         {
-            C_OrdenCompra obj = _shalong.OrdenCompraDocumento1(Int32.Parse(cmb_EliminarO.SelectedValue.ToString()));
+            C_OrdenCompra obj = _shalong.OrdenCompraDocumento1(Int32.Parse(Cmb_EliminarO.SelectedValue.ToString()));
             textBox3.Text = "" + obj.ReferenciaOrdenCompra;
-            txt_I_NDocumento.Text = "" + obj.NumeroDocumento;
-            cmb_I_Ruc.SelectedValue = obj.CodigoProveedor;
-            txt_I_Observacion.Text = "" + obj.ReferenciaOrdenCompra;
-            dtg_I_Productos.DataSource = _shalong.OrdenCompraProducto(Int32.Parse(cmb_EliminarO.SelectedValue.ToString()));
+            Txt_I_NDocumento.Text = "" + obj.NumeroDocumento;
+            Cmb_I_Ruc.SelectedValue = obj.CodigoProveedor;
+            Txt_I_Observacion.Text = "" + obj.ReferenciaOrdenCompra;
+            dtg_I_Productos.DataSource = _shalong.OrdenCompraProducto(Int32.Parse(Cmb_EliminarO.SelectedValue.ToString()));
         }
-        private void btn_Eliminar_Click_1(object sender, EventArgs e)
+        private void Btn_Eliminar_Click_1(object sender, EventArgs e)
         {
             EliminarOrdenDeCompra();
         }

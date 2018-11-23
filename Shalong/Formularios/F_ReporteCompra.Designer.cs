@@ -40,12 +40,12 @@
             this.NumDocumento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.btn_Proveedor = new System.Windows.Forms.Button();
+            this.Btn_Proveedor = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.cmb_Proveedor = new System.Windows.Forms.ComboBox();
-            this.btn_Exportar = new System.Windows.Forms.Button();
+            this.Cmb_Proveedor = new System.Windows.Forms.ComboBox();
+            this.Btn_Exportar = new System.Windows.Forms.Button();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.btn_BuscarFecha = new System.Windows.Forms.Button();
+            this.Btn_BuscarFecha = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dtp_Hasta = new System.Windows.Forms.DateTimePicker();
@@ -157,10 +157,10 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel3.Controls.Add(this.btn_Proveedor, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Btn_Proveedor, 2, 0);
             this.tableLayoutPanel3.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.cmb_Proveedor, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.btn_Exportar, 3, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Cmb_Proveedor, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Btn_Exportar, 3, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -169,16 +169,16 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(1154, 48);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
-            // btn_Proveedor
+            // Btn_Proveedor
             // 
-            this.btn_Proveedor.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btn_Proveedor.Location = new System.Drawing.Point(579, 6);
-            this.btn_Proveedor.Name = "btn_Proveedor";
-            this.btn_Proveedor.Size = new System.Drawing.Size(197, 36);
-            this.btn_Proveedor.TabIndex = 0;
-            this.btn_Proveedor.Text = "Buscar por Proveedor";
-            this.btn_Proveedor.UseVisualStyleBackColor = true;
-            this.btn_Proveedor.Click += new System.EventHandler(this.button1_Click);
+            this.Btn_Proveedor.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Btn_Proveedor.Location = new System.Drawing.Point(579, 6);
+            this.Btn_Proveedor.Name = "Btn_Proveedor";
+            this.Btn_Proveedor.Size = new System.Drawing.Size(197, 36);
+            this.Btn_Proveedor.TabIndex = 0;
+            this.Btn_Proveedor.Text = "Buscar por Proveedor";
+            this.Btn_Proveedor.UseVisualStyleBackColor = true;
+            this.Btn_Proveedor.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -190,27 +190,27 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Buscar Proveedor :";
             // 
-            // cmb_Proveedor
+            // Cmb_Proveedor
             // 
-            this.cmb_Proveedor.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.cmb_Proveedor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_Proveedor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_Proveedor.FormattingEnabled = true;
-            this.cmb_Proveedor.Location = new System.Drawing.Point(291, 13);
-            this.cmb_Proveedor.Name = "cmb_Proveedor";
-            this.cmb_Proveedor.Size = new System.Drawing.Size(282, 28);
-            this.cmb_Proveedor.TabIndex = 3;
+            this.Cmb_Proveedor.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Cmb_Proveedor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_Proveedor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_Proveedor.FormattingEnabled = true;
+            this.Cmb_Proveedor.Location = new System.Drawing.Point(291, 13);
+            this.Cmb_Proveedor.Name = "Cmb_Proveedor";
+            this.Cmb_Proveedor.Size = new System.Drawing.Size(282, 28);
+            this.Cmb_Proveedor.TabIndex = 3;
             // 
-            // btn_Exportar
+            // Btn_Exportar
             // 
-            this.btn_Exportar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_Exportar.Location = new System.Drawing.Point(922, 6);
-            this.btn_Exportar.Name = "btn_Exportar";
-            this.btn_Exportar.Size = new System.Drawing.Size(174, 36);
-            this.btn_Exportar.TabIndex = 4;
-            this.btn_Exportar.Text = "Exportar";
-            this.btn_Exportar.UseVisualStyleBackColor = true;
-            this.btn_Exportar.Click += new System.EventHandler(this.btn_Exportar_Click);
+            this.Btn_Exportar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Btn_Exportar.Location = new System.Drawing.Point(922, 6);
+            this.Btn_Exportar.Name = "Btn_Exportar";
+            this.Btn_Exportar.Size = new System.Drawing.Size(174, 36);
+            this.Btn_Exportar.TabIndex = 4;
+            this.Btn_Exportar.Text = "Exportar";
+            this.Btn_Exportar.UseVisualStyleBackColor = true;
+            this.Btn_Exportar.Click += new System.EventHandler(this.Btn_Exportar_Click);
             // 
             // tableLayoutPanel4
             // 
@@ -220,7 +220,7 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.03813F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.82322F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel4.Controls.Add(this.btn_BuscarFecha, 4, 0);
+            this.tableLayoutPanel4.Controls.Add(this.Btn_BuscarFecha, 4, 0);
             this.tableLayoutPanel4.Controls.Add(this.label2, 2, 0);
             this.tableLayoutPanel4.Controls.Add(this.label3, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.dtp_Hasta, 3, 0);
@@ -233,16 +233,16 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(1154, 48);
             this.tableLayoutPanel4.TabIndex = 1;
             // 
-            // btn_BuscarFecha
+            // Btn_BuscarFecha
             // 
-            this.btn_BuscarFecha.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_BuscarFecha.Location = new System.Drawing.Point(944, 6);
-            this.btn_BuscarFecha.Name = "btn_BuscarFecha";
-            this.btn_BuscarFecha.Size = new System.Drawing.Size(188, 36);
-            this.btn_BuscarFecha.TabIndex = 0;
-            this.btn_BuscarFecha.Text = "Buscar Por Fecha";
-            this.btn_BuscarFecha.UseVisualStyleBackColor = true;
-            this.btn_BuscarFecha.Click += new System.EventHandler(this.btn_BuscarFecha_Click);
+            this.Btn_BuscarFecha.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Btn_BuscarFecha.Location = new System.Drawing.Point(944, 6);
+            this.Btn_BuscarFecha.Name = "Btn_BuscarFecha";
+            this.Btn_BuscarFecha.Size = new System.Drawing.Size(188, 36);
+            this.Btn_BuscarFecha.TabIndex = 0;
+            this.Btn_BuscarFecha.Text = "Buscar Por Fecha";
+            this.Btn_BuscarFecha.UseVisualStyleBackColor = true;
+            this.Btn_BuscarFecha.Click += new System.EventHandler(this.Btn_BuscarFecha_Click);
             // 
             // label2
             // 
@@ -309,11 +309,11 @@
         private System.Windows.Forms.DataGridView dgv_Compra;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.Button btn_Proveedor;
+        private System.Windows.Forms.Button Btn_Proveedor;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cmb_Proveedor;
+        private System.Windows.Forms.ComboBox Cmb_Proveedor;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.Button btn_BuscarFecha;
+        private System.Windows.Forms.Button Btn_BuscarFecha;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DateTimePicker dtp_Hasta;
@@ -325,6 +325,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn FechaCompra;
         private System.Windows.Forms.DataGridViewTextBoxColumn MontoTotal;
         private System.Windows.Forms.DataGridViewTextBoxColumn NumDocumento;
-        private System.Windows.Forms.Button btn_Exportar;
+        private System.Windows.Forms.Button Btn_Exportar;
     }
 }

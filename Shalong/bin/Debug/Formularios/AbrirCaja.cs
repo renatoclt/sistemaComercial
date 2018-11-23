@@ -71,15 +71,15 @@ namespace Shalong.Formularios
         //CARGAR COMBOBOX
         private void CargarComboBox()
         {
-            cmb_NombreCaja.DisplayMember = "Nombre";
-            cmb_NombreCaja.ValueMember = "Codigo";
-            cmb_NombreCaja.DataSource = _shalong.NombreCajaMostrar();
+            Cmb_NombreCaja.DisplayMember = "Nombre";
+            Cmb_NombreCaja.ValueMember = "Codigo";
+            Cmb_NombreCaja.DataSource = _shalong.NombreCajaMostrar();
         }
         private void CargarValorDolar()
         {
             _valorDolar = _shalong.TipoCambioDiario();
             _codigoDolar = _shalong.TipoCambioCodigo();
-            txt_Dolar.Text = "" + _valorDolar;
+            Txt_Dolar.Text = "" + _valorDolar;
         }
         //CARGAR DATAGIRDVIEW
         private void CargarDataGridView()
@@ -90,9 +90,9 @@ namespace Shalong.Formularios
         private void CargarBilletaje()
         {
             int codigoCajaAnterior;
-            if(cmb_NombreCaja.SelectedValue != null)
+            if(Cmb_NombreCaja.SelectedValue != null)
             {
-                codigoCajaAnterior = _shalong.CajaUltima(Int32.Parse(cmb_NombreCaja.SelectedValue.ToString()));
+                codigoCajaAnterior = _shalong.CajaUltima(Int32.Parse(Cmb_NombreCaja.SelectedValue.ToString()));
                 if(codigoCajaAnterior == 0)
                 {
                     dtg_Billetaje.Enabled = true;
@@ -118,7 +118,7 @@ namespace Shalong.Formularios
         private void Btn_Modificar_Click(object sender, EventArgs e)
         {
             Contraseña obj = new Contraseña(_objetoParametros);
-            if (cmb_NombreCaja.SelectedIndex == -1)
+            if (Cmb_NombreCaja.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingresar una Caja Valida Por Favor","Gestion Ventas",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
                 CargarComboBox();
@@ -147,7 +147,7 @@ namespace Shalong.Formularios
         private void Btn_AbrirCaja_Click(object sender, EventArgs e)
         {
             C_Caja objetoCaja = new C_Caja();
-            if (cmb_NombreCaja.SelectedIndex == -1)
+            if (Cmb_NombreCaja.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione una Caja Valida","Gestion Ventas",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
                 CargarComboBox();
@@ -155,7 +155,7 @@ namespace Shalong.Formularios
             }
             else
             {
-                objetoCaja.CodigoNombreCaja = Int32.Parse(cmb_NombreCaja.SelectedValue.ToString());
+                objetoCaja.CodigoNombreCaja = Int32.Parse(Cmb_NombreCaja.SelectedValue.ToString());
             }
             objetoCaja.CodigoDniUsuario = _codigoUsuario;
             objetoCaja.CodigoTipoCambio = _codigoDolar;
@@ -167,7 +167,7 @@ namespace Shalong.Formularios
             if (_shalong.Caja(_accion, objetoCaja))
             {
                 MessageBox.Show("Abrio Caja");
-                C_Almacen objetoAlmacen = _shalong.AlmacenMostrarCaja(Int32.Parse(cmb_NombreCaja.SelectedValue.ToString()));
+                C_Almacen objetoAlmacen = _shalong.AlmacenMostrarCaja(Int32.Parse(Cmb_NombreCaja.SelectedValue.ToString()));
                 _objetoParametros.CodigoAlmacen = objetoAlmacen.CodigoTipoAlmacen;
                 _objetoParametros.NombreAlmacen = objetoAlmacen.Nombre;
                 _objetoParametros.CodigoCaja = _codigoCaja;
@@ -197,7 +197,7 @@ namespace Shalong.Formularios
                 {*/
                     _codigoCaja = _shalong.CajaCodigo(_codigoUsuario);
                     _objetoParametros.CodigoCaja = _codigoCaja;
-                    C_Almacen objetoAlmacen = _shalong.AlmacenMostrarCaja(Int32.Parse(cmb_NombreCaja.SelectedValue.ToString()));
+                    C_Almacen objetoAlmacen = _shalong.AlmacenMostrarCaja(Int32.Parse(Cmb_NombreCaja.SelectedValue.ToString()));
                     _objetoParametros.CodigoAlmacen = objetoAlmacen.CodigoTipoAlmacen;
                     _objetoParametros.NombreAlmacen = objetoAlmacen.Nombre;
                     _objetoParametros.EstadoCaja = true;
@@ -218,14 +218,14 @@ namespace Shalong.Formularios
         private void ModificarCaja()
         {
             C_Caja objetoCaja = new C_Caja();
-            if (cmb_NombreCaja.SelectedIndex == -1)
+            if (Cmb_NombreCaja.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingresar una Caja Valida Por Favor","Gestion Ventas",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                objetoCaja.CodigoNombreCaja = Int32.Parse(cmb_NombreCaja.SelectedValue.ToString());
+                objetoCaja.CodigoNombreCaja = Int32.Parse(Cmb_NombreCaja.SelectedValue.ToString());
             }
             objetoCaja.CodigoDniUsuario = _codigoUsuario;
             objetoCaja.CodigoTipoCambio = _codigoDolar;
@@ -281,7 +281,7 @@ namespace Shalong.Formularios
             //si el dolar no tiene valor
             try
             {
-                _valorDolar = Double.Parse(txt_Dolar.Text);
+                _valorDolar = Double.Parse(Txt_Dolar.Text);
             }
             catch
             {
@@ -300,7 +300,7 @@ namespace Shalong.Formularios
                 }
             }
             //signo de moneda
-            txt_Total.Text = _total.ToString("C", CultureInfo.CurrentCulture);
+            Txt_Total.Text = _total.ToString("C", CultureInfo.CurrentCulture);
         }
 
 
@@ -312,7 +312,7 @@ namespace Shalong.Formularios
                 SendKeys.Send("{tab}");
             }
         }
-        private void cmb_NombreCaja_SelectedIndexChanged(object sender, EventArgs e)
+        private void Cmb_NombreCaja_SelectedIndexChanged(object sender, EventArgs e)
         {
             CargarBilletaje();
         }
@@ -331,7 +331,7 @@ namespace Shalong.Formularios
                 Dolar objetoDolar = new Dolar(_codigoUsuario, "Cambio del dolar diario", _isAdministrador);
                 objetoDolar.ShowDialog();
                 CargarValorDolar();
-                _objetoParametros.ValorDolar = double.Parse(txt_Dolar.Text);
+                _objetoParametros.ValorDolar = double.Parse(Txt_Dolar.Text);
                 _interfazParametros.SetParametros(_objetoParametros);
 
             }
@@ -345,7 +345,7 @@ namespace Shalong.Formularios
                     Dolar objetoDolar = new Dolar(_interfazParametros, _objetoParametros, _observacion);//_codigoUsuario, "Modificación del Cambio de Dolar", _isAdministrador);
                     objetoDolar.ShowDialog();
                     CargarValorDolar();
-                    _objetoParametros.ValorDolar = double.Parse(txt_Dolar.Text);
+                    _objetoParametros.ValorDolar = double.Parse(Txt_Dolar.Text);
                     _interfazParametros.SetParametros(_objetoParametros);
                     //_ok = true;
                 }

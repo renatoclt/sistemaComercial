@@ -49,15 +49,15 @@ namespace Shalong.Formularios
         }
         public void CargarComboBoxCaja()
         {
-            cmb_Caja.DisplayMember = "NombreCaja";
-            cmb_Caja.ValueMember = "CodigoCaja";
-            cmb_Caja.DataSource = _shalong.CajaMostrar();
+            Cmb_Caja.DisplayMember = "NombreCaja";
+            Cmb_Caja.ValueMember = "CodigoCaja";
+            Cmb_Caja.DataSource = _shalong.CajaMostrar();
         }
         public void CargarComboBoxCliente()
         {
-            cmb_Cliente.DisplayMember = "NombreCompleto";
-            cmb_Cliente.ValueMember = "Codigo";
-            cmb_Cliente.DataSource = _shalong.ClienteMostrar();
+            Cmb_Cliente.DisplayMember = "NombreCompleto";
+            Cmb_Cliente.ValueMember = "Codigo";
+            Cmb_Cliente.DataSource = _shalong.ClienteMostrar();
         }
 
         //CARGAR DATAGRIDVIEW
@@ -80,7 +80,7 @@ namespace Shalong.Formularios
         //BOTONES
         private void button2_Click(object sender, EventArgs e)
         {
-            if (cmb_Caja.SelectedIndex == -1)
+            if (Cmb_Caja.SelectedIndex == -1)
             {
                 CargarTodoDataGridView();
                 MessageBox.Show("Ingrese un nombre de caja valido");
@@ -90,12 +90,12 @@ namespace Shalong.Formularios
             else
             {
                 dgv_Pagos.DataSource = null;
-                dgv_Pagos.DataSource = _shalong.ReporteVentaPorCaja(Int32.Parse(cmb_Caja.SelectedValue.ToString()));
+                dgv_Pagos.DataSource = _shalong.ReporteVentaPorCaja(Int32.Parse(Cmb_Caja.SelectedValue.ToString()));
             }
         }
-        private void btn_Cliente_Click(object sender, EventArgs e)
+        private void Btn_Cliente_Click(object sender, EventArgs e)
         {
-            if (cmb_Cliente.SelectedIndex == -1)
+            if (Cmb_Cliente.SelectedIndex == -1)
             {
                 CargarTodoDataGridView();
                 MessageBox.Show("Ingrese un nombre de cliente valido");
@@ -105,17 +105,17 @@ namespace Shalong.Formularios
             else
             {
                 dgv_Pagos.DataSource = null;
-                dgv_Pagos.DataSource = _shalong.ReporteVentaPorCliente(Int32.Parse(cmb_Cliente.SelectedValue.ToString()));
+                dgv_Pagos.DataSource = _shalong.ReporteVentaPorCliente(Int32.Parse(Cmb_Cliente.SelectedValue.ToString()));
             }
         }
-        private void btn_Fecha_Click(object sender, EventArgs e)
+        private void Btn_Fecha_Click(object sender, EventArgs e)
         {
             dgv_Pagos.DataSource = null;
             dgv_Pagos.DataSource = _shalong.ReporteVentaPorFechas(dtp_de.Value, dtp_hasta.Value);
         }
-        private void btn_Documento_Click(object sender, EventArgs e)
+        private void Btn_Documento_Click(object sender, EventArgs e)
         {
-            if (txt_Documento.Text == string.Empty)
+            if (Txt_Documento.Text == string.Empty)
             {
                 CargarTodoDataGridView();
                 MessageBox.Show("Ingrese un Número de Documento");
@@ -125,13 +125,13 @@ namespace Shalong.Formularios
             else
             {
                 dgv_Pagos.DataSource = null;
-                dgv_Pagos.DataSource = _shalong.ReporteVentaPorDocumento(txt_Documento.Text);
+                dgv_Pagos.DataSource = _shalong.ReporteVentaPorDocumento(Txt_Documento.Text);
             }
 
         }
-        private void btn_Voucher_Click(object sender, EventArgs e)
+        private void Btn_Voucher_Click(object sender, EventArgs e)
         {
-            if (txt_Voucher.Text == string.Empty)
+            if (Txt_Voucher.Text == string.Empty)
             {
                 CargarTodoDataGridView();
                 MessageBox.Show("Ingrese un Número de Voucher ");
@@ -141,13 +141,13 @@ namespace Shalong.Formularios
             else
             {
                 dgv_Pagos.DataSource = null;
-                dgv_Pagos.DataSource = _shalong.ReporteVentaPorVoucher(txt_Voucher.Text);
+                dgv_Pagos.DataSource = _shalong.ReporteVentaPorVoucher(Txt_Voucher.Text);
             }
 
         }
 
         //EXPORTAR
-        private void btn_Exportar_Click(object sender, EventArgs e)
+        private void Btn_Exportar_Click(object sender, EventArgs e)
         {
             Exportar();
         }
@@ -216,7 +216,7 @@ namespace Shalong.Formularios
         }
 
         //EVENTOS
-        private void txt_Documento_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_Documento_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar) || (char.IsLetter(e.KeyChar)) || e.KeyChar == '-' || (char.IsWhiteSpace(e.KeyChar))) && (e.KeyChar != (char)Keys.Back))
             {
@@ -225,7 +225,7 @@ namespace Shalong.Formularios
                 return;
             }
         }
-        private void txt_Voucher_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_Voucher_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar) || (char.IsLetter(e.KeyChar)) || e.KeyChar == '-' || (char.IsWhiteSpace(e.KeyChar))) && (e.KeyChar != (char)Keys.Back))
             {

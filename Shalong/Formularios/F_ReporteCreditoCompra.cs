@@ -48,15 +48,15 @@ namespace Shalong.Formularios
         }
         public void CargarComboBoxProveedor()
         {
-            cmb_Proveedor.DisplayMember = "Nombre";
-            cmb_Proveedor.ValueMember = "Codigo";
-            cmb_Proveedor.DataSource = _shalong.ProveedorMostrar();
+            Cmb_Proveedor.DisplayMember = "Nombre";
+            Cmb_Proveedor.ValueMember = "Codigo";
+            Cmb_Proveedor.DataSource = _shalong.ProveedorMostrar();
         }
         public void CargarComboBoxCaja()
         {
-            cmb_Caja.DisplayMember = "NombreCaja";
-            cmb_Caja.ValueMember = "CodigoCaja";
-            cmb_Caja.DataSource = _shalong.CajaMostrar();
+            Cmb_Caja.DisplayMember = "NombreCaja";
+            Cmb_Caja.ValueMember = "CodigoCaja";
+            Cmb_Caja.DataSource = _shalong.CajaMostrar();
         }
 
         public void CargarDataGridViewTodo()
@@ -67,9 +67,9 @@ namespace Shalong.Formularios
             this.dgv_Credito.Columns["MontoPagar"].DefaultCellStyle.Format = "0.00##";
         }
 
-        private void btn_Proveedor_Click(object sender, EventArgs e)
+        private void Btn_Proveedor_Click(object sender, EventArgs e)
         {
-            if (cmb_Proveedor.SelectedIndex == -1)
+            if (Cmb_Proveedor.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Proveedor Valido");
                 CargarDataGridViewTodo();
@@ -77,13 +77,13 @@ namespace Shalong.Formularios
             else
             {
                 dgv_Credito.DataSource = null;
-                dgv_Credito.DataSource = _shalong.ReportePagoPorProveedor(Int32.Parse(cmb_Proveedor.SelectedValue.ToString()));
+                dgv_Credito.DataSource = _shalong.ReportePagoPorProveedor(Int32.Parse(Cmb_Proveedor.SelectedValue.ToString()));
             }
         }
 
-        private void btn_Caja_Click(object sender, EventArgs e)
+        private void Btn_Caja_Click(object sender, EventArgs e)
         {
-            if (cmb_Caja.SelectedIndex == -1)
+            if (Cmb_Caja.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione una Caja Registrada");
                 CargarDataGridViewTodo();
@@ -91,13 +91,13 @@ namespace Shalong.Formularios
             else
             {
                 dgv_Credito.DataSource = null;
-                dgv_Credito.DataSource = _shalong.ReportePagoPorCaja(Int32.Parse(cmb_Caja.SelectedValue.ToString()));
+                dgv_Credito.DataSource = _shalong.ReportePagoPorCaja(Int32.Parse(Cmb_Caja.SelectedValue.ToString()));
             }
         }
 
-        private void btn_NDocumento_Click(object sender, EventArgs e)
+        private void Btn_NDocumento_Click(object sender, EventArgs e)
         {
-            if (txt_NDocumento.Text == string.Empty)
+            if (Txt_NDocumento.Text == string.Empty)
             {
                 MessageBox.Show("Ingrese un Número de Documento Por Favor");
                 CargarDataGridViewTodo();
@@ -105,13 +105,13 @@ namespace Shalong.Formularios
             else
             {
                 dgv_Credito.DataSource = null;
-                dgv_Credito.DataSource = _shalong.ReportePagoPorDocumento(txt_NDocumento.Text);
+                dgv_Credito.DataSource = _shalong.ReportePagoPorDocumento(Txt_NDocumento.Text);
             }
         }
 
-        private void btn_NVoucher_Click(object sender, EventArgs e)
+        private void Btn_NVoucher_Click(object sender, EventArgs e)
         {
-            if (txt_NVoucher.Text == string.Empty)
+            if (Txt_NVoucher.Text == string.Empty)
             {
                 MessageBox.Show("Ingrese un Número de Voucher Por Favor");
                 CargarDataGridViewTodo();
@@ -119,11 +119,11 @@ namespace Shalong.Formularios
             else
             {
                 dgv_Credito.DataSource = null;
-                dgv_Credito.DataSource = _shalong.ReportePagoPorVoucher(txt_NVoucher.Text);
+                dgv_Credito.DataSource = _shalong.ReportePagoPorVoucher(Txt_NVoucher.Text);
             }
         }
 
-        private void btn_Buscar_Click(object sender, EventArgs e)
+        private void Btn_Buscar_Click(object sender, EventArgs e)
         {
             dgv_Credito.DataSource = null;
             dgv_Credito.DataSource = _shalong.ReportePagoPorFechas(dtp_de.Value, dtp_hasta.Value);
@@ -204,7 +204,7 @@ namespace Shalong.Formularios
                 Clipboard.SetDataObject(dataObj);
         }
 
-        private void txt_NDocumento_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_NDocumento_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar) || (char.IsLetter(e.KeyChar)) || e.KeyChar == '-' || (char.IsWhiteSpace(e.KeyChar))) && (e.KeyChar != (char)Keys.Back))
             {
@@ -214,7 +214,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_NVoucher_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_NVoucher_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar) || (char.IsLetter(e.KeyChar)) || e.KeyChar == '-' || (char.IsWhiteSpace(e.KeyChar))) && (e.KeyChar != (char)Keys.Back))
             {

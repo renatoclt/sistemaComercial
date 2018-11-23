@@ -36,13 +36,13 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.txt_Dni = new System.Windows.Forms.TextBox();
+            this.Txt_Dni = new System.Windows.Forms.TextBox();
             this.Pnl_M_Pie = new System.Windows.Forms.Panel();
-            this.txt_Almacen = new System.Windows.Forms.TextBox();
+            this.Txt_Almacen = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txt_TipoTrabajador = new System.Windows.Forms.TextBox();
-            this.txt_Caja = new System.Windows.Forms.TextBox();
-            this.txt_Dolar = new System.Windows.Forms.TextBox();
+            this.Txt_TipoTrabajador = new System.Windows.Forms.TextBox();
+            this.Txt_Caja = new System.Windows.Forms.TextBox();
+            this.Txt_Dolar = new System.Windows.Forms.TextBox();
             this.Pnl_M_Pie.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -114,26 +114,26 @@
             this.label15.TabIndex = 6;
             this.label15.Text = "Tipo Trabajador";
             // 
-            // txt_Dni
+            // Txt_Dni
             // 
-            this.txt_Dni.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txt_Dni.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txt_Dni.Enabled = false;
-            this.txt_Dni.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.txt_Dni.Location = new System.Drawing.Point(10, 7);
-            this.txt_Dni.Name = "txt_Dni";
-            this.txt_Dni.Size = new System.Drawing.Size(100, 26);
-            this.txt_Dni.TabIndex = 8;
+            this.Txt_Dni.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Txt_Dni.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.Txt_Dni.Enabled = false;
+            this.Txt_Dni.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.Txt_Dni.Location = new System.Drawing.Point(10, 7);
+            this.Txt_Dni.Name = "Txt_Dni";
+            this.Txt_Dni.Size = new System.Drawing.Size(100, 26);
+            this.Txt_Dni.TabIndex = 8;
             // 
             // Pnl_M_Pie
             // 
             this.Pnl_M_Pie.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.Pnl_M_Pie.Controls.Add(this.txt_Almacen);
+            this.Pnl_M_Pie.Controls.Add(this.Txt_Almacen);
             this.Pnl_M_Pie.Controls.Add(this.label1);
-            this.Pnl_M_Pie.Controls.Add(this.txt_TipoTrabajador);
-            this.Pnl_M_Pie.Controls.Add(this.txt_Caja);
-            this.Pnl_M_Pie.Controls.Add(this.txt_Dolar);
-            this.Pnl_M_Pie.Controls.Add(this.txt_Dni);
+            this.Pnl_M_Pie.Controls.Add(this.Txt_TipoTrabajador);
+            this.Pnl_M_Pie.Controls.Add(this.Txt_Caja);
+            this.Pnl_M_Pie.Controls.Add(this.Txt_Dolar);
+            this.Pnl_M_Pie.Controls.Add(this.Txt_Dni);
             this.Pnl_M_Pie.Controls.Add(this.label15);
             this.Pnl_M_Pie.Controls.Add(this.label14);
             this.Pnl_M_Pie.Controls.Add(this.label13);
@@ -144,16 +144,16 @@
             this.Pnl_M_Pie.Size = new System.Drawing.Size(1284, 30);
             this.Pnl_M_Pie.TabIndex = 2;
             // 
-            // txt_Almacen
+            // Txt_Almacen
             // 
-            this.txt_Almacen.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txt_Almacen.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txt_Almacen.Enabled = false;
-            this.txt_Almacen.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.txt_Almacen.Location = new System.Drawing.Point(778, 4);
-            this.txt_Almacen.Name = "txt_Almacen";
-            this.txt_Almacen.Size = new System.Drawing.Size(168, 26);
-            this.txt_Almacen.TabIndex = 13;
+            this.Txt_Almacen.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Txt_Almacen.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.Txt_Almacen.Enabled = false;
+            this.Txt_Almacen.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.Txt_Almacen.Location = new System.Drawing.Point(778, 4);
+            this.Txt_Almacen.Name = "Txt_Almacen";
+            this.Txt_Almacen.Size = new System.Drawing.Size(168, 26);
+            this.Txt_Almacen.TabIndex = 13;
             // 
             // label1
             // 
@@ -165,38 +165,38 @@
             this.label1.TabIndex = 12;
             this.label1.Text = "Almacen";
             // 
-            // txt_TipoTrabajador
+            // Txt_TipoTrabajador
             // 
-            this.txt_TipoTrabajador.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txt_TipoTrabajador.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txt_TipoTrabajador.Enabled = false;
-            this.txt_TipoTrabajador.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.txt_TipoTrabajador.Location = new System.Drawing.Point(560, 7);
-            this.txt_TipoTrabajador.Name = "txt_TipoTrabajador";
-            this.txt_TipoTrabajador.Size = new System.Drawing.Size(135, 26);
-            this.txt_TipoTrabajador.TabIndex = 11;
+            this.Txt_TipoTrabajador.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Txt_TipoTrabajador.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.Txt_TipoTrabajador.Enabled = false;
+            this.Txt_TipoTrabajador.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.Txt_TipoTrabajador.Location = new System.Drawing.Point(560, 7);
+            this.Txt_TipoTrabajador.Name = "Txt_TipoTrabajador";
+            this.Txt_TipoTrabajador.Size = new System.Drawing.Size(135, 26);
+            this.Txt_TipoTrabajador.TabIndex = 11;
             // 
-            // txt_Caja
+            // Txt_Caja
             // 
-            this.txt_Caja.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txt_Caja.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txt_Caja.Enabled = false;
-            this.txt_Caja.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.txt_Caja.Location = new System.Drawing.Point(336, 7);
-            this.txt_Caja.Name = "txt_Caja";
-            this.txt_Caja.Size = new System.Drawing.Size(100, 26);
-            this.txt_Caja.TabIndex = 10;
+            this.Txt_Caja.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Txt_Caja.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.Txt_Caja.Enabled = false;
+            this.Txt_Caja.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.Txt_Caja.Location = new System.Drawing.Point(336, 7);
+            this.Txt_Caja.Name = "Txt_Caja";
+            this.Txt_Caja.Size = new System.Drawing.Size(100, 26);
+            this.Txt_Caja.TabIndex = 10;
             // 
-            // txt_Dolar
+            // Txt_Dolar
             // 
-            this.txt_Dolar.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txt_Dolar.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txt_Dolar.Enabled = false;
-            this.txt_Dolar.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.txt_Dolar.Location = new System.Drawing.Point(183, 7);
-            this.txt_Dolar.Name = "txt_Dolar";
-            this.txt_Dolar.Size = new System.Drawing.Size(100, 26);
-            this.txt_Dolar.TabIndex = 9;
+            this.Txt_Dolar.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Txt_Dolar.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.Txt_Dolar.Enabled = false;
+            this.Txt_Dolar.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.Txt_Dolar.Location = new System.Drawing.Point(183, 7);
+            this.Txt_Dolar.Name = "Txt_Dolar";
+            this.Txt_Dolar.Size = new System.Drawing.Size(100, 26);
+            this.Txt_Dolar.TabIndex = 9;
             // 
             // Principal
             // 
@@ -234,12 +234,12 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox txt_Dni;
+        private System.Windows.Forms.TextBox Txt_Dni;
         private System.Windows.Forms.Panel Pnl_M_Pie;
-        private System.Windows.Forms.TextBox txt_TipoTrabajador;
-        private System.Windows.Forms.TextBox txt_Caja;
-        private System.Windows.Forms.TextBox txt_Dolar;
-        private System.Windows.Forms.TextBox txt_Almacen;
+        private System.Windows.Forms.TextBox Txt_TipoTrabajador;
+        private System.Windows.Forms.TextBox Txt_Caja;
+        private System.Windows.Forms.TextBox Txt_Dolar;
+        private System.Windows.Forms.TextBox Txt_Almacen;
         private System.Windows.Forms.Label label1;
     }
 }

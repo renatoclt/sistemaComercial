@@ -27,7 +27,7 @@ namespace Shalong.Formularios
         }
         private void Btn_Guardar_Click(object sender, EventArgs e)
         {
-            if (cmb_I_Almacen.SelectedIndex == -1)
+            if (Cmb_I_Almacen.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Almacen", "Gestion Ventas", MessageBoxButtons.OK);
                 CargarCombobox();
@@ -67,12 +67,12 @@ namespace Shalong.Formularios
         private void CargarComboboxAlmacen()
         {
 
-            cmb_I_Almacen.DisplayMember = "Nombre";
-            cmb_I_Almacen.ValueMember = "Codigo";
-            cmb_I_Almacen.DataSource = _shalong.AlmacenMostrar();
-            cmb_M_Almacen.DisplayMember = "Nombre";
-            cmb_M_Almacen.ValueMember = "Codigo";
-            cmb_M_Almacen.DataSource = _shalong.AlmacenMostrar();
+            Cmb_I_Almacen.DisplayMember = "Nombre";
+            Cmb_I_Almacen.ValueMember = "Codigo";
+            Cmb_I_Almacen.DataSource = _shalong.AlmacenMostrar();
+            Cmb_M_Almacen.DisplayMember = "Nombre";
+            Cmb_M_Almacen.ValueMember = "Codigo";
+            Cmb_M_Almacen.DataSource = _shalong.AlmacenMostrar();
             
         }
 
@@ -81,7 +81,7 @@ namespace Shalong.Formularios
             if (Txt_I_Nombre.Text != String.Empty)
             {
 
-                if (_shalong.NombreCaja(1, Txt_I_Nombre.Text, Int32.Parse(cmb_I_Almacen.SelectedValue.ToString()), 1))
+                if (_shalong.NombreCaja(1, Txt_I_Nombre.Text, Int32.Parse(Cmb_I_Almacen.SelectedValue.ToString()), 1))
                 {
                     MessageBox.Show("Ingreso Correcto","Gestion Ventas", MessageBoxButtons.OK);
                     CargarCombobox();
@@ -99,9 +99,9 @@ namespace Shalong.Formularios
         
         private void ModificarNombreCaja()
         {
-            if (Txt_M_Nombre.Text != String.Empty)
+            if (Txt_M_Nombre.Text != String.Empty && Cmb_M_Nombre.SelectedValue == null)
             {
-                if (_shalong.NombreCaja(2, Txt_M_Nombre.Text, Int32.Parse(cmb_M_Almacen.SelectedValue.ToString()),Int32.Parse(Cmb_M_Nombre.SelectedValue.ToString())))
+                if (_shalong.NombreCaja(2, Txt_M_Nombre.Text, Int32.Parse(Cmb_M_Almacen.SelectedValue.ToString()),Int32.Parse(Cmb_M_Nombre.SelectedValue.ToString())))
                 {
                     MessageBox.Show("Modifico Correctamente", "Gestion Ventas", MessageBoxButtons.OK);
                     CargarCombobox();
@@ -123,6 +123,7 @@ namespace Shalong.Formularios
             {
                 MessageBox.Show("Elimino Correctamente", "Gestion Ventas", MessageBoxButtons.OK);
                 CargarCombobox();
+                this.Limpiar();
             }
             else
             {
@@ -158,6 +159,15 @@ namespace Shalong.Formularios
         {
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
-        }        
+        }     
+        
+        private void Limpiar()
+        {
+            Txt_I_Nombre.Clear();
+            Txt_M_Nombre.Clear();
+            Cmb_E_Nombre.ResetText();
+            Cmb_M_Nombre.ResetText();
+
+        }
     }
 }

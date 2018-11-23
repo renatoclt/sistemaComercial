@@ -32,12 +32,12 @@ namespace Shalong.Formularios
         }
         private void CargarCombobox()
         {
-            cmb_M_Unidad.ValueMember = "Codigo";
-            cmb_M_Unidad.DisplayMember = "Nombre";
-            cmb_M_Unidad.DataSource = _shalong.UnidadMostrar();
-            cmb_E_Unidad.ValueMember = "Codigo";
-            cmb_E_Unidad.DisplayMember = "Nombre";
-            cmb_E_Unidad.DataSource = _shalong.UnidadMostrar();
+            Cmb_M_Unidad.ValueMember = "Codigo";
+            Cmb_M_Unidad.DisplayMember = "Nombre";
+            Cmb_M_Unidad.DataSource = _shalong.UnidadMostrar();
+            Cmb_E_Unidad.ValueMember = "Codigo";
+            Cmb_E_Unidad.DisplayMember = "Nombre";
+            Cmb_E_Unidad.DataSource = _shalong.UnidadMostrar();
         }
         private void Btn_guardar_Click(object sender, EventArgs e)
         {
@@ -48,18 +48,18 @@ namespace Shalong.Formularios
         {
             C_Unidad objetoUnidad = new C_Unidad();
             objetoUnidad.Codigo = 1;
-            objetoUnidad.Nombre = txt_I_Nombre.Text;
-            objetoUnidad.Simbolo = txt_I_Simbolo.Text;
-            if (txt_I_Nombre.Text != String.Empty)
+            objetoUnidad.Nombre = Txt_I_Nombre.Text;
+            objetoUnidad.Simbolo = Txt_I_Simbolo.Text;
+            if (Txt_I_Nombre.Text != String.Empty)
             {
-                if (txt_I_Simbolo.Text != String.Empty)
+                if (Txt_I_Simbolo.Text != String.Empty)
                 {
                     if (_shalong.Unidad(1, objetoUnidad))
                     {
                         MessageBox.Show("Ingreso Correcto","Gestion Ventas",MessageBoxButtons.OK);
                         CargarCombobox();
-                        txt_I_Nombre.Clear();
-                        txt_I_Simbolo.Clear();
+                        Txt_I_Nombre.Clear();
+                        Txt_I_Simbolo.Clear();
                     }
                     else
                     {
@@ -80,7 +80,7 @@ namespace Shalong.Formularios
 
         private void Btn_Modificar_Click(object sender, EventArgs e)
         {
-            if (cmb_M_Unidad.SelectedIndex == -1)
+            if (Cmb_M_Unidad.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione una Unidad Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 CargarCombobox();
@@ -94,19 +94,19 @@ namespace Shalong.Formularios
         private void ModificarUnidad()
         {
             C_Unidad objetoUnidad = new C_Unidad();
-            objetoUnidad.Codigo = Int32.Parse(cmb_M_Unidad.SelectedValue.ToString());
-            objetoUnidad.Nombre = txt_M_Nombre.Text;
-            objetoUnidad.Simbolo = txt_M_Simbolo.Text;
-            if (txt_M_Nombre.Text != String.Empty)
+            objetoUnidad.Codigo = Int32.Parse(Cmb_M_Unidad.SelectedValue.ToString());
+            objetoUnidad.Nombre = Txt_M_Nombre.Text;
+            objetoUnidad.Simbolo = Txt_M_Simbolo.Text;
+            if (Txt_M_Nombre.Text != String.Empty)
             {
-                if (txt_M_Simbolo.Text != String.Empty)
+                if (Txt_M_Simbolo.Text != String.Empty)
                 {
                     if (_shalong.Unidad(2, objetoUnidad))
                     {
                         MessageBox.Show("Modificacion Correcta","Gestion Ventas",MessageBoxButtons.OK);
                         CargarCombobox();
-                        txt_M_Nombre.Clear();
-                        txt_M_Simbolo.Clear();
+                        Txt_M_Nombre.Clear();
+                        Txt_M_Simbolo.Clear();
                     }
                     else
                     {
@@ -126,17 +126,17 @@ namespace Shalong.Formularios
 
         private void Cmb_M_Unidad_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int codigo = Int32.Parse(cmb_M_Unidad.SelectedValue.ToString());
+            int codigo = Int32.Parse(Cmb_M_Unidad.SelectedValue.ToString());
             C_Unidad obj = _shalong.UnidadMostrar1(codigo);
-            txt_M_Nombre.Text = obj.Nombre;
-            txt_M_Simbolo.Text = obj.Simbolo;
+            Txt_M_Nombre.Text = obj.Nombre;
+            Txt_M_Simbolo.Text = obj.Simbolo;
         }
 
         private void Cmb_E_Unidad_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_Unidad obj = _shalong.UnidadMostrar1(Int32.Parse(cmb_E_Unidad.SelectedValue.ToString()));
-            txt_E_Nombre.Text = obj.Nombre;
-            txt_E_Simbolo.Text = obj.Simbolo;
+            C_Unidad obj = _shalong.UnidadMostrar1(Int32.Parse(Cmb_E_Unidad.SelectedValue.ToString()));
+            Txt_E_Nombre.Text = obj.Nombre;
+            Txt_E_Simbolo.Text = obj.Simbolo;
         }
 
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
@@ -146,7 +146,7 @@ namespace Shalong.Formularios
 
         private void Btn_Eliminar_Click(object sender, EventArgs e)
         {
-            if (cmb_E_Unidad.SelectedIndex == -1)
+            if (Cmb_E_Unidad.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione una Unidad Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 CargarCombobox();
@@ -160,9 +160,9 @@ namespace Shalong.Formularios
         private void EliminarUnidad()
         {
             C_Unidad objetoUnidad = new C_Unidad();
-            objetoUnidad.Codigo = Int32.Parse(cmb_E_Unidad.SelectedValue.ToString());
-            objetoUnidad.Nombre = txt_E_Nombre.Text;
-            objetoUnidad.Simbolo = txt_E_Simbolo.Text;
+            objetoUnidad.Codigo = Int32.Parse(Cmb_E_Unidad.SelectedValue.ToString());
+            objetoUnidad.Nombre = Txt_E_Nombre.Text;
+            objetoUnidad.Simbolo = Txt_E_Simbolo.Text;
             if (_shalong.Unidad(3, objetoUnidad))
             {
                 MessageBox.Show("Eliminacion Correcta","Gestion Ventas",MessageBoxButtons.OK);
@@ -184,7 +184,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
@@ -193,7 +193,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_M_Nombre_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_M_Nombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
@@ -202,7 +202,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_M_Simbolo_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_M_Simbolo_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {

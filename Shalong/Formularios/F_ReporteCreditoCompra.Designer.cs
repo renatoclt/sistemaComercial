@@ -43,23 +43,23 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
-            this.btn_Caja = new System.Windows.Forms.Button();
-            this.cmb_Caja = new System.Windows.Forms.ComboBox();
+            this.Btn_Caja = new System.Windows.Forms.Button();
+            this.Cmb_Caja = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btn_Proveedor = new System.Windows.Forms.Button();
-            this.cmb_Proveedor = new System.Windows.Forms.ComboBox();
-            this.btn_Exportar = new System.Windows.Forms.Button();
+            this.Btn_Proveedor = new System.Windows.Forms.Button();
+            this.Cmb_Proveedor = new System.Windows.Forms.ComboBox();
+            this.Btn_Exportar = new System.Windows.Forms.Button();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label4 = new System.Windows.Forms.Label();
-            this.btn_NVoucher = new System.Windows.Forms.Button();
-            this.btn_NDocumento = new System.Windows.Forms.Button();
-            this.txt_NVoucher = new System.Windows.Forms.TextBox();
-            this.txt_NDocumento = new System.Windows.Forms.TextBox();
+            this.Btn_NVoucher = new System.Windows.Forms.Button();
+            this.Btn_NDocumento = new System.Windows.Forms.Button();
+            this.Txt_NVoucher = new System.Windows.Forms.TextBox();
+            this.Txt_NDocumento = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.dtp_hasta = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
-            this.btn_Buscar = new System.Windows.Forms.Button();
+            this.Btn_Buscar = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.dtp_de = new System.Windows.Forms.DateTimePicker();
             this.tableLayoutPanel1.SuspendLayout();
@@ -188,12 +188,12 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.73171F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
             this.tableLayoutPanel3.Controls.Add(this.label2, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.btn_Caja, 5, 0);
-            this.tableLayoutPanel3.Controls.Add(this.cmb_Caja, 4, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Btn_Caja, 5, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Cmb_Caja, 4, 0);
             this.tableLayoutPanel3.Controls.Add(this.label1, 3, 0);
-            this.tableLayoutPanel3.Controls.Add(this.btn_Proveedor, 2, 0);
-            this.tableLayoutPanel3.Controls.Add(this.cmb_Proveedor, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.btn_Exportar, 6, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Btn_Proveedor, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Cmb_Proveedor, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Btn_Exportar, 6, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -212,27 +212,27 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Proveedor :";
             // 
-            // btn_Caja
+            // Btn_Caja
             // 
-            this.btn_Caja.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btn_Caja.Location = new System.Drawing.Point(769, 9);
-            this.btn_Caja.Name = "btn_Caja";
-            this.btn_Caja.Size = new System.Drawing.Size(103, 34);
-            this.btn_Caja.TabIndex = 0;
-            this.btn_Caja.Text = "Buscar";
-            this.btn_Caja.UseVisualStyleBackColor = true;
-            this.btn_Caja.Click += new System.EventHandler(this.btn_Caja_Click);
+            this.Btn_Caja.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Btn_Caja.Location = new System.Drawing.Point(769, 9);
+            this.Btn_Caja.Name = "Btn_Caja";
+            this.Btn_Caja.Size = new System.Drawing.Size(103, 34);
+            this.Btn_Caja.TabIndex = 0;
+            this.Btn_Caja.Text = "Buscar";
+            this.Btn_Caja.UseVisualStyleBackColor = true;
+            this.Btn_Caja.Click += new System.EventHandler(this.Btn_Caja_Click);
             // 
-            // cmb_Caja
+            // Cmb_Caja
             // 
-            this.cmb_Caja.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.cmb_Caja.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_Caja.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_Caja.FormattingEnabled = true;
-            this.cmb_Caja.Location = new System.Drawing.Point(562, 15);
-            this.cmb_Caja.Name = "cmb_Caja";
-            this.cmb_Caja.Size = new System.Drawing.Size(191, 28);
-            this.cmb_Caja.TabIndex = 1;
+            this.Cmb_Caja.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Cmb_Caja.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_Caja.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_Caja.FormattingEnabled = true;
+            this.Cmb_Caja.Location = new System.Drawing.Point(562, 15);
+            this.Cmb_Caja.Name = "Cmb_Caja";
+            this.Cmb_Caja.Size = new System.Drawing.Size(191, 28);
+            this.Cmb_Caja.TabIndex = 1;
             // 
             // label1
             // 
@@ -244,38 +244,38 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Caja :";
             // 
-            // btn_Proveedor
+            // Btn_Proveedor
             // 
-            this.btn_Proveedor.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btn_Proveedor.Location = new System.Drawing.Point(389, 9);
-            this.btn_Proveedor.Name = "btn_Proveedor";
-            this.btn_Proveedor.Size = new System.Drawing.Size(103, 34);
-            this.btn_Proveedor.TabIndex = 3;
-            this.btn_Proveedor.Text = "Buscar";
-            this.btn_Proveedor.UseVisualStyleBackColor = true;
-            this.btn_Proveedor.Click += new System.EventHandler(this.btn_Proveedor_Click);
+            this.Btn_Proveedor.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Btn_Proveedor.Location = new System.Drawing.Point(389, 9);
+            this.Btn_Proveedor.Name = "Btn_Proveedor";
+            this.Btn_Proveedor.Size = new System.Drawing.Size(103, 34);
+            this.Btn_Proveedor.TabIndex = 3;
+            this.Btn_Proveedor.Text = "Buscar";
+            this.Btn_Proveedor.UseVisualStyleBackColor = true;
+            this.Btn_Proveedor.Click += new System.EventHandler(this.Btn_Proveedor_Click);
             // 
-            // cmb_Proveedor
+            // Cmb_Proveedor
             // 
-            this.cmb_Proveedor.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.cmb_Proveedor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_Proveedor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_Proveedor.FormattingEnabled = true;
-            this.cmb_Proveedor.Location = new System.Drawing.Point(116, 15);
-            this.cmb_Proveedor.Name = "cmb_Proveedor";
-            this.cmb_Proveedor.Size = new System.Drawing.Size(266, 28);
-            this.cmb_Proveedor.TabIndex = 4;
+            this.Cmb_Proveedor.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Cmb_Proveedor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_Proveedor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_Proveedor.FormattingEnabled = true;
+            this.Cmb_Proveedor.Location = new System.Drawing.Point(116, 15);
+            this.Cmb_Proveedor.Name = "Cmb_Proveedor";
+            this.Cmb_Proveedor.Size = new System.Drawing.Size(266, 28);
+            this.Cmb_Proveedor.TabIndex = 4;
             // 
-            // btn_Exportar
+            // Btn_Exportar
             // 
-            this.btn_Exportar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_Exportar.Location = new System.Drawing.Point(899, 9);
-            this.btn_Exportar.Name = "btn_Exportar";
-            this.btn_Exportar.Size = new System.Drawing.Size(103, 34);
-            this.btn_Exportar.TabIndex = 6;
-            this.btn_Exportar.Text = "Exportar";
-            this.btn_Exportar.UseVisualStyleBackColor = true;
-            this.btn_Exportar.Click += new System.EventHandler(this.button1_Click);
+            this.Btn_Exportar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Btn_Exportar.Location = new System.Drawing.Point(899, 9);
+            this.Btn_Exportar.Name = "Btn_Exportar";
+            this.Btn_Exportar.Size = new System.Drawing.Size(103, 34);
+            this.Btn_Exportar.TabIndex = 6;
+            this.Btn_Exportar.Text = "Exportar";
+            this.Btn_Exportar.UseVisualStyleBackColor = true;
+            this.Btn_Exportar.Click += new System.EventHandler(this.button1_Click);
             // 
             // tableLayoutPanel4
             // 
@@ -287,10 +287,10 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.19512F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12F));
             this.tableLayoutPanel4.Controls.Add(this.label4, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.btn_NVoucher, 5, 0);
-            this.tableLayoutPanel4.Controls.Add(this.btn_NDocumento, 2, 0);
-            this.tableLayoutPanel4.Controls.Add(this.txt_NVoucher, 4, 0);
-            this.tableLayoutPanel4.Controls.Add(this.txt_NDocumento, 1, 0);
+            this.tableLayoutPanel4.Controls.Add(this.Btn_NVoucher, 5, 0);
+            this.tableLayoutPanel4.Controls.Add(this.Btn_NDocumento, 2, 0);
+            this.tableLayoutPanel4.Controls.Add(this.Txt_NVoucher, 4, 0);
+            this.tableLayoutPanel4.Controls.Add(this.Txt_NDocumento, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.label3, 3, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 61);
@@ -310,45 +310,45 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Nº de Documento :";
             // 
-            // btn_NVoucher
+            // Btn_NVoucher
             // 
-            this.btn_NVoucher.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btn_NVoucher.Location = new System.Drawing.Point(903, 9);
-            this.btn_NVoucher.Name = "btn_NVoucher";
-            this.btn_NVoucher.Size = new System.Drawing.Size(103, 34);
-            this.btn_NVoucher.TabIndex = 1;
-            this.btn_NVoucher.Text = "Buscar";
-            this.btn_NVoucher.UseVisualStyleBackColor = true;
-            this.btn_NVoucher.Click += new System.EventHandler(this.btn_NVoucher_Click);
+            this.Btn_NVoucher.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Btn_NVoucher.Location = new System.Drawing.Point(903, 9);
+            this.Btn_NVoucher.Name = "Btn_NVoucher";
+            this.Btn_NVoucher.Size = new System.Drawing.Size(103, 34);
+            this.Btn_NVoucher.TabIndex = 1;
+            this.Btn_NVoucher.Text = "Buscar";
+            this.Btn_NVoucher.UseVisualStyleBackColor = true;
+            this.Btn_NVoucher.Click += new System.EventHandler(this.Btn_NVoucher_Click);
             // 
-            // btn_NDocumento
+            // Btn_NDocumento
             // 
-            this.btn_NDocumento.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btn_NDocumento.Location = new System.Drawing.Point(405, 9);
-            this.btn_NDocumento.Name = "btn_NDocumento";
-            this.btn_NDocumento.Size = new System.Drawing.Size(107, 34);
-            this.btn_NDocumento.TabIndex = 4;
-            this.btn_NDocumento.Text = "Buscar";
-            this.btn_NDocumento.UseVisualStyleBackColor = true;
-            this.btn_NDocumento.Click += new System.EventHandler(this.btn_NDocumento_Click);
+            this.Btn_NDocumento.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Btn_NDocumento.Location = new System.Drawing.Point(405, 9);
+            this.Btn_NDocumento.Name = "Btn_NDocumento";
+            this.Btn_NDocumento.Size = new System.Drawing.Size(107, 34);
+            this.Btn_NDocumento.TabIndex = 4;
+            this.Btn_NDocumento.Text = "Buscar";
+            this.Btn_NDocumento.UseVisualStyleBackColor = true;
+            this.Btn_NDocumento.Click += new System.EventHandler(this.Btn_NDocumento_Click);
             // 
-            // txt_NVoucher
+            // Txt_NVoucher
             // 
-            this.txt_NVoucher.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txt_NVoucher.Location = new System.Drawing.Point(655, 13);
-            this.txt_NVoucher.Name = "txt_NVoucher";
-            this.txt_NVoucher.Size = new System.Drawing.Size(218, 26);
-            this.txt_NVoucher.TabIndex = 5;
-            this.txt_NVoucher.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_NVoucher_KeyPress);
+            this.Txt_NVoucher.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Txt_NVoucher.Location = new System.Drawing.Point(655, 13);
+            this.Txt_NVoucher.Name = "Txt_NVoucher";
+            this.Txt_NVoucher.Size = new System.Drawing.Size(218, 26);
+            this.Txt_NVoucher.TabIndex = 5;
+            this.Txt_NVoucher.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_NVoucher_KeyPress);
             // 
-            // txt_NDocumento
+            // Txt_NDocumento
             // 
-            this.txt_NDocumento.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txt_NDocumento.Location = new System.Drawing.Point(180, 13);
-            this.txt_NDocumento.Name = "txt_NDocumento";
-            this.txt_NDocumento.Size = new System.Drawing.Size(219, 26);
-            this.txt_NDocumento.TabIndex = 6;
-            this.txt_NDocumento.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_NDocumento_KeyPress);
+            this.Txt_NDocumento.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Txt_NDocumento.Location = new System.Drawing.Point(180, 13);
+            this.Txt_NDocumento.Name = "Txt_NDocumento";
+            this.Txt_NDocumento.Size = new System.Drawing.Size(219, 26);
+            this.Txt_NDocumento.TabIndex = 6;
+            this.Txt_NDocumento.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_NDocumento_KeyPress);
             // 
             // label3
             // 
@@ -370,7 +370,7 @@
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.21951F));
             this.tableLayoutPanel5.Controls.Add(this.dtp_hasta, 3, 0);
             this.tableLayoutPanel5.Controls.Add(this.label5, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.btn_Buscar, 4, 0);
+            this.tableLayoutPanel5.Controls.Add(this.Btn_Buscar, 4, 0);
             this.tableLayoutPanel5.Controls.Add(this.label6, 2, 0);
             this.tableLayoutPanel5.Controls.Add(this.dtp_de, 1, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -399,16 +399,16 @@
             this.label5.TabIndex = 6;
             this.label5.Text = "De :";
             // 
-            // btn_Buscar
+            // Btn_Buscar
             // 
-            this.btn_Buscar.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btn_Buscar.Location = new System.Drawing.Point(871, 10);
-            this.btn_Buscar.Name = "btn_Buscar";
-            this.btn_Buscar.Size = new System.Drawing.Size(103, 34);
-            this.btn_Buscar.TabIndex = 2;
-            this.btn_Buscar.Text = "Buscar";
-            this.btn_Buscar.UseVisualStyleBackColor = true;
-            this.btn_Buscar.Click += new System.EventHandler(this.btn_Buscar_Click);
+            this.Btn_Buscar.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Btn_Buscar.Location = new System.Drawing.Point(871, 10);
+            this.Btn_Buscar.Name = "Btn_Buscar";
+            this.Btn_Buscar.Size = new System.Drawing.Size(103, 34);
+            this.Btn_Buscar.TabIndex = 2;
+            this.Btn_Buscar.Text = "Buscar";
+            this.Btn_Buscar.UseVisualStyleBackColor = true;
+            this.Btn_Buscar.Click += new System.EventHandler(this.Btn_Buscar_Click);
             // 
             // label6
             // 
@@ -459,17 +459,17 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btn_Caja;
-        private System.Windows.Forms.ComboBox cmb_Caja;
+        private System.Windows.Forms.Button Btn_Caja;
+        private System.Windows.Forms.ComboBox Cmb_Caja;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btn_Proveedor;
-        private System.Windows.Forms.ComboBox cmb_Proveedor;
+        private System.Windows.Forms.Button Btn_Proveedor;
+        private System.Windows.Forms.ComboBox Cmb_Proveedor;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btn_NVoucher;
-        private System.Windows.Forms.Button btn_NDocumento;
-        private System.Windows.Forms.TextBox txt_NVoucher;
-        private System.Windows.Forms.TextBox txt_NDocumento;
+        private System.Windows.Forms.Button Btn_NVoucher;
+        private System.Windows.Forms.Button Btn_NDocumento;
+        private System.Windows.Forms.TextBox Txt_NVoucher;
+        private System.Windows.Forms.TextBox Txt_NDocumento;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridViewTextBoxColumn NumeroDocumento;
         private System.Windows.Forms.DataGridViewTextBoxColumn NombreProveedor;
@@ -483,9 +483,9 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
         private System.Windows.Forms.DateTimePicker dtp_hasta;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button btn_Buscar;
+        private System.Windows.Forms.Button Btn_Buscar;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DateTimePicker dtp_de;
-        private System.Windows.Forms.Button btn_Exportar;
+        private System.Windows.Forms.Button Btn_Exportar;
     }
 }

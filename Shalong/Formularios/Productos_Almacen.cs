@@ -37,7 +37,7 @@ namespace Shalong.Formularios
             _codigoAlmacen = objetoParametros.CodigoAlmacen;
             InitializeComponent();
             CargarCombobox();
-            cmb_Producto.SelectedValue = producto;
+            Cmb_Producto.SelectedValue = producto;
 
         }
 
@@ -49,16 +49,16 @@ namespace Shalong.Formularios
 
         private void CargarComboboxProducto()
         {
-            cmb_Producto.DisplayMember = "Nombre";
-            cmb_Producto.ValueMember = "CodigoBarras";
-            cmb_Producto.DataSource = _shalong.ProductoMostrar();
+            Cmb_Producto.DisplayMember = "Nombre";
+            Cmb_Producto.ValueMember = "CodigoBarras";
+            Cmb_Producto.DataSource = _shalong.ProductoMostrar();
         }
 
         private void CargarComboBoxAlmacen()
         {
-            cmb_almacen.DisplayMember = "Nombre";
-            cmb_almacen.ValueMember = "Codigo";
-            cmb_almacen.DataSource = _shalong.AlmacenMostrar();
+            Cmb_almacen.DisplayMember = "Nombre";
+            Cmb_almacen.ValueMember = "Codigo";
+            Cmb_almacen.DataSource = _shalong.AlmacenMostrar();
         }
 
         private void CargarDataGridView(int codigoProducto, int codigoAlmacen)
@@ -67,12 +67,12 @@ namespace Shalong.Formularios
             dtg_Productos.DataSource = _shalong.ProductoAlmacenMostar(codigoProducto, codigoAlmacen);
         }
 
-        private void cmb_Producto_SelectedIndexChanged(object sender, EventArgs e)
+        private void Cmb_Producto_SelectedIndexChanged(object sender, EventArgs e)
         {
-            CargarDataGridView(Int32.Parse(cmb_Producto.SelectedValue.ToString()), _codigoAlmacen);
+            CargarDataGridView(Int32.Parse(Cmb_Producto.SelectedValue.ToString()), _codigoAlmacen);
         }
 
-        private void btn_Transferir_Click(object sender, EventArgs e)
+        private void Btn_Transferir_Click(object sender, EventArgs e)
         {
             TransferirProductos();
         }
@@ -80,7 +80,7 @@ namespace Shalong.Formularios
         private void TransferirProductos()
         {
             C_Almacen_Producto obj = new C_Almacen_Producto();
-            if (cmb_Producto.SelectedIndex == -1)
+            if (Cmb_Producto.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Producto Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                 CargarCombobox();
@@ -88,9 +88,9 @@ namespace Shalong.Formularios
             }
             else
             {
-                obj.CodigoProducto = cmb_Producto.SelectedValue.ToString();
+                obj.CodigoProducto = Cmb_Producto.SelectedValue.ToString();
             }
-            if (cmb_almacen.SelectedIndex == -1)
+            if (Cmb_almacen.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Almacen Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                 CargarCombobox();
@@ -98,18 +98,18 @@ namespace Shalong.Formularios
             }
             else
             {
-                obj.CodigoAlmacen = Int32.Parse(cmb_almacen.SelectedValue.ToString());
+                obj.CodigoAlmacen = Int32.Parse(Cmb_almacen.SelectedValue.ToString());
             }
             obj.Cantidad = _shalong.StockPorAlmancen(obj);
             int codigoAlmacen = _shalong.CodigoTipoAlmacen(_codigoAlmacen);
-            int codigoAlmacen2 = _shalong.CodigoTipoAlmacen(Int32.Parse(cmb_almacen.SelectedValue.ToString()));
+            int codigoAlmacen2 = _shalong.CodigoTipoAlmacen(Int32.Parse(Cmb_almacen.SelectedValue.ToString()));
 
             if (codigoAlmacen == codigoAlmacen2)
             {
                 if (obj.Cantidad != 0)
                 {
 
-                    if (_shalong.AlmacenProducto(1, Int32.Parse(cmb_almacen.SelectedValue.ToString()), cmb_Producto.SelectedValue.ToString(), Double.Parse(txt_cantidad.Text) * -1))
+                    if (_shalong.AlmacenProducto(1, Int32.Parse(Cmb_almacen.SelectedValue.ToString()), Cmb_Producto.SelectedValue.ToString(), Double.Parse(Txt_cantidad.Text) * -1))
                     {
                         MessageBox.Show("Ingreso Correcto", "Gestion Ventas", MessageBoxButtons.OK);
                         CargarCombobox();
@@ -130,7 +130,7 @@ namespace Shalong.Formularios
                 if (obj.Cantidad != 0)
                 {
 
-                    if (_shalong.AlmacenProducto(1, Int32.Parse(cmb_almacen.SelectedValue.ToString()), cmb_Producto.SelectedValue.ToString(), Double.Parse(txt_cantidad.Text) * -1))
+                    if (_shalong.AlmacenProducto(1, Int32.Parse(Cmb_almacen.SelectedValue.ToString()), Cmb_Producto.SelectedValue.ToString(), Double.Parse(Txt_cantidad.Text) * -1))
                     {
 
                         MessageBox.Show("Ingreso Correcto", "Gestion Ventas", MessageBoxButtons.OK);

@@ -32,7 +32,7 @@
             this.tlpNivel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tlp_Nivel2 = new System.Windows.Forms.TableLayoutPanel();
             this.lbl_Documento = new System.Windows.Forms.Label();
-            this.cmb_Documento = new System.Windows.Forms.ComboBox();
+            this.Cmb_Documento = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.NumeroDocumento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -65,7 +65,7 @@
             this.tlp_Nivel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tlp_Nivel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tlp_Nivel2.Controls.Add(this.lbl_Documento, 0, 0);
-            this.tlp_Nivel2.Controls.Add(this.cmb_Documento, 1, 0);
+            this.tlp_Nivel2.Controls.Add(this.Cmb_Documento, 1, 0);
             this.tlp_Nivel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlp_Nivel2.Location = new System.Drawing.Point(3, 3);
             this.tlp_Nivel2.Name = "tlp_Nivel2";
@@ -84,17 +84,17 @@
             this.lbl_Documento.TabIndex = 0;
             this.lbl_Documento.Text = "Producto";
             // 
-            // cmb_Documento
+            // Cmb_Documento
             // 
-            this.cmb_Documento.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.cmb_Documento.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_Documento.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_Documento.FormattingEnabled = true;
-            this.cmb_Documento.Location = new System.Drawing.Point(364, 18);
-            this.cmb_Documento.Name = "cmb_Documento";
-            this.cmb_Documento.Size = new System.Drawing.Size(178, 28);
-            this.cmb_Documento.TabIndex = 1;
-            this.cmb_Documento.SelectedIndexChanged += new System.EventHandler(this.cmb_Documento_SelectedIndexChanged);
+            this.Cmb_Documento.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Cmb_Documento.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_Documento.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_Documento.FormattingEnabled = true;
+            this.Cmb_Documento.Location = new System.Drawing.Point(364, 21);
+            this.Cmb_Documento.Name = "Cmb_Documento";
+            this.Cmb_Documento.Size = new System.Drawing.Size(178, 28);
+            this.Cmb_Documento.TabIndex = 1;
+            this.Cmb_Documento.SelectedIndexChanged += new System.EventHandler(this.Cmb_Documento_SelectedIndexChanged);
             // 
             // dataGridView1
             // 
@@ -167,7 +167,7 @@
         private System.Windows.Forms.TableLayoutPanel tlpNivel1;
         private System.Windows.Forms.TableLayoutPanel tlp_Nivel2;
         private System.Windows.Forms.Label lbl_Documento;
-        private System.Windows.Forms.ComboBox cmb_Documento;
+        private System.Windows.Forms.ComboBox Cmb_Documento;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn NumeroDocumento;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;

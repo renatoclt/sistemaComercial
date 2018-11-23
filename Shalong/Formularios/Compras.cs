@@ -41,21 +41,21 @@ namespace Shalong.Formularios
 
         private void LimpiarCompras()
         {
-            txt_I_NroDocumento.Clear();
+            Txt_I_NroDocumento.Clear();
             dtp_I_Fecha.ResetText();
-            cmb_I_TipoDocumento.SelectedIndex = -1;
+            Cmb_I_TipoDocumento.SelectedIndex = -1;
             chk_Credito.Checked = false;
-            cmb_I_TipoMoneda.SelectedIndex = -1;
-            txt_I_Total.Clear();
+            Cmb_I_TipoMoneda.SelectedIndex = -1;
+            Txt_I_Total.Clear();
             CargarValorDolar();
 
-            //cmb_I_Proveedor.SelectedIndex = -1;
+            //Cmb_I_Proveedor.SelectedIndex = -1;
         }
 
         private void CargarValorDolar()
         {
             _codigoTipoCambio = _shalong.TipoCambioCodigo();
-            txt_I_TipoCambio.Text = "" + _shalong.TipoCambioDiario();
+            Txt_I_TipoCambio.Text = "" + _shalong.TipoCambioDiario();
 
         }
 
@@ -85,37 +85,37 @@ namespace Shalong.Formularios
 
         private void CargarComboBoxDocumento()
         {
-            cmb_M_NroDocumento.ValueMember = "Codigo";
-            cmb_M_NroDocumento.DisplayMember = "NumeroDocumento";
-            cmb_M_NroDocumento.DataSource = _shalong.DocumentoPorFecha(dateTimePicker2.Value);
+            Cmb_M_NroDocumento.ValueMember = "Codigo";
+            Cmb_M_NroDocumento.DisplayMember = "NumeroDocumento";
+            Cmb_M_NroDocumento.DataSource = _shalong.DocumentoPorFecha(dateTimePicker2.Value);
         }
         private void CargarComboBoxMoneda()
         {
-            cmb_I_TipoMoneda.ValueMember = "Nombre";
-            cmb_I_TipoMoneda.ValueMember = "Codigo";
-            cmb_I_TipoMoneda.DataSource = _shalong.MonedaMostrar();
+            Cmb_I_TipoMoneda.ValueMember = "Nombre";
+            Cmb_I_TipoMoneda.ValueMember = "Codigo";
+            Cmb_I_TipoMoneda.DataSource = _shalong.MonedaMostrar();
         }
         private void CargarComboBoxTipoDocumento()
         {
-            cmb_I_TipoDocumento.ValueMember = "Codigo";
-            cmb_I_TipoDocumento.DisplayMember = "Nombre";
-            cmb_I_TipoDocumento.DataSource = _shalong.TipoDocumentoMostrar();
+            Cmb_I_TipoDocumento.ValueMember = "Codigo";
+            Cmb_I_TipoDocumento.DisplayMember = "Nombre";
+            Cmb_I_TipoDocumento.DataSource = _shalong.TipoDocumentoMostrar();
         }
         private void CargarComboBoxProveedor()
         {
-            cmb_M_NroDocumento.ValueMember = "Codigo";
-            cmb_M_NroDocumento.DisplayMember = "NumeroDocumento";
-            cmb_M_NroDocumento.DataSource = _shalong.DocumentoPorFecha(dateTimePicker2.Value);
+            Cmb_M_NroDocumento.ValueMember = "Codigo";
+            Cmb_M_NroDocumento.DisplayMember = "NumeroDocumento";
+            Cmb_M_NroDocumento.DataSource = _shalong.DocumentoPorFecha(dateTimePicker2.Value);
 
-            cmb_I_Proveedor.ValueMember = "Codigo";
-            cmb_I_Proveedor.DisplayMember = "RUC";
-            cmb_I_Proveedor.DataSource = _shalong.ProveedorMostrar();
+            Cmb_I_Proveedor.ValueMember = "Codigo";
+            Cmb_I_Proveedor.DisplayMember = "RUC";
+            Cmb_I_Proveedor.DataSource = _shalong.ProveedorMostrar();
         }
         private void CargarComboboxOrdendeCompra()
         {
-            cmb_Documentos.ValueMember = "Codigo";
-            cmb_Documentos.DisplayMember = "NumeroDocumento";
-            cmb_Documentos.DataSource = _shalong.OrdenCompraDocumento();
+            Cmb_Documentos.ValueMember = "Codigo";
+            Cmb_Documentos.DisplayMember = "NumeroDocumento";
+            Cmb_Documentos.DataSource = _shalong.OrdenCompraDocumento();
         }
         private void CargarComboBox()
         {
@@ -132,28 +132,28 @@ namespace Shalong.Formularios
         {
             C_Credito objetoCredito = new C_Credito();
             // Datos para SumaFecha
-            if (cmb_I_Proveedor.SelectedIndex == -1)
+            if (Cmb_I_Proveedor.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese un Proveedor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             else
             {
-                objetoCredito.CodigoProveedor = Int32.Parse(cmb_I_Proveedor.SelectedValue.ToString());
+                objetoCredito.CodigoProveedor = Int32.Parse(Cmb_I_Proveedor.SelectedValue.ToString());
             }
             objetoCredito.Fecha = dtp_I_Fecha.Value;
             // ----------
             // Datos para CompraCodigo
             C_Compra objetoCompra = new C_Compra();
-            if (txt_I_NroDocumento.Text == string.Empty)
+            if (Txt_I_NroDocumento.Text == string.Empty)
             {
                 MessageBox.Show("Ingrese un Nro de Documento", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                objetoCompra.NumeroDocumento = txt_I_NroDocumento.Text;
+                objetoCompra.NumeroDocumento = Txt_I_NroDocumento.Text;
             }
-            objetoCompra.CodigoProveedor = Int32.Parse(cmb_I_Proveedor.SelectedValue.ToString());
+            objetoCompra.CodigoProveedor = Int32.Parse(Cmb_I_Proveedor.SelectedValue.ToString());
             // -------------
             objetoCredito.CodigoCompra = _shalong.CompraCodigo(objetoCompra);
             objetoCredito.CodigoVenta = -1;
@@ -161,20 +161,20 @@ namespace Shalong.Formularios
             objetoCredito.FechaProxPago = _shalong.SumaFecha(objetoCredito);
             if (chk_Credito.Checked == true)
             {
-                if (txt_I_Total.Text == string.Empty)
+                if (Txt_I_Total.Text == string.Empty)
                 {
                     MessageBox.Show("Ingrese un Producto", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     return;
                 }
                 else
                 {
-                    objetoCredito.TotalDeuda = double.Parse(txt_I_Total.Text);
+                    objetoCredito.TotalDeuda = double.Parse(Txt_I_Total.Text);
                     objetoCredito.Monto = 0;
                 }
             }
             else
             {
-                if (txt_I_Total.Text == string.Empty)
+                if (Txt_I_Total.Text == string.Empty)
                 {
                     MessageBox.Show("Ingrese un Producto", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     return;
@@ -182,7 +182,7 @@ namespace Shalong.Formularios
                 else
                 {
                     objetoCredito.TotalDeuda = 0.0;
-                    objetoCredito.Monto = double.Parse(txt_I_Total.Text);
+                    objetoCredito.Monto = double.Parse(Txt_I_Total.Text);
                 }
             }
 
@@ -217,8 +217,8 @@ namespace Shalong.Formularios
             objetoOrdenCompra.CodigoDniUsuario = _codigoUsuario;
             objetoOrdenCompra.CodigoProveedor = 0;
             objetoOrdenCompra.ReferenciaOrdenCompra = "";
-            objetoOrdenCompra.NumeroDocumento = txt_I_NroDocumento.Text;
-            objetoOrdenCompra.Codigo = Int32.Parse(cmb_Documentos.SelectedValue.ToString());
+            objetoOrdenCompra.NumeroDocumento = Txt_I_NroDocumento.Text;
+            objetoOrdenCompra.Codigo = Int32.Parse(Cmb_Documentos.SelectedValue.ToString());
             if (_shalong.OrdenCompra(3, objetoOrdenCompra))
             {
                 MessageBox.Show("La orden de compra se cancelo correctamente", "Gestion Ventas", MessageBoxButtons.OK);
@@ -234,36 +234,36 @@ namespace Shalong.Formularios
             int accion = 1;
             C_Compra objetoCliente = new C_Compra();
             //PROVEEDOR
-            if (cmb_I_Proveedor.SelectedIndex == -1)
+            if (Cmb_I_Proveedor.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Proveedor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                objetoCliente.CodigoProveedor = Int32.Parse(cmb_I_Proveedor.SelectedValue.ToString());
+                objetoCliente.CodigoProveedor = Int32.Parse(Cmb_I_Proveedor.SelectedValue.ToString());
             }
             //TIPO DE CAMBIO
             objetoCliente.CodigoTipoCambio = _codigoTipoCambio;
             // MONEDA
-            if (cmb_I_TipoMoneda.SelectedIndex == -1)
+            if (Cmb_I_TipoMoneda.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese un Tipo de Moneda", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                objetoCliente.CodigoMoneda = Int32.Parse(cmb_I_TipoMoneda.SelectedValue.ToString());
+                objetoCliente.CodigoMoneda = Int32.Parse(Cmb_I_TipoMoneda.SelectedValue.ToString());
             }
             // TIPO DE DOCUMENTO
-            if (cmb_I_TipoDocumento.SelectedIndex == -1)
+            if (Cmb_I_TipoDocumento.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese un tipo de documento", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                objetoCliente.CodigoTipoDocumento = Int32.Parse(cmb_I_TipoDocumento.SelectedValue.ToString());
+                objetoCliente.CodigoTipoDocumento = Int32.Parse(Cmb_I_TipoDocumento.SelectedValue.ToString());
             }
             // FECHA COMPRA
             if (dtp_I_Fecha.Value == null)
@@ -275,7 +275,7 @@ namespace Shalong.Formularios
                 objetoCliente.FechaCompra = dtp_I_Fecha.Value;
             }
             //MONTO TOTAL
-            if (txt_I_Total.Text == String.Empty)
+            if (Txt_I_Total.Text == String.Empty)
             {
                 MessageBox.Show("No existe un Monto Total de Compra, Revise los datos", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
@@ -283,32 +283,32 @@ namespace Shalong.Formularios
             }
             else
             {
-                if (Int32.Parse(cmb_I_TipoMoneda.SelectedValue.ToString()) == 2)
+                if (Int32.Parse(Cmb_I_TipoMoneda.SelectedValue.ToString()) == 2)
                 {
-                    objetoCliente.MontoTotal = (Double.Parse(txt_I_Total.Text) * Double.Parse(txt_I_TipoCambio.Text));
+                    objetoCliente.MontoTotal = (Double.Parse(Txt_I_Total.Text) * Double.Parse(Txt_I_TipoCambio.Text));
 
                 }
                 else
                 {
-                    objetoCliente.MontoTotal = Double.Parse(txt_I_Total.Text);
+                    objetoCliente.MontoTotal = Double.Parse(Txt_I_Total.Text);
 
                 }
             }
             //NUMERO DE DOCUMENTO
-            if (txt_I_NroDocumento.Text == string.Empty)
+            if (Txt_I_NroDocumento.Text == string.Empty)
             {
                 MessageBox.Show("Ingrese un Numero de Documento", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             else
             {
-                objetoCliente.NumeroDocumento = txt_I_NroDocumento.Text;
+                objetoCliente.NumeroDocumento = Txt_I_NroDocumento.Text;
             }
             // SELECCIONAR PESTAÑA MODIFICAR
-            if (txt_I_NroDocumento.Text == cmb_M_NroDocumento.Text)
+            if (Txt_I_NroDocumento.Text == Cmb_M_NroDocumento.Text)
             {
                 accion = 2;
-                objetoCliente.Codigo = Int32.Parse(cmb_M_NroDocumento.SelectedValue.ToString());
+                objetoCliente.Codigo = Int32.Parse(Cmb_M_NroDocumento.SelectedValue.ToString());
             }
             // INGRESAR COMO CREDITO
             if (_shalong.Compra(accion, objetoCliente))
@@ -324,8 +324,8 @@ namespace Shalong.Formularios
                             if (accion == 1)
                             {
                                 CargarComboBoxDocumento();
-                                cmb_M_NroDocumento.SelectedIndex = -1;
-                                cmb_M_NroDocumento.ResetText();
+                                Cmb_M_NroDocumento.SelectedIndex = -1;
+                                Cmb_M_NroDocumento.ResetText();
                             }
                             if (accion == 2)
                             {
@@ -356,8 +356,8 @@ namespace Shalong.Formularios
         {
 
             C_Compra objetoCompra = new C_Compra();
-            objetoCompra.NumeroDocumento = txt_I_NroDocumento.Text;
-            objetoCompra.CodigoProveedor = Int32.Parse(cmb_I_Proveedor.SelectedValue.ToString());
+            objetoCompra.NumeroDocumento = Txt_I_NroDocumento.Text;
+            objetoCompra.CodigoProveedor = Int32.Parse(Cmb_I_Proveedor.SelectedValue.ToString());
             C_CompraDetalle objetoCompraDetalle = new C_CompraDetalle();
             //objetoCompraDetalle.CodigoCompraDetalle = 1;
             objetoCompraDetalle.CodigoCompra = _shalong.CompraCodigo(objetoCompra);
@@ -429,8 +429,8 @@ namespace Shalong.Formularios
         private bool GuardarCompraSerial(int accion)
         {
             C_Compra objetoCompra = new C_Compra();
-            objetoCompra.NumeroDocumento = txt_I_NroDocumento.Text;
-            objetoCompra.CodigoProveedor = Int32.Parse(cmb_I_Proveedor.SelectedValue.ToString());
+            objetoCompra.NumeroDocumento = Txt_I_NroDocumento.Text;
+            objetoCompra.CodigoProveedor = Int32.Parse(Cmb_I_Proveedor.SelectedValue.ToString());
             C_SerialProducto objetoSerialProducto = new C_SerialProducto();
             objetoSerialProducto.CodigoCompra = _shalong.CompraCodigo(objetoCompra);
             if (accion == 2)
@@ -607,22 +607,22 @@ namespace Shalong.Formularios
             {
                 parcial += (Convert.ToDouble(row.Cells["Cantidad"].Value)) * (Convert.ToDouble(row.Cells["Costo_Unitario"].Value));
                 sumatoria += Convert.ToDouble(row.Cells["Costo_Unitario"].Value);
-                total = (parcial * double.Parse(txt_I_TipoCambio.Text));
+                total = (parcial * double.Parse(Txt_I_TipoCambio.Text));
                 // (Convert.ToDouble(row.Cells["Costo_Total"].Value)) = parcial ;
             }
-            if (Int32.Parse(cmb_I_TipoMoneda.SelectedValue.ToString()) == 2)
+            if (Int32.Parse(Cmb_I_TipoMoneda.SelectedValue.ToString()) == 2)
             {
-                txt_I_Total.Text = String.Format("{0:0.00}", total);
+                Txt_I_Total.Text = String.Format("{0:0.00}", total);
             }
-            if (Int32.Parse(cmb_I_TipoMoneda.SelectedValue.ToString()) == 1)
+            if (Int32.Parse(Cmb_I_TipoMoneda.SelectedValue.ToString()) == 1)
             {
-                txt_I_Total.Text = String.Format("{0:0.00}", parcial);
+                Txt_I_Total.Text = String.Format("{0:0.00}", parcial);
             }
         }
         // Cuando el combo box Moneda es cambiado llama a esta funcion
         private void CalcularTotalCambioDeMoneda()
         {
-            if (txt_I_Total.Text == string.Empty)
+            if (Txt_I_Total.Text == string.Empty)
             { }
             else
             {
@@ -634,16 +634,16 @@ namespace Shalong.Formularios
                 {
                     parcial += (Convert.ToDouble(row.Cells["Cantidad"].Value)) * (Convert.ToDouble(row.Cells["Costo_Unitario"].Value));
                     sumatoria += Convert.ToDouble(row.Cells["Costo_Unitario"].Value);
-                    total = (parcial * double.Parse(txt_I_TipoCambio.Text));
+                    total = (parcial * double.Parse(Txt_I_TipoCambio.Text));
                     // (Convert.ToDouble(row.Cells["Costo_Total"].Value)) = parcial ;
                 }
-                if (Int32.Parse(cmb_I_TipoMoneda.SelectedValue.ToString()) == 2)
+                if (Int32.Parse(Cmb_I_TipoMoneda.SelectedValue.ToString()) == 2)
                 {
-                    txt_I_Total.Text = String.Format("{0:0.00}", total);
+                    Txt_I_Total.Text = String.Format("{0:0.00}", total);
                 }
-                if (Int32.Parse(cmb_I_TipoMoneda.SelectedValue.ToString()) == 1)
+                if (Int32.Parse(Cmb_I_TipoMoneda.SelectedValue.ToString()) == 1)
                 {
-                    txt_I_Total.Text = String.Format("{0:0.00}", parcial);
+                    Txt_I_Total.Text = String.Format("{0:0.00}", parcial);
                 }
             }
         }
@@ -705,7 +705,7 @@ namespace Shalong.Formularios
         {
             dtg_SG_Compras.DataSource = null;
             dtg_SG_Compras.AutoGenerateColumns = false;
-            var list = _shalong.CompraProducto(Int32.Parse(cmb_M_NroDocumento.SelectedValue.ToString()));
+            var list = _shalong.CompraProducto(Int32.Parse(Cmb_M_NroDocumento.SelectedValue.ToString()));
             var databinding = new BindingList<C_CompraDetalle>(list);
             dtg_SG_Compras.DataSource = databinding;
             //dtg_SG_Compras.AllowUserToAddRows = true;
@@ -720,35 +720,35 @@ namespace Shalong.Formularios
             this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
         }
-        private void cmb_I_TipoMoneda_SelectedIndexChanged_2(object sender, EventArgs e)
+        private void Cmb_I_TipoMoneda_SelectedIndexChanged_2(object sender, EventArgs e)
         {
-            if (cmb_I_TipoMoneda.SelectedIndex == -1)
+            if (Cmb_I_TipoMoneda.SelectedIndex == -1)
             {
 
             }
-            else if (Int32.Parse(cmb_I_TipoMoneda.SelectedValue.ToString()) == 1)
+            else if (Int32.Parse(Cmb_I_TipoMoneda.SelectedValue.ToString()) == 1)
             {
                 CalcularTotalCambioDeMoneda();
             }
-            else if (Int32.Parse(cmb_I_TipoMoneda.SelectedValue.ToString()) == 2)
+            else if (Int32.Parse(Cmb_I_TipoMoneda.SelectedValue.ToString()) == 2)
             {
                 CalcularTotalCambioDeMoneda();
             }
         }
-        private void btn_I_TipoCambio_Click_1(object sender, EventArgs e)
+        private void Btn_I_TipoCambio_Click_1(object sender, EventArgs e)
         {
             Dolar objetoDolar = new Dolar(_codigoUsuario, "observacion", false);
             objetoDolar.ShowDialog();
             CargarValorDolar();
         }
-        private void cmb_I_Proveedor_SelectedIndexChanged_1(object sender, EventArgs e)
+        private void Cmb_I_Proveedor_SelectedIndexChanged_1(object sender, EventArgs e)
         {
-            if (cmb_I_Proveedor.SelectedIndex == -1)
+            if (Cmb_I_Proveedor.SelectedIndex == -1)
             { }
             else
             {
-                C_Proveedor objetoProveedor = _shalong.ProveedorMostrar1(Int32.Parse(cmb_I_Proveedor.SelectedValue.ToString()));
-                txt_I_Proveedor.Text = objetoProveedor.Nombre;
+                C_Proveedor objetoProveedor = _shalong.ProveedorMostrar1(Int32.Parse(Cmb_I_Proveedor.SelectedValue.ToString()));
+                Txt_I_Proveedor.Text = objetoProveedor.Nombre;
             }
         }
         private void dtg_SG_Compras_CellValidating_1(object sender, DataGridViewCellValidatingEventArgs e)
@@ -835,15 +835,15 @@ namespace Shalong.Formularios
                 }
             }
         }
-        private void btn_Otra_Click_1(object sender, EventArgs e)
+        private void Btn_Otra_Click_1(object sender, EventArgs e)
         {
             LimpiarCompras();
             dtg_SG_Compras.DataSource = null;
             dtg_SG_Compras.Refresh();
             dtg_CG_Compras.Refresh();
-            cmb_I_Proveedor.SelectedIndex = -1;
-            cmb_I_Proveedor.ResetText();
-            txt_I_Proveedor.Clear();
+            Cmb_I_Proveedor.SelectedIndex = -1;
+            Cmb_I_Proveedor.ResetText();
+            Txt_I_Proveedor.Clear();
         }
         private void Btn_Guardar_Click_1(object sender, EventArgs e)
         {
@@ -859,18 +859,18 @@ namespace Shalong.Formularios
 
         private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
         {
-            cmb_M_NroDocumento.ValueMember = "Codigo";
-            cmb_M_NroDocumento.DisplayMember = "NumeroDocumento";
-            cmb_M_NroDocumento.DataSource = _shalong.DocumentoPorFecha(dateTimePicker2.Value);
+            Cmb_M_NroDocumento.ValueMember = "Codigo";
+            Cmb_M_NroDocumento.DisplayMember = "NumeroDocumento";
+            Cmb_M_NroDocumento.DataSource = _shalong.DocumentoPorFecha(dateTimePicker2.Value);
             //CargarComboBox();
             //CargarDataGridView();
         }
-        private void cmb_Documentos_SelectionChangeCommitted_1(object sender, EventArgs e)
+        private void Cmb_Documentos_SelectionChangeCommitted_1(object sender, EventArgs e)
         {
-            C_OrdenCompra obj = _shalong.OrdenCompraDocumento1(Int32.Parse(cmb_Documentos.SelectedValue.ToString()));
-            cmb_I_Proveedor.SelectedValue = obj.CodigoProveedor;
+            C_OrdenCompra obj = _shalong.OrdenCompraDocumento1(Int32.Parse(Cmb_Documentos.SelectedValue.ToString()));
+            Cmb_I_Proveedor.SelectedValue = obj.CodigoProveedor;
             dtg_SG_Compras.AutoGenerateColumns = false;
-            var yourList = _shalong.OrdenCompraProducto(Int32.Parse(cmb_Documentos.SelectedValue.ToString()));
+            var yourList = _shalong.OrdenCompraProducto(Int32.Parse(Cmb_Documentos.SelectedValue.ToString()));
             var listBinding = new BindingList<C_OrdenCompraDetalle>(yourList);
             dtg_SG_Compras.DataSource = listBinding;
             LimpiarCompras();
@@ -881,17 +881,17 @@ namespace Shalong.Formularios
         {
             if (tab_Compras.SelectedIndex == 1)
             {
-                cmb_M_NroDocumento.SelectedIndex = -1;
+                Cmb_M_NroDocumento.SelectedIndex = -1;
 
             }
             if (tab_Compras.SelectedIndex == 2)
             {
-                cmb_Documentos.SelectedIndex = -1;
-                if (cmb_Documentos.SelectedIndex == -1)
+                Cmb_Documentos.SelectedIndex = -1;
+                if (Cmb_Documentos.SelectedIndex == -1)
                 {
                     LimpiarCompras();
-                    cmb_I_Proveedor.SelectedIndex = -1;
-                    txt_I_Proveedor.Clear();
+                    Cmb_I_Proveedor.SelectedIndex = -1;
+                    Txt_I_Proveedor.Clear();
                     dtg_SG_Compras.DataSource = null;
                     dtg_SG_Compras.Refresh();
                     dtg_CG_Compras.DataSource = null;
@@ -901,18 +901,18 @@ namespace Shalong.Formularios
             }
         }
 
-        private void cmb_M_NroDocumento_SelectionChangeCommitted(object sender, EventArgs e)
+        private void Cmb_M_NroDocumento_SelectionChangeCommitted(object sender, EventArgs e)
         {
-            if (cmb_M_NroDocumento.SelectedIndex != -1)
+            if (Cmb_M_NroDocumento.SelectedIndex != -1)
             {
-                C_Compra obj = _shalong.DocumentoPorFecha1(Int32.Parse(cmb_M_NroDocumento.SelectedValue.ToString()));
-                txt_I_NroDocumento.Text = obj.NumeroDocumento;
+                C_Compra obj = _shalong.DocumentoPorFecha1(Int32.Parse(Cmb_M_NroDocumento.SelectedValue.ToString()));
+                Txt_I_NroDocumento.Text = obj.NumeroDocumento;
                 dtp_I_Fecha.Value = obj.FechaCompra;
-                cmb_I_TipoDocumento.SelectedValue = obj.CodigoTipoDocumento;
-                cmb_I_TipoMoneda.SelectedValue = obj.CodigoMoneda;
-                txt_I_TipoCambio.Text = "" + obj.ValorTipoCambio;
-                cmb_I_Proveedor.SelectedValue = obj.CodigoProveedor;
-                txt_I_Total.Text = "" + obj.MontoTotal;
+                Cmb_I_TipoDocumento.SelectedValue = obj.CodigoTipoDocumento;
+                Cmb_I_TipoMoneda.SelectedValue = obj.CodigoMoneda;
+                Txt_I_TipoCambio.Text = "" + obj.ValorTipoCambio;
+                Cmb_I_Proveedor.SelectedValue = obj.CodigoProveedor;
+                Txt_I_Total.Text = "" + obj.MontoTotal;
                 CargarDataGridView();
                 
             }

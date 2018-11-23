@@ -27,12 +27,12 @@ namespace Shalong.Formularios
         }
         private void CargarComboBoxNombre()
         {
-            cmb_M_Nombre.DisplayMember = "Nombre";
-            cmb_M_Nombre.ValueMember = "Codigo";
-            cmb_M_Nombre.DataSource = _Shalong.TipoPrecioMostrar();
-            cmb_E_Nombre.DisplayMember = "Nombre";
-            cmb_E_Nombre.ValueMember = "Codigo";
-            cmb_E_Nombre.DataSource = _Shalong.TipoPrecioMostrar();   
+            Cmb_M_Nombre.DisplayMember = "Nombre";
+            Cmb_M_Nombre.ValueMember = "Codigo";
+            Cmb_M_Nombre.DataSource = _Shalong.TipoPrecioMostrar();
+            Cmb_E_Nombre.DisplayMember = "Nombre";
+            Cmb_E_Nombre.ValueMember = "Codigo";
+            Cmb_E_Nombre.DataSource = _Shalong.TipoPrecioMostrar();   
         }
         private void Btn_Guardar_Click(object sender, EventArgs e)
         {
@@ -42,14 +42,14 @@ namespace Shalong.Formularios
         {
             C_TipoPrecio objetoTipoPrecio = new C_TipoPrecio();
             objetoTipoPrecio.Codigo = 1;
-            objetoTipoPrecio.Nombre = txt_I_Nombre.Text;
-            if (txt_I_Nombre.Text != String.Empty)
+            objetoTipoPrecio.Nombre = Txt_I_Nombre.Text;
+            if (Txt_I_Nombre.Text != String.Empty)
             {
                 if (_Shalong.TipoPrecio(1, objetoTipoPrecio))
                 {
                     MessageBox.Show("Ingreso correctamente","Gestion Ventas",MessageBoxButtons.OK);
                     CargarComboBoxNombre();
-                    txt_I_Nombre.Clear();
+                    Txt_I_Nombre.Clear();
                 }
                 else
                 {
@@ -64,7 +64,7 @@ namespace Shalong.Formularios
 
         private void Btn_Modificar_Click(object sender, EventArgs e)
         {
-            if (cmb_M_Nombre.SelectedIndex == -1)
+            if (Cmb_M_Nombre.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Tipo de Precio Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 CargarComboBoxNombre();
@@ -78,15 +78,15 @@ namespace Shalong.Formularios
         private void ModificarTipoPrecio()
         {
             C_TipoPrecio objetoTipoPrecio = new C_TipoPrecio();
-            objetoTipoPrecio.Codigo =  Int32.Parse(cmb_M_Nombre.SelectedValue.ToString());
-            objetoTipoPrecio.Nombre = txt_M_Nombre.Text;
-            if (txt_M_Nombre.Text != String.Empty)
+            objetoTipoPrecio.Codigo =  Int32.Parse(Cmb_M_Nombre.SelectedValue.ToString());
+            objetoTipoPrecio.Nombre = Txt_M_Nombre.Text;
+            if (Txt_M_Nombre.Text != String.Empty)
             {
                 if (_Shalong.TipoPrecio(2, objetoTipoPrecio))
                 {
                     MessageBox.Show("Se Modifico correctamente","Gestion Ventas",MessageBoxButtons.OK);
                     CargarComboBoxNombre();
-                    txt_M_Nombre.Clear();
+                    Txt_M_Nombre.Clear();
                 }
                 else
                 {
@@ -100,7 +100,7 @@ namespace Shalong.Formularios
         }
         private void Btn_Eliminar_Click(object sender, EventArgs e)
         {
-            if (cmb_E_Nombre.SelectedIndex == -1)
+            if (Cmb_E_Nombre.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Tipo de Precio Por Favor", "Gestion Ventas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 CargarComboBoxNombre();
@@ -114,7 +114,7 @@ namespace Shalong.Formularios
         private void EliminarTipoPrecio()
         {
             C_TipoPrecio objetoTipoPrecio = new C_TipoPrecio();
-            objetoTipoPrecio.Codigo = Int32.Parse(cmb_E_Nombre.SelectedValue.ToString());
+            objetoTipoPrecio.Codigo = Int32.Parse(Cmb_E_Nombre.SelectedValue.ToString());
             objetoTipoPrecio.Nombre = " ";
             if (_Shalong.TipoPrecio(3, objetoTipoPrecio ))
             {
@@ -127,7 +127,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_I_Nombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {               
@@ -136,7 +136,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void txt_M_Nombre_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_M_Nombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {               

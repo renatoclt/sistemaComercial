@@ -31,13 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NombreCaja));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.cmb_I_Almacen = new System.Windows.Forms.ComboBox();
+            this.Cmb_I_Almacen = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Txt_I_Nombre = new System.Windows.Forms.TextBox();
             this.Btn_Guardar = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.cmb_M_Almacen = new System.Windows.Forms.ComboBox();
+            this.Cmb_M_Almacen = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.Cmb_M_Nombre = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -67,7 +67,7 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.cmb_I_Almacen);
+            this.tabPage1.Controls.Add(this.Cmb_I_Almacen);
             this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.Txt_I_Nombre);
@@ -81,15 +81,15 @@
             this.tabPage1.Text = "Insertar";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // cmb_I_Almacen
+            // Cmb_I_Almacen
             // 
-            this.cmb_I_Almacen.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_I_Almacen.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_I_Almacen.FormattingEnabled = true;
-            this.cmb_I_Almacen.Location = new System.Drawing.Point(99, 70);
-            this.cmb_I_Almacen.Name = "cmb_I_Almacen";
-            this.cmb_I_Almacen.Size = new System.Drawing.Size(202, 28);
-            this.cmb_I_Almacen.TabIndex = 4;
+            this.Cmb_I_Almacen.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_I_Almacen.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_I_Almacen.FormattingEnabled = true;
+            this.Cmb_I_Almacen.Location = new System.Drawing.Point(99, 70);
+            this.Cmb_I_Almacen.Name = "Cmb_I_Almacen";
+            this.Cmb_I_Almacen.Size = new System.Drawing.Size(202, 28);
+            this.Cmb_I_Almacen.TabIndex = 4;
             // 
             // label4
             // 
@@ -131,7 +131,7 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.cmb_M_Almacen);
+            this.tabPage2.Controls.Add(this.Cmb_M_Almacen);
             this.tabPage2.Controls.Add(this.label5);
             this.tabPage2.Controls.Add(this.Cmb_M_Nombre);
             this.tabPage2.Controls.Add(this.label2);
@@ -146,15 +146,15 @@
             this.tabPage2.Text = "Modificar";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // cmb_M_Almacen
+            // Cmb_M_Almacen
             // 
-            this.cmb_M_Almacen.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_M_Almacen.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_M_Almacen.FormattingEnabled = true;
-            this.cmb_M_Almacen.Location = new System.Drawing.Point(101, 94);
-            this.cmb_M_Almacen.Name = "cmb_M_Almacen";
-            this.cmb_M_Almacen.Size = new System.Drawing.Size(202, 28);
-            this.cmb_M_Almacen.TabIndex = 8;
+            this.Cmb_M_Almacen.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_M_Almacen.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_M_Almacen.FormattingEnabled = true;
+            this.Cmb_M_Almacen.Location = new System.Drawing.Point(101, 94);
+            this.Cmb_M_Almacen.Name = "Cmb_M_Almacen";
+            this.Cmb_M_Almacen.Size = new System.Drawing.Size(202, 28);
+            this.Cmb_M_Almacen.TabIndex = 8;
             // 
             // label5
             // 
@@ -288,9 +288,9 @@
         private System.Windows.Forms.ComboBox Cmb_E_Nombre;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button Btn_Eliminar;
-        private System.Windows.Forms.ComboBox cmb_I_Almacen;
+        private System.Windows.Forms.ComboBox Cmb_I_Almacen;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox cmb_M_Almacen;
+        private System.Windows.Forms.ComboBox Cmb_M_Almacen;
         private System.Windows.Forms.Label label5;
     }
 }

@@ -32,23 +32,23 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
-            this.btn_guardar = new System.Windows.Forms.Button();
-            this.txt_I_Simbolo = new System.Windows.Forms.TextBox();
-            this.txt_I_Nombre = new System.Windows.Forms.TextBox();
+            this.Btn_guardar = new System.Windows.Forms.Button();
+            this.Txt_I_Simbolo = new System.Windows.Forms.TextBox();
+            this.Txt_I_Nombre = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.cmb_M_Unidad = new System.Windows.Forms.ComboBox();
-            this.btn_Modificar = new System.Windows.Forms.Button();
-            this.txt_M_Simbolo = new System.Windows.Forms.TextBox();
-            this.txt_M_Nombre = new System.Windows.Forms.TextBox();
+            this.Cmb_M_Unidad = new System.Windows.Forms.ComboBox();
+            this.Btn_Modificar = new System.Windows.Forms.Button();
+            this.Txt_M_Simbolo = new System.Windows.Forms.TextBox();
+            this.Txt_M_Nombre = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.cmb_E_Unidad = new System.Windows.Forms.ComboBox();
-            this.btn_Eliminar = new System.Windows.Forms.Button();
-            this.txt_E_Simbolo = new System.Windows.Forms.TextBox();
-            this.txt_E_Nombre = new System.Windows.Forms.TextBox();
+            this.Cmb_E_Unidad = new System.Windows.Forms.ComboBox();
+            this.Btn_Eliminar = new System.Windows.Forms.Button();
+            this.Txt_E_Simbolo = new System.Windows.Forms.TextBox();
+            this.Txt_E_Nombre = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
@@ -73,9 +73,9 @@
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.button1);
-            this.tabPage1.Controls.Add(this.btn_guardar);
-            this.tabPage1.Controls.Add(this.txt_I_Simbolo);
-            this.tabPage1.Controls.Add(this.txt_I_Nombre);
+            this.tabPage1.Controls.Add(this.Btn_guardar);
+            this.tabPage1.Controls.Add(this.Txt_I_Simbolo);
+            this.tabPage1.Controls.Add(this.Txt_I_Nombre);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
@@ -97,33 +97,33 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // btn_guardar
+            // Btn_guardar
             // 
-            this.btn_guardar.Location = new System.Drawing.Point(98, 87);
-            this.btn_guardar.Name = "btn_guardar";
-            this.btn_guardar.Size = new System.Drawing.Size(102, 32);
-            this.btn_guardar.TabIndex = 3;
-            this.btn_guardar.Text = "Guardar";
-            this.btn_guardar.UseVisualStyleBackColor = true;
-            this.btn_guardar.Click += new System.EventHandler(this.Btn_guardar_Click);
+            this.Btn_guardar.Location = new System.Drawing.Point(98, 87);
+            this.Btn_guardar.Name = "Btn_guardar";
+            this.Btn_guardar.Size = new System.Drawing.Size(102, 32);
+            this.Btn_guardar.TabIndex = 3;
+            this.Btn_guardar.Text = "Guardar";
+            this.Btn_guardar.UseVisualStyleBackColor = true;
+            this.Btn_guardar.Click += new System.EventHandler(this.Btn_guardar_Click);
             // 
-            // txt_I_Simbolo
+            // Txt_I_Simbolo
             // 
-            this.txt_I_Simbolo.Location = new System.Drawing.Point(109, 46);
-            this.txt_I_Simbolo.MaxLength = 10;
-            this.txt_I_Simbolo.Name = "txt_I_Simbolo";
-            this.txt_I_Simbolo.Size = new System.Drawing.Size(170, 26);
-            this.txt_I_Simbolo.TabIndex = 2;
-            this.txt_I_Simbolo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_I_Simbolo_KeyPress);
+            this.Txt_I_Simbolo.Location = new System.Drawing.Point(109, 46);
+            this.Txt_I_Simbolo.MaxLength = 10;
+            this.Txt_I_Simbolo.Name = "Txt_I_Simbolo";
+            this.Txt_I_Simbolo.Size = new System.Drawing.Size(170, 26);
+            this.Txt_I_Simbolo.TabIndex = 2;
+            this.Txt_I_Simbolo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_I_Simbolo_KeyPress);
             // 
-            // txt_I_Nombre
+            // Txt_I_Nombre
             // 
-            this.txt_I_Nombre.Location = new System.Drawing.Point(109, 8);
-            this.txt_I_Nombre.MaxLength = 40;
-            this.txt_I_Nombre.Name = "txt_I_Nombre";
-            this.txt_I_Nombre.Size = new System.Drawing.Size(170, 26);
-            this.txt_I_Nombre.TabIndex = 1;
-            this.txt_I_Nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_I_Nombre_KeyPress);
+            this.Txt_I_Nombre.Location = new System.Drawing.Point(109, 8);
+            this.Txt_I_Nombre.MaxLength = 40;
+            this.Txt_I_Nombre.Name = "Txt_I_Nombre";
+            this.Txt_I_Nombre.Size = new System.Drawing.Size(170, 26);
+            this.Txt_I_Nombre.TabIndex = 1;
+            this.Txt_I_Nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_I_Nombre_KeyPress);
             // 
             // label2
             // 
@@ -145,10 +145,10 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.cmb_M_Unidad);
-            this.tabPage2.Controls.Add(this.btn_Modificar);
-            this.tabPage2.Controls.Add(this.txt_M_Simbolo);
-            this.tabPage2.Controls.Add(this.txt_M_Nombre);
+            this.tabPage2.Controls.Add(this.Cmb_M_Unidad);
+            this.tabPage2.Controls.Add(this.Btn_Modificar);
+            this.tabPage2.Controls.Add(this.Txt_M_Simbolo);
+            this.tabPage2.Controls.Add(this.Txt_M_Nombre);
             this.tabPage2.Controls.Add(this.label3);
             this.tabPage2.Controls.Add(this.label4);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
@@ -160,44 +160,44 @@
             this.tabPage2.Text = "Modificar";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // cmb_M_Unidad
+            // Cmb_M_Unidad
             // 
-            this.cmb_M_Unidad.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_M_Unidad.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_M_Unidad.FormattingEnabled = true;
-            this.cmb_M_Unidad.Location = new System.Drawing.Point(15, 9);
-            this.cmb_M_Unidad.Name = "cmb_M_Unidad";
-            this.cmb_M_Unidad.Size = new System.Drawing.Size(263, 28);
-            this.cmb_M_Unidad.TabIndex = 1;
-            this.cmb_M_Unidad.SelectedIndexChanged += new System.EventHandler(this.Cmb_M_Unidad_SelectedIndexChanged);
+            this.Cmb_M_Unidad.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_M_Unidad.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_M_Unidad.FormattingEnabled = true;
+            this.Cmb_M_Unidad.Location = new System.Drawing.Point(15, 9);
+            this.Cmb_M_Unidad.Name = "Cmb_M_Unidad";
+            this.Cmb_M_Unidad.Size = new System.Drawing.Size(263, 28);
+            this.Cmb_M_Unidad.TabIndex = 1;
+            this.Cmb_M_Unidad.SelectedIndexChanged += new System.EventHandler(this.Cmb_M_Unidad_SelectedIndexChanged);
             // 
-            // btn_Modificar
+            // Btn_Modificar
             // 
-            this.btn_Modificar.Location = new System.Drawing.Point(108, 128);
-            this.btn_Modificar.Name = "btn_Modificar";
-            this.btn_Modificar.Size = new System.Drawing.Size(102, 32);
-            this.btn_Modificar.TabIndex = 4;
-            this.btn_Modificar.Text = "Modificar";
-            this.btn_Modificar.UseVisualStyleBackColor = true;
-            this.btn_Modificar.Click += new System.EventHandler(this.Btn_Modificar_Click);
+            this.Btn_Modificar.Location = new System.Drawing.Point(108, 128);
+            this.Btn_Modificar.Name = "Btn_Modificar";
+            this.Btn_Modificar.Size = new System.Drawing.Size(102, 32);
+            this.Btn_Modificar.TabIndex = 4;
+            this.Btn_Modificar.Text = "Modificar";
+            this.Btn_Modificar.UseVisualStyleBackColor = true;
+            this.Btn_Modificar.Click += new System.EventHandler(this.Btn_Modificar_Click);
             // 
-            // txt_M_Simbolo
+            // Txt_M_Simbolo
             // 
-            this.txt_M_Simbolo.Location = new System.Drawing.Point(108, 93);
-            this.txt_M_Simbolo.MaxLength = 10;
-            this.txt_M_Simbolo.Name = "txt_M_Simbolo";
-            this.txt_M_Simbolo.Size = new System.Drawing.Size(170, 26);
-            this.txt_M_Simbolo.TabIndex = 3;
-            this.txt_M_Simbolo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_M_Simbolo_KeyPress);
+            this.Txt_M_Simbolo.Location = new System.Drawing.Point(108, 93);
+            this.Txt_M_Simbolo.MaxLength = 10;
+            this.Txt_M_Simbolo.Name = "Txt_M_Simbolo";
+            this.Txt_M_Simbolo.Size = new System.Drawing.Size(170, 26);
+            this.Txt_M_Simbolo.TabIndex = 3;
+            this.Txt_M_Simbolo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_M_Simbolo_KeyPress);
             // 
-            // txt_M_Nombre
+            // Txt_M_Nombre
             // 
-            this.txt_M_Nombre.Location = new System.Drawing.Point(108, 55);
-            this.txt_M_Nombre.MaxLength = 40;
-            this.txt_M_Nombre.Name = "txt_M_Nombre";
-            this.txt_M_Nombre.Size = new System.Drawing.Size(170, 26);
-            this.txt_M_Nombre.TabIndex = 2;
-            this.txt_M_Nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_M_Nombre_KeyPress);
+            this.Txt_M_Nombre.Location = new System.Drawing.Point(108, 55);
+            this.Txt_M_Nombre.MaxLength = 40;
+            this.Txt_M_Nombre.Name = "Txt_M_Nombre";
+            this.Txt_M_Nombre.Size = new System.Drawing.Size(170, 26);
+            this.Txt_M_Nombre.TabIndex = 2;
+            this.Txt_M_Nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_M_Nombre_KeyPress);
             // 
             // label3
             // 
@@ -219,10 +219,10 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.cmb_E_Unidad);
-            this.tabPage3.Controls.Add(this.btn_Eliminar);
-            this.tabPage3.Controls.Add(this.txt_E_Simbolo);
-            this.tabPage3.Controls.Add(this.txt_E_Nombre);
+            this.tabPage3.Controls.Add(this.Cmb_E_Unidad);
+            this.tabPage3.Controls.Add(this.Btn_Eliminar);
+            this.tabPage3.Controls.Add(this.Txt_E_Simbolo);
+            this.tabPage3.Controls.Add(this.Txt_E_Nombre);
             this.tabPage3.Controls.Add(this.label5);
             this.tabPage3.Controls.Add(this.label6);
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
@@ -233,42 +233,42 @@
             this.tabPage3.Text = "Eliminar";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // cmb_E_Unidad
+            // Cmb_E_Unidad
             // 
-            this.cmb_E_Unidad.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_E_Unidad.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_E_Unidad.FormattingEnabled = true;
-            this.cmb_E_Unidad.Location = new System.Drawing.Point(19, 12);
-            this.cmb_E_Unidad.Name = "cmb_E_Unidad";
-            this.cmb_E_Unidad.Size = new System.Drawing.Size(263, 28);
-            this.cmb_E_Unidad.TabIndex = 1;
-            this.cmb_E_Unidad.SelectedIndexChanged += new System.EventHandler(this.Cmb_E_Unidad_SelectedIndexChanged);
+            this.Cmb_E_Unidad.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_E_Unidad.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_E_Unidad.FormattingEnabled = true;
+            this.Cmb_E_Unidad.Location = new System.Drawing.Point(19, 12);
+            this.Cmb_E_Unidad.Name = "Cmb_E_Unidad";
+            this.Cmb_E_Unidad.Size = new System.Drawing.Size(263, 28);
+            this.Cmb_E_Unidad.TabIndex = 1;
+            this.Cmb_E_Unidad.SelectedIndexChanged += new System.EventHandler(this.Cmb_E_Unidad_SelectedIndexChanged);
             // 
-            // btn_Eliminar
+            // Btn_Eliminar
             // 
-            this.btn_Eliminar.Location = new System.Drawing.Point(112, 131);
-            this.btn_Eliminar.Name = "btn_Eliminar";
-            this.btn_Eliminar.Size = new System.Drawing.Size(102, 32);
-            this.btn_Eliminar.TabIndex = 4;
-            this.btn_Eliminar.Text = "Eliminar";
-            this.btn_Eliminar.UseVisualStyleBackColor = true;
-            this.btn_Eliminar.Click += new System.EventHandler(this.Btn_Eliminar_Click);
+            this.Btn_Eliminar.Location = new System.Drawing.Point(112, 131);
+            this.Btn_Eliminar.Name = "Btn_Eliminar";
+            this.Btn_Eliminar.Size = new System.Drawing.Size(102, 32);
+            this.Btn_Eliminar.TabIndex = 4;
+            this.Btn_Eliminar.Text = "Eliminar";
+            this.Btn_Eliminar.UseVisualStyleBackColor = true;
+            this.Btn_Eliminar.Click += new System.EventHandler(this.Btn_Eliminar_Click);
             // 
-            // txt_E_Simbolo
+            // Txt_E_Simbolo
             // 
-            this.txt_E_Simbolo.Enabled = false;
-            this.txt_E_Simbolo.Location = new System.Drawing.Point(112, 96);
-            this.txt_E_Simbolo.Name = "txt_E_Simbolo";
-            this.txt_E_Simbolo.Size = new System.Drawing.Size(170, 26);
-            this.txt_E_Simbolo.TabIndex = 3;
+            this.Txt_E_Simbolo.Enabled = false;
+            this.Txt_E_Simbolo.Location = new System.Drawing.Point(112, 96);
+            this.Txt_E_Simbolo.Name = "Txt_E_Simbolo";
+            this.Txt_E_Simbolo.Size = new System.Drawing.Size(170, 26);
+            this.Txt_E_Simbolo.TabIndex = 3;
             // 
-            // txt_E_Nombre
+            // Txt_E_Nombre
             // 
-            this.txt_E_Nombre.Enabled = false;
-            this.txt_E_Nombre.Location = new System.Drawing.Point(112, 58);
-            this.txt_E_Nombre.Name = "txt_E_Nombre";
-            this.txt_E_Nombre.Size = new System.Drawing.Size(170, 26);
-            this.txt_E_Nombre.TabIndex = 2;
+            this.Txt_E_Nombre.Enabled = false;
+            this.Txt_E_Nombre.Location = new System.Drawing.Point(112, 58);
+            this.Txt_E_Nombre.Name = "Txt_E_Nombre";
+            this.Txt_E_Nombre.Size = new System.Drawing.Size(170, 26);
+            this.Txt_E_Nombre.TabIndex = 2;
             // 
             // label5
             // 
@@ -315,23 +315,23 @@
 
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.Button btn_guardar;
-        private System.Windows.Forms.TextBox txt_I_Simbolo;
-        private System.Windows.Forms.TextBox txt_I_Nombre;
+        private System.Windows.Forms.Button Btn_guardar;
+        private System.Windows.Forms.TextBox Txt_I_Simbolo;
+        private System.Windows.Forms.TextBox Txt_I_Nombre;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.ComboBox cmb_M_Unidad;
-        private System.Windows.Forms.Button btn_Modificar;
-        private System.Windows.Forms.TextBox txt_M_Simbolo;
-        private System.Windows.Forms.TextBox txt_M_Nombre;
+        private System.Windows.Forms.ComboBox Cmb_M_Unidad;
+        private System.Windows.Forms.Button Btn_Modificar;
+        private System.Windows.Forms.TextBox Txt_M_Simbolo;
+        private System.Windows.Forms.TextBox Txt_M_Nombre;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.ComboBox cmb_E_Unidad;
-        private System.Windows.Forms.Button btn_Eliminar;
-        private System.Windows.Forms.TextBox txt_E_Simbolo;
-        private System.Windows.Forms.TextBox txt_E_Nombre;
+        private System.Windows.Forms.ComboBox Cmb_E_Unidad;
+        private System.Windows.Forms.Button Btn_Eliminar;
+        private System.Windows.Forms.TextBox Txt_E_Simbolo;
+        private System.Windows.Forms.TextBox Txt_E_Nombre;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button1;

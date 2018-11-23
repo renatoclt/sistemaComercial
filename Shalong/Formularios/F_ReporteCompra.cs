@@ -22,7 +22,7 @@ namespace Shalong.Formularios
             InitializeComponent();
             CargarDataGridView();
             CargarComboBoxProveedor();
-            cmb_Proveedor.SelectedIndex = -1;
+            Cmb_Proveedor.SelectedIndex = -1;
         }
 
         public F_ReporteCompra(I_Parametros parametros, C_Parametros objetoParametros)
@@ -30,7 +30,7 @@ namespace Shalong.Formularios
         {
             CargarDataGridView();
             CargarComboBoxProveedor();
-            cmb_Proveedor.SelectedIndex = -1;
+            Cmb_Proveedor.SelectedIndex = -1;
         }
 
         public F_ReporteCompra()
@@ -38,13 +38,13 @@ namespace Shalong.Formularios
             InitializeComponent();
             CargarDataGridView();
             CargarComboBoxProveedor();
-            cmb_Proveedor.SelectedIndex = -1;
+            Cmb_Proveedor.SelectedIndex = -1;
         }
         public void CargarComboBoxProveedor()
         {
-            cmb_Proveedor.DisplayMember = "Nombre";
-            cmb_Proveedor.ValueMember = "Codigo";
-            cmb_Proveedor.DataSource = _shalong.ProveedorMostrar();
+            Cmb_Proveedor.DisplayMember = "Nombre";
+            Cmb_Proveedor.ValueMember = "Codigo";
+            Cmb_Proveedor.DataSource = _shalong.ProveedorMostrar();
         }
         public void CargarDataGridView()
         {
@@ -57,20 +57,20 @@ namespace Shalong.Formularios
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (cmb_Proveedor.SelectedIndex != -1)
+            if (Cmb_Proveedor.SelectedIndex != -1)
             {
                 dgv_Compra.DataSource = null;
-                dgv_Compra.DataSource = _shalong.ReporteCompraPorProveedor(Int32.Parse(cmb_Proveedor.SelectedValue.ToString()));
+                dgv_Compra.DataSource = _shalong.ReporteCompraPorProveedor(Int32.Parse(Cmb_Proveedor.SelectedValue.ToString()));
             }
             else
             {
                 CargarDataGridView();
-                cmb_Proveedor.SelectedIndex = -1;
-                cmb_Proveedor.ResetText();
+                Cmb_Proveedor.SelectedIndex = -1;
+                Cmb_Proveedor.ResetText();
             }
         }
 
-        private void btn_BuscarFecha_Click(object sender, EventArgs e)
+        private void Btn_BuscarFecha_Click(object sender, EventArgs e)
         {
             if (dtp_De.Value == null && dtp_Hasta.Value == null)
             {
@@ -92,7 +92,7 @@ namespace Shalong.Formularios
             if (dataObj != null)
                 Clipboard.SetDataObject(dataObj);
         }
-        private void btn_Exportar_Click(object sender, EventArgs e)
+        private void Btn_Exportar_Click(object sender, EventArgs e)
         {
             Exportar();
         }

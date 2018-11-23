@@ -50,16 +50,16 @@ namespace Shalong.Formularios
         }
         private void CargarComboBoxCredito()
         {
-            cmb_CodigoCreditoTrabajador.DisplayMember = "CodigoCredito";
-            cmb_CodigoCreditoTrabajador.ValueMember = "CodigoCredito";
-            cmb_CodigoCreditoTrabajador.DataSource = _shalong.CreditoTrabajadorMostrar();
+            Cmb_CodigoCreditoTrabajador.DisplayMember = "CodigoCredito";
+            Cmb_CodigoCreditoTrabajador.ValueMember = "CodigoCredito";
+            Cmb_CodigoCreditoTrabajador.DataSource = _shalong.CreditoTrabajadorMostrar();
 
         }
         private void CargarComboBoxTipoPago()
         {
-            cmb_TipoPagoTrabajador.DisplayMember = "Nombre";
-            cmb_TipoPagoTrabajador.ValueMember = "Codigo";
-            cmb_TipoPagoTrabajador.DataSource = _shalong.TipoPagoMostrar();
+            Cmb_TipoPagoTrabajador.DisplayMember = "Nombre";
+            Cmb_TipoPagoTrabajador.ValueMember = "Codigo";
+            Cmb_TipoPagoTrabajador.DataSource = _shalong.TipoPagoMostrar();
         }
 
         private void dtg_CreditoCompraTrabajador_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
@@ -67,17 +67,17 @@ namespace Shalong.Formularios
             dtg_CreditoCompraTrabajador.ClearSelection();
         }
 
-        private void btn_I_PagoTrabajador_Click(object sender, EventArgs e)
+        private void Btn_I_PagoTrabajador_Click(object sender, EventArgs e)
         {
-            if (cmb_CodigoCreditoTrabajador.SelectedIndex == -1)
+            if (Cmb_CodigoCreditoTrabajador.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Codigo de Trabajador Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
-                cmb_CodigoCreditoTrabajador.ResetText();
+                Cmb_CodigoCreditoTrabajador.ResetText();
                 return;
             }
             else
             {
-                if (cmb_TipoPagoTrabajador.SelectedIndex == -1)
+                if (Cmb_TipoPagoTrabajador.SelectedIndex == -1)
                 {
                     MessageBox.Show("Seleccione un Tipo de Pago Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                     return;
@@ -93,35 +93,35 @@ namespace Shalong.Formularios
         {
             C_Pago objetoPago = new C_Pago();
             objetoPago.CodigoPago = 1;
-            objetoPago.CodigoCredito = Int32.Parse(cmb_CodigoCreditoTrabajador.SelectedValue.ToString());
-            objetoPago.MontoPagar = Double.Parse(txt_I_MontoPagarTrabajador.Text.ToString());
-            objetoPago.CodigoTipoPago = Int32.Parse(cmb_TipoPagoTrabajador.SelectedValue.ToString());
-            if (txt_I_NumVoucherTrabajador.Text == String.Empty)
+            objetoPago.CodigoCredito = Int32.Parse(Cmb_CodigoCreditoTrabajador.SelectedValue.ToString());
+            objetoPago.MontoPagar = Double.Parse(Txt_I_MontoPagarTrabajador.Text.ToString());
+            objetoPago.CodigoTipoPago = Int32.Parse(Cmb_TipoPagoTrabajador.SelectedValue.ToString());
+            if (Txt_I_NumVoucherTrabajador.Text == String.Empty)
             {
-                txt_I_NumVoucherTrabajador.Text = "N/E";
-                objetoPago.NumVoucher = txt_I_NumVoucherTrabajador.Text;
+                Txt_I_NumVoucherTrabajador.Text = "N/E";
+                objetoPago.NumVoucher = Txt_I_NumVoucherTrabajador.Text;
             }
             else
             {
-                objetoPago.NumVoucher = txt_I_NumVoucherTrabajador.Text;
+                objetoPago.NumVoucher = Txt_I_NumVoucherTrabajador.Text;
             }
-            if (txt_I_NumCuentaTrabajador.Text == String.Empty)
+            if (Txt_I_NumCuentaTrabajador.Text == String.Empty)
             {
-                txt_I_NumCuentaTrabajador.Text = "N/E";
-                objetoPago.NumCuenta = txt_I_NumCuentaTrabajador.Text;
-            }
-            else
-            {
-                objetoPago.NumCuenta = txt_I_NumCuentaTrabajador.Text;
-            }
-            if (txt_I_EntidadBancariaTrabajador.Text == String.Empty)
-            {
-                txt_I_EntidadBancariaTrabajador.Text = "N/E";
-                objetoPago.EntidadBancaria = txt_I_EntidadBancariaTrabajador.Text;
+                Txt_I_NumCuentaTrabajador.Text = "N/E";
+                objetoPago.NumCuenta = Txt_I_NumCuentaTrabajador.Text;
             }
             else
             {
-                objetoPago.EntidadBancaria = txt_I_EntidadBancariaTrabajador.Text;
+                objetoPago.NumCuenta = Txt_I_NumCuentaTrabajador.Text;
+            }
+            if (Txt_I_EntidadBancariaTrabajador.Text == String.Empty)
+            {
+                Txt_I_EntidadBancariaTrabajador.Text = "N/E";
+                objetoPago.EntidadBancaria = Txt_I_EntidadBancariaTrabajador.Text;
+            }
+            else
+            {
+                objetoPago.EntidadBancaria = Txt_I_EntidadBancariaTrabajador.Text;
             }
             objetoPago.CodigoCaja = _codigoCaja;
             objetoPago.FechaPago = dtp_ProxPagoTrabajador.Value;
@@ -137,7 +137,7 @@ namespace Shalong.Formularios
             }
         }
 
-        private void btn_IngresoCredito_Click_1(object sender, EventArgs e)
+        private void Btn_IngresoCredito_Click_1(object sender, EventArgs e)
         {
             CreditoTrabajador obj = new CreditoTrabajador(_objetoParametros);
              obj.ShowDialog();
@@ -149,7 +149,7 @@ namespace Shalong.Formularios
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
         }
 
-        private void txt_I_MontoPagarTrabajador_KeyPress(object sender, KeyPressEventArgs e)
+        private void Txt_I_MontoPagarTrabajador_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar) || e.KeyChar == '.') && (e.KeyChar != (char)Keys.Back))
             {

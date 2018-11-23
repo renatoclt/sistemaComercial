@@ -42,9 +42,9 @@ namespace Shalong.Formularios
         
         private void CargarComboBoxUsuario()
         {
-            cmb_usuario.DisplayMember = "nombreCompleto";
-            cmb_usuario.ValueMember = "Dni";
-            cmb_usuario.DataSource = _shalong.UsuarioMostrar();
+            Cmb_usuario.DisplayMember = "nombreCompleto";
+            Cmb_usuario.ValueMember = "Dni";
+            Cmb_usuario.DataSource = _shalong.UsuarioMostrar();
         }
         private void CargarDataGridView()
         {
@@ -57,24 +57,24 @@ namespace Shalong.Formularios
         private void CardarDataGridViewInicio()
         {
             dtg_Inicio.AutoGenerateColumns = false;
-            dtg_Inicio.DataSource = _shalong.MenuMostrar(2, 73020239);
+            dtg_Inicio.DataSource = _shalong.MenuMostrar(2, 73020238);
         }
         private void CardarDataGridViewProductos()
         {
             dtg_Productos.AutoGenerateColumns = false;
-            dtg_Productos.DataSource = _shalong.MenuMostrar(3, 73020239);
+            dtg_Productos.DataSource = _shalong.MenuMostrar(3, 73020238);
         }
         private void CardarDataGridViewMaestros()
         {
 
             dtg_Maestros.AutoGenerateColumns = false;
-            dtg_Maestros.DataSource = _shalong.MenuMostrar(4, 73020239);
+            dtg_Maestros.DataSource = _shalong.MenuMostrar(4, 73020238);
         }
         private void CardarDataGridViewReportes()
         {
 
             dtg_Reportes.AutoGenerateColumns = false;
-            dtg_Reportes.DataSource = _shalong.MenuMostrar(5, 73020239);
+            dtg_Reportes.DataSource = _shalong.MenuMostrar(5, 73020238);
         }
         private void chk_Inicio_CheckedChanged(object sender, EventArgs e)
         {
@@ -135,7 +135,7 @@ namespace Shalong.Formularios
 
         private void Btn_Guardar_Click(object sender, EventArgs e)
         {
-            if (cmb_usuario.SelectedIndex == -1)
+            if (Cmb_usuario.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Usuario Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                 CargarComboBoxUsuario();
@@ -150,7 +150,7 @@ namespace Shalong.Formularios
 
         public void Guardar()
         {
-            int usuario = Int32.Parse(cmb_usuario.SelectedValue.ToString());
+            int usuario = Int32.Parse(Cmb_usuario.SelectedValue.ToString());
             _shalong.Menu_Union(2, 2, usuario);
             if (chk_Inicio.Checked)
                 _shalong.Menu_Union(1, 2, usuario);

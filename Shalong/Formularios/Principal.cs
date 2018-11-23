@@ -25,13 +25,13 @@ namespace Shalong.Formularios
         public void SetParametros(C_Parametros objetoParametros)
         {
             _codigoUsuario = objetoParametros.DniUsuario;
-            txt_Dni.Text = " " + objetoParametros.DniUsuario;
+            Txt_Dni.Text = " " + objetoParametros.DniUsuario;
             _codigoCaja = objetoParametros.CodigoCaja;
-            txt_Caja.Text = "" + _codigoCaja;
-            txt_Almacen.Text = "" + objetoParametros.NombreAlmacen;
-            //txt_Almacen.Text = "" + objetoParametros.CodigoAlmacen;
-            txt_Dolar.Text = String.Format("{0:0.00}", objetoParametros.ValorDolar);
-            txt_TipoTrabajador.Text = "" + objetoParametros.TipoTrabajador;
+            Txt_Caja.Text = "" + _codigoCaja;
+            Txt_Almacen.Text = "" + objetoParametros.NombreAlmacen;
+            //Txt_Almacen.Text = "" + objetoParametros.CodigoAlmacen;
+            Txt_Dolar.Text = String.Format("{0:0.00}", objetoParametros.ValorDolar);
+            Txt_TipoTrabajador.Text = "" + objetoParametros.TipoTrabajador;
             _parametros = objetoParametros;
             ConfiguracionMenu();
             Pnl_M_Botones.Controls.Clear();
@@ -42,7 +42,7 @@ namespace Shalong.Formularios
         {
             InitializeComponent();
             _isValido = true;
-            //txt_Caja.Text = "" + _codigoCaja;
+            //Txt_Caja.Text = "" + _codigoCaja;
             SetParametros(objetoParametros);
         }
 
@@ -98,9 +98,9 @@ namespace Shalong.Formularios
 
         private void dynamicButtonMenu_Click(Object sender, System.EventArgs e)
         {
-            Button btn_Menu = sender as Button;
+            Button Btn_Menu = sender as Button;
             Pnl_M_Botones.Controls.Clear();
-            int codigoMenu = Int32.Parse(btn_Menu.Name.Substring(4, btn_Menu.Name.Length - 4));
+            int codigoMenu = Int32.Parse(Btn_Menu.Name.Substring(4, Btn_Menu.Name.Length - 4));
             List<C_Menu> objetoMenu = _shalong.MenuMostrar(codigoMenu, _codigoUsuario);
             //recorrer todos los menus
             foreach (C_Menu menu in objetoMenu)
@@ -147,9 +147,9 @@ namespace Shalong.Formularios
 
         private void dynamicButtonMenu1_Click(Object sender, System.EventArgs e)
         {
-            Button btn_Menu = sender as Button;
-            btn_Menu.Width = 100;
-            int codigoMenu = Int32.Parse(btn_Menu.Name.Substring(4, btn_Menu.Name.Length - 4));
+            Button Btn_Menu = sender as Button;
+            Btn_Menu.Width = 100;
+            int codigoMenu = Int32.Parse(Btn_Menu.Name.Substring(4, Btn_Menu.Name.Length - 4));
             C_Menu objetoMenu = _shalong.MenuMostrar1(codigoMenu);
             Assembly asm = Assembly.GetEntryAssembly();
             Type formType = asm.GetType("Shalong.Formularios." + objetoMenu.Formulario);
@@ -163,7 +163,7 @@ namespace Shalong.Formularios
             Pnl_Cuerpo.Height = (Height - 180);
         }
 
-        private void btn_I_Empresa_Click(object sender, EventArgs e)
+        private void Btn_I_Empresa_Click(object sender, EventArgs e)
         {
             AbrirEmpresa();
         }

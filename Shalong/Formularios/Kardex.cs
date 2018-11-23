@@ -45,13 +45,13 @@ namespace Shalong.Formularios
         }
         private void CargarCombobox()
         {
-            cmb_Documento.DisplayMember = "Nombre";
-            cmb_Documento.ValueMember = "CodigoBarras";
-            cmb_Documento.DataSource = _shalong.ProductoMostrar();
+            Cmb_Documento.DisplayMember = "Nombre";
+            Cmb_Documento.ValueMember = "CodigoBarras";
+            Cmb_Documento.DataSource = _shalong.ProductoMostrar();
         }
-        private void cmb_Documento_SelectedIndexChanged(object sender, EventArgs e)
+        private void Cmb_Documento_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_Producto obj = _shalong.ProductoMostrar1(cmb_Documento.SelectedValue.ToString());
+            C_Producto obj = _shalong.ProductoMostrar1(Cmb_Documento.SelectedValue.ToString());
             _cod = obj.CodigoBarras;
             CargarDataGridView(_cod);
         }

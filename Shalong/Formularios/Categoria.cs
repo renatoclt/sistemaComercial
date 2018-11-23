@@ -31,12 +31,12 @@ namespace Shalong.Formularios
         
         private void CargarComboBox()
         {
-            cmb_M_Nombre.DisplayMember = "Nombre";
-            cmb_M_Nombre.ValueMember = "Codigo";
-            cmb_M_Nombre.DataSource = _shalong.CategoriaMostrar();
-            cmb_E_Nombre.DisplayMember = "Nombre";
-            cmb_E_Nombre.ValueMember = "Codigo";
-            cmb_E_Nombre.DataSource = _shalong.CategoriaMostrar();
+            Cmb_M_Nombre.DisplayMember = "Nombre";
+            Cmb_M_Nombre.ValueMember = "Codigo";
+            Cmb_M_Nombre.DataSource = _shalong.CategoriaMostrar();
+            Cmb_E_Nombre.DisplayMember = "Nombre";
+            Cmb_E_Nombre.ValueMember = "Codigo";
+            Cmb_E_Nombre.DataSource = _shalong.CategoriaMostrar();
         }
         private void Btn_Guardar_Click(object sender, EventArgs e)
         {
@@ -46,14 +46,14 @@ namespace Shalong.Formularios
         {
             C_Categoria objetoCategoria = new C_Categoria();
             objetoCategoria.Codigo = 1;
-            objetoCategoria.Nombre = txt_I_Nombre.Text;
-            if (txt_I_Nombre.Text != String.Empty)
+            objetoCategoria.Nombre = Txt_I_Nombre.Text;
+            if (Txt_I_Nombre.Text != String.Empty)
             {
                 if (_shalong.Categoria(1, objetoCategoria))
                 {
                     MessageBox.Show("Ingreso correctamente","Gestion Ventas",MessageBoxButtons.OK);
                     CargarComboBox();
-                    txt_I_Nombre.Clear();
+                    Txt_I_Nombre.Clear();
                 }
                 else
                 {
@@ -68,35 +68,35 @@ namespace Shalong.Formularios
 
         private void Cmb_M_Nombre_SelectedIndexChanged(object sender, EventArgs e)
         {
-            C_Categoria obj = _shalong.CategoriaMostrar1(Int32.Parse(cmb_M_Nombre.SelectedValue.ToString()));
-            txt_M_Nombre.Text = obj.Nombre;
+            C_Categoria obj = _shalong.CategoriaMostrar1(Int32.Parse(Cmb_M_Nombre.SelectedValue.ToString()));
+            Txt_M_Nombre.Text = obj.Nombre;
         }
 
         private void Btn_Modificar_Click(object sender, EventArgs e)
         {
-            if (cmb_M_Nombre.SelectedIndex != -1)
+            if (Cmb_M_Nombre.SelectedIndex != -1)
             {
                 modificarCategoria();
             }
             else
             {
                 MessageBox.Show("Ingrese una Categoria Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
-                cmb_M_Nombre.ResetText();
+                Cmb_M_Nombre.ResetText();
                 return;
             }
         }
         private void modificarCategoria()
         {
             C_Categoria objectoCategoria = new C_Categoria();
-            objectoCategoria.Nombre = txt_M_Nombre.Text;
-            objectoCategoria.Codigo = Int32.Parse(cmb_M_Nombre.SelectedValue.ToString());
-            if (txt_M_Nombre.Text != String.Empty)
+            objectoCategoria.Nombre = Txt_M_Nombre.Text;
+            objectoCategoria.Codigo = Int32.Parse(Cmb_M_Nombre.SelectedValue.ToString());
+            if (Txt_M_Nombre.Text != String.Empty)
             {
                 if (_shalong.Categoria(2, objectoCategoria))
                 {
                     MessageBox.Show("Se modifico correctamente","Gestion Ventas",MessageBoxButtons.OK);
                     CargarComboBox();
-                    txt_M_Nombre.Clear();
+                    Txt_M_Nombre.Clear();
                 }
                 else
                 {
@@ -111,14 +111,14 @@ namespace Shalong.Formularios
 
         private void Btn_Eliminar_Click(object sender, EventArgs e)
         {
-            if (cmb_E_Nombre.SelectedIndex != -1)
+            if (Cmb_E_Nombre.SelectedIndex != -1)
             {
                 EliminarCategoria();
             }
             else
             {
                 MessageBox.Show("Ingrese una Categoria Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
-                cmb_E_Nombre.ResetText();
+                Cmb_E_Nombre.ResetText();
                 return;
             }
         }
@@ -126,7 +126,7 @@ namespace Shalong.Formularios
         {
             C_Categoria objectoCategoria = new C_Categoria();
             objectoCategoria.Nombre = "";
-            objectoCategoria.Codigo = Int32.Parse(cmb_E_Nombre.SelectedValue.ToString());
+            objectoCategoria.Codigo = Int32.Parse(Cmb_E_Nombre.SelectedValue.ToString());
             if (_shalong.Categoria(3, objectoCategoria))
             {
                 MessageBox.Show("Se elimino correctamente","Gestion Ventas",MessageBoxButtons.OK);

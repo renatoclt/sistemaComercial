@@ -32,20 +32,20 @@ namespace Shalong.Formularios
 
         }
 
-        private void btn_Buscar_Click(object sender, EventArgs e)
+        private void Btn_Buscar_Click(object sender, EventArgs e)
         {
             Cerrar();
         }
         private void Cerrar()
         {
-            _codigoNuevo = cmb_Nombre.SelectedValue.ToString();
+            _codigoNuevo = Cmb_Nombre.SelectedValue.ToString();
             this.Hide();
         }
         private void CargarComboBox()
         {
-            cmb_Nombre.DataSource = _servicio.ProductoMostrar();
-            cmb_Nombre.DisplayMember = "Nombre";
-            cmb_Nombre.ValueMember = "CodigoBarras";
+            Cmb_Nombre.DataSource = _servicio.ProductoMostrar();
+            Cmb_Nombre.DisplayMember = "Nombre";
+            Cmb_Nombre.ValueMember = "CodigoBarras";
         }
         private void CargarDataGridView() 
         {
@@ -62,7 +62,7 @@ namespace Shalong.Formularios
 
         }
 
-        private void cmb_Nombre_Enter(object sender, EventArgs e)
+        private void Cmb_Nombre_Enter(object sender, EventArgs e)
         {
             
         }

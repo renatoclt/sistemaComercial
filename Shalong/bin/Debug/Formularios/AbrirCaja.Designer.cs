@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AbrirCaja));
             this.Btn_CambiarDolar = new System.Windows.Forms.Button();
-            this.cmb_NombreCaja = new System.Windows.Forms.ComboBox();
+            this.Cmb_NombreCaja = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.dtg_Billetaje = new System.Windows.Forms.DataGridView();
             this.Moneda = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -40,8 +40,8 @@
             this.Btn_AbrirCaja = new System.Windows.Forms.Button();
             this.Btn_Modificar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.txt_Dolar = new System.Windows.Forms.TextBox();
-            this.txt_Total = new System.Windows.Forms.TextBox();
+            this.Txt_Dolar = new System.Windows.Forms.TextBox();
+            this.Txt_Total = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_Billetaje)).BeginInit();
             this.SuspendLayout();
@@ -56,16 +56,16 @@
             this.Btn_CambiarDolar.UseVisualStyleBackColor = true;
             this.Btn_CambiarDolar.Click += new System.EventHandler(this.Btn_CambiarDolar_Click);
             // 
-            // cmb_NombreCaja
+            // Cmb_NombreCaja
             // 
-            this.cmb_NombreCaja.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_NombreCaja.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_NombreCaja.FormattingEnabled = true;
-            this.cmb_NombreCaja.Location = new System.Drawing.Point(105, 521);
-            this.cmb_NombreCaja.Name = "cmb_NombreCaja";
-            this.cmb_NombreCaja.Size = new System.Drawing.Size(160, 28);
-            this.cmb_NombreCaja.TabIndex = 20;
-            this.cmb_NombreCaja.SelectedIndexChanged += new System.EventHandler(this.cmb_NombreCaja_SelectedIndexChanged);
+            this.Cmb_NombreCaja.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_NombreCaja.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_NombreCaja.FormattingEnabled = true;
+            this.Cmb_NombreCaja.Location = new System.Drawing.Point(105, 521);
+            this.Cmb_NombreCaja.Name = "Cmb_NombreCaja";
+            this.Cmb_NombreCaja.Size = new System.Drawing.Size(160, 28);
+            this.Cmb_NombreCaja.TabIndex = 20;
+            this.Cmb_NombreCaja.SelectedIndexChanged += new System.EventHandler(this.Cmb_NombreCaja_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -154,21 +154,21 @@
             this.label2.TabIndex = 15;
             this.label2.Text = "Dolar";
             // 
-            // txt_Dolar
+            // Txt_Dolar
             // 
-            this.txt_Dolar.Enabled = false;
-            this.txt_Dolar.Location = new System.Drawing.Point(105, 485);
-            this.txt_Dolar.Name = "txt_Dolar";
-            this.txt_Dolar.Size = new System.Drawing.Size(110, 26);
-            this.txt_Dolar.TabIndex = 14;
+            this.Txt_Dolar.Enabled = false;
+            this.Txt_Dolar.Location = new System.Drawing.Point(105, 485);
+            this.Txt_Dolar.Name = "Txt_Dolar";
+            this.Txt_Dolar.Size = new System.Drawing.Size(110, 26);
+            this.Txt_Dolar.TabIndex = 14;
             // 
-            // txt_Total
+            // Txt_Total
             // 
-            this.txt_Total.Enabled = false;
-            this.txt_Total.Location = new System.Drawing.Point(105, 452);
-            this.txt_Total.Name = "txt_Total";
-            this.txt_Total.Size = new System.Drawing.Size(160, 26);
-            this.txt_Total.TabIndex = 13;
+            this.Txt_Total.Enabled = false;
+            this.Txt_Total.Location = new System.Drawing.Point(105, 452);
+            this.Txt_Total.Name = "Txt_Total";
+            this.Txt_Total.Size = new System.Drawing.Size(160, 26);
+            this.Txt_Total.TabIndex = 13;
             // 
             // label1
             // 
@@ -185,14 +185,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(304, 636);
             this.Controls.Add(this.Btn_CambiarDolar);
-            this.Controls.Add(this.cmb_NombreCaja);
+            this.Controls.Add(this.Cmb_NombreCaja);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dtg_Billetaje);
             this.Controls.Add(this.Btn_AbrirCaja);
             this.Controls.Add(this.Btn_Modificar);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txt_Dolar);
-            this.Controls.Add(this.txt_Total);
+            this.Controls.Add(this.Txt_Dolar);
+            this.Controls.Add(this.Txt_Total);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -209,7 +209,7 @@
         #endregion
 
         private System.Windows.Forms.Button Btn_CambiarDolar;
-        private System.Windows.Forms.ComboBox cmb_NombreCaja;
+        private System.Windows.Forms.ComboBox Cmb_NombreCaja;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dtg_Billetaje;
         private System.Windows.Forms.DataGridViewTextBoxColumn Moneda;
@@ -219,8 +219,8 @@
         private System.Windows.Forms.Button Btn_AbrirCaja;
         private System.Windows.Forms.Button Btn_Modificar;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txt_Dolar;
-        private System.Windows.Forms.TextBox txt_Total;
+        private System.Windows.Forms.TextBox Txt_Dolar;
+        private System.Windows.Forms.TextBox Txt_Total;
         private System.Windows.Forms.Label label1;
 
     }

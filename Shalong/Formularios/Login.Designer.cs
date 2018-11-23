@@ -35,9 +35,9 @@
             this.tlp_Nivel3 = new System.Windows.Forms.TableLayoutPanel();
             this.lbl_Usuario = new System.Windows.Forms.Label();
             this.lbl_Contraseña = new System.Windows.Forms.Label();
-            this.txt_Usuario = new System.Windows.Forms.TextBox();
-            this.txt_Contraseña = new System.Windows.Forms.TextBox();
-            this.btn_Ingresar = new System.Windows.Forms.Button();
+            this.Txt_Usuario = new System.Windows.Forms.TextBox();
+            this.Txt_Contraseña = new System.Windows.Forms.TextBox();
+            this.Btn_Ingresar = new System.Windows.Forms.Button();
             this.tlp_Nivel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tlp_Nivel2.SuspendLayout();
@@ -78,7 +78,7 @@
             this.tlp_Nivel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tlp_Nivel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tlp_Nivel2.Controls.Add(this.tlp_Nivel3, 1, 1);
-            this.tlp_Nivel2.Controls.Add(this.btn_Ingresar, 1, 2);
+            this.tlp_Nivel2.Controls.Add(this.Btn_Ingresar, 1, 2);
             this.tlp_Nivel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlp_Nivel2.Location = new System.Drawing.Point(229, 3);
             this.tlp_Nivel2.Name = "tlp_Nivel2";
@@ -97,8 +97,8 @@
             this.tlp_Nivel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tlp_Nivel3.Controls.Add(this.lbl_Usuario, 0, 0);
             this.tlp_Nivel3.Controls.Add(this.lbl_Contraseña, 0, 1);
-            this.tlp_Nivel3.Controls.Add(this.txt_Usuario, 1, 0);
-            this.tlp_Nivel3.Controls.Add(this.txt_Contraseña, 1, 1);
+            this.tlp_Nivel3.Controls.Add(this.Txt_Usuario, 1, 0);
+            this.tlp_Nivel3.Controls.Add(this.Txt_Contraseña, 1, 1);
             this.tlp_Nivel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlp_Nivel3.Location = new System.Drawing.Point(36, 51);
             this.tlp_Nivel3.Name = "tlp_Nivel3";
@@ -126,35 +126,35 @@
             this.lbl_Contraseña.TabIndex = 1;
             this.lbl_Contraseña.Text = "Contraseña";
             // 
-            // txt_Usuario
+            // Txt_Usuario
             // 
-            this.txt_Usuario.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txt_Usuario.Location = new System.Drawing.Point(134, 3);
-            this.txt_Usuario.Name = "txt_Usuario";
-            this.txt_Usuario.Size = new System.Drawing.Size(125, 29);
-            this.txt_Usuario.TabIndex = 2;
-            this.txt_Usuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Usuario_KeyPress);
+            this.Txt_Usuario.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Txt_Usuario.Location = new System.Drawing.Point(134, 3);
+            this.Txt_Usuario.Name = "Txt_Usuario";
+            this.Txt_Usuario.Size = new System.Drawing.Size(125, 29);
+            this.Txt_Usuario.TabIndex = 2;
+            this.Txt_Usuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_Usuario_KeyPress);
             // 
-            // txt_Contraseña
+            // Txt_Contraseña
             // 
-            this.txt_Contraseña.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txt_Contraseña.Location = new System.Drawing.Point(134, 48);
-            this.txt_Contraseña.Name = "txt_Contraseña";
-            this.txt_Contraseña.Size = new System.Drawing.Size(125, 29);
-            this.txt_Contraseña.TabIndex = 3;
-            this.txt_Contraseña.UseSystemPasswordChar = true;
-            this.txt_Contraseña.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Contraseña_KeyPress);
+            this.Txt_Contraseña.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Txt_Contraseña.Location = new System.Drawing.Point(134, 48);
+            this.Txt_Contraseña.Name = "Txt_Contraseña";
+            this.Txt_Contraseña.Size = new System.Drawing.Size(125, 29);
+            this.Txt_Contraseña.TabIndex = 3;
+            this.Txt_Contraseña.UseSystemPasswordChar = true;
+            this.Txt_Contraseña.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_Contraseña_KeyPress);
             // 
-            // btn_Ingresar
+            // Btn_Ingresar
             // 
-            this.btn_Ingresar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btn_Ingresar.Location = new System.Drawing.Point(36, 147);
-            this.btn_Ingresar.Name = "btn_Ingresar";
-            this.btn_Ingresar.Size = new System.Drawing.Size(262, 42);
-            this.btn_Ingresar.TabIndex = 1;
-            this.btn_Ingresar.Text = "Ingresar";
-            this.btn_Ingresar.UseVisualStyleBackColor = true;
-            this.btn_Ingresar.Click += new System.EventHandler(this.btn_Ingresar_Click);
+            this.Btn_Ingresar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Btn_Ingresar.Location = new System.Drawing.Point(36, 147);
+            this.Btn_Ingresar.Name = "Btn_Ingresar";
+            this.Btn_Ingresar.Size = new System.Drawing.Size(262, 42);
+            this.Btn_Ingresar.TabIndex = 1;
+            this.Btn_Ingresar.Text = "Ingresar";
+            this.Btn_Ingresar.UseVisualStyleBackColor = true;
+            this.Btn_Ingresar.Click += new System.EventHandler(this.Btn_Ingresar_Click);
             // 
             // Login
             // 
@@ -185,9 +185,9 @@
         private System.Windows.Forms.TableLayoutPanel tlp_Nivel3;
         private System.Windows.Forms.Label lbl_Usuario;
         private System.Windows.Forms.Label lbl_Contraseña;
-        private System.Windows.Forms.TextBox txt_Usuario;
-        private System.Windows.Forms.TextBox txt_Contraseña;
-        private System.Windows.Forms.Button btn_Ingresar;
+        private System.Windows.Forms.TextBox Txt_Usuario;
+        private System.Windows.Forms.TextBox Txt_Contraseña;
+        private System.Windows.Forms.Button Btn_Ingresar;
 
     }
 }

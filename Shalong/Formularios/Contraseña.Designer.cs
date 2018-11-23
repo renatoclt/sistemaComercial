@@ -34,10 +34,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.txt_Usuario = new System.Windows.Forms.TextBox();
-            this.txt_Contraseña = new System.Windows.Forms.TextBox();
+            this.Txt_Usuario = new System.Windows.Forms.TextBox();
+            this.Txt_Contraseña = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txt_Observacion = new System.Windows.Forms.TextBox();
+            this.Txt_Observacion = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -88,21 +88,21 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // txt_Usuario
+            // Txt_Usuario
             // 
-            this.txt_Usuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_Usuario.Location = new System.Drawing.Point(131, 79);
-            this.txt_Usuario.Name = "txt_Usuario";
-            this.txt_Usuario.Size = new System.Drawing.Size(204, 26);
-            this.txt_Usuario.TabIndex = 1;
+            this.Txt_Usuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Txt_Usuario.Location = new System.Drawing.Point(131, 79);
+            this.Txt_Usuario.Name = "Txt_Usuario";
+            this.Txt_Usuario.Size = new System.Drawing.Size(204, 26);
+            this.Txt_Usuario.TabIndex = 1;
             // 
-            // txt_Contraseña
+            // Txt_Contraseña
             // 
-            this.txt_Contraseña.Location = new System.Drawing.Point(131, 121);
-            this.txt_Contraseña.Name = "txt_Contraseña";
-            this.txt_Contraseña.Size = new System.Drawing.Size(204, 26);
-            this.txt_Contraseña.TabIndex = 2;
-            this.txt_Contraseña.UseSystemPasswordChar = true;
+            this.Txt_Contraseña.Location = new System.Drawing.Point(131, 121);
+            this.Txt_Contraseña.Name = "Txt_Contraseña";
+            this.Txt_Contraseña.Size = new System.Drawing.Size(204, 26);
+            this.Txt_Contraseña.TabIndex = 2;
+            this.Txt_Contraseña.UseSystemPasswordChar = true;
             // 
             // label4
             // 
@@ -113,23 +113,23 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Observacion *";
             // 
-            // txt_Observacion
+            // Txt_Observacion
             // 
-            this.txt_Observacion.Location = new System.Drawing.Point(131, 167);
-            this.txt_Observacion.Multiline = true;
-            this.txt_Observacion.Name = "txt_Observacion";
-            this.txt_Observacion.Size = new System.Drawing.Size(204, 116);
-            this.txt_Observacion.TabIndex = 3;
+            this.Txt_Observacion.Location = new System.Drawing.Point(131, 167);
+            this.Txt_Observacion.Multiline = true;
+            this.Txt_Observacion.Name = "Txt_Observacion";
+            this.Txt_Observacion.Size = new System.Drawing.Size(204, 116);
+            this.Txt_Observacion.TabIndex = 3;
             // 
             // Contraseña
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(347, 328);
-            this.Controls.Add(this.txt_Observacion);
+            this.Controls.Add(this.Txt_Observacion);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.txt_Contraseña);
-            this.Controls.Add(this.txt_Usuario);
+            this.Controls.Add(this.Txt_Contraseña);
+            this.Controls.Add(this.Txt_Usuario);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
@@ -153,9 +153,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox txt_Usuario;
-        private System.Windows.Forms.TextBox txt_Contraseña;
+        private System.Windows.Forms.TextBox Txt_Usuario;
+        private System.Windows.Forms.TextBox Txt_Contraseña;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txt_Observacion;
+        private System.Windows.Forms.TextBox Txt_Observacion;
     }
 }

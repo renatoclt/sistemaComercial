@@ -25,7 +25,7 @@ namespace Shalong.Formularios
         {
             InitializeComponent();
             CargarComboBoxProducto();
-            cmb_Producto.SelectedValue = codigo;
+            Cmb_Producto.SelectedValue = codigo;
             _codigoVenta = codigoVenta;
             _garantia = garantia;
         }
@@ -35,14 +35,14 @@ namespace Shalong.Formularios
         }
         private void CargarComboBoxProducto()
         {
-            cmb_Producto.DisplayMember = "Nombre";
-            cmb_Producto.ValueMember = "CodigoBarras";
-            cmb_Producto.DataSource = _shalong.ProductoMostrar();
+            Cmb_Producto.DisplayMember = "Nombre";
+            Cmb_Producto.ValueMember = "CodigoBarras";
+            Cmb_Producto.DataSource = _shalong.ProductoMostrar();
         }
 
-        private void btn_Guardar_Click(object sender, EventArgs e)
+        private void Btn_Guardar_Click(object sender, EventArgs e)
         {
-            if (cmb_Producto.SelectedIndex == -1)
+            if (Cmb_Producto.SelectedIndex == -1)
             {
                 MessageBox.Show("Seleccione un Producto Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                 CargarComboBoxProducto();

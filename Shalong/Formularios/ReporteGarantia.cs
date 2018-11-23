@@ -40,24 +40,24 @@ namespace Shalong.Formularios
         private void CargarDatagridview()
         {
             dtg_Garantia.AutoGenerateColumns = false;
-            //C_CodigoSerial objetoCodigoSerial = _shalong.GarantiaCodigoSerial(txt_Codigo_serial.Text.ToString());
+            //C_CodigoSerial objetoCodigoSerial = _shalong.GarantiaCodigoSerial(Txt_Codigo_serial.Text.ToString());
             //dtg_Garantia.Rows.Add(objetoCodigoSerial.CodigoSerial, objetoCodigoSerial.Factura1, objetoCodigoSerial.Garantia,objetoCodigoSerial.Proveedor1);
-            dtg_Garantia.DataSource = _shalong.GarantiaCodigoSerial(txt_Codigo_serial.Text.ToString());
+            dtg_Garantia.DataSource = _shalong.GarantiaCodigoSerial(Txt_Codigo_serial.Text.ToString());
         }
         private void CargarDatagridview2()
         {
             dtg_Garantia.AutoGenerateColumns = false;
-            //C_CodigoSerial objetoCodigoSerial = _shalong.GarantiaCodigoVenta(txt_Codigo_Venta.Text.ToString());
+            //C_CodigoSerial objetoCodigoSerial = _shalong.GarantiaCodigoVenta(Txt_Codigo_Venta.Text.ToString());
             //dtg_Garantia.Rows.Add(objetoCodigoSerial.CodigoSerial, objetoCodigoSerial.Factura1, objetoCodigoSerial.Garantia);
-            dtg_Garantia.DataSource = _shalong.GarantiaCodigoVenta(txt_Codigo_Venta.Text.ToString());
+            dtg_Garantia.DataSource = _shalong.GarantiaCodigoVenta(Txt_Codigo_Venta.Text.ToString());
         }
 
-        private void btn_Buscar_Click(object sender, EventArgs e)
+        private void Btn_Buscar_Click(object sender, EventArgs e)
         {
-            if (txt_Codigo_Venta.Text != String.Empty)
+            if (Txt_Codigo_Venta.Text != String.Empty)
             {
                 CargarDatagridview2();
-                txt_Codigo_Venta.Clear();
+                Txt_Codigo_Venta.Clear();
             }
 
         }
@@ -68,21 +68,21 @@ namespace Shalong.Formularios
             this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
         }
 
-        private void btn_Codigo_Click(object sender, EventArgs e)
+        private void Btn_Codigo_Click(object sender, EventArgs e)
         {
-            if (txt_Codigo_serial.Text != String.Empty)
+            if (Txt_Codigo_serial.Text != String.Empty)
             {
                 C_CodigoSerial objetoSerial = new C_CodigoSerial();
-                objetoSerial.CodigoSerial = txt_Codigo_serial.Text;
+                objetoSerial.CodigoSerial = Txt_Codigo_serial.Text;
                 if (_shalong.SerialExiste(objetoSerial) == true)
                 {
                     CargarDatagridview();
-                    txt_Codigo_serial.Clear();
+                    Txt_Codigo_serial.Clear();
                 }
                 else
                 {
                     MessageBox.Show("El serial no existe");
-                    txt_Codigo_serial.Clear();
+                    Txt_Codigo_serial.Clear();
                     return;
                 }
             }

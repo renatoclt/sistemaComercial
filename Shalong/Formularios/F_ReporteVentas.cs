@@ -46,20 +46,20 @@ namespace Shalong.Formularios
             this.dgv_Ventas.Columns["TotalVenta"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.TopRight;
             this.dgv_Ventas.Columns["TotalVenta"].DefaultCellStyle.Format = "0.00##";
         }
-        private void cmb_TipoDeVenta_SelectedIndexChanged(object sender, EventArgs e)
+        private void Cmb_TipoDeVenta_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cmb_TipoDeVenta.SelectedIndex == -1)
+            if (Cmb_TipoDeVenta.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese un Tipo de Venta a Buscar Por Favor");
                 return;
             }
-            else if (cmb_TipoDeVenta.SelectedIndex == 0)
+            else if (Cmb_TipoDeVenta.SelectedIndex == 0)
             {
                 dgv_Ventas.AutoGenerateColumns = false;
                 dgv_Ventas.DataSource = null;
                 dgv_Ventas.DataSource = _shalong.ReporteVentaTodo(0);
             }
-            else if (cmb_TipoDeVenta.SelectedIndex == 1)
+            else if (Cmb_TipoDeVenta.SelectedIndex == 1)
             {
                 dgv_Ventas.AutoGenerateColumns = false;
                 dgv_Ventas.DataSource = null;
@@ -75,93 +75,93 @@ namespace Shalong.Formularios
         }
         public void CargarComboBoxCaja()
         {
-            cmb_Caja.DisplayMember = "NombreCaja";
-            cmb_Caja.ValueMember = "CodigoCaja";
-            cmb_Caja.DataSource = _shalong.CajaMostrar();
+            Cmb_Caja.DisplayMember = "NombreCaja";
+            Cmb_Caja.ValueMember = "CodigoCaja";
+            Cmb_Caja.DataSource = _shalong.CajaMostrar();
         }
         public void CargarComboBoxTipoPago()
         {
-            cmb_TipoPago.DisplayMember = "Nombre";
-            cmb_TipoPago.ValueMember = "Codigo";
-            cmb_TipoPago.DataSource = _shalong.TipoPagoMostrar();
+            Cmb_TipoPago.DisplayMember = "Nombre";
+            Cmb_TipoPago.ValueMember = "Codigo";
+            Cmb_TipoPago.DataSource = _shalong.TipoPagoMostrar();
         }
         public void CargarComboBoxCliente()
         {
-            cmb_Cliente.DisplayMember = "NombreCompleto";
-            cmb_Cliente.ValueMember = "Codigo";
-            cmb_Cliente.DataSource = _shalong.ClienteMostrar();
+            Cmb_Cliente.DisplayMember = "NombreCompleto";
+            Cmb_Cliente.ValueMember = "Codigo";
+            Cmb_Cliente.DataSource = _shalong.ClienteMostrar();
         }
         public void CargarComboBoxEmpresa()
         {
-            cmb_Empresa.DisplayMember = "Nombre";
-            cmb_Empresa.ValueMember = "Codigo";
-            cmb_Empresa.DataSource = _shalong.EmpresaMostrar();
+            Cmb_Empresa.DisplayMember = "Nombre";
+            Cmb_Empresa.ValueMember = "Codigo";
+            Cmb_Empresa.DataSource = _shalong.EmpresaMostrar();
         }
 
-        private void btn_Caja_Click(object sender, EventArgs e)
+        private void Btn_Caja_Click(object sender, EventArgs e)
         {
-            if (cmb_TipoDeVenta.SelectedIndex == 0)
+            if (Cmb_TipoDeVenta.SelectedIndex == 0)
             {
                 dgv_Ventas.DataSource = null;
-                dgv_Ventas.DataSource = _shalong.ReporteVentasPorCaja(0, Int32.Parse(cmb_Caja.SelectedValue.ToString()));
+                dgv_Ventas.DataSource = _shalong.ReporteVentasPorCaja(0, Int32.Parse(Cmb_Caja.SelectedValue.ToString()));
             }
-            else if (cmb_TipoDeVenta.SelectedIndex == 1)
+            else if (Cmb_TipoDeVenta.SelectedIndex == 1)
             {
                 dgv_Ventas.DataSource = null;
-                dgv_Ventas.DataSource = _shalong.ReporteVentasPorCaja(1, Int32.Parse(cmb_Caja.SelectedValue.ToString()));
-            }
-        }
-
-        private void btn_TipoPago_Click(object sender, EventArgs e)
-        {
-            if (cmb_TipoDeVenta.SelectedIndex == 0)
-            {
-                dgv_Ventas.DataSource = null;
-                dgv_Ventas.DataSource = _shalong.ReporteVentasPorTipoPago(0, Int32.Parse(cmb_TipoPago.SelectedValue.ToString()));
-            }
-            else if (cmb_TipoDeVenta.SelectedIndex == 1)
-            {
-                dgv_Ventas.DataSource = null;
-                dgv_Ventas.DataSource = _shalong.ReporteVentasPorTipoPago(1, Int32.Parse(cmb_TipoPago.SelectedValue.ToString()));
+                dgv_Ventas.DataSource = _shalong.ReporteVentasPorCaja(1, Int32.Parse(Cmb_Caja.SelectedValue.ToString()));
             }
         }
 
-        private void btn_Cliente_Click(object sender, EventArgs e)
+        private void Btn_TipoPago_Click(object sender, EventArgs e)
         {
-            if (cmb_TipoDeVenta.SelectedIndex == 0)
+            if (Cmb_TipoDeVenta.SelectedIndex == 0)
             {
                 dgv_Ventas.DataSource = null;
-                dgv_Ventas.DataSource = _shalong.ReporteVentasPorCliente(0, Int32.Parse(cmb_Cliente.SelectedValue.ToString()));
+                dgv_Ventas.DataSource = _shalong.ReporteVentasPorTipoPago(0, Int32.Parse(Cmb_TipoPago.SelectedValue.ToString()));
             }
-            else if (cmb_TipoDeVenta.SelectedIndex == 1)
+            else if (Cmb_TipoDeVenta.SelectedIndex == 1)
             {
                 dgv_Ventas.DataSource = null;
-                dgv_Ventas.DataSource = _shalong.ReporteVentasPorCliente(1, Int32.Parse(cmb_Cliente.SelectedValue.ToString()));
+                dgv_Ventas.DataSource = _shalong.ReporteVentasPorTipoPago(1, Int32.Parse(Cmb_TipoPago.SelectedValue.ToString()));
             }
         }
 
-        private void btn_Empresa_Click(object sender, EventArgs e)
+        private void Btn_Cliente_Click(object sender, EventArgs e)
         {
-            if (cmb_TipoDeVenta.SelectedIndex == 0)
+            if (Cmb_TipoDeVenta.SelectedIndex == 0)
             {
                 dgv_Ventas.DataSource = null;
-                dgv_Ventas.DataSource = _shalong.ReporteVentasPorEmpresa(0, Int32.Parse(cmb_Empresa.SelectedValue.ToString()));
+                dgv_Ventas.DataSource = _shalong.ReporteVentasPorCliente(0, Int32.Parse(Cmb_Cliente.SelectedValue.ToString()));
             }
-            else if (cmb_TipoDeVenta.SelectedIndex == 1)
+            else if (Cmb_TipoDeVenta.SelectedIndex == 1)
             {
                 dgv_Ventas.DataSource = null;
-                dgv_Ventas.DataSource = _shalong.ReporteVentasPorEmpresa(1, Int32.Parse(cmb_Empresa.SelectedValue.ToString()));
+                dgv_Ventas.DataSource = _shalong.ReporteVentasPorCliente(1, Int32.Parse(Cmb_Cliente.SelectedValue.ToString()));
             }
         }
 
-        private void btn_Fecha_Click(object sender, EventArgs e)
+        private void Btn_Empresa_Click(object sender, EventArgs e)
         {
-            if (cmb_TipoDeVenta.SelectedIndex == 0)
+            if (Cmb_TipoDeVenta.SelectedIndex == 0)
+            {
+                dgv_Ventas.DataSource = null;
+                dgv_Ventas.DataSource = _shalong.ReporteVentasPorEmpresa(0, Int32.Parse(Cmb_Empresa.SelectedValue.ToString()));
+            }
+            else if (Cmb_TipoDeVenta.SelectedIndex == 1)
+            {
+                dgv_Ventas.DataSource = null;
+                dgv_Ventas.DataSource = _shalong.ReporteVentasPorEmpresa(1, Int32.Parse(Cmb_Empresa.SelectedValue.ToString()));
+            }
+        }
+
+        private void Btn_Fecha_Click(object sender, EventArgs e)
+        {
+            if (Cmb_TipoDeVenta.SelectedIndex == 0)
             {
                 dgv_Ventas.DataSource = null;
                 dgv_Ventas.DataSource = _shalong.ReporteVentasPorFecha(0, dtp_de.Value, dtp_hasta.Value);
             }
-            else if (cmb_TipoDeVenta.SelectedIndex == 1)
+            else if (Cmb_TipoDeVenta.SelectedIndex == 1)
             {
                 dgv_Ventas.DataSource = null;
                 dgv_Ventas.DataSource = _shalong.ReporteVentasPorFecha(1, dtp_de.Value, dtp_hasta.Value);
@@ -169,7 +169,7 @@ namespace Shalong.Formularios
 
         }
 
-        private void btn_Exportar_Click(object sender, EventArgs e)
+        private void Btn_Exportar_Click(object sender, EventArgs e)
         {
             Exportar();
         }

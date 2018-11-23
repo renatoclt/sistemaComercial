@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Credito_Venta));
-            this.btn_Pagar = new System.Windows.Forms.Button();
+            this.Btn_Pagar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.dtp_Fecha = new System.Windows.Forms.DateTimePicker();
-            this.txt_Monto = new System.Windows.Forms.TextBox();
+            this.Txt_Monto = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.cmb_CodigoCredito = new System.Windows.Forms.ComboBox();
+            this.Cmb_CodigoCredito = new System.Windows.Forms.ComboBox();
             this.dtg_CreditoVenta = new System.Windows.Forms.DataGridView();
             this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,20 +44,20 @@
             this.Monto_Pagado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Deuda = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmb_TipoPago = new System.Windows.Forms.ComboBox();
+            this.Cmb_TipoPago = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_CreditoVenta)).BeginInit();
             this.SuspendLayout();
             // 
-            // btn_Pagar
+            // Btn_Pagar
             // 
-            this.btn_Pagar.Location = new System.Drawing.Point(655, 268);
-            this.btn_Pagar.Name = "btn_Pagar";
-            this.btn_Pagar.Size = new System.Drawing.Size(112, 72);
-            this.btn_Pagar.TabIndex = 15;
-            this.btn_Pagar.Text = "Pagar";
-            this.btn_Pagar.UseVisualStyleBackColor = true;
-            this.btn_Pagar.Click += new System.EventHandler(this.btn_Pagar_Click);
+            this.Btn_Pagar.Location = new System.Drawing.Point(655, 268);
+            this.Btn_Pagar.Name = "Btn_Pagar";
+            this.Btn_Pagar.Size = new System.Drawing.Size(112, 72);
+            this.Btn_Pagar.TabIndex = 15;
+            this.Btn_Pagar.Text = "Pagar";
+            this.Btn_Pagar.UseVisualStyleBackColor = true;
+            this.Btn_Pagar.Click += new System.EventHandler(this.Btn_Pagar_Click);
             // 
             // label3
             // 
@@ -75,13 +75,13 @@
             this.dtp_Fecha.Size = new System.Drawing.Size(308, 26);
             this.dtp_Fecha.TabIndex = 13;
             // 
-            // txt_Monto
+            // Txt_Monto
             // 
-            this.txt_Monto.Location = new System.Drawing.Point(434, 268);
-            this.txt_Monto.Name = "txt_Monto";
-            this.txt_Monto.Size = new System.Drawing.Size(142, 26);
-            this.txt_Monto.TabIndex = 12;
-            this.txt_Monto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Monto_KeyPress);
+            this.Txt_Monto.Location = new System.Drawing.Point(434, 268);
+            this.Txt_Monto.Name = "Txt_Monto";
+            this.Txt_Monto.Size = new System.Drawing.Size(142, 26);
+            this.Txt_Monto.TabIndex = 12;
+            this.Txt_Monto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_Monto_KeyPress);
             // 
             // label2
             // 
@@ -101,15 +101,15 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Codigo Credito";
             // 
-            // cmb_CodigoCredito
+            // Cmb_CodigoCredito
             // 
-            this.cmb_CodigoCredito.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_CodigoCredito.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_CodigoCredito.FormattingEnabled = true;
-            this.cmb_CodigoCredito.Location = new System.Drawing.Point(151, 267);
-            this.cmb_CodigoCredito.Name = "cmb_CodigoCredito";
-            this.cmb_CodigoCredito.Size = new System.Drawing.Size(140, 28);
-            this.cmb_CodigoCredito.TabIndex = 16;
+            this.Cmb_CodigoCredito.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_CodigoCredito.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_CodigoCredito.FormattingEnabled = true;
+            this.Cmb_CodigoCredito.Location = new System.Drawing.Point(151, 267);
+            this.Cmb_CodigoCredito.Name = "Cmb_CodigoCredito";
+            this.Cmb_CodigoCredito.Size = new System.Drawing.Size(140, 28);
+            this.Cmb_CodigoCredito.TabIndex = 16;
             // 
             // dtg_CreditoVenta
             // 
@@ -173,15 +173,15 @@
             this.Fecha.HeaderText = "Fecha Pago";
             this.Fecha.Name = "Fecha";
             // 
-            // cmb_TipoPago
+            // Cmb_TipoPago
             // 
-            this.cmb_TipoPago.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.cmb_TipoPago.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmb_TipoPago.FormattingEnabled = true;
-            this.cmb_TipoPago.Location = new System.Drawing.Point(151, 314);
-            this.cmb_TipoPago.Name = "cmb_TipoPago";
-            this.cmb_TipoPago.Size = new System.Drawing.Size(161, 28);
-            this.cmb_TipoPago.TabIndex = 101;
+            this.Cmb_TipoPago.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.Cmb_TipoPago.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.Cmb_TipoPago.FormattingEnabled = true;
+            this.Cmb_TipoPago.Location = new System.Drawing.Point(151, 314);
+            this.Cmb_TipoPago.Name = "Cmb_TipoPago";
+            this.Cmb_TipoPago.Size = new System.Drawing.Size(161, 28);
+            this.Cmb_TipoPago.TabIndex = 101;
             // 
             // label4
             // 
@@ -198,13 +198,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(778, 394);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.cmb_TipoPago);
+            this.Controls.Add(this.Cmb_TipoPago);
             this.Controls.Add(this.dtg_CreditoVenta);
-            this.Controls.Add(this.cmb_CodigoCredito);
-            this.Controls.Add(this.btn_Pagar);
+            this.Controls.Add(this.Cmb_CodigoCredito);
+            this.Controls.Add(this.Btn_Pagar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dtp_Fecha);
-            this.Controls.Add(this.txt_Monto);
+            this.Controls.Add(this.Txt_Monto);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -221,13 +221,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btn_Pagar;
+        private System.Windows.Forms.Button Btn_Pagar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DateTimePicker dtp_Fecha;
-        private System.Windows.Forms.TextBox txt_Monto;
+        private System.Windows.Forms.TextBox Txt_Monto;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cmb_CodigoCredito;
+        private System.Windows.Forms.ComboBox Cmb_CodigoCredito;
         private System.Windows.Forms.DataGridView dtg_CreditoVenta;
         private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cliente;
@@ -236,7 +236,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Monto_Pagado;
         private System.Windows.Forms.DataGridViewTextBoxColumn Deuda;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;
-        private System.Windows.Forms.ComboBox cmb_TipoPago;
+        private System.Windows.Forms.ComboBox Cmb_TipoPago;
         private System.Windows.Forms.Label label4;
     }
 }

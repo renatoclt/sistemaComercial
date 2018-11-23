@@ -32,7 +32,7 @@ namespace Shalong.Formularios
 
         private void Btn_Guardar_Click(object sender, EventArgs e)
         {
-            if (cmb_I_TC.SelectedIndex == -1)
+            if (Cmb_I_TC.SelectedIndex == -1)
             {
                 MessageBox.Show("Ingrese un Dia/Mes/Año Por Favor", "Gestion Ventas", MessageBoxButtons.OK);
                 return;
@@ -53,24 +53,24 @@ namespace Shalong.Formularios
             }
             else
             {
-                if (cmb_I_TC.SelectedIndex == -1)
+                if (Cmb_I_TC.SelectedIndex == -1)
                 {
                     MessageBox.Show("Ingrese un Dia/Mes/Año Por Favor","Gestion Ventas", MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
                     return;
                 }
-                if (cmb_I_TC.SelectedIndex == 0)
+                if (Cmb_I_TC.SelectedIndex == 0)
                 {
                     objetoLineaCredito.Detalle = "Dias";
                     objetoLineaCredito.Nombre = Txt_I_Nombre.Text + " " + "Days";
                     objetoLineaCredito.NombreCompleto = Txt_I_Nombre.Text + " " + "Dias";
                 }
-                if (cmb_I_TC.SelectedIndex == 1)
+                if (Cmb_I_TC.SelectedIndex == 1)
                 {
                     objetoLineaCredito.Detalle = "Meses";
                     objetoLineaCredito.Nombre = Txt_I_Nombre.Text + " " + "Months";
                     objetoLineaCredito.NombreCompleto = Txt_I_Nombre.Text + " " + "Meses";
                 }
-                if (cmb_I_TC.SelectedIndex == 2)
+                if (Cmb_I_TC.SelectedIndex == 2)
                 {
                     objetoLineaCredito.Detalle = "Años";
                     objetoLineaCredito.Nombre = Txt_I_Nombre.Text + " " + "Years";
@@ -81,7 +81,7 @@ namespace Shalong.Formularios
                 {
                     MessageBox.Show("Ingreso correctamente", "Gestion Ventas", MessageBoxButtons.OK);
                     Txt_I_Nombre.Clear();
-                    cmb_I_TC.ResetText();
+                    Cmb_I_TC.ResetText();
                     //CargarComboBox();
                 }
                 else

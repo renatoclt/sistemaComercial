@@ -11,9 +11,9 @@ namespace Shalong.Conexion
 {
     class Shalong_Service : Interface_Shalong
     {
-        //string cadenaConexion = "Server= localhost; port = 5432 ;User Id=postgres;Password=root;Database=gestion_ventas";
+        string cadenaConexion = "Server= localhost; port = 5432 ;User Id=postgres;Password=root;Database=gestion_ventas";
         //cadena para subir 
-        string cadenaConexion = "Server= localhost; port = 5432 ;User Id=postgres;Password=admin;Database=gestion_ventas";
+        //string cadenaConexion = "Server= localhost; port = 5432 ;User Id=postgres;Password=admin;Database=gestion_ventas";
 
         // FUNCIONES DE INGRESO, MODIFICACION Y ELIMNACION
 
@@ -2666,7 +2666,7 @@ namespace Shalong.Conexion
             {
                 
                 cnn.Open();
-                NpgsqlCommand cmd = new NpgsqlCommand("select * from vw_kardex where codigo = " + codigo, cnn);
+                NpgsqlCommand cmd = new NpgsqlCommand("select * from vw_kardex where codigo = '" + codigo +"'", cnn);
                 cmd.CommandType = System.Data.CommandType.Text;
                 NpgsqlDataReader rd = cmd.ExecuteReader();
                 if (rd.HasRows)
@@ -2677,7 +2677,7 @@ namespace Shalong.Conexion
                         {
                             NumeroDocumento = rd.GetString(0),
                             Fecha = rd.GetDateTime(1),
-                            Codigo = rd.GetInt32(2),
+                            Codigo = rd.GetString(2),
                             Ingreso = rd.GetDouble(3),
                             Egreso = rd.GetDouble(4)
                         });
@@ -2685,9 +2685,9 @@ namespace Shalong.Conexion
                     }
                 }
             }
-            catch (Exception )
+            catch (Exception ex )
             {
-                throw new Exception("Error al mostrar" );
+                throw new Exception("Error al mostrar"  + ex);
             }
             finally
             {
